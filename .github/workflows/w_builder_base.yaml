@@ -22,7 +22,7 @@ jobs:
       - name: Get docker image hashes
         run: bash tools/pre-fetch-images.sh
       - name: Cache Docker layers
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: /tmp/.buildx-cache
           key: ${{ runner.os }}-buildx-${{ hashFiles('deploy/Dockerfile', 'img_hashes', 'package.json', 'yarn.lock') }}
