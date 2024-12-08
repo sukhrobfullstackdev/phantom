@@ -27,7 +27,7 @@ jobs:
           path: /tmp/.buildx-cache
           key: ${{ runner.os }}-buildx-${{ hashFiles('deploy/Dockerfile', 'img_hashes', 'package.json', 'yarn.lock') }}
       - name: Build builder-base image
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v6
         with:
           push: false
           file: deploy/Dockerfile
