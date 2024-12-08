@@ -114,7 +114,7 @@ jobs:
         run: |
           aws --region us-west-2 eks update-kubeconfig --name int-eks-a-us-west-2
       - uses: azure/setup-kubectl@v4.0.0  # XXX change this to "@v4" once upstream publishes it
-      - uses: azure/setup-helm@v4.0.0  # XXX change this to "@v4" once upstream publishes it
+      - uses: azure/setup-helm@v4.2.0  # XXX change this to "@v4" once upstream publishes it
       - name: Get Preview Deployment Name
         id: preview
         run: |
