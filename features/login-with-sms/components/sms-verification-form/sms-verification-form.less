@@ -1,0 +1,63 @@
+@import (reference) '~/app/index.less';
+
+.statusMessage {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #77767a;
+}
+
+.statusMessageError {
+  color: #mg.getThemeColor(error)[];
+  #mg.darkTheme({
+    color: #FFB5A1;
+  });
+}
+
+button.statusMessage {
+  outline: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #mg.getThemeColor(primary) [];
+  cursor: pointer;
+}
+
+button.statusMessage:focus {
+  border: 1px solid #mg.getThemeColor(primary) [];;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+.smsSendMessage {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #18171a;
+
+  p {
+    display: contents;
+  }
+}
+
+#otcInput > :nth-child(3) {
+  margin-right: 24px;
+}
+
+.malformedPhoneMsg {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.textLinks {
+  width: 100%
+}

@@ -1,0 +1,27 @@
+@import (reference) '~/app/index.less';
+
+.transferProgress {
+  color: #mg.getThemeColor(primary) [] !important;
+}
+
+.etherscanLink {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.etherscanLink:visited {
+  color: inherit;
+}
+
+.loadingSpinner {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

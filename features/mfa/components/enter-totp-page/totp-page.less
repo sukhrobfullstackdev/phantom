@@ -1,0 +1,46 @@
+@import (reference) '~/app/index.less';
+
+.totpPage {
+  text-align: center;
+
+  a {
+    color: #mg.getThemeColor(primary) [];
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .body {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: pre;
+  }
+
+  .errorMsg {
+    color: #mg.getThemeColor(error)[];
+    #mg.darkTheme({
+      color: #FFB5A1;
+    });
+  }
+
+  form > :nth-child(3) {
+    margin-right: 24px;
+  }
+
+  .mfaLinkButton {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: fit-content;
+    margin-left: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    color: #mg.getThemeColor(primary)[];
+  }
+}

@@ -1,0 +1,102 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "magic-app.name" . }}
+  namespace: {{ .Values.previewNamespace | default .Values.deployEnv }}
+  labels:
+    {{- include "magic-app.podLabels" . | nindent 4 }}
+    {{- include "magic-app.selectorLabels" . | nindent 4 }}
+spec:
+  selector:
+    matchLabels:
+      {{- include "magic-app.selectorLabels" . | nindent 6 }}
+  strategy:
+    rollingUpdate:
+      {{- .Values.deployment.rollingUpdate | toYaml | nindent 6 }}
+    type: RollingUpdate
+  {{- if .Values.deployment.replicas }}
+  replicas: {{ .Values.deployment.replicas }}
+  {{ end }}
+  minReadySeconds: 10
+  progressDeadlineSeconds: 600
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels:
+        {{- include "magic-app.podLabels" . | nindent 8 }}
+        {{- include "magic-app.selectorLabels" . | nindent 8 }}
+    spec:
+      serviceAccountName: "eks-{{ include "magic-app.name" . }}"
+      automountServiceAccountToken: true
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 70
+      {{- if or (.Values.addDefaultAffinity | default false) .Values.affinity }}
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - podAffinityTerm:
+                labelSelector:
+                  matchLabels:
+                    name: {{ include "magic-app.name" . }}
+                topologyKey: kubernetes.io/hostname
+              weight: 10
+      {{- with .Values.affinity }}
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- end }}
+      {{- if (.Values.addDefaultTopologySpreadConstraints | default true) }}
+      topologySpreadConstraints:
+        - labelSelector:
+            matchLabels:
+              app: {{ include "magic-app.name" . }}
+          maxSkew: 1
+          nodeAffinityPolicy: Honor
+          nodeTaintsPolicy: Honor
+          topologyKey: topology.kubernetes.io/zone
+          whenUnsatisfiable: ScheduleAnyway
+      {{- end }}
+      containers:
+        - name: {{ include "magic-app.name" . }}
+          image: {{ include "appContainer.fullImageName" . }}
+          imagePullPolicy: IfNotPresent
+          workingDir: /app
+          command:
+            {{- .Values.deployment.appContainer.command | toYaml | nindent 12 }}
+          args:
+            {{- tpl (.Values.deployment.appContainer.args | toYaml | nindent 12) . }}
+          envFrom:
+            - configMapRef:
+                name: {{ include "magic-app.nameEnvConfigMap" . }}
+                optional: false
+          {{- if .Values.deployment.appContainer.port }}
+          ports:
+            - containerPort: {{ .Values.deployment.appContainer.port }}
+              name: http
+          {{- end }}
+          livenessProbe:
+            failureThreshold: 2
+            httpGet:
+              path: /healthz
+              port: {{ .Values.deployment.appContainer.port }}
+            initialDelaySeconds: 31
+            periodSeconds: 5
+            successThreshold: 1
+            timeoutSeconds: 3
+          readinessProbe:
+            failureThreshold: 2
+            httpGet:
+              path: /healthz
+              port: {{ .Values.deployment.appContainer.port }}
+            initialDelaySeconds: 20
+            periodSeconds: 5
+            successThreshold: 2
+            timeoutSeconds: 3
+          resources:
+            {{- .Values.deployment.appContainer.resources | toYaml | nindent 12 }}
+          lifecycle:
+            preStop:
+              exec:
+                command:
+                  - sh
+                  - -c
+                  - sleep 62 && kill -15 1 && sleep 3

@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Będziesz potrzebować\n aplikacji uwierzytelniającej"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Aby włączyć weryfikację dwuetapową, będziesz potrzebować aplikacji uwierzytelniającej, takiej jak {authy} lub {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Zeskanuj ten kod QR"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Otwórz swoją aplikację uwierzytelniającą i zeskanuj ten kod QR lub wprowadź swój klucz konfiguracji."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Wprowadź 6-cyfrowy kod\nz Twojej aplikacji uwierzytelniającej"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Nieprawidłowy kod. Spróbuj ponownie."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Zapisz kod odzyskiwania"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Tego kodu można użyć do zalogowania się, jeśli utracisz dostęp do aplikacji uwierzytelniającej. Przechowuj go w bezpiecznym miejscu."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Twój kod odzyskiwania {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Skopiuj kod"
+    },
+    "mfa.finish_setup": {
+        "translation": "Zakończ konfigurację"
+    },
+    "mfa.key": {
+        "translation": "Klucz"
+    },
+    "mfa.copy": {
+        "translation": "Kopiuj"
+    },
+    "mfa.copied": {
+        "translation": "Skopiowano"
+    },
+    "mfa.next": {
+        "translation": "Dalej"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Nie mam urządzenia"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Wprowadź kod odzyskania,\naby się zalogować"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Weryfikacja dwustopniowa będzie wyłączona"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8-znakowy kod"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Nie mam kodu odzyskania"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Nieprawidłowy kod, spróbuj ponownie"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Nieprawidłowy kod. ({attempts}) prób, zanim Twoje konto zostanie zablokowane."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Aby odzyskać konto, skontaktuj się ze wsparciem technicznym {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Skontaktuj się ze wsparciem technicznym {appName}"
+    }
+}

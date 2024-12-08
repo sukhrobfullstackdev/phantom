@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "E-postanızı kontrol edin"
+    },
+    "login.confirm_your_email": {
+        "translation": "E-postanızı onaylayın"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Şu adrese bir sihirli bağlantı e-postası gönderdik:"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Giriş yapmak veya kaydolmak için bağlantıya tıklayın."
+    },
+    "login.check_your_inbox": {
+        "translation": "Gelen kutunuzu kontrol edin"
+    },
+    "login.resend_email": {
+        "translation": "E-postayı Tekrar Gönder"
+    },
+    "login.close": {
+        "translation": "Kapat"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "En başta kullandığınız sekmeye dönün."
+    },
+    "login.logging_you_in": {
+        "translation": "giriş yapıyorsunuz..."
+    },
+    "login.logged_in": {
+        "translation": "Giriş yaptınız!"
+    },
+    "login.logged_into_app": {
+        "translation": "{appName} uygulamasına giriş yaptınız!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Bu pencereyi kapatabilirsiniz."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Şu anda her şeyin normalde dönmesi için çalışıyoruz. Lütfen birazdan tekrar deneyin."
+    },
+    "login.blocked_request": {
+        "translation": "Talep engellendi"
+    },
+    "login.request_new_link_generic": {
+        "translation": "En başta kullandığınız sekmeye dönün ve yeni bir sihirli bağlantı talep edin."
+    },
+    "login.request_new_link_app": {
+        "translation": "En başta kullandığınız **{appName}** sekmesine dönün ve yeni bir sihirli bağlantı talep edin."
+    },
+    "login.magic_link_expired": {
+        "translation": "Sihirli bağlantının süresi doldu"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Bu sekmeyi kapatmayın!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Sihirli bağlantıya tıkladıktan sonra bu sekmeye dönün."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "**{userEmail}** adresine\nbaşka bir sihirli bağlantı gönderin.\nGiriş yapmak veya kaydolmak için bağlantıya tıklayın."
+    },
+    "login.try_again_later": {
+        "translation": "Daha sonra tekrar deneyin"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Başka bir e-posta göndermeden önce lütfen **{seconds} sn.** bekleyin."
+    },
+    "login.please_send_another_link": {
+        "translation": "Lütfen **{userEmail}** adresine\nbaşka bir sihirli bağlantı gönderin.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Bekleyin! Bir sorunu düzeltiyoruz"
+    },
+    "login.confirming_your_login": {
+        "translation": "Giriş işleminiz onaylanıyor"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Giriş işleminiz onaylanıyor"
+    },
+    "login.is_this_you": {
+        "translation": "Bu siz misiniz?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Olağan dışı etkinlik tespit edildi. Hesabınızı güvende tutmamıza yardımcı olmak için aşağıdaki giriş denemesi konusunda bilginiz olup olmadığını bize bildirin:"
+    },
+    "login.location": {
+        "translation": "Konum:"
+    },
+    "login.no_block_this": {
+        "translation": "Hayır, bunu engelle"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Evet, bu benim"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Hesabınızı güvende tutmamıza yardımcı olduğunuz için teşekkürler! Aşağıdaki kaynaktan gelen giriş denemelerini engelledik ve gelecekte de engelleyeceğiz:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Hesabınızı güvende tutmamıza yardımcı olmak için aşağıdaki giriş denemesi konusunda bilginiz olup olmadığını bize bildirin:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Hesabınızı güvende tutmamız konusunda bize yardımcı olduğunuz için teşekkürler! Aşağıdaki kaynaktan gelen giriş denemesini engelledik:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Bağlantı kırık — lütfen yeni bir Magic bağlantısı talep edin ya da bağlantıyı başka bir e-posta istemcisinden açın"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} kullanıcıya özeldir"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} bu uygulamaya erişim iznine sahip değil"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Bir hata olduğunu mu düşünüyorsunuz? Farklı oturum açma bilgileriyle giriş yapmayı deneyin ya da yardım için {appName} ile iletişime geçin."
+    },
+    "login.access_denied": {
+        "translation": "Erişim reddedildi"
+    },
+    "login.email_blocked_message": {
+        "translation": "Üzgünüz, {appName} uygulamasında oturum açma izniniz bulunmuyor."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Şu adrese gönderilen sihirli bağlantıyı kullanarak oturum açın"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "{appName} tarafından gösterilen güvenlik kodunu girin"
+    },
+    "login.security_code": {
+        "translation": "Güvenlik kodu:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Ardından bu güvenlik kodunu girin:"
+    },
+    "login.copy": {
+        "translation": "Kopyala"
+    },
+    "login.go_back_to_app": {
+        "translation": "**{appName}** uygulamasına dön."
+    },
+    "login.login_complete": {
+        "translation": "Oturum Açma Tamamlandı!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Oturum Başarıyla Açıldı"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Artık bu sekmeyi kapatabilirsiniz"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Geçersiz Yönlendirme URL'si"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Bu yönlendirme URL'si, izin verilenler listesinde değil."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Farklı bir IP'den sihirli bağlantı talep edildi"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Lütfen aynı cihazdan bağlantıya tıklayın. Bu bağlantıyı siz talep etmediyseniz, lütfen bu mesajı dikkate almayın."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Servis limiti aşıldı"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Hesabınıza erişebilmek için lütfen **{appName}** ile iletişime geçin."
+    },
+    "login.security_code_expired": {
+        "translation": "Güvenlik kodunun süresi doldu"
+    },
+    "login.login_code_expired": {
+        "translation": "Giriş kodunun süresi doldu"
+    },
+    "login.request_new_login_code": {
+        "translation": "Lütfen yeni bir giriş kodu isteyin"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Yeni bir kod isteyin"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Yeni bir kod almak için lütfen {appName} uygulamasına geri dönün ve oturum açma işlemini yeniden başlatın."
+    }
+}

@@ -1,0 +1,5 @@
+export const SET_LOGIN_WITH_SMS_PHONE_NUMBER = 'loginWithSms/SET_LOGIN_WITH_SMS_PHONE_NUMBER';
+export const SET_SMS_VERIFY_EXPIRY_TIME = 'loginWithSms/SET_SMS_VERIFY_EXPIRY_TIME';
+export const SET_RETRY_GATE_TIME = 'loginWithSms/SET_RETRY_GATE_TIME';
+export const SET_SMS_ROM = 'loginWithSms/SET_SMS_ROM';
+export const SET_IS_CLOSE_BUTTON_ENABLED = 'loginWithSms/SET_IS_CLOSE_BUTTON_ENABLED';

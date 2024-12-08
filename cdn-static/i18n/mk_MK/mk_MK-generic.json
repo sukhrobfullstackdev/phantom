@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ох! Нешто не е во ред."
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Не можевме да го најдеме ресурсот што го барате."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Ве молиме контактирајте ги развивачите на оваа апликација за да добиете решение."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Ве молиме контактирајте го тимот на **{appName}** за да добиете решение."
+    },
+    "generic.internal_server_error": {
+        "translation": "Внатрешна серверска грешка"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Во моментов работиме на тоа сè да се врати во нормала. Ве молиме обидете се повторно наскоро."
+    },
+    "generic.close": {
+        "translation": "Затвори"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Пакетот за развој на софтвер „Whitelabel“ не е достапен преку бесплатниот план, ве молиме надградете се на платен план"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Нашата страница со цени"
+    },
+    "generic.app_error": {
+        "translation": "Грешка во апликацијата"
+    },
+    "generic.details": {
+        "translation": "ДЕТАЛИ"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Настана непозната грешка."
+    },
+    "generic.blocked_request": {
+        "translation": "Барањето е блокирано"
+    },
+    "generic.try_again": {
+        "translation": "Обиди се повторно!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Ве молиме наведете важечка адреса на е-пошта"
+    },
+    "generic.back": {
+        "translation": "Назад"
+    },
+    "generic.loading": {
+        "translation": "Се вчитува"
+    },
+    "generic.success": {
+        "translation": "Успешно"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Заради безбедносни причини, ќе се отвори нова картичка од Magic за да ја потврдите трансакцијата."
+    },
+    "generic.trial_mode": {
+        "translation": "Пробен режим"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Надгради сега"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Прелистувачот не е поддржан"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Привремено оневозможете ги сите активни екстензии на прелистувачот или сменете го прелистувачот и обидете се повторно."
+    }
+}

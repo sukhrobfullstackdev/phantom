@@ -1,0 +1,58 @@
+@import (reference) '~/app/index.less';
+
+.topDrawer {
+  top: 26px;
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 0px 56px 56px rgba(119, 118, 122, 0.15);
+  @media all and (max-width: 479px) {
+    border-radius: 0px 0px 16px 16px;
+  }
+}
+
+.topDrawerSpacer {
+  height: 28px;
+  width: 100%;
+  #mg.themeProperty(background-color, #fff, #252525);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  border-radius: 100px 100px 0 0;
+  @media all and (max-width: 479px) {
+    border-radius: 0px;
+  }
+}
+
+.bottomDrawer {
+  bottom: 26px;
+  border-radius: 16px 16px 0px 0px;
+  box-shadow: 0px -56px 56px rgba(119; 118; 122; 0.15);
+  @media all and (max-width: 479px) {
+    border-radius: 16px 16px 0px 0px;
+  }
+}
+
+.bottomDrawerSpacer {
+  height: 28px;
+  width: 100%;
+  #mg.themeProperty(background-color, #fff, #252525);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  border-radius: 0 0 28px 28px;
+  box-shadow: 0px 56px 56px rgba(119, 118, 122, 0.15);
+  @media all and (max-width: 479px) {
+    border-radius: 0px;
+  }
+}
+
+.drawer {
+  #mg.themeProperty(background-color, #fff, #252525);
+  position: absolute;
+  height: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10;
+  overflow: hidden;
+}

@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "이메일 확인"
+    },
+    "login.confirm_your_email": {
+        "translation": "이메일 확인"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "마법 링크를 다음의 이메일로 전송했습니다."
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "링크를 클릭하여 로그인하거나 회원가입하십시오."
+    },
+    "login.check_your_inbox": {
+        "translation": "받은편지함 확인"
+    },
+    "login.resend_email": {
+        "translation": "이메일 재전송"
+    },
+    "login.close": {
+        "translation": "닫기"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "기존 탭으로 돌아가십시오."
+    },
+    "login.logging_you_in": {
+        "translation": "로그인 중..."
+    },
+    "login.logged_in": {
+        "translation": "로그인 완료!"
+    },
+    "login.logged_into_app": {
+        "translation": "{appName} 로그인 완료!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "이 창을 닫으셔도 됩니다."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "현재 상황을 해결하기 위해 노력하고 있습니다. 잠시 후 다시 시도하십시오."
+    },
+    "login.blocked_request": {
+        "translation": "차단된 요청"
+    },
+    "login.request_new_link_generic": {
+        "translation": "기존 탭으로 돌아가 새 마법 링크를 요청하십시오."
+    },
+    "login.request_new_link_app": {
+        "translation": "기존 **{appName}** 탭으로 돌아가 새 마법 링크를 요청하십시오."
+    },
+    "login.magic_link_expired": {
+        "translation": "마법 링크 만료됨"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "이 탭을 닫지 마십시오!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "마법 링크를 클릭한 후 이 탭으로 돌아오십시오."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "다음 이메일 주소로 다른 마법 링크를 전송했습니다. \n**{userEmail}**.\n링크를 클릭하면 로그인이나 회원가입이 가능합니다."
+    },
+    "login.try_again_later": {
+        "translation": "나중에 다시 시도"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "다른 이메일을 전송하기 전에 **{seconds}초**만 기다려주십시오."
+    },
+    "login.please_send_another_link": {
+        "translation": "다음 주소로 다른 마법 링크를 전송합니다.\n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "기다려 주십시오! 문제를 해결하는 중입니다."
+    },
+    "login.confirming_your_login": {
+        "translation": "로그인 확인"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—로그인 확인"
+    },
+    "login.is_this_you": {
+        "translation": "본인입니까?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "비정상적인 활동이 탐지되었습니다. 계정을 안전하게 유지하기 위해 아래 로그인 시도가 본인인지 확인해 주십시오."
+    },
+    "login.location": {
+        "translation": "위치:"
+    },
+    "login.no_block_this": {
+        "translation": "본인이 아니니 차단 바랍니다"
+    },
+    "login.yes_this_is_me": {
+        "translation": "본인입니다"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "계정을 안전하게 유지할 수 있도록 도와주셔서 감사합니다! 아래 소스에서 로그인 시도를 차단했으며 향후에도 차단합니다."
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "계정을 안전하게 유지하기 위해 아래 로그인 시도가 본인인지 확인해 주십시오."
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "계정을 안전하게 유지할 수 있도록 도와주셔서 감사합니다! 아래 소스에서 로그인 시도를 차단했습니다."
+    },
+    "login.magic_link_broken": {
+        "translation": "깨진 링크입니다. 새 Magic 링크를 요청하거나 다른 이메일 클라이언트로 링크를 여세요"
+    },
+    "login.app_is_private": {
+        "translation": "{appName}은(는) 비공개 앱입니다"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail}에는 이 앱에 액세스할 수 있는 권한이 없습니다"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "착오가 있는 것 같으신가요? 다른 로그인을 시도하거나 {appName}에 문의하시기 바랍니다."
+    },
+    "login.access_denied": {
+        "translation": "액세스 거부됨"
+    },
+    "login.email_blocked_message": {
+        "translation": "죄송합니다. {appName}에 로그인할 수 있는 권한이 없습니다."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "다음으로 전송된 매직 링크를 사용하여 로그인"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "{appName}에서 표시된 보안 코드 입력"
+    },
+    "login.security_code": {
+        "translation": "보안 코드:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "그런 다음 보안 코드를 입력합니다."
+    },
+    "login.copy": {
+        "translation": "복사"
+    },
+    "login.go_back_to_app": {
+        "translation": "**{appName}**으로 돌아갑니다."
+    },
+    "login.login_complete": {
+        "translation": "로그인 완료!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "로그인 성공"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "이 탭을 이제 닫을 수 있습니다"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "잘못된 리디렉션 URL"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "지정한 리디렉션 URL이 허용 목록에 없습니다."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "다른 IP에서 매직 링크가 요청되었습니다"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "동일한 장치에서 링크를 클릭하십시오. 이 링크를 요청하지 않은 경우 이 메시지를 무시하십시오."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "서비스 한도 초과"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "계정에 액세스하는 데 도움이 필요한 경우 **{appName}**에 문의하십시오."
+    },
+    "login.security_code_expired": {
+        "translation": "보안 코드 만료"
+    },
+    "login.login_code_expired": {
+        "translation": "로그인 코드 만료"
+    },
+    "login.request_new_login_code": {
+        "translation": "새 로그인 코드를 요청하십시오"
+    },
+    "login.request_new_code_cta": {
+        "translation": "새 코드 요청하기"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "새 코드를 받으려면 {appName}(으)로 돌아가 로그인 과정을 다시 시작하세요."
+    }
+}

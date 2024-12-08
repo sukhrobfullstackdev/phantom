@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Xəbərdarlıq"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Məxfi açarınız"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Məxfi açarınızı təhlükəsiz saxlayın və heç vaxt paylaşmayın"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Çıxın"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Buferə kopyalayın"
+    }
+}

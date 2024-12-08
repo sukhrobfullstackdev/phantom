@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Teie eelmine sisselogimisviis"
+    },
+    "pnp.welcome": {
+        "translation": "Tere tulemast!"
+    },
+    "pnp.welcome_back": {
+        "translation": "Tere tulemast tagasi!"
+    },
+    "pnp.email": {
+        "translation": "Meil"
+    },
+    "pnp.email_aria": {
+        "translation": "Logi sisse meiliaadressiga"
+    },
+    "pnp.email_address": {
+        "translation": "Meiliaadress"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Logi sisse telefoninumbriga"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefoninumber"
+    },
+    "pnp.login_signup": {
+        "translation": "Logi sisse \/ registreeru"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Esita sisselogimine"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Logi sisse teenusepakkujaga {provider}"
+    },
+    "pnp.or": {
+        "translation": "või"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Otsige riigikoode"
+    },
+    "pnp.select_country_code": {
+        "translation": "Valige riigikood"
+    },
+    "pnp.login_disabled": {
+        "translation": "Sisselogimine \/ registreerumine keelatud"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Abi saamiseks võtke ühendust rakendusega {appName}"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Abi saamiseks võtke ühendust selle rakenduse arendajaga"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Teenuse tingimustega"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Eraelu puutumatuse põhimõtetega"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Jätkates nõustute rakenduse {appName}"
+    }
+}

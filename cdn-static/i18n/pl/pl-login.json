@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Sprawdź e-mail"
+    },
+    "login.confirm_your_email": {
+        "translation": "Potwierdź adres e-mail"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Wysłaliśmy wiadomość e-mail z magicznym linkiem do"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Kliknij link do logowania lub rejestracji."
+    },
+    "login.check_your_inbox": {
+        "translation": "Sprawdź skrzynkę odbiorczą"
+    },
+    "login.resend_email": {
+        "translation": "Wyślij wiadomość e-mail ponownie"
+    },
+    "login.close": {
+        "translation": "Zamknij"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Wróć do pierwszej zakładki."
+    },
+    "login.logging_you_in": {
+        "translation": "logowanie do..."
+    },
+    "login.logged_in": {
+        "translation": "Zalogowano!"
+    },
+    "login.logged_into_app": {
+        "translation": "Zalogowano do {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Możesz zamknąć to okno."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "W tej chwili pracujemy nad przywróceniem normalnego stanu. Spróbuj ponownie później."
+    },
+    "login.blocked_request": {
+        "translation": "Zablokowano prośbę"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Wróć do pierwszej zakładki i poproś o nowy magiczny link."
+    },
+    "login.request_new_link_app": {
+        "translation": "Wróć do pierwszej zakładki **{appName}** i poproś o nowy magiczny link."
+    },
+    "login.magic_link_expired": {
+        "translation": "Magiczny link wygasł"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Nie zamykaj tej zakładki!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Wróć do tej zakładki po kliknięciu magicznego linku"
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Wyślij kolejny magiczny link na adres\n**{userEmail}**.\nlink do logowania lub rejestracji."
+    },
+    "login.try_again_later": {
+        "translation": "Spróbuj ponownie później"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Poczekaj **{seconds} s** przed wysłaniem kolejnej wiadomości."
+    },
+    "login.please_send_another_link": {
+        "translation": "Wyślij kolejny magiczny link na adres\n**{userEmail}**."
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Trzymaj się! Naprawiamy błąd"
+    },
+    "login.confirming_your_login": {
+        "translation": "Potwierdzenie logowania"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Potwierdzenie logowania"
+    },
+    "login.is_this_you": {
+        "translation": "Czy to Ty?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Wykryto nietypową aktywność. Aby pomóc utrzymać bezpieczeństwo konta, poinformuj nas, czy rozpoznajesz poniższą próbę logowania:"
+    },
+    "login.location": {
+        "translation": "Lokalizacja:"
+    },
+    "login.no_block_this": {
+        "translation": "Nie, zablokuj logowanie"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Tak, to ja"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Dziękujemy za pomoc w utrzymaniu bezpieczeństwa konta! Zablokowaliśmy i w przyszłości również będziemy blokować próby zalogowania z poniższego źródła:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Aby utrzymać bezpieczeństwo konta, poinformuj nas, czy rozpoznajesz próbę logowania poniżej:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Dziękujemy za pomoc w utrzymaniu bezpieczeństwa konta! Zablokowaliśmy próbę logowania z poniższego źródła:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Link jest uszkodzony — poproś o nowy link magiczny lub otwórz link z innego klienta poczty e-mail"
+    },
+    "login.app_is_private": {
+        "translation": "Aplikacja {appName} jest prywatna"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} nie ma uprawnień dostępu do tej aplikacji"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Myślisz, że to pomyłka? Wypróbuj inny login lub skontaktuj się z {appName}, aby uzyskać pomoc."
+    },
+    "login.access_denied": {
+        "translation": "Odmowa dostępu"
+    },
+    "login.email_blocked_message": {
+        "translation": "Przepraszamy, nie masz uprawnień, aby zalogować się do {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Zaloguj się, korzystając z magicznego linka, wysłanego na adres"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Wprowadź kod bezpieczeństwa wyświetlany w {appName}"
+    },
+    "login.security_code": {
+        "translation": "Kod bezpieczeństwa:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Następnie wprowadź kod bezpieczeństwa:"
+    },
+    "login.copy": {
+        "translation": "Kopiuj"
+    },
+    "login.go_back_to_app": {
+        "translation": "Wróć do **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Pomyślnie zalogowano."
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Pomyślnie zalogowano"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Możesz zamknąć tę zakładkę"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Nieprawidłowy adres URL przekierowania"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Podany adres URL nie znajduje się na liście dozwolonych adresów."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Żądanie magicznego linka przesłano z innego adresu IP"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Kliknij link z tego samego urządzenia. Jeśli żądanie nie pochodzi od Ciebie, zignoruj tę wiadomość."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Przekroczono limit usługi"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Skontaktuj się z **{appName}** w celu uzyskania pomocy w dostępie do konta."
+    },
+    "login.security_code_expired": {
+        "translation": "Kod bezpieczeństwa wygasł"
+    },
+    "login.login_code_expired": {
+        "translation": "Kod logowania wygasł"
+    },
+    "login.request_new_login_code": {
+        "translation": "Poproś o nowy kod logowania"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Poproś o nowy kod"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Aby otrzymać nowy kod, wróć do {appName}, aby zrestartować proces logowania."
+    }
+}

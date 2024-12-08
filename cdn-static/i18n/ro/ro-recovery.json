@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "Există deja o metodă de recuperare în acest cont"
+    },
+    "recovery.phone_number": {
+        "translation": "Număr de telefon pentru recuperare"
+    }
+}

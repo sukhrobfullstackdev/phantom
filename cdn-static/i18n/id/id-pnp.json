@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Metode masuk sebelumnya"
+    },
+    "pnp.welcome": {
+        "translation": "Selamat datang"
+    },
+    "pnp.welcome_back": {
+        "translation": "Selamat datang kembali"
+    },
+    "pnp.email": {
+        "translation": "Email"
+    },
+    "pnp.email_aria": {
+        "translation": "Masuk menggunakan alamat email"
+    },
+    "pnp.email_address": {
+        "translation": "Alamat email"
+    },
+    "pnp.phone": {
+        "translation": "Telepon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Masuk menggunakan nomor telepon"
+    },
+    "pnp.phone_number": {
+        "translation": "Nomor telepon"
+    },
+    "pnp.login_signup": {
+        "translation": "Masuk \/ Daftar"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Kirim masuk"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Masuk dengan {provider}"
+    },
+    "pnp.or": {
+        "translation": "Atau"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Cari kode negara"
+    },
+    "pnp.select_country_code": {
+        "translation": "Pilih kode negara"
+    },
+    "pnp.login_disabled": {
+        "translation": "Masuk \/ Daftar dinonaktifkan"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Hubungi {appName} untuk mendapatkan bantuan"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Hubungi developer aplikasi ini untuk mendapatkan bantuan"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Ketentuan Layanan"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Kebijakan Privasi"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Dengan melanjutkan, Anda menyetujui Kebijakan Privasi {appName}"
+    }
+}

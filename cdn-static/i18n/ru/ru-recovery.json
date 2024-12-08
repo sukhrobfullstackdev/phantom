@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "В этой учетной записи фактор восстановления уже существует"
+    },
+    "recovery.phone_number": {
+        "translation": "Номер телефона для восстановления"
+    }
+}

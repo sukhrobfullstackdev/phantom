@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Cảnh báo"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Khoá cá nhân của bạn"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Lưu trữ an toàn và không bao giờ tiết lộ khóa cá nhân của bạn"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Đăng xuất"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Sao chép vào clipboard"
+    }
+}

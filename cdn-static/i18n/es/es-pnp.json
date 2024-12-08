@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Su anterior método de inicio de sesión"
+    },
+    "pnp.welcome": {
+        "translation": "Bienvenido"
+    },
+    "pnp.welcome_back": {
+        "translation": "Bienvenido de nuevo"
+    },
+    "pnp.email": {
+        "translation": "Correo electrónico"
+    },
+    "pnp.email_aria": {
+        "translation": "Iniciar sesión usando dirección de correo electrónico"
+    },
+    "pnp.email_address": {
+        "translation": "Dirección de correo electrónico"
+    },
+    "pnp.phone": {
+        "translation": "Teléfono"
+    },
+    "pnp.phone_aria": {
+        "translation": "Iniciar sesión usando número de teléfono"
+    },
+    "pnp.phone_number": {
+        "translation": "Número de teléfono"
+    },
+    "pnp.login_signup": {
+        "translation": "Inicio de sesión \/ Registro"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Enviar inicio de sesión"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Iniciar sesión con {provider}"
+    },
+    "pnp.or": {
+        "translation": "O"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Buscar códigos de países"
+    },
+    "pnp.select_country_code": {
+        "translation": "Seleccionar código de país"
+    },
+    "pnp.login_disabled": {
+        "translation": "Inicio de sesión \/ Registro desactivado"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Póngase en contacto con {appName} para obtener ayuda"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Póngase en contacto el desarrollador de esta aplicación para obtener ayuda"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Condiciones del servicio"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Política de privacidad"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Al continuar, usted acepta la política de privacidad de {appName}"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Takaisin sovellukseen {appName}"
+    },
+    "settings.title": {
+        "translation": "Tilin asetukset"
+    },
+    "settings.off": {
+        "translation": "POIS"
+    },
+    "settings.on": {
+        "translation": "PÄÄLLÄ"
+    },
+    "settings.turn_on": {
+        "translation": "Ota käyttöön"
+    },
+    "settings.turn_off": {
+        "translation": "Ota pois käytöstä"
+    },
+    "settings.two_step_verification": {
+        "translation": "Kaksivaiheinen todennus"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Lisää turvallisuuteen uusi taso antamalla mobiilisovelluksen vahvistuskoodi aina kirjautuessasi sisään."
+    },
+    "settings.phone_number": {
+        "translation": "Puhelinnumero"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Päivitä nykyinen puhelinnumero"
+    }
+}

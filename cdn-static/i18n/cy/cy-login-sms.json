@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Nodwch y cod a anfonwyd i"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Cod newydd ar gael mewn {seconds}"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Anfonwch god newydd"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Cod annilys, rhowch gynnig arni eto."
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Ymddengys bod y rhif ffôn yna'n annilys.\nGwiriwch y rhif a rhowch gynnig arni eto."
+    },
+    "login_sms.expired_code": {
+        "translation": "Cod wedi Dod i Ben"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Anfonir cod newydd atoch yn awtomatig"
+    },
+    "login_sms.security_lockout": {
+        "translation": "Cloi Oherwydd Diogelwch"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Oherwydd nifer o ymgeisiau mewngofnodi amheus oedd wedi methu, mae menwgofnodi SMS wedi'i analluogi dros dro."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Rhowch gynnig arni eto mewn"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Rhowch gyfeiriad e-bost dilys."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Too many login attempts. Please try again later."
+    }
+}

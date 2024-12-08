@@ -1,0 +1,91 @@
+@import (reference) '~/app/index.less';
+
+.text {
+  #mg.themeProperty(color, var(--silk80), #FFFFFFB8) !important;
+}
+
+.walletsContainer {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.chooseWalletHeader {
+  font-size: 20px !important;
+}
+
+.appWalletsText {
+  text-align: left;
+  #mg.themeProperty(color, #77767a, #FFFFFFB8) !important;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.authWalletContainer > div:not(:last-child),
+.questionAnswerContainer > div:not(:last-child) {
+  #mg.themeProperty(border-bottom, 1px solid #EDEDF3, 1px solid #303030);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link > button > span {
+  font-size: 14px !important;
+}
+
+.drawerContainer {
+  padding: 12px 20px;
+  overflow: auto;
+}
+
+.button * {
+  cursor: default !important;
+}
+
+.profilePicture {
+  border-radius: 100px;
+  overflow: hidden;
+  height: 32px;
+}
+
+.profileTooltip {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 12px;
+  #mg.themeProperty(background, #fff, #252525) !important;
+
+  .logoutBtn > span {
+    font-size: 14px !important;
+    margin-top: -3px;
+  }
+}
+
+.profileBtn {
+  cursor: default !important;
+}
+
+.bulletList {
+  list-style: inside;
+}
+
+.angleDownButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 100%;
+}

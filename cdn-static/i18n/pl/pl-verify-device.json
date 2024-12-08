@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Sprawdzanie urządzenia"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Zarejestruj urządzenie, aby kontynuować"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Przesyłamy link do rejestracji urządzenia"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Ta szybkie jednorazowe potwierdzenie sprzyja utrzymaniu bezpieczeństwa konta."
+    },
+    "verify_device.register_new_device": {
+        "translation": "Czy zatwierdzić login?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nowa przeglądarka\/ urządzenie"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Niedopasowana przeglądarka\/ urządzenie"
+    },
+    "verify_device.website": {
+        "translation": "Witryna internetowa"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Nowy adres IP urządzenia"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Rozpoznaję tę przeglądarkę i urządzenie"
+    },
+    "verify_device.reject": {
+        "translation": "Odrzuć"
+    },
+    "verify_device.approve": {
+        "translation": "Zatwierdź"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Odrzucono żądanie zalogowania"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Zablokowaliśmy dostęp nierozpoznanego urządzenia do konta."
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "To był błąd?  Wróć do **{appName}**, aby zresetować logowanie."
+    },
+    "verify_device.device_approved": {
+        "translation": "Logowanie zatwierdzone"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Wróć do **{appName}**, aby ukończyć logowanie."
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Możesz teraz zamknąć tę kartę."
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Twoje łącze do zatwierdzania logowania wygasło. Zażądaj nowego łącza, aby kontynuować."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Łącze wygasło."
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Wyślij nowy magiczny link na\n**{userEmail}**.\nlink do logowania lub rejestracji."
+    },
+    "verify_device.resend_email": {
+        "translation": "Wyślij wiadomość ponownie"
+    },
+    "verify_device.close": {
+        "translation": "Zamknij"
+    }
+}

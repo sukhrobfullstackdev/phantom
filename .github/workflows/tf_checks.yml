@@ -1,0 +1,53 @@
+# TODO(mack#sc64402|2023-01-04): Use add `terraform init` to the relevant actions
+# TODO(mack#sc63781|2023-01-04): replace with "misc tf" action when ready instead of w_tf_misc_run_check
+# TODO(mack#sc65974|2023-01-06): Use shared workflow for `terraform_run_check.yml` when repo is migrated to magiclabs org
+name: TF Checks
+concurrency:
+  group: tf-checks-${{ github.ref }}
+  cancel-in-progress: true
+on:
+  pull_request:
+    branches:
+      - master
+      - development
+  push:
+    branches:
+      - master
+      - development
+
+jobs:
+  terraform_fmt:
+    name: run terraform fmt
+    uses: ./.github/workflows/terraform_run_check.yml
+    with:
+      check_name: terraform fmt
+      find_dir: /deploy/terraform
+      commands: |
+        terraform fmt -check -diff
+  tfsec:
+    name: run tfsec
+    uses: ./.github/workflows/terraform_run_check.yml
+    with:
+      check_name: tfsec
+      find_dir: /deploy/terraform
+      find_args: -not -path '*/modules/*'
+      # TODO(madison#64508|2022-10-25): Drop this once vpc flow log documentation is fixed after tfsec 1.28.1
+      commands: |
+        tfsec -e aws-ec2-require-vpc-flow-logs-for-all-vpcs
+  tflint:
+    name: run tflint
+    uses: ./.github/workflows/terraform_run_check.yml
+    with:
+      check_name: tflint
+      find_dir: /deploy/terraform
+      commands: |
+        tflint --config=${GITHUB_WORKSPACE}/.tflint.hcl --init
+        tflint --config=${GITHUB_WORKSPACE}/.tflint.hcl
+  terraform_docs:
+    name: run terraform-docs
+    uses: ./.github/workflows/terraform_run_check.yml
+    with:
+      check_name: terraform-docs
+      find_dir: /deploy/terraform
+      commands: |
+        terraform-docs markdown --output-check --output-file README.md --output-template "<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->\n{{ .Content }}\n<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->" ./

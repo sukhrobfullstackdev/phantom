@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ωχ! Κάτι πήγε στραβά"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Δεν μπορέσαμε να βρούμε τον πόρο που αναζητάτε."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Επικοινωνήστε με τους προγραμματιστές αυτής της εφαρμογής για επίλυση."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Επικοινωνήστε με το **{appName}** για επίλυση."
+    },
+    "generic.internal_server_error": {
+        "translation": "Εσωτερικό σφάλμα διακομιστή"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Προς το παρόν εργαζόμαστε, ώστε να επαναφέρουμε τα πάντα στην πρότερη κατάσταση. Προσπαθήστε ξανά σύντομα."
+    },
+    "generic.close": {
+        "translation": "Κλείσιμο"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Το Whitelabel SDK δεν είναι διαθέσιμο στο δωρεάν πρόγραμμα. Αναβαθμίστε σε ένα πρόγραμμα επί πληρωμή."
+    },
+    "generic.our_pricing_page": {
+        "translation": "Σελίδα τιμοκαταλόγου"
+    },
+    "generic.app_error": {
+        "translation": "Σφάλμα εφαρμογής"
+    },
+    "generic.details": {
+        "translation": "ΛΕΠΤΟΜΕΡΕΙΕΣ"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Παρουσιάστηκε ένα άγνωστο σφάλμα."
+    },
+    "generic.blocked_request": {
+        "translation": "Αποκλεισμένο αίτημα"
+    },
+    "generic.try_again": {
+        "translation": "Προσπαθήστε ξανά!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Δώστε ένα έγκυρο email"
+    },
+    "generic.back": {
+        "translation": "Πίσω"
+    },
+    "generic.loading": {
+        "translation": "Φόρτωση"
+    },
+    "generic.success": {
+        "translation": "Επιτυχία"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Για λόγους ασφαλείας, θα ανοίξει μια νέα καρτέλα από το Magic για να επιβεβαιώσετε αυτήν τη συναλλαγή."
+    },
+    "generic.trial_mode": {
+        "translation": "Λειτουργία δοκιμής"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Αναβάθμιση τώρα"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Το πρόγραμμα περιήγησης δεν υποστηρίζεται"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Απενεργοποιήστε προσωρινά τυχόν ενεργές επεκτάσεις του προγράμματος περιήγησης ή αλλάξτε πρόγραμμα περιήγησης και προσπαθήστε ξανά."
+    }
+}

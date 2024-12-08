@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Θα χρειαστείτε μια\n εφαρμογή ελέγχου ταυτότητας"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Για να ενεργοποιήσετε την επαλήθευση δύο βημάτων, θα χρειαστείτε μια εφαρμογή ελέγχου ταυτότητας, όπως την εφαρμογή {authy} ή την εφαρμογή {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Σάρωση κωδικού QR"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Ανοίξτε την εφαρμογή ελέγχου ταυτότητας και σαρώστε αυτόν τον κωδικό QR ή εισαγάγετε το κλειδί ρύθμισης."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Καταχωρήστε τον 6ψήφιο κωδικό\nαπό την εφαρμογή ελέγχου ταυτότητας"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Μη έγκυρος κωδικός. Δοκιμάστε ξανά."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Φυλάξτε τον κωδικό ανάκτησης"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Αυτός ο κωδικός μπορεί να χρησιμοποιηθεί για σύνδεση, στην περίπτωση που χάσετε την πρόσβαση στην εφαρμογή ελέγχου ταυτότητας. Αποθηκεύστε τον σε κάποιο ασφαλές μέρος."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Ο κωδικός ανάκτησης για την εφαρμογή {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Αντιγραφή κωδικού"
+    },
+    "mfa.finish_setup": {
+        "translation": "Ολοκλήρωση ρύθμισης"
+    },
+    "mfa.key": {
+        "translation": "Κλειδί"
+    },
+    "mfa.copy": {
+        "translation": "Αντιγραφή"
+    },
+    "mfa.copied": {
+        "translation": "Αντιγράφηκε"
+    },
+    "mfa.next": {
+        "translation": "Επόμενο"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Έχασα τη συσκευή μου"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Εισαγάγετε τον κωδικό ανάκτησής\nσας για να συνδεθείτε"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Η επαλήθευση σε 2 βήματα θα απενεργοποιηθεί"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Κωδικός 8 χαρακτήρων"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Έχασα τον κωδικό ανάκτησης"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Μη έγκυρος κωδικός, παρακαλώ προσπαθήστε ξανά"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Μη έγκυρος κωδικός. Απομένουν ({attempts}) προσπάθειες πριν κλειδωθεί ο λογαριασμός σας."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Για βοήθεια σχετικά με την ανάκτηση του λογαριασμού σας, επικοινωνήστε με την ομάδα υποστήριξης του {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Επικοινωνήστε με την υποστήριξη πελατών {appName}"
+    }
+}

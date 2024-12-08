@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Cihazınız yoxlanılır"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Davam etmək üçün bu cihazı qeydiyyatdan keçirin"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Cihaz qeydiyyatı keçidini göndərdik:"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Bu sürətli birdəfəlik təsdiq hesabınızın təhlükəsizliyini qorumağa kömək edəcək"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Giriş təsdiqlənsin?"
+    },
+    "verify_device.new_device": {
+        "translation": "Yeni Brauzer\/Cihaz"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Cari brauzerinizə\/cihazınıza uyğun gəlmir"
+    },
+    "verify_device.website": {
+        "translation": "Veb-sayt"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Yeni Cihazın IP Ünvanı"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Bu brauzeri və cihazı tanıyıram"
+    },
+    "verify_device.reject": {
+        "translation": "Rədd edin"
+    },
+    "verify_device.approve": {
+        "translation": "Təsdiq edin"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Giriş sorğusu rədd edildi"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Naməlum cihazın hesabınıza daxil olmasını dayandırdıq"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Səhv etdiniz? Giriş prosesini yenidən başlatmaq üçün **{appName}** tətbiqinə qayıdın."
+    },
+    "verify_device.device_approved": {
+        "translation": "Giriş təsdiqləndi"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Daxil olmağı başa çatdırmaq üçün **{appName}** tətbiqinə qayıdın"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "İndi bu tabı bağlaya bilərsiniz"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Giriş təsdiqi keçidinizin müddəti bitib. Davam etmək üçün yenisini tələb edin."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Keçidin müddəti bitib"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "**{userEmail}** ünvanına \nbaşqa birdəfəlik link göndərin.\n daxil olmaq və ya qeydiyyatdan keçmək üçün link."
+    },
+    "verify_device.resend_email": {
+        "translation": "E-poçtu təkrar göndərin"
+    },
+    "verify_device.close": {
+        "translation": "Bağlayın"
+    }
+}

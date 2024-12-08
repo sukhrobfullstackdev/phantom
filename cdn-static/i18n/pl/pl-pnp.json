@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Twoja poprzednia metoda logowania"
+    },
+    "pnp.welcome": {
+        "translation": "Witamy"
+    },
+    "pnp.welcome_back": {
+        "translation": "Witamy z powrotem"
+    },
+    "pnp.email": {
+        "translation": "E-mail"
+    },
+    "pnp.email_aria": {
+        "translation": "Zaloguj się przy użyciu adresu e-mail"
+    },
+    "pnp.email_address": {
+        "translation": "Adres e-mail"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Zaloguj się przy użyciu numeru telefonu"
+    },
+    "pnp.phone_number": {
+        "translation": "Numer telefonu"
+    },
+    "pnp.login_signup": {
+        "translation": "Logowanie\/Rejestracja"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Prześlij login"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Zaloguj się z {provider}"
+    },
+    "pnp.or": {
+        "translation": "Lub"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Wyszukaj kod kraju"
+    },
+    "pnp.select_country_code": {
+        "translation": "Wybierz kod kraju"
+    },
+    "pnp.login_disabled": {
+        "translation": "Logowanie\/Rejestracja wyłączona"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Skontaktuj się z {appName}, aby uzyskać pomoc"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Skontaktuj się z twórcą tej aplikacji, aby uzyskać pomoc"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Regulamin"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Polityka prywatności"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Kontynuując, wyrażasz zgodę na {appName}"
+    }
+}

@@ -1,0 +1,20 @@
+@import (reference) '~/app/index.less';
+
+.offset {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  #mg.themeProperty(color, #4e4d52, rgba(255, 255, 255, 0.44));
+
+  #mg.query.maxWidth(480px, {
+    display: none;
+  });
+
+  a {
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    background: none;
+  }
+}

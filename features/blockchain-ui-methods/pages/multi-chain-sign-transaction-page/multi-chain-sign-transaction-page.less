@@ -1,0 +1,65 @@
+@import (reference) '~/app/index.less';
+
+.signatureInfo {
+  max-width: 100%;
+  #mg.themeProperty(border, 0.5px solid var(--silk30), 0.5px solid var(--silk80));
+  border-radius: 8px;
+  max-height: 280px;
+  overflow: auto;
+
+  .referrer {
+    text-align: left;
+    #mg.themeProperty(color, var(--silk65), var(--silk50)) !important;
+  }
+
+  hr {
+    width: 95%;
+    margin: 15px 0;
+    #mg.themeProperty(border, 0.5px solid var(--silk20), 0.5px solid var(--silk80));
+  }
+
+  .messageContainer {
+    text-align: left;
+    line-height: 24px;
+    white-space: pre-wrap;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+}
+
+.label {
+  #mg.themeProperty(color, #77767a, #a6a5a5) !important;
+  word-break: break-all;
+}
+
+.message {
+  #mg.themeProperty(color, @black, var(--silk30)) !important;
+  word-break: normal;
+}
+
+.signBtn {
+  flex: 1;
+}
+
+.cancelBtn {
+  flex: 1;
+  #mg.themeProperty(background-color, var(--silk20), var(--silk80)) !important;
+}
+
+.customCancelBtn {
+  flex: 1;
+  border: none;
+  background: none;
+}
+
+.codeIconDown {
+  position: absolute;
+  transform: translate(0, -50%);
+  top: 27%;
+}
+
+.codeIconUp {
+  position: absolute;
+  transform: rotate(180deg);
+  top: 7%;
+}

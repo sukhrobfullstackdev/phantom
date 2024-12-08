@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "경고"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "개인 키"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "개인 키를 안전하게 저장 및 공개하지 않음"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "로그아웃"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "클립보드에 복사"
+    }
+}

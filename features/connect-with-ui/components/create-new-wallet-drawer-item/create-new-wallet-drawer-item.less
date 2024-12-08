@@ -1,0 +1,35 @@
+@import (reference) '~/app/index.less';
+
+.subText {
+  #mg.themeProperty(color, #7d7d7d, #BFBFBF) !important;
+}
+
+.link {
+  all: unset;
+  display: block;
+  border-radius: 12px;
+}
+
+.drawerItem {
+  cursor: pointer;
+  border: 1px solid #dddbe0;
+  #mg.themeProperty(border, 1px solid #dddbe0, 1px solid #7e7e7e);
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.drawerItem:hover {
+  #mg.themeProperty(background, #f8f8fa, #2b2b2b);
+}
+
+.drawerItem:active {
+  opacity: 0.5;
+}
+
+.drawerItem:focus,
+.link:focus {
+  box-shadow: 0px 0px 0px 2px #mg.getThemeColor(primary) [];
+  outline: none;
+}

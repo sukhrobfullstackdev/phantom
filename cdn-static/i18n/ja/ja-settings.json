@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "{appName}に戻る"
+    },
+    "settings.title": {
+        "translation": "アカウント設定"
+    },
+    "settings.off": {
+        "translation": "オフ"
+    },
+    "settings.on": {
+        "translation": "オン"
+    },
+    "settings.turn_on": {
+        "translation": "オンにする"
+    },
+    "settings.turn_off": {
+        "translation": "オフにする"
+    },
+    "settings.two_step_verification": {
+        "translation": "2段階認証"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "ログインするたびにモバイルアプリの認証コードを入力することで、さらにセキュリティを高めることができます。"
+    },
+    "settings.phone_number": {
+        "translation": "電話番号"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "現在の電話番号を更新"
+    }
+}

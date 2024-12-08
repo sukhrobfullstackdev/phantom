@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ups! Coś poszło nie tak"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Nie mogliśmy znaleźć poszukiwanego zasobu."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Skontaktuj się z deweloperami aplikacji, żeby uzyskać rozwiązanie."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Skontaktuj się z **{appName}**, żeby uzyskać rozwiązanie."
+    },
+    "generic.internal_server_error": {
+        "translation": "Wewnętrzny błąd serwera"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "W tej chwili pracujemy nad przywróceniem normalnego stanu. Spróbuj ponownie wkrótce."
+    },
+    "generic.close": {
+        "translation": "Zamknij"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK nie jest dostępny w darmowym planie, zmień plan na płatny"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Nasza strona cennika"
+    },
+    "generic.app_error": {
+        "translation": "Błąd aplikacji"
+    },
+    "generic.details": {
+        "translation": "Szczegóły"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Wystąpił nieznany błąd."
+    },
+    "generic.blocked_request": {
+        "translation": "Zablokowano prośbę"
+    },
+    "generic.try_again": {
+        "translation": "Spróbuj ponownie!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Wprowadź poprawny adres e-mail"
+    },
+    "generic.back": {
+        "translation": "Wstecz"
+    },
+    "generic.loading": {
+        "translation": "Ładowanie"
+    },
+    "generic.success": {
+        "translation": "Sukces"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Dla celów bezpieczeństwa nowa zakładka Magic zostanie otwarta, aby potwierdzić tę transakcję."
+    },
+    "generic.trial_mode": {
+        "translation": "Tryb próbny"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Zmień wersję teraz"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Przeglądarka nie jest obsługiwana"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Tymczasowo wyłącz aktywne dodatki przeglądarki lub zmień przeglądarki i spróbuj ponownie."
+    }
+}

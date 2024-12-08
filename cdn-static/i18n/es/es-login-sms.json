@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Introduzca el código enviado a"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Código nuevo disponible en {seconds} segundos"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Enviar un código nuevo"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Código no válido, inténtelo de nuevo"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Parece que el número de teléfono no es válido.\nCompruebe el número e inténtelo de nuevo."
+    },
+    "login_sms.expired_code": {
+        "translation": "Código caducado"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Se le enviará un código nuevo automáticamente."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Bloqueo de seguridad"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Debido a una serie de intentos de inicio de sesión sospechosos, se ha desactivado temporalmente el inicio de sesión por SMS."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Inténtelo de nuevo"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Introduzca una dirección de correo electrónico válida."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Demasiados intentos de inicio de sesión. Inténtelo de nuevo más tarde."
+    }
+}

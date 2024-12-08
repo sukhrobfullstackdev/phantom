@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "โปรดป้อนรหัสที่ส่งไปที่"
+    },
+    "login_sms.new_code_available": {
+        "translation": "รหัสใหม่ใช้งานได้ใน {seconds} วินาที"
+    },
+    "login_sms.send_new_code": {
+        "translation": "ส่งรหัสใหม่"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "รหัสไม่ถูกต้อง โปรดลองอีกครั้ง"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "ดูเหมือนว่าหมายเลขโทรศัพท์ไม่ถูกต้อง\nโปรดตรวจสอบหมายเลขและลองอีกครั้ง"
+    },
+    "login_sms.expired_code": {
+        "translation": "รหัสหมดอายุ"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "รหัสใหม่จะส่งไปให้คุณโดยอัตโนมัติ"
+    },
+    "login_sms.security_lockout": {
+        "translation": "ออกจากระบบอย่างปลอดภัย"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "การเข้าสู่ระบบด้วย SMS ใช้งานไม่ได้ชั่วคราวเนื่องจากมีการพยายามเข้าสู่ระบบล้มเหลวที่น่าสงสัยหลายครั้ง"
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "ลองอีกครั้งใน"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "โปรดป้อนที่อยู่อีเมลที่ถูกต้อง"
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "พยายามเข้าสู่ระบบมากเกินไป โปรดลองอีกครั้งภายหลัง"
+    }
+}

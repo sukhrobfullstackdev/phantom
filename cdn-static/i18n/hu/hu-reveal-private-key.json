@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Figyelem"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Az Ön titkos kulcsa"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Tárolja biztonságosan és soha ne fedje fel titkos kulcsát"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Kijelentkezés"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Másolás a vágólapra"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Preverjanje vaše naprave"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registrirajte to napravo, če želite nadaljevati."
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Poslali smo povezavo za registracijo naprave."
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Ta hitra enkratna odobritev bo pripomogla k varnosti vašega računa."
+    },
+    "verify_device.register_new_device": {
+        "translation": "Odobritev prijave?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nov brskalnik\/naprava"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Se ne ujema z vašim brskalnikom\/napravo"
+    },
+    "verify_device.website": {
+        "translation": "Spletno mesto"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Novi IP-naslov naprave"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Prepoznam ta brskalnik in napravo."
+    },
+    "verify_device.reject": {
+        "translation": "Zavrnitev"
+    },
+    "verify_device.approve": {
+        "translation": "Odobritev"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Zahteva za prijavo zavrnjena"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Neprepoznani napravi smo preprečili dostop do vašega računa."
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Ste naredili napako? Pojditen nazaj v **{appName}** in ponovno začnite postopek prijave."
+    },
+    "verify_device.device_approved": {
+        "translation": "Prijava odobrena"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Vrnite se na **{appName}**, če želite dokončati prijavo v"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Zdaj lahko zaprete ta zavihek."
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Vaša povezava za odobritev prijave je potekla. Če želite nadaljevati, zahtevajte novo."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Povezava potekla"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Pošljite drugo čarobno povezavo na\n**{userEmail}**.\npovezava za prijavo ali registracijo."
+    },
+    "verify_device.resend_email": {
+        "translation": "Vnovično pošiljanje e-pošte"
+    },
+    "verify_device.close": {
+        "translation": "Zapri"
+    }
+}

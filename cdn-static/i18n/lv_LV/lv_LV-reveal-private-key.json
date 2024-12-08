@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Brīdinājums"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Jūsu privātā atslēga"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Glabājiet drošībā un nekad neatklājiet savu privāto atslēgu"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Izlogoties"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopēt starpliktuvē"
+    }
+}

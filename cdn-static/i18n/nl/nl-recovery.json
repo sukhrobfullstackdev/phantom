@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "Er bestaat al een herstelfactor voor dit account"
+    },
+    "recovery.phone_number": {
+        "translation": "Herstel telefoonnummer"
+    }
+}

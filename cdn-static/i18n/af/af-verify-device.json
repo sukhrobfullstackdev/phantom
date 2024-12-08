@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Verifieer jou toestel"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registreer asseblief hierdie toestel om voort te gaan"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Ons het ’n toestelregistrasieskakel gestuur na"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Hierdie vinnige eenmalige goedkeuring sal help om jou rekening veilig te hou"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Keur aanmelding goed?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nuwe blaaier\/toestel"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Pas nie by by jou huidige blaaier\/toestel nie"
+    },
+    "verify_device.website": {
+        "translation": "Webwerf"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Nuwe toestel se IP-adres"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Ek herken hierdie blaaier en toestel"
+    },
+    "verify_device.reject": {
+        "translation": "Verwerp"
+    },
+    "verify_device.approve": {
+        "translation": "Keur goed"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Aanmeldingsversoek verwerp"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Ons het die onherkende toestel gekeer om toegang tot jou rekening te kry"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "’n Fout gemaak? Gaan terug na **{appName}** om weer met die aanmeldingsproses te begin."
+    },
+    "verify_device.device_approved": {
+        "translation": "Aanmelding goedgekeur"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Gaan terug na **{appName}** om aanmelding te voltooi"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Jy kan nou hierdie oortjie toemaak"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Jou aanmeldinggoedkeuringskakel het verval. Versoek ’n nuwe om voort te gaan."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Skakel het verval"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Stuur nog ’n Magic-skakel aan\n**{userEmail}**.\ndie skakel om aan te teken of in te skryf."
+    },
+    "verify_device.resend_email": {
+        "translation": "Stuur e-pos weer"
+    },
+    "verify_device.close": {
+        "translation": "Maak toe"
+    }
+}

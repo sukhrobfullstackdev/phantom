@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Inserisci il codice inviato a"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Nuovo codice disponibile fra {seconds} s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Invia nuovo codice"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Codice non valido. Riprova"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Sembra che il numero di telefono non sia valido.\nVerifica il numero e riprova."
+    },
+    "login_sms.expired_code": {
+        "translation": "Codice scaduto"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Ti invieremo automaticamente un nuovo codice."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Blocco di sicurezza"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "L'accesso via SMS è temporaneamente disabilitato a causa di un numero sospetto di tentativi di accesso non riusciti."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Riprova fra"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Inserisci un indirizzo email valido."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Troppi tentativi di accesso. Riprova più tardi."
+    }
+}

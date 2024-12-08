@@ -1,0 +1,99 @@
+@import (reference) '~/app/index.less';
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.collectibleDetailsPage {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 680px;
+  min-height: 680px;
+  -webkit-animation: fadein 0.3s linear forwards;
+  animation: fadein 0.3s linear forwards;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.collectibleImage {
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.collectibleAttribute {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+}
+
+.divider {
+  #mg.themeProperty(background, var(--ink20), var(--slate3));
+  margin: 0;
+  height: 1px;
+  border: none;
+
+  &.thick {
+    height: 2px;
+  }
+}
+
+.collectionName {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.collectionImg {
+  object-fit: cover;
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+
+  &.large {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.attribute {
+  display: flex;
+  justify-content: space-between;
+}
+
+.externalLinks {
+  gap: 16px;
+}
+
+.networkName {
+  font-weight: 400 !important;
+
+  &.testnet {
+    font-weight: 500 !important;
+    #mg.themeProperty(color, #a36b14, #FFD594) !important;
+  }
+}

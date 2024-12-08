@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Periksa email Anda"
+    },
+    "login.confirm_your_email": {
+        "translation": "Konfirmasikan email Anda"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Kami mengirim email yang berisi tautan ajaib ke"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Klik tautan untuk masuk atau mendaftar."
+    },
+    "login.check_your_inbox": {
+        "translation": "Periksa kotak masuk Anda"
+    },
+    "login.resend_email": {
+        "translation": "Kirim Email Kembali"
+    },
+    "login.close": {
+        "translation": "Tutup"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Kembali ke tab awal Anda."
+    },
+    "login.logging_you_in": {
+        "translation": "memasukkan Anda ke..."
+    },
+    "login.logged_in": {
+        "translation": "Anda sudah Masuk!"
+    },
+    "login.logged_into_app": {
+        "translation": "Anda sudah masuk ke {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Anda dapat menutup jendela ini."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Kami sedang berupaya mengembalikan semuanya menjadi normal. Harap segera coba lagi nanti."
+    },
+    "login.blocked_request": {
+        "translation": "Permintaan diblokir"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Kembali ke tab awal Anda dan mintalah tautan ajaib baru."
+    },
+    "login.request_new_link_app": {
+        "translation": "Kembali ke tab **{appName}** awal Anda dan mintalah tautan ajaib baru."
+    },
+    "login.magic_link_expired": {
+        "translation": "Tautan ajaib sudah kedaluwarsa"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Jangan tutup tab ini!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Kembali ke tab ini setelah Anda mengklik tautan ajaib."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Kirim tautan ajaib lainnya ke \n**{userEmail}**. \n tautan untuk masuk atau mendaftar."
+    },
+    "login.try_again_later": {
+        "translation": "Coba lagi nanti"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Harap tunggu **{seconds}** sebelum mengirim email lainnya."
+    },
+    "login.please_send_another_link": {
+        "translation": "Kirim tautan ajaib lainnya ke \n**{userEmail}**."
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Tunggu! Kami sedang memperbaiki masalah"
+    },
+    "login.confirming_your_login": {
+        "translation": "Mengonfirmasikan proses masuk Anda"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Mengonfirmasikan upaya masuk Anda"
+    },
+    "login.is_this_you": {
+        "translation": "Apakah ini Anda?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Aktivitas yang tidak biasa terdeteksi. Untuk membantu menjaga keamanan akun Anda, beri tahu kami jika Anda mengenali upaya masuk di bawah ini:"
+    },
+    "login.location": {
+        "translation": "Lokasi"
+    },
+    "login.no_block_this": {
+        "translation": "Bukan, blokir ini"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Ya, in adalah saya"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Terima kasih telah membantu kami menjaga keamanan akun Anda! Kami telah memblokir, dan akan memblokir upaya masuk di kemudian hari dari sumber di bawah ini:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Untuk membantu menjaga keamanan akun Anda, beri tahu kami jika Anda mengenali upaya masuk di bawah ini:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Terima kasih telah membantu kami menjaga keamanan akun Anda! Kami telah memblokir upaya masuk dari sumber di bawah ini:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Tautan rusak — harap minta tautan Magic baru atau buka tautan dari klien email lainnya"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} bersifat pribadi"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} tidak punya izin untuk mengakses aplikasi ini"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Menurut Anda ada kesalahan? Coba login yang lain atau hubungi {appName} untuk memperoleh bantuan."
+    },
+    "login.access_denied": {
+        "translation": "Akses ditolak"
+    },
+    "login.email_blocked_message": {
+        "translation": "Maaf, Anda tidak punya  izin login ke {appName}"
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Masuk ke akun dengan tautan magic yang dikirim ke"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Masukkan kode keamanan yang ditampilkan oleh {appName}"
+    },
+    "login.security_code": {
+        "translation": "Kode keamanan:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Lalu masukkan kode keamanan ini:"
+    },
+    "login.copy": {
+        "translation": "Salin"
+    },
+    "login.go_back_to_app": {
+        "translation": "Kembali ke **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Proses Masuk ke Akun Selesai!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Berhasil Masuk ke Akun"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Sekarang Anda boleh menutup tab ini"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "URL Pengalihan Tidak Valid"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "URL pengalihan yang diberikan tidak ada di daftar URL yang diizinkan."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Tautan magic diminta dari IP yang berbeda"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Klik tautan dari perangkat yang sama. Jika Anda tidak meminta tautan tersebut, abaikan pesan ini."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Batas layanan terlampaui"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Hubungi **{appName}** guna mendapatkan bantuan untuk mengakses akun Anda."
+    },
+    "login.security_code_expired": {
+        "translation": "Masa berlaku kode keamanan habis"
+    },
+    "login.login_code_expired": {
+        "translation": "Masa berlaku kode login habis"
+    },
+    "login.request_new_login_code": {
+        "translation": "Harap minta kode login baru"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Minta kode baru"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Untuk menerima kode baru, harap kembali ke {appName} lalu mulai ulang proses masuk akun."
+    }
+}

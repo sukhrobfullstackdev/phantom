@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Vaje! Kažkas nutiko"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Nepavyko rasti jūsų ieškomo šaltinio."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Norėdami rasti sprendimą susisiekite su programos kūrėjais."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Norėdami rasti sprendimą susisiekite su **{appName}**."
+    },
+    "generic.internal_server_error": {
+        "translation": "Vidinė serverio klaida"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Šiuo metu mes stengiamės atkurti įprastą tvarką. Netrukus pabandykite vėl."
+    },
+    "generic.close": {
+        "translation": "Uždaryti"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "„Whitelabel SDK“ nėra prieinama naudojantis nemokamu planu. Užsisakykite mokamą planą."
+    },
+    "generic.our_pricing_page": {
+        "translation": "Mūsų kainodaros puslapis"
+    },
+    "generic.app_error": {
+        "translation": "Programos klaida"
+    },
+    "generic.details": {
+        "translation": "DUOMENYS"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Įvyko nežinoma klaida."
+    },
+    "generic.blocked_request": {
+        "translation": "Prašymas užblokuotas"
+    },
+    "generic.try_again": {
+        "translation": "Bandykite dar kartą!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Pateikite galiojantį el. pašto adresą"
+    },
+    "generic.back": {
+        "translation": "Grįžti"
+    },
+    "generic.loading": {
+        "translation": "Kraunama"
+    },
+    "generic.success": {
+        "translation": "Pavyko"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Saugumo sumetimais atsidarys nauja „Magic“ kortelė, kurioje galėsite patvirtinti šią operaciją."
+    },
+    "generic.trial_mode": {
+        "translation": "Bandomasis režimas"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Patobulinti dabar"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Naršyklė nepalaikoma"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Laikinai išjunkite visus aktyvius naršyklės plėtinius arba pakeiskite naršyklę ir bandykite dar kartą."
+    }
+}

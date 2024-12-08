@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Click the button below to log in to {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "This button will expire in 10 minutes."
+    },
+    "email_preview.login_to_app": {
+        "translation": "log in to {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Confirming this request will securely log you in using **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "If you did not make this request, no worries, it's safe to ignore this email."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} team"
+    }
+}

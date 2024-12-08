@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "La solicitud para actualizar su correo electrónico a **{updatedEmail}** ha caducado."
+    },
+    "update_email.confirm_change": {
+        "translation": "Confirmar cambio"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Confirme el cambio de su correo electrónico actual en **{userEmail}**. Revise su bandeja de entrada."
+    },
+    "update_email.try_again_question": {
+        "translation": "¿Volver a intentarlo?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Verificar correo electrónico nuevo"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Enviamos un correo electrónico a **{updatedUserEmail}**. Revise su bandeja de entrada."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "¡Su correo electrónico se ha actualizado!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Vuelva a la pestaña original."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Vuelva a la pestaña original **{appName}**."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Vuelva a la pestaña original e inicie el flujo de actualización del correo electrónico de nuevo"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Vuelva a la pestaña original **{appName}** e inicie el flujo de actualización del correo electrónico de nuevo"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Enlace de confirmación caducado"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "No se pudo verificar su dirección de correo electrónico. Cierre esta ventana y reinicie el flujo de nuevo."
+    },
+    "update_email.updating_email": {
+        "translation": "Actualización de correo electrónico..."
+    },
+    "update_email.last_step": {
+        "translation": "¡último paso!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Para terminar de actualizar su correo electrónico, confirme el cambio de su correo electrónico actual en **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "Reenviar correo electrónico"
+    },
+    "update_email.cancel": {
+        "translation": "Cancelar"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Puede cerrar esta ventana."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "¡Aguante! Estamos solucionando un problema."
+    },
+    "update_email.oops": {
+        "translation": "Vaya"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Actualmente estamos trabajando para que todo vuelva a la normalidad. Vuelva a intentarlo pronto."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "Confirmación de la actualización del correo electrónico"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}: confirmación de la actualización del correo electrónico"
+    }
+}

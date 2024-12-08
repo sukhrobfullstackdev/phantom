@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "¡Oh, oh! Algo salió mal"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "No pudimos encontrar el recurso que está buscando."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Póngase en contacto con los desarrolladores de la aplicación para obtener una resolución."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Póngase en contacto con **{appName}** para obtener una resolución."
+    },
+    "generic.internal_server_error": {
+        "translation": "Error interno del servidor"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Actualmente estamos trabajando para que todo vuelva a la normalidad. Vuelva a intentarlo pronto."
+    },
+    "generic.close": {
+        "translation": "Cerrar"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK no está disponible en un plan gratuito, actualice a un plan pago"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Nuestra página de precios"
+    },
+    "generic.app_error": {
+        "translation": "Error de la aplicación"
+    },
+    "generic.details": {
+        "translation": "DETALLES"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Se ha producido un error desconocido."
+    },
+    "generic.blocked_request": {
+        "translation": "Solicitud bloqueada"
+    },
+    "generic.try_again": {
+        "translation": "¡Inténtelo de nuevo!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Proporcione un correo electrónico válido"
+    },
+    "generic.back": {
+        "translation": "Atrás"
+    },
+    "generic.loading": {
+        "translation": "Cargando"
+    },
+    "generic.success": {
+        "translation": "Conseguido"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Por motivos de seguridad, se abrirá una nueva pestaña de Magic para que confirme esta transacción."
+    },
+    "generic.trial_mode": {
+        "translation": "Modo de prueba"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Actualizar ahora"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Navegador no compatible"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Desactive temporalmente las extensiones del navegador activas o cambie de navegador e inténtelo de nuevo."
+    }
+}

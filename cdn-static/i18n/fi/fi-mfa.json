@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Tarvitset\ntodennussovelluksen"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Tarvitset kaksivaiheisen todennussovelluksen kuten {authy} tai {google} voidaksesi ottaa kaksivaiheisen todennuksen käyttöön."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Skannaa tämä QR-koodi"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Avaa todennussovellus ja skannaa tämä QR-koodi tai anna asetusavain."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Anna 6-merkkinen koodi\ntodennussovelluksesta"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Väärä koodi. Yritä uudelleen."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Tallenna palautuskoodi"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Tätä koodia voi käyttää jos menetät pääsyn todennussovellukseen. Tallenna se turvallisesti."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "{appName} palautuskoodi"
+    },
+    "mfa.copy_code": {
+        "translation": "Kopioi koodi"
+    },
+    "mfa.finish_setup": {
+        "translation": "Viimeistele asetukset"
+    },
+    "mfa.key": {
+        "translation": "Avain"
+    },
+    "mfa.copy": {
+        "translation": "Kopioi"
+    },
+    "mfa.copied": {
+        "translation": "Kopioitu"
+    },
+    "mfa.next": {
+        "translation": "Seuraava"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Kadotin laitteeni"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Syötä palautus-\nkoodi kirjautuaksesi sisään"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Kaksivaiheinen tunnistus poistetaan käytöstä"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8-merkkinen koodi"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Kadotin palautuskoodini"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Virheellinen koodi, yritä uudelleen"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Virheellinen koodi. ({attempts}) yritystä jäljellä ennen tilisi lukitsemista."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Ota yhteyttä sovelluksen {appName} tukitiimiin palauttaaksesi tilisi."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Ota yhteyttä sovelluksen {appName} tukeen"
+    }
+}

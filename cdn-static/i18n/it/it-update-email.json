@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "La richiesta di modifica della tua email in **{updatedEmail}** è scaduta."
+    },
+    "update_email.confirm_change": {
+        "translation": "Conferma modifica"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Conferma la modifica della tua email attuale **{userEmail}**. Controlla la posta in arrivo."
+    },
+    "update_email.try_again_question": {
+        "translation": "Riprovare?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Verifica nuova email"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Abbiamo inviato un'email a **{updatedUserEmail}**. Controlla la posta in arrivo."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "La tua email è stata modificata!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Torna alla scheda di partenza."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Torna alla scheda di partenza su **{appName}**."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Torna alla scheda di partenza e ripeti il processo di modifica dell'email dall'inizio"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Torna alla scheda di partenza su **{appName}** e ripeti il processo di modifica dell'email dall'inizio"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Link di conferma scaduto"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Impossibile verificare il tuo indirizzo email. Chiudi questa finestra e ripeti il processo dall'inizio."
+    },
+    "update_email.updating_email": {
+        "translation": "Modifica email..."
+    },
+    "update_email.last_step": {
+        "translation": "ci sei quasi!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Per completare l'aggiornamento dell'email, conferma la modifica della tua email attuale **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "Invia nuova email"
+    },
+    "update_email.cancel": {
+        "translation": "Annulla"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Chiudi pure questa finestra."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Attendi! Stiamo sistemando un problema."
+    },
+    "update_email.oops": {
+        "translation": "Ops"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Stiamo lavorando per riportare tutto alla normalità. Riprova più tardi."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "Conferma modifica email"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—Conferma modifica email"
+    }
+}

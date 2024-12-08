@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Gwiriwch eich e-bost"
+    },
+    "login.confirm_your_email": {
+        "translation": "Cadarnhewch eich e-bost"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "E-bostiom ddolen hud i"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Cliciwch y ddolen i fewngofnodi neu gofrestru."
+    },
+    "login.check_your_inbox": {
+        "translation": "Edrychwch yn eich mewnflwch"
+    },
+    "login.resend_email": {
+        "translation": "Ailanfonwch yr E-bost"
+    },
+    "login.close": {
+        "translation": "Caewch"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Ewch yn ôl at eich tab gwreiddiol."
+    },
+    "login.logging_you_in": {
+        "translation": "yn eich mewngofnodi..."
+    },
+    "login.logged_in": {
+        "translation": "Rydych wedi'ch Mewngofnodi!"
+    },
+    "login.logged_into_app": {
+        "translation": "Rydych wedi mewngofnodi i {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Gallwch gau'r ffenestr hon."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Rydym yn gweithio ar gael popeth yn ôl i'r drefn arferol ar hyn o bryd. Rhowch gynnig arall arni eto mewn ychydig."
+    },
+    "login.blocked_request": {
+        "translation": "Cais wedi'i atal"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Ewch yn ôl at eich tab gwreiddiol a gofynnwch am ddolen hud newydd."
+    },
+    "login.request_new_link_app": {
+        "translation": "Ewch yn ôl at eich **{appName}** gwreiddiol a gofynnwch am ddolen hud newydd."
+    },
+    "login.magic_link_expired": {
+        "translation": "Dolen hud wedi dod i ben"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Peidiwch â chau'r tab hwn!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Dychwelwch at y tab hwn ar ôl i chi glicio'ch dolen hud."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Anfonwch ddolen hud arall i\n**{userEmail}**.\ny ddolen i fewngofnodi neu i gofrestru."
+    },
+    "login.try_again_later": {
+        "translation": "Rhowch gynnig arni'n hwyrach"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Arhoswch **{seconds}** cyn anfon e-bost arall."
+    },
+    "login.please_send_another_link": {
+        "translation": "Anfonwch ddolen hud arall i\n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Un funud! Rydym yn trwsio problem"
+    },
+    "login.confirming_your_login": {
+        "translation": "Yn cadarnhau'ch mewngofnodi"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Yn cadarnhau'ch mewngofnodi"
+    },
+    "login.is_this_you": {
+        "translation": "Ai chi yw hwn?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Canfuwyd gweithgaredd anarferol. I helpu i gadw'ch cyfrif yn ddiogel rhowch wybod i ni os byddwch yn adnabod y cais i fewngofnodi isod:"
+    },
+    "login.location": {
+        "translation": "Lleoliad:"
+    },
+    "login.no_block_this": {
+        "translation": "Na, ataliwch hwn"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Ie, dyma fi"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Diolch am ein helpu i gadw'ch cyfrif yn ddiogel! Rydym wedi atal, a byddwn yn atal ceisiadau i fewngofnodi yn y dyfodol gan y ffynhonnell isod:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "I helpu i gadw'ch cyfrif yn ddiogel gadewch i ni wybod os byddwch yn adnabod y cais i fewngofnodi isod:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Diolch am ein helpu i gadw'ch cyfrif yn ddiogel! Rydym wedi atal y cais i fewngofnodi o'r ffynhonnell isod:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Mae’r ddolen wedi torri — gofynnwch am ddolen Hud newydd neu agorwch y ddolen o gleient e-bost arall"
+    },
+    "login.app_is_private": {
+        "translation": "Mae {appName} yn breifat"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "Nid oes gan {userEmail} unrhyw hawl i gael mynediad at yr ap hwn"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Meddwl bod camgymeriad yma? Rhowch gynnig ar ffordd arall i fewngofnodi neu cysylltwch â {appName} am help."
+    },
+    "login.access_denied": {
+        "translation": "Dim mynediad"
+    },
+    "login.email_blocked_message": {
+        "translation": "Yn anffodus, does gennych ddim hawl i fewngofnodi i {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Mewngofnodwch gan ddefnyddio'r ddolen hud a anfonwyd at"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Rhowch y cod diogelwch a ddangosir gan {appName}"
+    },
+    "login.security_code": {
+        "translation": "Cod diogelwch:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Yna rhowch y cod diogelwch hwn:"
+    },
+    "login.copy": {
+        "translation": "Copïo"
+    },
+    "login.go_back_to_app": {
+        "translation": "Yn ôl i **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Mewngofnodi wedi'i Gwblhau!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Mewngofnodi Llwyddiannus"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Gallwch chi gau'r tab hwn nawr"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "URL Ailgyfeirio Annilys"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Nid yw'r URL ailgyfeirio a roddir yn y rhestr ganiatadau."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Gofynnwyd am y ddolen hud gan IP gwahanol"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Cliciwch ar y ddolen o'r un ddyfais. Os na wnaethoch chi ofyn am y ddolen hon, anwybyddwch y neges hon."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Wedi mynd dros y terfyn gwasanaeth"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Cysylltwch â **{appName}** am gymorth i gael mynediad i'ch cyfrif."
+    },
+    "login.security_code_expired": {
+        "translation": ""
+    },
+    "login.login_code_expired": {
+        "translation": "Cod mewngofnodi wedi dod i ben"
+    },
+    "login.request_new_login_code": {
+        "translation": "Gofynnwch am god mewngofnodi newydd"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Gofyn am god newydd"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": ""
+    }
+}

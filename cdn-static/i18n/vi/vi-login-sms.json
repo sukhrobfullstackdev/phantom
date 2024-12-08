@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Vui lòng nhập mã đã được gửi đến"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Mã mới sẽ có sau {seconds} giây"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Gửi mã mới"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Mã không hợp lệ, vui lòng thử lại"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Số điện thoại có vẻ không hợp lệ.\nVui lòng kiểm tra số điện thoại và thử lại."
+    },
+    "login_sms.expired_code": {
+        "translation": "Mã đã hết hạn"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Hệ thống sẽ tự động gửi mã mới cho bạn."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Khóa bảo mật"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Do số lần cố gắng đăng nhập không thành công đáng ngờ, đăng nhập bằng SMS tạm thời bị vô hiệu hóa."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Thử lại trong"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Vui lòng nhập một địa chỉ email hợp lệ."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Quá nhiều lần thử đăng nhập. Vui lòng thử lại sau."
+    }
+}

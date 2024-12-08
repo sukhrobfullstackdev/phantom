@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "请输入以下地址所收到的密码"
+    },
+    "login_sms.new_code_available": {
+        "translation": "新密码将于 {seconds} 秒后发送"
+    },
+    "login_sms.send_new_code": {
+        "translation": "发送新密码"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "无效密码，请重试"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "该电话号码似乎为无效号码。\n请检查号码并重试。"
+    },
+    "login_sms.expired_code": {
+        "translation": "密码已过期"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "您将收到自动发送的新密码。"
+    },
+    "login_sms.security_lockout": {
+        "translation": "安全锁定"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "登录尝试失败次数可疑，SMS 登录已被暂时禁用。"
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "重试等待时间："
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "请输入有效的电子邮件地址。"
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "登录尝试次数过多。请稍后重试。"
+    }
+}

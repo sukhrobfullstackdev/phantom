@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "Istekao je zahtev za ažuriranje e-adrese na **{updatedEmail}**."
+    },
+    "update_email.confirm_change": {
+        "translation": "Potvrdite promenu"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Potvrdite promenu sa trenutne e-adrese **{userEmail}**. Proverite prijemno sanduče."
+    },
+    "update_email.try_again_question": {
+        "translation": "Želite li da pokušate ponovo?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Verifikujte novu e-adresu"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Poslali smo e-poruku na **{updatedUserEmail}**. Proverite prijemno sanduče."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "E-adresa je ažurirana!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Vratite se na originalnu karticu."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Vratite se na originalnu **{appName}** karticu."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Vratite se na originalnu karticu i ponovo pokrenite proces ažuriranja e-adrese"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Vratite se na originalnu **{appName}** karticu i ponovo pokrenite proces ažuriranja e-adrese"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Link za potvrdu je istekao"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Nismo uspeli da verifikujemo vašu e-adresu. Zatvorite ovaj prozor i ponovo započnite proces."
+    },
+    "update_email.updating_email": {
+        "translation": "Ažuriranje e-adrese..."
+    },
+    "update_email.last_step": {
+        "translation": "poslednji korak!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Da biste završili ažuriranje e-adrese, potvrdite promenu sa trenutne e-adrese **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "Ponovo pošalji e-poruku"
+    },
+    "update_email.cancel": {
+        "translation": "Otkaži"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Možete da zatvorite ovaj prozor."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Sačekajte! Rešavamo problem."
+    },
+    "update_email.oops": {
+        "translation": "Ups"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Trenutno radimo na tome da sve ponovo počne normalno da funkcioniše. Pokušajte ponovo uskoro."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "Potvrda e-adrese"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName} – potvrda ažuriranja e-adrese"
+    }
+}

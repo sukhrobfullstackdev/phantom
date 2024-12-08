@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Paskutinis naudotas prisijungimo būdas"
+    },
+    "pnp.welcome": {
+        "translation": "Sveiki"
+    },
+    "pnp.welcome_back": {
+        "translation": "Sveiki sugrįžę"
+    },
+    "pnp.email": {
+        "translation": "El. paštas"
+    },
+    "pnp.email_aria": {
+        "translation": "Prisijungti su el. pašto adresu"
+    },
+    "pnp.email_address": {
+        "translation": "El. pašto adresas"
+    },
+    "pnp.phone": {
+        "translation": "Telefonas"
+    },
+    "pnp.phone_aria": {
+        "translation": "Prisijungti su telefono numeriu"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefono numeris"
+    },
+    "pnp.login_signup": {
+        "translation": "Prisijungti \/ užsiregistruoti"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Pateikti prisijungimo duomenis"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Prisijungti su „{provider}“"
+    },
+    "pnp.or": {
+        "translation": "Arba"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Ieškoti šalies kodo"
+    },
+    "pnp.select_country_code": {
+        "translation": "Pasirinkti šalies kodą"
+    },
+    "pnp.login_disabled": {
+        "translation": "Prisijungimas \/ registracija išjungta"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Kreiptis pagalbos į „{appName}“"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Kreiptis pagalbos į programėlės kūrėją"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Paslaugų teikimo sąlygos"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Privatumo politika"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Tęsdami sutinkate su {appName} programėlės"
+    }
+}

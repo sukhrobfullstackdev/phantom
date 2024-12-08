@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Επιστροφή στην εφαρμογή {appName}"
+    },
+    "settings.title": {
+        "translation": "Ρυθμίσεις λογαριασμού"
+    },
+    "settings.off": {
+        "translation": "ΑΝΕΝΕΡΓΟ"
+    },
+    "settings.on": {
+        "translation": "ΕΝΕΡΓΟ"
+    },
+    "settings.turn_on": {
+        "translation": "Ενεργοποίηση"
+    },
+    "settings.turn_off": {
+        "translation": "Απενεργοποίηση"
+    },
+    "settings.two_step_verification": {
+        "translation": "Επαλήθευση 2 βημάτων"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Προσθέστε ένα επιπλέον επίπεδο ασφάλειας, καταχωρώντας έναν κωδικό επαλήθευσης από μια εφαρμογή για κινητά κάθε φορά που συνδέεστε"
+    },
+    "settings.phone_number": {
+        "translation": "Αριθμός τηλεφώνου"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Ενημερώστε τον τρέχοντα αριθμό τηλεφώνου σας"
+    }
+}

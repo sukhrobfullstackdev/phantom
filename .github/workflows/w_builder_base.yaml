@@ -1,0 +1,71 @@
+name: Build builder-base image
+on:
+  workflow_call:
+    secrets:
+      NPM_TOKEN:
+        required: true
+      ENCRYPTED_COOKIE_KEY:
+        required: true
+      SIGNED_COOKIE_KEY:
+        required: true
+      DEPLOY_ENV:
+        required: true
+
+jobs:
+  build-base:
+    runs-on: ubuntu-20.04
+    name: Build builder-base image
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+      - name: Get docker image hashes
+        run: bash tools/pre-fetch-images.sh
+      - name: Cache Docker layers
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ hashFiles('deploy/Dockerfile', 'img_hashes', 'package.json', 'yarn.lock') }}
+      - name: Build builder-base image
+        uses: docker/build-push-action@v2
+        with:
+          push: false
+          file: deploy/Dockerfile
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,mode=max,dest=/tmp/.buildx-cache
+          context: ./
+          tags: builder-base:latest
+          target: builder-base
+          build-args: |
+            NPM_TOKEN=${{ secrets.NPM_TOKEN }}
+            ENCRYPTED_COOKIE_KEY=${{ secrets.ENCRYPTED_COOKIE_KEY }}
+            SIGNED_COOKIE_KEY=${{ secrets.SIGNED_COOKIE_KEY }}
+            BACKEND_URL=https://api.dev.magic.link
+            DATADOG_CLIENT_KEY=pub892f4f7617aa4d439898e7dac2f1902c
+            DATADOG_API_KEY=732fa83b0ce0f786a57301becbeb8e16
+            DATADOG_RUM_APP_KEY=9f6f3fdd-1d7c-4a3a-904a-67d27cc34265
+            DATADOG_RUM_CLIENT_KEY=pub445edf06d6f2db976fc4393d9dc2898a
+            HIGHTOUCH_API_KEY=789cbfefe635d5b292958cd2261610fcd8f567664b5cd25cc186b46f05a8e6b0
+            HIGHTOUCH_API_HOST=us-east-1.hightouch-events.com
+            IS_MAGIC=1
+            GENERATE_SOURCEMAP=1
+            DEPLOY_ENV=${{ secrets.DEPLOY_ENV }}
+            GET_CREDENTIALS_PROXY_URL=https://bscache.dev.magic.link
+            API_AUTH_USER_INFO_RETRIEVE=v3/auth/user/info/retrieve
+            MC_GOOGLE_OAUTH_CLIENT_ID=310564694136-v2damjdk5eandmle4fj09h18tpd1nm06.apps.googleusercontent.com
+            MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_WALLET_HUB=pk_prod_01GTEYJ2ZB5SBRDH79FY843VHA
+            MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_DAPPS=pk_prod_01GXNN3PMY5GDYBTJYNY3VE63B
+            LAUNCH_DARKLY_CLIENT_ID=62962e438d3dd30c66e94c87
+            ALCHEMY_ETHEREUM_API_KEY=THLzcjj0X_ktVcj80LZ60_twjxdWuUso
+            ALCHEMY_GOERLI_API_KEY=XDkXOl3fIkG3-XFvRmaa313PPJEehNx4
+            ALCHEMY_SEPOLIA_API_KEY=lnkxjj_rKFZRHqrrIvoerSJtzIdt2ElK
+            ALCHEMY_POLYGON_API_KEY=gQ41RwtnmeUVJtVLRSKGE8_V-dTWV7WD
+            ALCHEMY_MUMBAI_API_KEY=9b1326CuGOhpxr_RhB2QoPXKpfbuJsDF
+            ALCHEMY_OPTIMISM_API_KEY=NyNr8gCoYyusotfANwHTuRhIQp62ZF3u
+            ALCHEMY_OPTIMISM_GOERLI_API_KEY=ynnAby9IhcpGA9l3x3nqD5zuE4r2gWo4
+            ALCHEMY_ARBITRUM_ONE_API_KEY=0JEi2UcN80f4vOja1KopbdXWRKY4DXrD
+            ALCHEMY_ARBITRUM_SEPOLIA_API_KEY=6qaqXS9Hll37pWWWmhetS0v1pAkRKlFA
+            ALCHEMY_BASE_API_KEY=tbH7VdREUS9E1caIfz0FMCO_DfdJSNZS
+            ALCHEMY_BASE_SEPOLIA_API_KEY=xtBmbqs4Xe17IVlF65vU6BmTEKLBybir
+            SARDINE_URL_TEST=https://crypto.sandbox.sardine.ai
+            SARDINE_URL_PROD=https://crypto.sardine.ai

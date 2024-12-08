@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Voer asseblief die kode in wat gestuur is aan"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Nuwe kode oor {seconds}s beskikbaar"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Stuur ‘n nuwe kode"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Ongeldige kode. Probeer asseblief weer"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Dit lyk asof daardie foonnommer ongeldig is.\nKontroleer asseblief die nommer en probeer weer."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kode het verval"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "‘n Nuwe kode sal outomaties aan jou gestuur word."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Sekuriteitsuitsluiting"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Weens ‘n verdagte aantal pogings om aan te teken, is SMS-aantekening tydelik afgeskakel."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Probeer weer oor"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Vul asseblief ’n geldige e-posadres in."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Te veel aanmeldpogings. Probeer asseblief later weer."
+    }
+}

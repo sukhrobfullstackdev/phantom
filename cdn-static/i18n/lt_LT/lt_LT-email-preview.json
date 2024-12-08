@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Spustelėkite toliau esantį mygtuką, kad prisijungtumėte prie {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Šis mygtukas baigs galioti po 10 minučių."
+    },
+    "email_preview.login_to_app": {
+        "translation": "prisijungti prie {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Patvirtindami šį prašymą būsite saugiai prijungti naudojant adresą **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Jeigu nepateikėte šio prašymo, nesijaudinkite, galite ignoruoti šį el. laišką."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} komanda"
+    }
+}

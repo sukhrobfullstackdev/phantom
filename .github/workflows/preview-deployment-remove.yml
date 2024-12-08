@@ -1,0 +1,42 @@
+name: "Preview Deployment: Remove"
+concurrency:
+  group: preview-deployment-remove-${{ github.ref }}
+  cancel-in-progress: false
+on:
+  pull_request:
+    branches:
+      - master
+      - development
+    types:
+      - closed
+
+permissions:
+  pull-requests: write # so we can comment on PR
+  id-token: write # This is required for aws creds requesting the JWT
+  contents: read  # This is required for aws creds actions/checkout
+
+jobs:
+  remove-deploy:
+    name: Remove Preview Environment
+    if: contains(github.event.pull_request.labels.*.name, 'deploy-preview')
+    runs-on: prod-runner
+    steps:
+      - name: Configure AWS credentials for eks deploy
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::211163739222:role/github-magiclabs-eks-deploy-role
+          aws-region: us-west-2
+      - name: Configure kubectl
+        run: |
+          aws --region us-west-2 eks update-kubeconfig --name int-eks-a-us-west-2
+      - uses: azure/setup-kubectl@v4.0.0  # XXX change this to "@v4" once upstream publishes it
+      - name: Get Preview Deployment Name
+        id: preview
+        run: |
+          PREVIEW_NAMESPACE="$(echo $GITHUB_HEAD_REF | tr '[:upper:]' '[:lower:]' | sed 's:/:-:;s:_:-:' | cut -c -40 | awk 'match($0, /[a-z0-9]([-a-z0-9]*[a-z0-9])?/) { print substr( $0, RSTART, RLENGTH )}')"
+          echo "::set-output name=namespace::$PREVIEW_NAMESPACE"
+      - name: Remove Deployment
+        run: |
+          echo "Removing "${{ steps.preview.outputs.namespace }}"..."
+          kubectl get namespace "${{ steps.preview.outputs.namespace }}" 2>/dev/null \
+            && kubectl delete namespace "${{ steps.preview.outputs.namespace }}" || true

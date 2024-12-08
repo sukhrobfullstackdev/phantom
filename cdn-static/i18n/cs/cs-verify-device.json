@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Ověřování vašeho zařízení"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Zaregistrujte toto zařízení a pokračujte"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Odeslali jsme odkaz pro registraci zařízení"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Toto rychlé jednorázové schválení pomůže udržet váš účet v bezpečí"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Schválit přihlášení?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nový prohlížeč\/zařízení"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Nesouhlasí s vaším současným prohlížečem\/zařízením"
+    },
+    "verify_device.website": {
+        "translation": "Webová stránka"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "IP adresa nového zařízení"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Rozpoznávám tento prohlížeč a zařízení"
+    },
+    "verify_device.reject": {
+        "translation": "Zamítnout"
+    },
+    "verify_device.approve": {
+        "translation": "Schválit"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Žádost o přihlášení byla zamítnuta"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Zablokovali jsme neznámé zařízení při přístupu k vašemu účtu"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Udělali jste chybu? Vraťte se zpět do **{appName}** a restartujte proces přihlašování."
+    },
+    "verify_device.device_approved": {
+        "translation": "Přihlášení bylo schváleno"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Vraťte se zpět do **{appName}** a dokončete přihlášení"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Nyní můžete zavřít tuto kartu"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Platnost vašeho odkazu pro schválení přihlášení vypršela. Požádejte o nový, abyste mohli pokračovat."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Platnost odkazu vypršela"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Odeslat další magický odkaz na \n**{userEmail}**.\n odkaz pro přihlášení nebo registraci."
+    },
+    "verify_device.resend_email": {
+        "translation": "Znovu odeslat e-mail"
+    },
+    "verify_device.close": {
+        "translation": "Zavřít"
+    }
+}

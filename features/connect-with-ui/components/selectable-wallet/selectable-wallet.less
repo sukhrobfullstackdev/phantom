@@ -1,0 +1,34 @@
+@import (reference) '~/app/index.less';
+
+.text {
+  #mg.themeProperty(color, var(--silk80), #FFFFFFB8) !important;
+  font-variant: no-contextual;
+}
+
+.walletLabel {
+  #mg.themeProperty(color, var(--silk80), #FFFFFFB8) !important;
+  font-weight: 400;
+}
+
+.loadingSpinner {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.authAppBackgroundDarkTheme {
+  background-color: #000;
+  border-radius: 50px;
+}
+
+.authAppBackgroundLightTheme {
+  background-color: #fff;
+  border-radius: 50px;
+}

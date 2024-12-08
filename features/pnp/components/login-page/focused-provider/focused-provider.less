@@ -1,0 +1,31 @@
+@import (reference) '~/app/index.less';
+
+.FocusedProviderButton {
+  width: 100%;
+}
+
+.submit {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.OpenCountryCodeSelector {
+  height: 100%;
+
+  > button {
+    height: 100%;
+    padding: 0 14px;
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+      background-color: #mg.getThemeColor(mid)[lightest];
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+

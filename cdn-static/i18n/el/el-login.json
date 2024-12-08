@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Ελέγξτε το email σας"
+    },
+    "login.confirm_your_email": {
+        "translation": "Επιβεβαιώστε το email σας"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Στείλαμε ένα email με σύνδεσμο magic στο"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Κάντε κλικ στον σύνδεσμο για σύνδεση ή εγγραφή."
+    },
+    "login.check_your_inbox": {
+        "translation": "Ελέγξτε τα εισερχόμενά σας"
+    },
+    "login.resend_email": {
+        "translation": "Εκ νέου αποστολή email"
+    },
+    "login.close": {
+        "translation": "Κλείσιμο"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Επιστρέψτε στην αρχική σας καρτέλα."
+    },
+    "login.logging_you_in": {
+        "translation": "σας συνδέουμε σε..."
+    },
+    "login.logged_in": {
+        "translation": "Συνδεθήκατε!"
+    },
+    "login.logged_into_app": {
+        "translation": "Συνδεθήκατε στο {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Μπορείτε να κλείσετε αυτό το παράθυρο."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Προς το παρόν εργαζόμαστε, ώστε να επαναφέρουμε τα πάντα στην πρότερη κατάσταση. Προσπαθήστε ξανά σύντομα."
+    },
+    "login.blocked_request": {
+        "translation": "Αποκλεισμένο αίτημα"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Επιστρέψτε στην αρχική σας καρτέλα και ζητήστε έναν νέο σύνδεσμο magic."
+    },
+    "login.request_new_link_app": {
+        "translation": "Επιστρέψτε στην αρχική καρτέλα του **{appName}** και ζητήστε έναν νέο σύνδεσμο magic."
+    },
+    "login.magic_link_expired": {
+        "translation": "Ο σύνδεσμος magic έληξε"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Μην κλείσετε αυτήν την καρτέλα!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Επιστρέψτε σε αυτήν την καρτέλα εφόσον κάνετε κλικ στον σύνδεσμο magic."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Στείλτε έναν άλλο σύνδεσμο magic στο \n**{userEmail}**.\n ο σύνδεσμος για σύνδεση ή εγγραφή."
+    },
+    "login.try_again_later": {
+        "translation": "Προσπαθήστε ξανά αργότερα"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Περιμένετε **{seconds}s** πριν στείλετε κάποιο άλλο email."
+    },
+    "login.please_send_another_link": {
+        "translation": "Στείλτε έναν άλλο σύνδεσμο magic στο \n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Περιμένετε! Διορθώνουμε ένα πρόβλημα"
+    },
+    "login.confirming_your_login": {
+        "translation": "Επιβεβαίωση της σύνδεσής σας"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Επιβεβαίωση της σύνδεσής σας"
+    },
+    "login.is_this_you": {
+        "translation": "Είστε εσείς;"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Ανιχνεύθηκε ασυνήθιστη δραστηριότητα. Για να μας βοηθήσετε να διατηρήσουμε τον λογαριασμό σας ασφαλή, πείτε μας αν αναγνωρίζετε την παρακάτω απόπειρα σύνδεσης:"
+    },
+    "login.location": {
+        "translation": "Τοποθεσία:"
+    },
+    "login.no_block_this": {
+        "translation": "Όχι, αποκλείστε αυτήν την πηγή"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Ναι, εγώ είμαι"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Ευχαριστούμε που μας βοηθάτε να διατηρήσουμε τον λογαριασμό σας ασφαλή! Αποκλείσαμε και θα συνεχίσουμε να αποκλείουμε μελλοντικές απόπειρες σύνδεσης από την παρακάτω πηγή:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Για να μας βοηθήσετε να διατηρήσουμε τον λογαριασμό σας ασφαλή, πείτε μας αν αναγνωρίζετε την παρακάτω απόπειρα σύνδεσης:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Ευχαριστούμε που μας βοηθάτε να διατηρήσουμε τον λογαριασμό σας ασφαλή! Αποκλείσαμε την απόπειρα σύνδεσης από την παρακάτω πηγή:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Η σύνδεση είναι κατεστραμμένη — ζητήστε μια νέα σύνδεση Magic ή ανοίξτε τη σύνδεση από άλλον πελάτη ηλεκτρονικού ταχυδρομείου"
+    },
+    "login.app_is_private": {
+        "translation": "Το {appName} είναι ιδιωτικό"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "Το {userEmail} δεν έχει άδεια για πρόσβαση σε αυτήν την εφαρμογή"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Πιστεύετε πως υπάρχει κάποιο λάθος; Δοκιμάστε να συνδεθείτε με διαφορετικά στοιχεία σύνδεσης ή επικοινωνήστε με το {appName} για βοήθεια."
+    },
+    "login.access_denied": {
+        "translation": "Δεν επιτρέπεται η πρόσβαση"
+    },
+    "login.email_blocked_message": {
+        "translation": "Λυπούμαστε, δεν έχετε άδεια να συνδεθείτε στο {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Συνδεθείτε χρησιμοποιώντας τον μαγικό σύνδεσμο που αποστέλλεται στο"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Εισαγάγετε τον κωδικό ασφαλείας που εμφανίζεται στο {appName}"
+    },
+    "login.security_code": {
+        "translation": "Κωδικός ασφαλείας:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Στη συνέχεια, εισαγάγετε αυτόν τον κωδικό ασφαλείας:"
+    },
+    "login.copy": {
+        "translation": "Αντιγραφή"
+    },
+    "login.go_back_to_app": {
+        "translation": "Επιστρέψτε στο **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Η σύνδεση ολοκληρώθηκε!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Επιτυχής σύνδεση"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Τώρα μπορείτε να κλείσετε αυτήν την καρτέλα"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Μη έγκυρη διεύθυνση URL ανακατεύθυνσης"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Η δεδομένη διεύθυνση URL ανακατεύθυνσης δεν βρίσκεται στη λίστα επιτρεπόμενων."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Ο μαγικός σύνδεσμος ζητήθηκε από διαφορετική IP"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Κάντε κλικ στον σύνδεσμο από την ίδια συσκευή. Εάν δεν ζητήσατε αυτόν τον σύνδεσμο, αγνοήστε αυτό το μήνυμα."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Υπέρβαση του ορίου εξυπηρέτησης"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Επικοινωνήστε με το **{appName}** για βοήθεια σχετικά με την πρόσβαση στον λογαριασμό σας."
+    },
+    "login.security_code_expired": {
+        "translation": "Ο κωδικός ασφαλείας έληξε"
+    },
+    "login.login_code_expired": {
+        "translation": "Ο κωδικός σύνδεσης έχει λήξει"
+    },
+    "login.request_new_login_code": {
+        "translation": "Ζητήστε έναν νέο κωδικό σύνδεσης"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Ζητήστε έναν νέο κωδικό"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Για να λάβετε έναν νέο κωδικό, επιστρέψτε στο {appName} και ξεκινήστε εκ νέου τη διαδικασία σύνδεσης."
+    }
+}

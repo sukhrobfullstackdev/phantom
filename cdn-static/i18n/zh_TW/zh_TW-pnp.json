@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "您之前的登入方法"
+    },
+    "pnp.welcome": {
+        "translation": "歡迎"
+    },
+    "pnp.welcome_back": {
+        "translation": "歡迎回來"
+    },
+    "pnp.email": {
+        "translation": "電子郵件"
+    },
+    "pnp.email_aria": {
+        "translation": "使用電子郵件地址登入"
+    },
+    "pnp.email_address": {
+        "translation": "電子郵件地址"
+    },
+    "pnp.phone": {
+        "translation": "電話"
+    },
+    "pnp.phone_aria": {
+        "translation": "使用電話號碼登入"
+    },
+    "pnp.phone_number": {
+        "translation": "電話號碼"
+    },
+    "pnp.login_signup": {
+        "translation": "登入／註冊"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "提交登入"
+    },
+    "pnp.login_using_aria": {
+        "translation": "使用 {provider} 登入"
+    },
+    "pnp.or": {
+        "translation": "或"
+    },
+    "pnp.search_country_codes": {
+        "translation": "選擇國家代碼"
+    },
+    "pnp.select_country_code": {
+        "translation": "選擇國家代碼"
+    },
+    "pnp.login_disabled": {
+        "translation": "登入／註冊已停用"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "聯絡 {appName} 尋求幫助"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "聯絡本應用程式的開發人員尋求幫助。"
+    },
+    "pnp.terms_of_service": {
+        "translation": "服務條款"
+    },
+    "pnp.privacy_policy": {
+        "translation": "隱私權政策"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "繼續即表示您接受 {appName} 的"
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Check your email"
+    },
+    "login.confirm_your_email": {
+        "translation": "Confirm your email"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "We emailed a magic link to"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Click the link to log in or sign up."
+    },
+    "login.check_your_inbox": {
+        "translation": "Check your inbox"
+    },
+    "login.resend_email": {
+        "translation": "Resend Email"
+    },
+    "login.close": {
+        "translation": "Close"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Go back to your original tab."
+    },
+    "login.logging_you_in": {
+        "translation": "logging you in..."
+    },
+    "login.logged_in": {
+        "translation": "You're Logged in!"
+    },
+    "login.logged_into_app": {
+        "translation": "You're logged into {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "You can close this window."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "We're currently working on getting everything back to normal. Please try again soon."
+    },
+    "login.blocked_request": {
+        "translation": "Blocked request"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Go back to your original tab and request a new magic link."
+    },
+    "login.request_new_link_app": {
+        "translation": "Go back to your original **{appName}** tab and request a new magic link."
+    },
+    "login.magic_link_expired": {
+        "translation": "Magic link expired"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Don't close this tab!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Come back to this tab after you click your magic link."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Send another magic link to \n**{userEmail}**.\n the link to log in or sign up."
+    },
+    "login.try_again_later": {
+        "translation": "Try again later"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Please wait **{seconds}s** before sending another email."
+    },
+    "login.please_send_another_link": {
+        "translation": "Please send another magic link to \n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Hold tight! We’re fixing an issue"
+    },
+    "login.confirming_your_login": {
+        "translation": "Confirming your login"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Confirming your login"
+    },
+    "login.is_this_you": {
+        "translation": "Is this you?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Unusual activity was detected. To help keep your account secure let us know if you recognize the login attempt below:"
+    },
+    "login.location": {
+        "translation": "Location:"
+    },
+    "login.no_block_this": {
+        "translation": "No, block this"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Yes, this is me"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Thanks for helping us keep your account secure! We've blocked, and will block future login attempts from the source below:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "To help keep your account secure let us know if you recognize the login attempt below:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Thanks for helping us keep your account secure! We've blocked the login attempt from the source below:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Link is broken — please request a new Magic link or open the link from another email client"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} is private"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} does not have any permission to access this app"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Think there’s a mistake? Try a different login or contact {appName} for help."
+    },
+    "login.access_denied": {
+        "translation": "Access denied"
+    },
+    "login.email_blocked_message": {
+        "translation": "Sorry, you don’t have permission to log in to {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Log in using the magic link sent to"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Enter the security code displayed by {appName}"
+    },
+    "login.security_code": {
+        "translation": "Security code:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Then enter this security code:"
+    },
+    "login.copy": {
+        "translation": "Copy"
+    },
+    "login.go_back_to_app": {
+        "translation": "Go back to **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Login Complete!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Login Successful"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "You can now close this tab"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Invalid Redirect URL"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "The given redirect URL is not in the allowlist."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "The magic link was requested from a different IP"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Please click the link from the same device. If you did not request this link please ignore this message."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Service limit exceeded"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Please contact **{appName}** for help accessing your account."
+    },
+    "login.security_code_expired": {
+        "translation": "Security code expired"
+    },
+    "login.login_code_expired": {
+        "translation": "Login code expired"
+    },
+    "login.request_new_login_code": {
+        "translation": "Please request a new login code"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Request a new code"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "To receive a new code, please return to {appName} and restart the login process."
+    }
+}

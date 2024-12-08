@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Joj! Prišlo je do napake"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Vira, ki ga iščete, nismo našli."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Za rešitev se obrnite na razvijalce te aplikacije."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Za rešitev se obrnite na **{appName}**."
+    },
+    "generic.internal_server_error": {
+        "translation": "Notranja napaka strežnika"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Trenutno si prizadevamo za ponovno vzpostavitev normalnega stanja. Kmalu poskusite znova."
+    },
+    "generic.close": {
+        "translation": "Zapri"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK v okviru brezplačne naročnine ni na voljo; posodobite na plačano naročnino"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Stran z našim cenikom"
+    },
+    "generic.app_error": {
+        "translation": "Napaka v aplikaciji"
+    },
+    "generic.details": {
+        "translation": "PODROBNOSTI"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Prišlo je do neznane napake."
+    },
+    "generic.blocked_request": {
+        "translation": "Blokirana zahteva"
+    },
+    "generic.try_again": {
+        "translation": "Poskusite znova!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Vnesite veljaven e-poštni naslov"
+    },
+    "generic.back": {
+        "translation": "Nazaj"
+    },
+    "generic.loading": {
+        "translation": "Nalaganje"
+    },
+    "generic.success": {
+        "translation": "Uspelo"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Zaradi varnosti se bo v čarobni povezavi odprl nov zavihek, v katerem boste morali potrditi transakcijo."
+    },
+    "generic.trial_mode": {
+        "translation": "Preizkusni način"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Posodobi"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Brskalnik ni podprt"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Začasno onemogočite vse aktivne razširitve brskalnika ali zamenjajte spletni brskalnik in poskusite znova."
+    }
+}

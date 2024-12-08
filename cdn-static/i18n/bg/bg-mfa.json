@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Ще Ви е необходимо\n приложение за удостоверяване"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "За да активиране двустепенна проверка, ще Ви е необходимо приложение за удостоверяване, като например {authy} или {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Сканирайте този QR код"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Отворете своето приложение за удостоверяване и сканирайте този QR код или въведете своя ключ за настройка."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Моля, въведете 6-цифрения код \nот приложението си за удостоверяване"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Невалиден код. Моля, опитайте отново."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Запишете своя код за възстановяване"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Този код може да се използва за влизане дори ако изгубите достъп до приложението си за удостоверяване. Съхранявайте го на безопасно място."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Вашият код за възстановяване на {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Копиране на кода"
+    },
+    "mfa.finish_setup": {
+        "translation": "Приключване на настройката"
+    },
+    "mfa.key": {
+        "translation": "Ключ"
+    },
+    "mfa.copy": {
+        "translation": "Копиране"
+    },
+    "mfa.copied": {
+        "translation": "Копирано"
+    },
+    "mfa.next": {
+        "translation": "Напред"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Изгубих устройството си"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Въведете своя код за\nвъзстановяване, за да влезете"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "2-степенната проверка ще бъде деактивирана"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Код от 8 символа"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Изгубих кода си за възстановяване"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Невалиден код, моля, опитайте отново"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Невалиден код. Остават ({attempts}) опита, преди акаунтът ви да бъде заключен."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "За помощ при възстановяването на акаунта ви моля, свържете се с екипа за поддръжка на {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Свързване с поддръжката на {appName}"
+    }
+}

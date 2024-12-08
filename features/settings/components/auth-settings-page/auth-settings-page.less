@@ -1,0 +1,84 @@
+@import (reference) '~/app/index.less';
+
+.authSettingsPage {
+  text-align: center;
+
+  a {
+    color: #mg.getThemeColor(primary) [];
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .phoneNumber {
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+  .phoneNumberNone {
+    color: @silk;
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    white-space: pre-wrap;
+  }
+
+  .mfaSectionTitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    // really wish we could style tooltips easier
+    div > div > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .mfaLabel {
+    padding: 6px 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 6px;
+
+    span {
+      margin-right: 6px;
+    }
+  }
+
+  .mfaLabel[data-active="false"] {
+    #mg.themeProperty(background-color,
+      var(--silk10),
+      var(--silk80),
+    );
+  }
+
+  .mfaLabel[data-active="true"] {
+    #mg.themeProperty(background-color,
+      var(--money10),
+      #00CC8F1F,
+    );
+  }
+
+  .mfaLinkButton {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: fit-content;
+    margin-left: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    color: #mg.getThemeColor(primary)[];
+  }
+}

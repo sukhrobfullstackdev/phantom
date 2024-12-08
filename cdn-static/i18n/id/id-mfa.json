@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Anda memerlukan\naplikasi autentikator"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Untuk mengaktifkan verifikasi dua langkah, Anda memerlukan aplikasi autentikator seperti {authy} atau {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Pindai kode QR ini"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Buka aplikasi autentikator Anda lalu pindai kode QR ini atau masukkan kode penyiapan Anda."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Masukkan kode 6 digit\ndari aplikasi autentikator Anda"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Kode tidak valid. Silakan coba lagi."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Simpan kode pemulihan Anda"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Kode ini dapat digunakan untuk masuk jika Anda kehilangan akses ke aplikasi autentikator Anda. Simpan kode ini di tempat yang aman."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Kode pemulihan {appName} Anda"
+    },
+    "mfa.copy_code": {
+        "translation": "Salin kode"
+    },
+    "mfa.finish_setup": {
+        "translation": "Selesaikan penyiapan"
+    },
+    "mfa.key": {
+        "translation": "Kode"
+    },
+    "mfa.copy": {
+        "translation": "Salin"
+    },
+    "mfa.copied": {
+        "translation": "Disalin"
+    },
+    "mfa.next": {
+        "translation": "Lanjut"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Perangkat saya hilang"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Masukkan kode pemulihan\nuntuk masuk ke akun Anda"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Verifikasi 2 langkah akan dinonaktifkan"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Kode 8 karakter"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Kode pemulihan saya hilang"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Kode tidak valid, coba lagi"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Kode tidak valid. Tersisa ({attempts}) percobaan sebelum akun Anda terkunci."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Untuk membantu memulihkan akun Anda, hubungi tim dukungan {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Hubungi dukungan {appName}"
+    }
+}

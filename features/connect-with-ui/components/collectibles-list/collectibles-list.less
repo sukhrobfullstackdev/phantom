@@ -1,0 +1,100 @@
+@import (reference) '~/app/index.less';
+
+.collectiblesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  .collectible {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: calc(50% - 8px);
+
+    .collectibleImg {
+      aspect-ratio: 1 / 1;
+      border-radius: 12px;
+      object-fit: cover;
+      width: 100%;
+      &:hover {
+        box-shadow: 0px 6px 8px 2px rgba(0, 0, 0, 0.18);
+      }
+    }
+  }
+}
+
+.emptyCollectiblesList {
+  background: @magic10;
+  border-radius: 16px;
+  padding: 24px 0;
+  width: 100%;
+
+  .lightIcon {
+    filter: drop-shadow(0px 5px 20px fadeout(@magicBg, 60%));
+  }
+
+  &.dark {
+    background: fadeout(@magicLighter, 92%);
+
+    > p {
+      opacity: 0.44;
+    }
+  }
+}
+
+
+
+
+.hiddenCollectibleDrawerButton {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 20px 10px 0px 10px;
+  width: 100%;
+  color: inherit;
+}
+
+.hiddenText {
+  #mg.themeProperty(color, var(--Ink-Ink-80, #4E4D52), var(--Dark-Chalk-72, #FFFFFFB8));
+
+  /* P Small/P Small (500) */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+}
+
+.hiddenExplainerText {
+  #mg.themeProperty(color, var(--Ink-Ink-70, #77767A), var(--Dark-Chalk-72, #FFFFFFB8));
+  font-feature-settings: 'calt' off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  padding: 10px 10px 20px 10px;
+  text-align: left;
+}
+
+.openDrawerAngleIcon {
+  transform: rotate(180deg);
+}
+
+.drawer {
+  overflow: hidden;
+}
+
+.attribute {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+
+  &:last-child {
+    padding-bottom: 10px;
+  }
+}

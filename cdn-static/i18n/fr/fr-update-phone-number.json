@@ -1,0 +1,47 @@
+{
+    "update_phone_number.phone_number": {
+        "translation": "Numéro de téléphone"
+    },
+    "update_phone_number.title": {
+        "translation": "Mettre à jour le numéro de téléphone ?"
+    },
+    "update_phone_number.description": {
+        "translation": "Une fois vérifié, ce nouveau numéro sera utilisé pour l'accès"
+    },
+    "update_phone_number.enter_otc": {
+        "translation": "Veuillez saisir le code envoyé à"
+    },
+    "update_phone_number.confirm_change": {
+        "translation": "Confirmer le changement"
+    },
+    "update_phone_number.verify_new_sms": {
+        "translation": "Vérifier le nouveau SMS"
+    },
+    "update_phone_number.your_phone_number_was_updated": {
+        "translation": "Votre numéro de téléphone a été mis à jour !"
+    },
+    "update_phone_number.otc_expired": {
+        "translation": "Code SMS unique expiré"
+    },
+    "update_phone_number.failed_to_verify_sms_address": {
+        "translation": "Échec de la vérification de votre numéro de téléphone. Veuillez fermer cette fenêtre et redémarrer le flux."
+    },
+    "update_phone_number.update": {
+        "translation": "Mettre à jour"
+    },
+    "update_phone_number.resend_sms": {
+        "translation": "Renvoyer le SMS"
+    },
+    "update_phone_number.cancel": {
+        "translation": "Annuler"
+    },
+    "update_phone_number.hold_tight_fixing_issue": {
+        "translation": "Tenez bon ! Nous corrigeons un problème."
+    },
+    "update_phone_number.oops": {
+        "translation": "Oups"
+    },
+    "update_phone_number.currently_working_on_getting_back_to_normal": {
+        "translation": "Nous travaillons pour ramener le système à la normale. Veuillez réessayer prochainement."
+    }
+}

@@ -1,0 +1,141 @@
+@import (reference) '~/app/index.less';
+
+.Modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  .blurredBackground {
+    pointer-events: all;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    backdrop-filter: blur(6px);
+
+    #mg.themeProperty(background,
+      #mg.getThemeColor(light, 0.7)[],
+      #mg.getThemeColor(dark, 0.8)[],
+    );
+  }
+
+  .transparentBackground {
+    pointer-events: all;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .blurredBackground,
+  .transparentBackground,
+  .content {
+    height: 100%;
+    width: 100%;
+  }
+
+  .contentWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* mobile viewport bug fix */
+    height: -webkit-fill-available;
+    padding-bottom: 16px;
+
+    #mg.themeProperty(background,
+      #mg.getThemeColor(light)[],
+      #323233,
+    );
+
+    #mg.query.minWidth(480px, {
+      top: 48px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 16px;
+      width: 400px;
+      height: fit-content;
+      box-shadow: 0px 12px 56px rgba(119, 118, 122, 0.15);
+      border-radius: 28px;
+    });
+  }
+
+  .overrideTopBorderRadius {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .content {
+    padding: 32px 32px 0 32px;
+    box-sizing: border-box;
+    > div {
+      margin: auto;
+      max-height: 100%;
+      width: 100%;
+
+      @media all and (max-width: 480px) {
+        margin-top: 48px;
+      }
+
+      > div {
+        > div {
+          margin: auto; // Centered
+          // max-width: 313px; // Max width of 345px - 32px margin above...
+        }
+      }
+    }
+  }
+
+  .belowContentSpacer {
+    display: none;
+    #mg.query.minWidth(480px, { display: block; });
+    #mg.query.minWidth(1200px, { margin-top: 48px; });
+    height: 48px;
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  .debugSlot {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 16px;
+    width: calc(100% - 32px);
+
+    #mg.lightTheme({ border-top: solid 1px #mg.getThemeColor(mid)[lightest]; });
+    #mg.darkTheme({ border-top: solid 1px #mg.getThemeColor(mid)[darkest]; });
+
+    #mg.query.minWidth(480px, {
+      border-top: none !important;
+    });
+
+    #mg.query.minWidth(1200px, {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 96px 48px 0 48px;
+      width: auto;
+      overflow: auto;
+      max-height: calc(100vh - 96px);
+    });
+
+    > div {
+      width: 100%;
+      max-width: 304px;
+
+      #mg.query.minWidth(480px, {
+        max-width: 400px;
+      });
+
+      #mg.query.minWidth(1200px, {
+        width: 264px;
+        padding-bottom: 48px;
+      });
+    }
+  }
+}

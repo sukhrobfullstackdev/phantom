@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Prašom įvesti kodą, išsiųstą"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Naują kodą gausite po {seconds} s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Siųsti naują kodą"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Neteisingas kodas, bandykite dar kartą"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Atrodo, telefono numeris neteisingas.\nPatikrinkite numerį ir bandykite dar kartą."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kodas nebegalioja"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Jums automatiškai bus išsiųstas naujas kodas."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Blokavimas saugumo tikslais"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Dėl įtartinai didelio nepavykusių prisijungimų skaičiaus laikinai apribojamas prisijungimas SMS."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Bandykite dar kartą po"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Įveskite galiojantį el. pašto adresą."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Viršytas bandymų prisijungti limitas. Bandykite dar kartą vėliau."
+    }
+}

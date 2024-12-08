@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "กำลังยืนยันอุปกรณ์ของคุณ"
+    },
+    "verify_device.register_your_device": {
+        "translation": "โปรดลงทะเบียนอุปกรณ์เพื่อดำเนินการต่อ"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "เราส่งลิงก์การลงทะเบียนอุปกรณ์ไปที่"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "การอนุมัติครั้งเดียวที่รวดเร็วนี้จะช่วยให้บัญชีของคุณปลอดภัย"
+    },
+    "verify_device.register_new_device": {
+        "translation": "อนุมัติการเข้าสู่ระบบหรือไม่?"
+    },
+    "verify_device.new_device": {
+        "translation": "เบราว์เซอร์\/อุปกรณ์ใหม่"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "ไม่ตรงกับเบราว์เซอร์\/อุปกรณ์ปัจจุบันของคุณ"
+    },
+    "verify_device.website": {
+        "translation": "เว็บไซต์"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "เลขที่อยู่ IP อุปกรณ์ใหม่"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "ฉันรู้จักเบราว์เซอร์และอุปกรณ์นี้"
+    },
+    "verify_device.reject": {
+        "translation": "ปฏิเสธ"
+    },
+    "verify_device.approve": {
+        "translation": "อนุมัติ"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "คำขอเข้าสู่ระบบถูกปฏิเสธ"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "เราหยุดอุปกรณ์ที่ไม่รู้จักไม่ให้เข้าถึงบัญชีของคุณ"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "ทำผิดพลาดใช่ไหม? กลับไปที่ **{appName}** เพื่อเริ่มกระบวนการเข้าสู่ระบบอีกครั้ง"
+    },
+    "verify_device.device_approved": {
+        "translation": "การเข้าสู่ระบบได้รับอนุมัติ"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "กลับไปที่ **{appName}** เพื่อเข้าสู่ระบบให้เสร็จสิ้น"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "ตอนนี้คุณสามารถปิดแท็บนี้ได้"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "ลิงก์อนุมัติการเข้าสู่ระบบของคุณหมดอายุแล้ว ขอลิงก์ใหม่เพื่อดำเนินการต่อ"
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "ลิงก์หมดอายุ"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "ส่งลิงก์วิเศษอีกอันไปที่ \n**{userEmail}**.\nลิงก็เพื่อเข้าสู่ระบบหรือลงทะเบียน"
+    },
+    "verify_device.resend_email": {
+        "translation": "ส่งอีเมลอีกครั้ง"
+    },
+    "verify_device.close": {
+        "translation": "ปิด"
+    }
+}

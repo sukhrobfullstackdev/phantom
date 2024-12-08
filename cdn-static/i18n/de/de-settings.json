@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Zurück zu {appName}"
+    },
+    "settings.title": {
+        "translation": "Kontoeinstellungen"
+    },
+    "settings.off": {
+        "translation": "AUS"
+    },
+    "settings.on": {
+        "translation": "AN"
+    },
+    "settings.turn_on": {
+        "translation": "Aktivieren"
+    },
+    "settings.turn_off": {
+        "translation": "Deaktivieren"
+    },
+    "settings.two_step_verification": {
+        "translation": "Zweistufige Überprüfung"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Fügen Sie eine zusätzliche Sicherheitsschicht hinzu, indem Sie bei jeder Anmeldung einen Prüfcode für die mobile App eingeben"
+    },
+    "settings.phone_number": {
+        "translation": "Telefonnummer"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Aktualisieren Sie Ihre aktuelle Telefonnummer"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Oh! Ada yang salah"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Kami tidak dapat menemukan sumber daya yang Anda cari."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Harap hubungi pengembang aplikasi ini untuk memperoleh penyelesaian."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Harap hubungi **{appName}** untuk memperoleh penyelesaian."
+    },
+    "generic.internal_server_error": {
+        "translation": "Kesalahan server internal"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Kami sedang berupaya mengembalikan semuanya menjadi normal. Harap segera coba lagi nanti."
+    },
+    "generic.close": {
+        "translation": "Tutup"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK tidak tersedia dalam paket gratis, harap tingkatkan ke paket berbayar"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Halaman Harga Kami"
+    },
+    "generic.app_error": {
+        "translation": "Kesalahan aplikasi"
+    },
+    "generic.details": {
+        "translation": "DETAIL"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Terjadi kesalahan yang tidak diketahui."
+    },
+    "generic.blocked_request": {
+        "translation": "Permintaan diblokir"
+    },
+    "generic.try_again": {
+        "translation": "Coba Lagi!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Harap berikan email yang valid"
+    },
+    "generic.back": {
+        "translation": "Kembali"
+    },
+    "generic.loading": {
+        "translation": "Memuat"
+    },
+    "generic.success": {
+        "translation": "Berhasil"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Untuk alasan keamanan, tab baru dari Magic akan dibuka untuk Anda guna mengonfirmasi transaksi ini."
+    },
+    "generic.trial_mode": {
+        "translation": "Mode Uji Coba"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Tingkatkan Sekarang"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Browser tidak didukung"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Untuk sementara, nonaktifkan ekstensi browser yang aktif atau beralih ke browser web lain lalu coba lagi."
+    }
+}

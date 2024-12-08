@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Metoda dumneavoastră anterioară de autentificare"
+    },
+    "pnp.welcome": {
+        "translation": "Bine ați venit"
+    },
+    "pnp.welcome_back": {
+        "translation": "Bine ați revenit!"
+    },
+    "pnp.email": {
+        "translation": "Adresă de e-mail"
+    },
+    "pnp.email_aria": {
+        "translation": "Autentificare cu adresa de e-mail"
+    },
+    "pnp.email_address": {
+        "translation": "Adresa de e-mail"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Autentificare cu numărul de telefon"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefon"
+    },
+    "pnp.login_signup": {
+        "translation": "Autentificare\/conectare"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Trimitere autentificare"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Autentificare cu {provider}"
+    },
+    "pnp.or": {
+        "translation": "Sau"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Căutați codurile țării"
+    },
+    "pnp.select_country_code": {
+        "translation": "Selectați codul țării"
+    },
+    "pnp.login_disabled": {
+        "translation": "Autentificare\/conectare dezactivată"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Contactați {appName} pentru ajutor"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Contactați dezvoltatorul aplicației pentru ajutor"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Condițiile de furnizare a serviciului"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Politica de confidențialitate"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "În cazul în care continuați, se consideră că acceptați următoarele pentru {appName}"
+    }
+}

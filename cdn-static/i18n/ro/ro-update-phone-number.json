@@ -1,0 +1,47 @@
+{
+    "update_phone_number.phone_number": {
+        "translation": "Număr de telefon"
+    },
+    "update_phone_number.title": {
+        "translation": "Actualizați numărul de telefon?"
+    },
+    "update_phone_number.description": {
+        "translation": "După verificare, veți utiliza acest nou număr pentru acces"
+    },
+    "update_phone_number.enter_otc": {
+        "translation": "Introduceți codul trimis la"
+    },
+    "update_phone_number.confirm_change": {
+        "translation": "Confirmare modificare"
+    },
+    "update_phone_number.verify_new_sms": {
+        "translation": "Verificare prin SMS nou"
+    },
+    "update_phone_number.your_phone_number_was_updated": {
+        "translation": "Numărul de telefon a fost actualizat!"
+    },
+    "update_phone_number.otc_expired": {
+        "translation": "Codul unic trimis prin SMS a expirat"
+    },
+    "update_phone_number.failed_to_verify_sms_address": {
+        "translation": "Nu s-a putut verifica numărul de telefon. Închideți această fereastră și reporniți fluxul."
+    },
+    "update_phone_number.update": {
+        "translation": "Actualizare"
+    },
+    "update_phone_number.resend_sms": {
+        "translation": "Retrimitere SMS"
+    },
+    "update_phone_number.cancel": {
+        "translation": "Anulare"
+    },
+    "update_phone_number.hold_tight_fixing_issue": {
+        "translation": "Așteptați puțin, remediem o problemă."
+    },
+    "update_phone_number.oops": {
+        "translation": "Hopa!"
+    },
+    "update_phone_number.currently_working_on_getting_back_to_normal": {
+        "translation": "Momentan, încercăm să readucem toate sistemele la normal. Vă rugăm să reîncercați în curând."
+    }
+}

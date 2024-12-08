@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Vahvistetaan laitettasi"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Rekisteröi tämä laite jatkaaksesi"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Lähetimme laitteen rekisteröintilinkin osoitteeseen"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Tämä ainutkertainen hyväksyntä auttaa pitämään tilisi turvassa"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Hyväksytäänkö kirjautuminen?"
+    },
+    "verify_device.new_device": {
+        "translation": "Uusi selain\/laite"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Ei täsmää nykyistä selaintasi\/laitettasi"
+    },
+    "verify_device.website": {
+        "translation": "Verkkosivusto"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Uuden laitteen IP-osoite"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Tunnistan tämän selaimen ja laitteen"
+    },
+    "verify_device.reject": {
+        "translation": "Hylkää"
+    },
+    "verify_device.approve": {
+        "translation": "Hyväksy"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Kirjautumispyyntö hylätty"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Olemme evänneet tunnistamattoman laitteen käyttämästä tiliäsi"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Teitkö virheen? Voit aloittaa kirjautumisprosessin uudelleen siirtymällä takaisin sovellukseen *{appName}**."
+    },
+    "verify_device.device_approved": {
+        "translation": "Kirjautuminen hyväksytty"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Voit kirjautua sisään siirtymällä takaisin sovellukseen **{appName}**"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Voit nyt sulkea tämän välilehden"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Kirjautumisen hyväksymislinkkisi on vanhentunut. Voit jatkaa pyytämällä uuden."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Linkki vanhentunut"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Lähetä toinen Magic-linkki osoitteeseen \n**{userEmail}**.\nkirjautumis- tai rekisteröitymislinkki."
+    },
+    "verify_device.resend_email": {
+        "translation": "Lähetä sähköposti uudelleen"
+    },
+    "verify_device.close": {
+        "translation": "Sulje"
+    }
+}

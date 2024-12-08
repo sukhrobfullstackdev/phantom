@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Memverifikasi perangkat Anda"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Daftarkan perangkat ini untuk melanjutkan"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Kami telah mengirimkan tautan pendaftaran perangkat ke"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Persetujuan cepat sekali pakai ini akan membantu akun Anda tetap aman"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Setujui upaya masuk?"
+    },
+    "verify_device.new_device": {
+        "translation": "Browser\/Perangkat Baru"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Tidak cocok dengan browser\/perangkat Anda saat ini"
+    },
+    "verify_device.website": {
+        "translation": "Situs Web"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Alamat IP Perangkat Baru"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Saya mengenali browser dan perangkat ini"
+    },
+    "verify_device.reject": {
+        "translation": "Tolak"
+    },
+    "verify_device.approve": {
+        "translation": "Setujui"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Permintaan masuk ditolak"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Kami telah menghentikan upaya perangkat tak dikenal untuk mengakses akun Anda"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Ada yang keliru? Silakan kembali ke **{appName}** untuk memulai ulang proses masuk."
+    },
+    "verify_device.device_approved": {
+        "translation": "Upaya masuk disetujui"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Kembali ke **{appName}** untuk menyelesaikan proses masuk"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Sekarang Anda dapat menutup tab ini"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Masa berlaku tautan persetujuan masuk ke akun Anda sudah habis. Minta tautan yang baru untuk melanjutkan."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Masa berlaku tautan habis"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Kirim tautan magic lain ke\n**{userEmail}**.\n tautan untuk masuk akun atau mendaftar."
+    },
+    "verify_device.resend_email": {
+        "translation": "Kirim Ulang Email"
+    },
+    "verify_device.close": {
+        "translation": "Tutup"
+    }
+}

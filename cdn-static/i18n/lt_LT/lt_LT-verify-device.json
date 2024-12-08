@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Tvirtinamas jūsų įrenginys"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Prašome užregistruoti šį įrenginį, kad galėtumėte tęsti"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Mes išsiuntėme įrenginio registracijos nuorodą į"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Šis greitas vienkartinis patvirtinimas padės išlaikyti jūsų paskyros saugumą"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Patvirtinti prisijungimą?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nauja naršyklė \/ naujas įrenginys"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Nesutampa su jūsų dabartine naršykle \/ įrenginiu"
+    },
+    "verify_device.website": {
+        "translation": "Svetainė"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Naujo įrenginio IP adresas"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Aš atpažįstu šią naršyklę ir įrenginį"
+    },
+    "verify_device.reject": {
+        "translation": "Atmesti"
+    },
+    "verify_device.approve": {
+        "translation": "Patvirtinti"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Prisijungimo užklausa atmesta"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Mes sustabdėme nepažįstamo įrenginio prieigą prie jūsų paskyros"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Padarėte klaidą? Grįžkite atgal į **{appName}**, kad iš naujo pradėtumėte prisijungimo procesą."
+    },
+    "verify_device.device_approved": {
+        "translation": "Prisijungimas patvirtintas"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Grįžkite į **{appName}**, kad baigtumėte prisijungimą"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Dabar galite uždaryti šią kortelę"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Jūsų prisijungimo patvirtinimo nuoroda nebegalioja. Prašykite naujos nuorodos, kad tęstumėte."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Nuoroda nebegalioja"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Norėdami prisijungti arba prisiregistruoti, išsiųskite kitą magišką nuorodą adresu **{userEmail}**."
+    },
+    "verify_device.resend_email": {
+        "translation": "Siųsti el. laišką iš naujo"
+    },
+    "verify_device.close": {
+        "translation": "Uždaryti"
+    }
+}

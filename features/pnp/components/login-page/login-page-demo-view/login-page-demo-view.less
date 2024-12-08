@@ -1,0 +1,32 @@
+@import (reference) '~/app/index.less';
+
+.LoginPageDebug {
+  .section {
+    &:not(:first-child) {
+      padding-top: 16px;
+    }
+
+    &:not(:last-child) {
+      padding-bottom: 16px;
+      #mg.lightTheme({ border-bottom: solid 1px #mg.getThemeColor(mid)[lightest]; });
+      #mg.darkTheme({ border-bottom: solid 1px #mg.getThemeColor(mid)[darkest]; });
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+
+      a {
+        font-weight: 600;
+      }
+    }
+  }
+}

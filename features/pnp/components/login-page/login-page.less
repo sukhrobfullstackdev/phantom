@@ -1,0 +1,25 @@
+@import (reference) '~/app/index.less';
+
+.BrowseWrapText {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  width: 100%;
+
+  span {
+    #mg.themeProperty(color,  #mg.getThemeColor(mid)[],  #mg.getThemeColor(mid)[lighter]);
+    color: #mg.getThemeColor(mid)[];
+  }
+
+  .legalLinks {
+    width: 100%;
+
+    a {
+      font-weight: 600;
+    }
+
+    .ampersand {
+      margin: 0 4px;
+    }
+  }
+}

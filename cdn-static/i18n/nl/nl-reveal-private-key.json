@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Waarschuwing"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Jouw persoonlijke code"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Bewaar op een veilige plek en vertel niemand je persoonlijke code"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Uitloggen"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopiëren naar klembord"
+    }
+}

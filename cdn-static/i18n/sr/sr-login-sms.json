@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Unesite kôd poslat na"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Novi kôd će biti dostupan za {seconds} s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Pošaljite novi kôd"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Nevažeći kôd, pokušajte ponovo."
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Izgleda da ovaj broj telefona nije važeći. \nProverite broj i pokušajte ponovo."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kôd je istekao."
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Biće vam automatski poslat novi kôd."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Bezbednosno blokiranje"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Zbog sumnjivog broja neuspelih pokušaja prijavljivanja, SMS prijavljivanje je privremeno onemogućeno."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Pokušajte ponovo za"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Unesite važeću imejl adresu."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Previše pokušaja prijavljivanja. Pokušajte ponovo kasnije."
+    }
+}

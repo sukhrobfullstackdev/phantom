@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Du behöver en\nautentiseringsapp"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "För att kunna aktivera tvåstegsverifiering behöver du en autentiseringsapp, t.ex. {authy} eller {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Skanna denna QR-kod"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Öppna din autentiseringsapp och skanna denna QR-kod eller ange din nyckel."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Ange den 6-siffriga koden\nfrån din autentiseringsapp"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Ogiltig kod. Försök igen."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Spara din återställningskod"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Denna kod kan användas för att logga in ifall du förlorar åtkomst till din autentiseringsapp. Förvara den på ett säkert ställe."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Din återställningskod för {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Kopiera kod"
+    },
+    "mfa.finish_setup": {
+        "translation": "Slutför inställningar"
+    },
+    "mfa.key": {
+        "translation": "Nyckel"
+    },
+    "mfa.copy": {
+        "translation": "Kopiera"
+    },
+    "mfa.copied": {
+        "translation": "Kopierad"
+    },
+    "mfa.next": {
+        "translation": "Nästa"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Jag har tappat bort min enhet"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Ange din återställnings-\nkod för att logga in"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Tvåstegsverifiering kommer att inaktiveras"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Kod med åtta tecken"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Jag har tappat bort min återställningskod"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Ogiltig kod, försök igen"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Ogiltig kod. ({attempts}) försök återstår innan ditt konto låses."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Om du vill ha hjälp med att återställa ditt konto kan du kontakta supportteamet för {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Kontakta supporten för {appName}"
+    }
+}

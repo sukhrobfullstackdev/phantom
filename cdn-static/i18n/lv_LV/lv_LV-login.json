@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Pārbaudiet Jūsu e-pastu"
+    },
+    "login.confirm_your_email": {
+        "translation": "Apstipriniet Jūsu e-pastu"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Nosūtījām maģisko saiti uz"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Noklikšķiniet uz saites, lai ielogotoes vai reģistrētos."
+    },
+    "login.check_your_inbox": {
+        "translation": "Pārbaudiet iesūtni"
+    },
+    "login.resend_email": {
+        "translation": "Nosūtīt e-pastu vēlreiz"
+    },
+    "login.close": {
+        "translation": "Aizvērt"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Atgriezieties sākotnējā cilnē."
+    },
+    "login.logging_you_in": {
+        "translation": "notiek ielogošanās..."
+    },
+    "login.logged_in": {
+        "translation": "Esat ielogoies!"
+    },
+    "login.logged_into_app": {
+        "translation": "Esat ielogojies {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Varat aizvērt šo logu."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Mēs pašlaik strādājam, lai viss atgrieztos normālā stāvoklī. Pēc brītiņa mēģiniet vēlreiz."
+    },
+    "login.blocked_request": {
+        "translation": "Bloķēts pieprasījums"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Atgriezieties sākotnējā cilnē un pieprasiet jaunu maģisko saiti."
+    },
+    "login.request_new_link_app": {
+        "translation": "Atgriezieties sākotnējā **{appName}** cilnē un pieprasiet jaunu maģisko saiti."
+    },
+    "login.magic_link_expired": {
+        "translation": "Maģiskās saites derīguma termiņš ir beidzies"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Neaizveriet šo cilni!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Pēc noklikšķināšanas uz maģiskās saites atgriezieties šajā cilnē."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Nosūtiet vēl vienu maģisko saiti uz\n** {userEmail} **,\n lai ielogotos vai reģistrētots."
+    },
+    "login.try_again_later": {
+        "translation": "Pamēģiniet vēlreiz vēlāk"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Lūdzu, uzgaidiet **{seconds}s** pirms nosūtīt jaunu e-pasta ziņojumu."
+    },
+    "login.please_send_another_link": {
+        "translation": "Lūdzu, nosūtiet vēl vienu maģisko saiti uz\n**{userEmail}**."
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Mazliet uzgaidiet! Mēs novēršam problēmu."
+    },
+    "login.confirming_your_login": {
+        "translation": "Apstiprina Jūsu ielogošanās informāciju"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Ielogošanās informācijas apstiprināšana"
+    },
+    "login.is_this_you": {
+        "translation": "Vai tas esat Jūs?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Tika konstatēta neierasta darbība. Lai jūsu konts būtu drošībā, dariet mums zināmu, ja atpazīstat zemāk redzamo pieteikšanās mēģinājumu:"
+    },
+    "login.location": {
+        "translation": "Atrašanās vieta:"
+    },
+    "login.no_block_this": {
+        "translation": "Nē, bloķēt šo mēģinājumu"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Jā, tas esmu es"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Paldies, ka palīdzat mums saglabāt jūsu konta drošību! Esam bloķējuši un bloķēsim turpmākos pieteikšanās mēģinājumus no avota:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Lai jūsu konts būtu drošībā, dariet mums zināmu, vai atpazīstat zemāk redzamo pieteikšanās mēģinājumu:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Paldies, ka palīdzat mums saglabāt jūsu konta drošību! Mēs esam bloķējuši pieteikšanās mēģinājumu no avota:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Saite ir bojāta - lūdzu, pieprasiet jaunu Magic saiti vai atveriet saiti no cita e -pasta klienta"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} ir privāta"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "Lietotājam {userEmail} nav atļaujas piekļūt šai lietotnei"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Jums šķiet, ka radusies kļūda? Izmēģiniet citu ielogošanās vārdu vai sazinieties ar {appName}, lai saņemtu palīdzību."
+    },
+    "login.access_denied": {
+        "translation": "Piekļuve liegta"
+    },
+    "login.email_blocked_message": {
+        "translation": "Diemžēl jums nav atļaujas ielogoties lietotnē {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Piesakieties, izmantojot maģisko saiti, ko nosūtījām uz"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Ievadiet drošības kodu, kas redzams {appName}"
+    },
+    "login.security_code": {
+        "translation": "Drošības kods:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Tad ievadiet šo drošības kodu:"
+    },
+    "login.copy": {
+        "translation": "Kopēt"
+    },
+    "login.go_back_to_app": {
+        "translation": "Dodieties atpakaļ uz **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Pieteikšanās pabeigta!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Pieteikšanās veiksmīga"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Tagad varat aizvērt cilni"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Nederīgs novirzīšanas URL"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Šis novirzīšanas URL nav iekļauts atļautajā sarakstā."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Maģiskās saites pieprasījums iesniegts no citas IP"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Klikšķiniet uz saites tajā pašā ierīcē. Ja nepieprasījāt saiti, ignorējiet šo ziņojumu."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Pārsniegts pakalpojuma limits"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Lai saņemtu palīdzību konta piekļuvei, sazinieties ar **{appName}**."
+    },
+    "login.security_code_expired": {
+        "translation": "Drošības koda termiņš beidzies"
+    },
+    "login.login_code_expired": {
+        "translation": "Ielogošanās kodam beidzies derīgums"
+    },
+    "login.request_new_login_code": {
+        "translation": "Lūdzu, pieprasiet jaunu ielogošanās kodu"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Pieprasiet jaunu kodu"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Lai saņemtu jaunu kodu, atgriezieties {appName} un restartējiet pieteikšanās procesu."
+    }
+}

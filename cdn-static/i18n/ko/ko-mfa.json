@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "인증 앱이\n 필요합니다"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "2단계 인증을 사용하려면 {authy} 또는 {google} 같은 인증 앱이 필요합니다."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "이 QR 코드 스캔"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "인증 앱을 열고 이 QR 코드를 스캔하거나 설정 키를 입력하십시오."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "인증 앱에 6자리 \n코드를 입력하십시오"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "잘못된 코드입니다. 다시 시도하십시오."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "복구 코드 저장"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "인증 프로그램 액세스 권한을 잃은 경우 이 코드를 사용하여 로그인할 수 있습니다. 본 코드를 안전한 곳에 보관하십시오."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "{appName} 복구 코드"
+    },
+    "mfa.copy_code": {
+        "translation": "코드 복사"
+    },
+    "mfa.finish_setup": {
+        "translation": "설정 완료"
+    },
+    "mfa.key": {
+        "translation": "키"
+    },
+    "mfa.copy": {
+        "translation": "복사"
+    },
+    "mfa.copied": {
+        "translation": "복사 완료"
+    },
+    "mfa.next": {
+        "translation": "다음"
+    },
+    "mfa.lost_code_button": {
+        "translation": "장치를 잊어버렸습니다"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "로그인하려면\n복구 코드를 입력하십시오"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "2단계 인증이 비활성화됩니다"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8자 코드"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "복구 코드를 잊어버렸습니다"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "잘못된 코드입니다. 다시 시도하십시오."
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "잘못된 코드입니다. 계정이 잠기기 전에 남은 시도 횟수는 ({attempts})회입니다."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "계정 복구에 도움이 필요한 경우 {appName} 지원 팀에 문의하십시오."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "{appName} 지원 팀에 문의"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ak, vai! Kaut kas nogāja greizi"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Mēs nevarējām atrast jūsu meklēto resursu."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Lai atrisinātu problēmu, lūdzu, sazinieties ar šīs lietotnes izstrādātājiem."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Lai atrisinātu problēmu, lūdzu, sazinieties ar ** {appName} **."
+    },
+    "generic.internal_server_error": {
+        "translation": "Iekšējā servera kļūda"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Mēs pašlaik strādājam, lai viss atgrieztos normālā stāvoklī. Pēc brītiņa mēģiniet vēlreiz."
+    },
+    "generic.close": {
+        "translation": "Aizvērt"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK nav pieejams bez maksas, lūdzu, pārejiet uz maksas plānu"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Mūsu cenu lapa"
+    },
+    "generic.app_error": {
+        "translation": "Lietotnes kļūda"
+    },
+    "generic.details": {
+        "translation": "DETALIZĒTA INFORMĀCIJA"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Radās nezināma kļūda."
+    },
+    "generic.blocked_request": {
+        "translation": "Bloķēts pieprasījums"
+    },
+    "generic.try_again": {
+        "translation": "Mēģiniet vēlreiz!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Lūdzu, norādiet derīgu e-pastu"
+    },
+    "generic.back": {
+        "translation": "Atpakaļ"
+    },
+    "generic.loading": {
+        "translation": "Ielādē"
+    },
+    "generic.success": {
+        "translation": "Izdevās"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Drošības apsvērumu dēļ jums transakcija būs jaapstiprina jaunā Magic cilnē."
+    },
+    "generic.trial_mode": {
+        "translation": "Izmēģinājuma režīms"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Atjaunināt tagad"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Pārlūks netiek atbalstīts"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Lūdzu, īslaicīgi atspējojiet visus pārlūka paplašinājumus vai izmantojiet citu pārlūku un mēģiniet vēlreiz."
+    }
+}

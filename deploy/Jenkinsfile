@@ -1,0 +1,608 @@
+// deploy is a shortcut for deployment action
+// We moved deploy to separate functions to DRY
+// It is not in Jenkins libs because deploy may differ for different services
+def deploy(Map params) {
+    // by default we always use `int` server_env/cluster
+    def server_env = params.get("server_env", "int")
+    def cluster = params.get("cluster", "ftmt-${server_env}-${AWS_REGION}")
+    def newCluster = params.get("newCluster", "False")
+    def s3_params = params.get("s3", [:])
+    def s3_bucket = s3_params.get("s3_bucket", "")
+    def s3_sync_dryrun = s3_params.get("s3_sync_dryrun", true)
+
+    k8s.k8sGenConf([
+        awsRegion: AWS_REGION,
+        assumeArn: ASSUME_ARN,
+        cluster: cluster,
+    ])
+
+    helm.helmGenSpecs([
+        deployEnv: DEPLOY_ENV,
+        image: IMAGE,
+        dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+        newCluster: newCluster,
+    ])
+
+    // Sync assets but without delete flag in order not to delete assets for previous auth version.
+    assets.deployS3([
+        assumeArn: ASSUME_ARN_S3,
+        srcDir: "build",
+        s3Bucket: s3_bucket,
+        s3BucketPath: "",
+        s3SyncDryRun: s3_sync_dryrun,
+        s3SyncDelete: false,
+    ])
+
+    def res = k8s.k8sDiff([
+        assumeArn: ASSUME_ARN,
+        deployEnv: DEPLOY_ENV,
+    ])
+    if (res != 0) {
+        error '"Diff ${DEPLOY_ENV} failed, exiting"'
+    }
+
+    res = k8s.k8sDeploy([
+        assumeArn: ASSUME_ARN,
+        deployEnv: DEPLOY_ENV,
+        newCluster: newCluster,
+    ])
+    if (res != 0) {
+        k8s.k8sRollback([assumeArn: ASSUME_ARN, deployEnv: DEPLOY_ENV])
+        error("Deploy ${DEPLOY_ENV} failed, rolled back to previous")
+    }
+
+    // Now we should re-sync assets but with delete flag.
+    assets.deployS3([
+        assumeArn: ASSUME_ARN_S3,
+        srcDir: "build",
+        s3Bucket: s3_bucket,
+        s3BucketPath: "",
+        s3SyncDryRun: s3_sync_dryrun,
+        s3SyncDelete: true,
+    ])
+}
+
+
+pipeline {
+    triggers {
+        githubPush()
+    }
+    options {
+        skipDefaultCheckout()
+        buildDiscarder(logRotator(numToKeepStr: '1000'))
+        disableConcurrentBuilds()
+        timestamps()
+        ansiColor('xterm')
+        rateLimitBuilds(throttle: [count: 1, durationName: 'minute', userBoost: true])
+        disableResume()
+        quietPeriod 30
+    }
+    parameters {
+        booleanParam(name: 'deploy_stagef', defaultValue: false)
+        booleanParam(name: 'deploy_prod', defaultValue: false)
+        booleanParam(name: 'deploy_dev', defaultValue: false)
+        booleanParam(name: 'deploy_adhoc', defaultValue: false)
+        booleanParam(name: 'qa_test', defaultValue: true)
+    }
+    environment {
+        PROJECT_SCOPE = 'ftmt'
+        SERVICE = 'auth'
+        SERVICE_LONG = 'magic-auth'
+        REPO = '584864542664.dkr.ecr.us-west-2.amazonaws.com'
+        RUN_ID = "${UUID.randomUUID().toString()}"
+        ASSUME_ARN_S3 = 'arn:aws:iam::971106922139:role/ops-infra-ci-v1-s3-deploy' // this is job scoped role to assume
+    }
+    agent {
+        label 'master'
+    }
+    stages {
+        stage('Prepare') {
+            when { anyOf {
+                // We want to prepare, e.g. send notification, set params on any branch
+                // If job was triggered
+                branch '**'
+                expression { params.deploy_adhoc }
+            }}
+            steps {
+                deleteDir()
+                checkout scm
+                script{
+                    common.prepare([:]) // this step sets global `IMAGE`/`DOCKER_TAG` vars
+                    if ((GIT_BRANCH == "master" || GIT_BRANCH == "development") || params.deploy_adhoc) {
+                        common.slackNotify([
+                            enable: true,
+                            text: "Started",
+                            status: "STARTED",
+                            service: SERVICE_LONG,
+                            env: "all",
+                        ])
+                    }
+                }
+            }
+        }
+        stage('Docker lint') {
+            steps {
+                withDockerContainer(args: '-v storage-hadolint:/tmp/db', image: "hadolint/hadolint:latest-alpine")  {
+                    sh "hadolint deploy/Dockerfile"
+                }
+            }
+        }
+        stage('Build: Stagef') {
+            when { anyOf {
+                branch 'master'
+                // We want to run this stage if params.deploy_stagef true
+                expression {
+                    params.deploy_adhoc && params.deploy_stagef
+                }
+            }}
+            agent {
+                label 'master'
+            }
+            environment {
+                DEPLOY_ENV = "stagef"
+                ASSUME_ARN = 'arn:aws:iam::584864542664:role/ops-infra-ci-ecr'
+            }
+            steps {
+                deleteDir()
+                checkout scm
+                timeout(time: 900, unit: 'SECONDS') {
+                    script {
+                        withCredentials(
+                            [
+                                string(credentialsId: 'NPM_TOKEN', variable: 'NPM_TOKEN'),
+                                string(credentialsId: 'ENCRYPTED_COOKIE_KEY_STAGEF', variable: 'ENCRYPTED_COOKIE_KEY'),
+                                string(credentialsId: 'SIGNED_COOKIE_KEY_STAGEF', variable: 'SIGNED_COOKIE_KEY'),
+                            ],
+                        ) {
+                            common.dockerBuild([
+                                service: SERVICE,
+                                image: IMAGE,
+                                dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                                repo: REPO,
+                                target: "runner",
+                                buildArgs: [
+                                    "NPM_TOKEN=${NPM_TOKEN}",
+                                    "ENCRYPTED_COOKIE_KEY=${ENCRYPTED_COOKIE_KEY}",
+                                    "SIGNED_COOKIE_KEY=${SIGNED_COOKIE_KEY}",
+                                    "BACKEND_URL=https://api.stagef.magic.link",
+                                    "NFT_API_URL=https://nft-api.stagef.magic.link",
+                                    "GAS_API_URL=https://gas-api.stagef.magic.link",
+                                    "AUTH_S3_PATH=s3://assets.auth.stagef.magic.link",
+                                    // TODO(mack#ch21810|2020-07-28): Put all creds to Jenkins Secrets
+                                    "DATADOG_CLIENT_KEY=puba6d7661ad2e2a22fb47bf94a0c23544b",
+                                    "DATADOG_API_KEY=732fa83b0ce0f786a57301becbeb8e16",
+                                    "DATADOG_RUM_APP_KEY=9f6f3fdd-1d7c-4a3a-904a-67d27cc34265",
+                                    "DATADOG_RUM_CLIENT_KEY=pub445edf06d6f2db976fc4393d9dc2898a",
+                                    // TODO(ajen#ch21810|2020-11-16): Put all creds to Jenkins Secrets
+                                    // TODO(mack#ch21810|2020-07-28): Put all creds to Jenkins Secrets
+                                    "HIGHTOUCH_API_KEY=45d6b7b5c59f5892c3e49b784fe955e2d85beafa6f0c098a829a04591a1ce813",
+                                    "HIGHTOUCH_API_HOST=us-east-1.hightouch-events.com",
+                                    "IS_MAGIC=1",
+                                    "GENERATE_SOURCEMAP=1",
+                                    "DEPLOY_ENV=${DEPLOY_ENV}",
+                                    "ASSETS_BASE_URL=https://assets.auth.stagef.magic.link",
+                                    "INTERNAL_BACK_URL=https://api-a.stagef.magic-corp.link",
+                                    "GET_CREDENTIALS_PROXY_URL=https://gbscache.stagef.magic.link",
+                                    "MC_GOOGLE_OAUTH_CLIENT_ID=659515803301-5jqfpr22e8jv7pm15ct1voiruu09nhvu.apps.googleusercontent.com",
+                                    "MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_WALLET_HUB=pk_prod_01GTEYJ2ZB5SBRDH79FY843VHA",
+                                    "MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_DAPPS=pk_prod_01GXNN3PMY5GDYBTJYNY3VE63B",
+                                    "LAUNCH_DARKLY_CLIENT_ID=6290d903d4734b14b286d64f",
+                                    "ALCHEMY_ETHEREUM_API_KEY=THLzcjj0X_ktVcj80LZ60_twjxdWuUso",
+                                    "ALCHEMY_GOERLI_API_KEY=XDkXOl3fIkG3-XFvRmaa313PPJEehNx4",
+                                    "ALCHEMY_SEPOLIA_API_KEY=lnkxjj_rKFZRHqrrIvoerSJtzIdt2ElK",
+                                    "ALCHEMY_POLYGON_API_KEY=gQ41RwtnmeUVJtVLRSKGE8_V-dTWV7WD",
+                                    "ALCHEMY_MUMBAI_API_KEY=9b1326CuGOhpxr_RhB2QoPXKpfbuJsDF",
+                                    "ALCHEMY_OPTIMISM_API_KEY=NyNr8gCoYyusotfANwHTuRhIQp62ZF3u",
+                                    "ALCHEMY_OPTIMISM_GOERLI_API_KEY=ynnAby9IhcpGA9l3x3nqD5zuE4r2gWo4",
+                                    "ALCHEMY_ARBITRUM_ONE_API_KEY=0JEi2UcN80f4vOja1KopbdXWRKY4DXrD",
+                                    "ALCHEMY_ARBITRUM_SEPOLIA_API_KEY=6qaqXS9Hll37pWWWmhetS0v1pAkRKlFA",
+                                    "ALCHEMY_BASE_API_KEY=tbH7VdREUS9E1caIfz0FMCO_DfdJSNZS",
+                                    "ALCHEMY_BASE_SEPOLIA_API_KEY=xtBmbqs4Xe17IVlF65vU6BmTEKLBybir",
+                                    "SARDINE_URL_TEST=https://crypto.sandbox.sardine.ai",
+                                    "SARDINE_URL_PROD=https://crypto.sardine.ai",
+                                    "MAGIC_WALLET_DAPP_API_KEY=pk_live_CA4EE31250763286",
+                                    "MAGIC_WALLET_DAPP_REFERRER=https://wallet.stagef.magic.link"
+                                ]
+                            ])
+                        }
+                        assets.dockerCopy([
+                            srcDir: "build",
+                            image: IMAGE,
+                            dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                        ])
+                        common.ecrPush([
+                            assumeArn: ASSUME_ARN,
+                            repo: REPO,
+                            image: IMAGE,
+                            dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                            assumeRole: ASSUME_ARN
+                        ])
+                    }
+                }
+            }
+        }
+        stage('Deploy: Stagef') {
+            when { anyOf {
+                branch 'master'
+                // We want to run this stage if params.deploy_stagef true
+                expression {
+                    params.deploy_adhoc && params.deploy_stagef
+                }
+            }}
+            environment {
+                DEPLOY_ENV = "stagef"
+                AWS_REGION = 'us-west-2'
+                ASSUME_ARN = 'arn:aws:iam::211163739222:role/ftmt-int-eks-deploy'
+            }
+            agent {
+                label 'master'
+            }
+            steps {
+                timeout(time: 1800, unit: 'SECONDS') {
+                    deploy([
+                        s3: [
+                            s3_bucket: "assets.auth.stagef.magic.link",
+                            s3_sync_dryrun: false,
+                        ],
+                        cluster: "int-eks-a-us-west-2",
+                        newCluster: "True",
+                    ])
+                }
+            }
+            post {
+                always {
+                    script{common.slackNotify([
+                        enable: true,
+                        text: "${DEPLOY_ENV.capitalize()} finished with ${currentBuild.currentResult}",
+                        status: currentBuild.currentResult,
+                        service: SERVICE_LONG,
+                        env: DEPLOY_ENV,
+                    ])}
+                }
+            }
+        }
+        stage('Run QA Wolf Tests') {
+            when { 
+                anyOf {
+                    allOf {
+                        branch 'master'
+                        expression { params.qa_test }
+                    }
+                    allOf {
+                        expression { params.qa_test }
+                        expression { params.deploy_adhoc && params.deploy_stagef }
+                    }
+                }
+            }
+            steps {
+                sh '''
+                    curl -H "Authorization: qawolf_7db811be69e249c89a01e62a2cc805c8" -H "Content-Type: application/json" https://app.qawolf.com/api/webhooks/deploy_success
+                '''
+            }
+        }
+         stage('Wait for QA Wolf Tests') {
+            when { 
+                anyOf {
+                    allOf {
+                        branch 'master'
+                        expression { params.qa_test }
+                    }
+                    allOf {
+                        expression { params.qa_test }
+                        expression { params.deploy_adhoc && params.deploy_stagef }
+                    }
+                }
+            }
+            steps {
+                sh '''
+                    suite_id=$(curl -H "Authorization: qawolf_7db811be69e249c89a01e62a2cc805c8" -H "Content-Type: application/json" https://app.qawolf.com/api/webhooks/deploy_success | jq ".results[0].created_suite_id")
+                    sleep 10
+                    COUNTER=0
+                    while true; do
+                        response=$(curl --location 'https://app.qawolf.com/api/graphql' --header 'Content-Type: application/json' --header 'Authorization: Bearer qawolf_7db811be69e249c89a01e62a2cc805c8' --data '{"query":"query suite(\$suiteId: String!) {\\n  suite(where: { id: \$suiteId }) {\\n    id\\n    display_status_counts{\\n      created\\n    }\\n  }\\n}","variables":{"suiteId":'"$suite_id"'}}' | jq .data.suite.display_status_counts.created)
+                        echo "API response: $response"
+                        if [ "$response" = "0" ]; then
+                            echo "Tests done, exiting loop."
+                            break
+                        else
+                            if [ "$COUNTER" = "30" ]; then
+                                echo "Tests not done in 900 seconds, moving to next step."
+                                break
+                            else
+                                echo "Tests not done, sleeping for 30 seconds."
+                                sleep 30
+                            fi
+                            COUNTER=$((COUNTER +1))
+                        fi
+                    done
+                    echo "Test results available at https://app.qawolf.com/magic/environments/clfk2qoyt14130675v7m3yy5rgmf/runs/$(echo "$suite_id" | tr -d '"')"
+                '''
+            }
+         }
+        stage('Build: Prod') {
+            when { allOf {
+                branch 'master'
+            }}
+            agent {
+                label 'master'
+            }
+            environment {
+                DEPLOY_ENV = "prod"
+                ASSUME_ARN = 'arn:aws:iam::584864542664:role/ops-infra-ci-ecr'
+            }
+            steps {
+                script{common.slackNotify([
+                    text: "Please approve Prod deployment",
+                    status: currentBuild.currentResult,
+                    service: SERVICE_LONG,
+                    env: DEPLOY_ENV,
+                ])}
+                timeout(time: 900, unit: 'SECONDS') {
+                    input message: "Deploy to prod?"
+                }
+                deleteDir()
+                checkout scm
+                timeout(time: 900, unit: 'SECONDS') {
+                    script {
+                        withCredentials(
+                            [
+                                string(credentialsId: 'NPM_TOKEN', variable: 'NPM_TOKEN'),
+                                string(credentialsId: 'ENCRYPTED_COOKIE_KEY_PROD', variable: 'ENCRYPTED_COOKIE_KEY'),
+                                string(credentialsId: 'SIGNED_COOKIE_KEY_PROD', variable: 'SIGNED_COOKIE_KEY'),
+                            ],
+                        ) {
+                            common.dockerBuild([
+                                service: SERVICE,
+                                image: IMAGE,
+                                dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                                repo: REPO,
+                                target: "runner",
+                                buildArgs: [
+                                    "NPM_TOKEN=${NPM_TOKEN}",
+                                    "ENCRYPTED_COOKIE_KEY=${ENCRYPTED_COOKIE_KEY}",
+                                    "SIGNED_COOKIE_KEY=${SIGNED_COOKIE_KEY}",
+                                    "BACKEND_URL=https://api.magic.link",
+                                    "NFT_API_URL=https://nft-api.magic.link",
+                                    "GAS_API_URL=https://gas-api.magic.link",
+                                    "AUTH_S3_PATH=s3://assets.auth.magic.link",
+                                    // TODO(mack#ch21810|2020-07-28): Put all creds to Jenkins Secrets
+                                    "DATADOG_CLIENT_KEY=pub6e83b9e7b97e8037f6e1ab083d997dde",
+                                    "DATADOG_API_KEY=732fa83b0ce0f786a57301becbeb8e16",
+                                    "DATADOG_RUM_APP_KEY=9f6f3fdd-1d7c-4a3a-904a-67d27cc34265",
+                                    "DATADOG_RUM_CLIENT_KEY=pub445edf06d6f2db976fc4393d9dc2898a",
+                                    // TODO(ajen#ch21810|2020-11-16): Put all creds to Jenkins Secrets
+                                    // TODO(mack#ch21810|2020-07-28): Put all creds to Jenkins Secrets
+                                    "HIGHTOUCH_API_KEY=622f282fa803576f2718b0b16d627cb089606ef4804afe682410895348d90d88",
+                                    "HIGHTOUCH_API_HOST=us-east-1.hightouch-events.com",
+                                    "IS_MAGIC=1",
+                                    "GENERATE_SOURCEMAP=0",
+                                    "DEPLOY_ENV=${DEPLOY_ENV}",
+                                    "ASSETS_BASE_URL=https://assets.auth.magic.link",
+                                    "INTERNAL_BACK_URL=https://api-a.prod.magic-corp.link",
+                                    "GET_CREDENTIALS_PROXY_URL=https://gbscache.magic.link",
+                                    "MC_GOOGLE_OAUTH_CLIENT_ID=720671955707-j4bvuq2v3dvefdnm6brqsltduibq5u60.apps.googleusercontent.com",
+                                    "MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_WALLET_HUB=pk_prod_01GTEYJ2ZB5SBRDH79FY843VHA",
+                                    "MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_DAPPS=pk_prod_01GXNN3PMY5GDYBTJYNY3VE63B",
+                                    "LAUNCH_DARKLY_CLIENT_ID=6290d8d4377dc71563613cb0",
+                                    "ALCHEMY_ETHEREUM_API_KEY=2K3ZYHyus86aJQOTmeZOJu3KD1dlWW67",
+                                    "ALCHEMY_GOERLI_API_KEY=EyJ3Z0OYYb7uUVmlyFkxzBpqzuSbjrAj",
+                                    "ALCHEMY_SEPOLIA_API_KEY=OZixRaakGk_D2pr9s-yTrDJpAjdbvVGL",
+                                    "ALCHEMY_POLYGON_API_KEY=FXBozVMsvNJl8132xpIlTz8k5IK7Rklk",
+                                    "ALCHEMY_MUMBAI_API_KEY=jeNNjpLj-PMC-iOSCBLxurDjzIlQf8HV",
+                                    "ALCHEMY_OPTIMISM_API_KEY=Ff0uaCEWc7St-YvA6AypDs5z59EJlWEX",
+                                    "ALCHEMY_OPTIMISM_GOERLI_API_KEY=zDVg6enAOGVLbNy7gJLznqVaxxHic_B5",
+                                    "ALCHEMY_ARBITRUM_ONE_API_KEY=8rzA2E8pLknmZf2nFz68vmfO_5m3NBG1",
+                                    "ALCHEMY_ARBITRUM_SEPOLIA_API_KEY=jnVUAQ2a_UaYArLhGq5xTb4N_zkkZOwd",
+                                    "ALCHEMY_BASE_API_KEY=STC7h-bp4V-lW38b2W2aPYDR5uBOyOUG",
+                                    "ALCHEMY_BASE_SEPOLIA_API_KEY=L2HXc7dDnRk0OQw5XFHM8lGacT5rrUN2",
+                                    "SARDINE_URL_TEST=https://crypto.sandbox.sardine.ai",
+                                    "SARDINE_URL_PROD=https://crypto.sardine.ai",
+                                    "MAGIC_WALLET_DAPP_API_KEY=pk_live_882646865C70D783",
+                                    "MAGIC_WALLET_DAPP_REFERRER=https://wallet.magic.link"
+                                ]
+                            ])
+                        }
+                        assets.dockerCopy([
+                            srcDir: "build",
+                            image: IMAGE,
+                            dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                        ])
+                        common.ecrPush([
+                            assumeArn: ASSUME_ARN,
+                            repo: REPO,
+                            image: IMAGE,
+                            dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                            assumeRole: ASSUME_ARN
+                        ])
+                    }
+                }
+            }
+        }
+        stage('Deploy: Prod') {
+            when { allOf {
+                branch 'master'
+            }}
+            environment {
+                DEPLOY_ENV = "prod"
+                AWS_REGION = 'us-west-2'
+                ASSUME_ARN = 'arn:aws:iam::845442242126:role/ftmt-live-eks-deploy'
+            }
+            agent {
+                label 'master'
+            }
+            steps {
+                timeout(time: 1800, unit: 'SECONDS') {
+                    deploy([
+                        server_env: 'live',
+                        s3: [
+                            s3_bucket: "assets.auth.magic.link",
+                            s3_sync_dryrun: false,
+                        ],
+                        cluster: "live-eks-a-us-west-2",
+                        newCluster: "True",
+                    ])
+                }
+            }
+            post {
+                always {
+                    script{common.slackNotify([
+                        enable: true,
+                        text: "${DEPLOY_ENV.capitalize()} finished with ${currentBuild.currentResult}",
+                        status: currentBuild.currentResult,
+                        service: SERVICE_LONG,
+                        env: DEPLOY_ENV,
+                    ])}
+                }
+            }
+        }
+        stage('Build: Dev') {
+            when { anyOf {
+                branch 'master'
+                // We want to run this stage if params.deploy_dev true
+                expression {
+                    params.deploy_adhoc && params.deploy_dev
+                }
+            }}
+            agent {
+                label 'master'
+            }
+            environment {
+                DEPLOY_ENV = "dev"
+                ASSUME_ARN = 'arn:aws:iam::584864542664:role/ops-infra-ci-ecr'
+            }
+            steps {
+                deleteDir()
+                checkout scm
+                timeout(time: 900, unit: 'SECONDS') {
+                    script {
+                        withCredentials(
+                            [
+                                string(credentialsId: 'NPM_TOKEN', variable: 'NPM_TOKEN'),
+                                string(credentialsId: 'ENCRYPTED_COOKIE_KEY_DEV', variable: 'ENCRYPTED_COOKIE_KEY'),
+                                string(credentialsId: 'SIGNED_COOKIE_KEY_DEV', variable: 'SIGNED_COOKIE_KEY'),
+                            ],
+                        ) {
+                            common.dockerBuild([
+                                service: SERVICE,
+                                image: IMAGE,
+                                dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                                repo: REPO,
+                                target: "runner",
+                                buildArgs: [
+                                    "NPM_TOKEN=${NPM_TOKEN}",
+                                    "ENCRYPTED_COOKIE_KEY=${ENCRYPTED_COOKIE_KEY}",
+                                    "SIGNED_COOKIE_KEY=${SIGNED_COOKIE_KEY}",
+                                    "BACKEND_URL=https://api.dev.magic.link",
+                                    "NFT_API_URL=https://nft-api.dev.magic.link",
+                                    "GAS_API_URL=https://gas-api.dev.magic.link",
+                                    "AUTH_S3_PATH=s3://assets.auth.dev.magic.link",
+                                    // TODO(mack#ch21810|2020-07-28): Put all creds to Jenkins Secrets
+                                    "DATADOG_CLIENT_KEY=pub892f4f7617aa4d439898e7dac2f1902c",
+                                    "DATADOG_API_KEY=732fa83b0ce0f786a57301becbeb8e16",
+                                    "DATADOG_RUM_APP_KEY=9f6f3fdd-1d7c-4a3a-904a-67d27cc34265",
+                                    "DATADOG_RUM_CLIENT_KEY=pub445edf06d6f2db976fc4393d9dc2898a",
+                                    // TODO(ajen#ch21810|2020-11-16): Put all creds to Jenkins Secrets
+                                    // TODO(mack#ch21810|2020-07-28): Put all creds to Jenkins Secrets
+                                    "HIGHTOUCH_API_KEY=789cbfefe635d5b292958cd2261610fcd8f567664b5cd25cc186b46f05a8e6b0",
+                                    "HIGHTOUCH_API_HOST=us-east-1.hightouch-events.com",
+                                    "IS_MAGIC=1",
+                                    "GENERATE_SOURCEMAP=1",
+                                    "DEPLOY_ENV=${DEPLOY_ENV}",
+                                    "ASSETS_BASE_URL=https://assets.auth.dev.magic.link",
+                                    "INTERNAL_BACK_URL=https://api-a.dev.magic-corp.link",
+                                    "GET_CREDENTIALS_PROXY_URL=https://gbscache.dev.magic.link",
+                                    "MC_GOOGLE_OAUTH_CLIENT_ID=310564694136-v2damjdk5eandmle4fj09h18tpd1nm06.apps.googleusercontent.com",
+                                    "MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_WALLET_HUB=pk_prod_01GTEYJ2ZB5SBRDH79FY843VHA",
+                                    "MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_DAPPS=pk_prod_01GXNN3PMY5GDYBTJYNY3VE63B",
+                                    "LAUNCH_DARKLY_CLIENT_ID=62962e438d3dd30c66e94c87",
+                                    "ALCHEMY_ETHEREUM_API_KEY=THLzcjj0X_ktVcj80LZ60_twjxdWuUso",
+                                    "ALCHEMY_GOERLI_API_KEY=XDkXOl3fIkG3-XFvRmaa313PPJEehNx4",
+                                    "ALCHEMY_SEPOLIA_API_KEY=lnkxjj_rKFZRHqrrIvoerSJtzIdt2ElK",
+                                    "ALCHEMY_POLYGON_API_KEY=gQ41RwtnmeUVJtVLRSKGE8_V-dTWV7WD",
+                                    "ALCHEMY_MUMBAI_API_KEY=9b1326CuGOhpxr_RhB2QoPXKpfbuJsDF",
+                                    "ALCHEMY_OPTIMISM_API_KEY=NyNr8gCoYyusotfANwHTuRhIQp62ZF3u",
+                                    "ALCHEMY_OPTIMISM_GOERLI_API_KEY=ynnAby9IhcpGA9l3x3nqD5zuE4r2gWo4",
+                                    "ALCHEMY_ARBITRUM_ONE_API_KEY=0JEi2UcN80f4vOja1KopbdXWRKY4DXrD",
+                                    "ALCHEMY_ARBITRUM_SEPOLIA_API_KEY=6qaqXS9Hll37pWWWmhetS0v1pAkRKlFA",
+                                    "ALCHEMY_BASE_API_KEY=tbH7VdREUS9E1caIfz0FMCO_DfdJSNZS",
+                                    "ALCHEMY_BASE_SEPOLIA_API_KEY=xtBmbqs4Xe17IVlF65vU6BmTEKLBybir",
+                                    "SARDINE_URL_TEST=https://crypto.sandbox.sardine.ai",
+                                    "SARDINE_URL_PROD=https://crypto.sardine.ai",
+                                    "MAGIC_WALLET_DAPP_API_KEY=pk_live_E35E6AC0CE8D2152",
+                                    "MAGIC_WALLET_DAPP_REFERRER=https://wallet.dev.magic.link"
+                                ]
+                            ])
+                        }
+                        assets.dockerCopy([
+                            srcDir: "build",
+                            image: IMAGE,
+                            dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                        ])
+                        common.ecrPush([
+                            assumeArn: ASSUME_ARN,
+                            repo: REPO,
+                            image: IMAGE,
+                            dockerTag: "${DOCKER_TAG}_${DEPLOY_ENV}",
+                            assumeRole: ASSUME_ARN
+                        ])
+                    }
+                }
+            }
+        }
+        stage('Deploy: Dev') {
+            when { anyOf {
+                branch 'master'
+                // We want to run this stage if params.deploy_dev true
+                expression {
+                    params.deploy_adhoc && params.deploy_dev
+                }
+            }}
+            environment {
+                DEPLOY_ENV = "dev"
+                AWS_REGION = 'us-west-2'
+                ASSUME_ARN = 'arn:aws:iam::211163739222:role/ftmt-int-eks-deploy'
+            }
+            agent {
+                label 'master'
+            }
+            steps {
+                timeout(time: 1800, unit: 'SECONDS') {
+                    deploy([
+                        s3: [
+                            s3_bucket: "assets.auth.dev.magic.link",
+                            s3_sync_dryrun: false,
+                        ],
+                        cluster: "int-eks-a-us-west-2",
+                        newCluster: "True",
+                    ])
+                }
+            }
+            post {
+                always {
+                    script{common.slackNotify([
+                        enable: true,
+                        text: "${DEPLOY_ENV.capitalize()} finished with ${currentBuild.currentResult}",
+                        status: currentBuild.currentResult,
+                        service: SERVICE_LONG,
+                        env: DEPLOY_ENV,
+                    ])}
+                }
+            }
+        }
+    }
+    post {
+        always {
+            script{
+                if ((GIT_BRANCH == "master" || GIT_BRANCH == "development") || params.deploy_adhoc) {
+                    common.slackNotify([
+                        enable: true,
+                        text: "Finished",
+                        status: currentBuild.currentResult,
+                        service: SERVICE_LONG,
+                        env: "all",
+                    ])
+                }
+            }
+        }
+    }
+}

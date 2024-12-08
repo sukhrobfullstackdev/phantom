@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "Czynnik odzyskiwania istnieje już dla tego konta"
+    },
+    "recovery.phone_number": {
+        "translation": "Numer telefonu do odzyskiwania"
+    }
+}

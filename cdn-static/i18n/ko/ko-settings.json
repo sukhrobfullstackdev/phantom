@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "{appName}(으)로 돌아가기"
+    },
+    "settings.title": {
+        "translation": "계정 설정"
+    },
+    "settings.off": {
+        "translation": "OFF"
+    },
+    "settings.on": {
+        "translation": "ON"
+    },
+    "settings.turn_on": {
+        "translation": "켜기"
+    },
+    "settings.turn_off": {
+        "translation": "끄기"
+    },
+    "settings.two_step_verification": {
+        "translation": "2단계 인증"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "로그인할 때마다 모바일 앱 인증 코드를 입력하여 추가 보안 단계 추가"
+    },
+    "settings.phone_number": {
+        "translation": "전화번호"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "현재 전화번호 업데이트"
+    }
+}

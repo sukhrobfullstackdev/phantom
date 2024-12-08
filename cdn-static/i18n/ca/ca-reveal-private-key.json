@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Advertència"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "La vostra clau privada"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Conserveu la vostra clau privada amb precaució i mai la divulgueu."
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Tancar sessió"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Copiar al porta-retalls"
+    }
+}

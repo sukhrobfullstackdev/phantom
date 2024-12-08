@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Вашиот претходен начин на пријавување"
+    },
+    "pnp.welcome": {
+        "translation": "Добре дојдовте"
+    },
+    "pnp.welcome_back": {
+        "translation": "Добре дојдовте назад"
+    },
+    "pnp.email": {
+        "translation": "Е-пошта"
+    },
+    "pnp.email_aria": {
+        "translation": "Пријави се со адреса на е-пошта"
+    },
+    "pnp.email_address": {
+        "translation": "Адреса на е-пошта"
+    },
+    "pnp.phone": {
+        "translation": "Телефон"
+    },
+    "pnp.phone_aria": {
+        "translation": "Пријави се со телефонски број"
+    },
+    "pnp.phone_number": {
+        "translation": "Телефонски број"
+    },
+    "pnp.login_signup": {
+        "translation": "Пријави се \/ Регистрирај се"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Поднеси пријава"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Пријави се со {provider}"
+    },
+    "pnp.or": {
+        "translation": "Или"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Пребарувај ги кодовите за земјите"
+    },
+    "pnp.select_country_code": {
+        "translation": "Избери код за земјата"
+    },
+    "pnp.login_disabled": {
+        "translation": "Пријавувањето \/ Регистрацијата се оневозможени"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Контактирајте со {appName} за помош"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Контактирајте со развивачот на оваа апликација за помош"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Услови на услугата"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Политиката за приватност"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Ако продолжите, ја прифаќате {appName}"
+    }
+}

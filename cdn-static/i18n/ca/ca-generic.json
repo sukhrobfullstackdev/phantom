@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Vaja! S'ha produït un problema."
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "No hem pogut trobar el recurs que busqueu."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Poseu-vos en contacte amb els desenvolupadors d'aquesta aplicació per obtenir una resolució."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Poseu-vos en contacte amb **{appName}** per obtenir una resolució."
+    },
+    "generic.internal_server_error": {
+        "translation": "Error de servidor intern"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Estem treballant perquè tot torni a la normalitat. Torneu-ho a intentar més tard."
+    },
+    "generic.close": {
+        "translation": "Tancar"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK no està disponible amb pla gratuït, milloreu la vostra subscripció a un pla de pagament."
+    },
+    "generic.our_pricing_page": {
+        "translation": "La nostra pàgina de preus"
+    },
+    "generic.app_error": {
+        "translation": "Error d'aplicació"
+    },
+    "generic.details": {
+        "translation": "DETALLS"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "S'ha produït un error desconegut."
+    },
+    "generic.blocked_request": {
+        "translation": "Sol·licitud bloquejada"
+    },
+    "generic.try_again": {
+        "translation": "Torneu-ho a intentar!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Proporcioneu un correu electrònic vàlid"
+    },
+    "generic.back": {
+        "translation": "Enrere"
+    },
+    "generic.loading": {
+        "translation": "Carregant"
+    },
+    "generic.success": {
+        "translation": "Èxit"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Per motius de seguretat, s'obrirà una pestanya nova de Magic per confirmar aquesta transacció."
+    },
+    "generic.trial_mode": {
+        "translation": "Mode de prova"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Actualitza ara"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Navegador no compatible"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Desactiveu temporalment qualsevol extensió activa del navegador o canvieu de navegador web i torneu-ho a provar."
+    }
+}

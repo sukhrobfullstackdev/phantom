@@ -1,0 +1,35 @@
+.popover {
+  position: relative;
+}
+
+.popover-trigger {
+
+}
+
+.popover-content {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 99;
+
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+  background-color: white;
+  padding: 8px 12px;
+
+  border-radius: 12px;
+
+  &.opened {
+    display: block;
+  }
+
+  &.closed {
+    display: none;
+  }
+
+  &.dark {
+    background-color: black;
+  }
+}
+
+
+

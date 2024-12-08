@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Hoppá! Valami elromlott"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Nem található a keresett forrás."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Kérjük, vegye fel a kapcsolatot az alkalmazás fejlesztőivel a megoldás érdekében."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Kérjük, vegye fel a kapcsolatot a(z) **{appName}** alkalmazással a megoldás érdekében."
+    },
+    "generic.internal_server_error": {
+        "translation": "Belső szerverhiba"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Jelenleg azon dolgozunk, hogy minden visszatérjen a normális kerékvágásba. Kérjük, próbálja újra hamarosan."
+    },
+    "generic.close": {
+        "translation": "Bezárás"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "A Whitelabel SDK nem érhető el ingyenes csomagon, kérjük, váltson egy fizetett csomagra"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Árazási oldalunk"
+    },
+    "generic.app_error": {
+        "translation": "Alkalmazáshiba"
+    },
+    "generic.details": {
+        "translation": "RÉSZLETEK"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Ismeretlen hiba történt."
+    },
+    "generic.blocked_request": {
+        "translation": "Blokkolt kérelem"
+    },
+    "generic.try_again": {
+        "translation": "Próbálja újra!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Kérjük, adjon meg egy érvényes e-mailt"
+    },
+    "generic.back": {
+        "translation": "Vissza"
+    },
+    "generic.loading": {
+        "translation": "Betöltés"
+    },
+    "generic.success": {
+        "translation": "Sikerült"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Biztonsági okokból a Magic alkamazásból fog megnyílni egy új lap, hogy jóváhagyja a tranzakciót."
+    },
+    "generic.trial_mode": {
+        "translation": "Próbamód"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Frissítés most"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "A böngésző nem támogatott"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Ideiglenesen tiltsa le az összes aktív böngészőbővítményt, vagy váltson másik webböngészőre, és próbálja meg újra."
+    }
+}

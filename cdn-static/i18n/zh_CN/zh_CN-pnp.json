@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "您之前的登录方法"
+    },
+    "pnp.welcome": {
+        "translation": "欢迎"
+    },
+    "pnp.welcome_back": {
+        "translation": "欢迎回来"
+    },
+    "pnp.email": {
+        "translation": "电子邮件"
+    },
+    "pnp.email_aria": {
+        "translation": "使用电子邮件地址登录"
+    },
+    "pnp.email_address": {
+        "translation": "电子邮件地址"
+    },
+    "pnp.phone": {
+        "translation": "电话"
+    },
+    "pnp.phone_aria": {
+        "translation": "使用电话号码登录"
+    },
+    "pnp.phone_number": {
+        "translation": "电话号码"
+    },
+    "pnp.login_signup": {
+        "translation": "登录\/注册"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "提交登录"
+    },
+    "pnp.login_using_aria": {
+        "translation": "通过 {provider} 登录"
+    },
+    "pnp.or": {
+        "translation": "或者"
+    },
+    "pnp.search_country_codes": {
+        "translation": "搜索国家或地区代码"
+    },
+    "pnp.select_country_code": {
+        "translation": "选择国家或地区代码"
+    },
+    "pnp.login_disabled": {
+        "translation": "登录\/注册已禁用"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "联系 {appName} 以获得帮助"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "联系此应用程序的开发人员以获得帮助"
+    },
+    "pnp.terms_of_service": {
+        "translation": "服务条款"
+    },
+    "pnp.privacy_policy": {
+        "translation": "隐私政策"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "继续即表示您接受 {appName} 的"
+    }
+}

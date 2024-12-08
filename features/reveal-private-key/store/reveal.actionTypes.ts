@@ -1,0 +1,5 @@
+export const SET_EMAIL_FORM = 'reveal/SET_EMAIL_FORM';
+export const SET_WEB_AUTHN_FORM = 'reveal/SET_WEB_AUTHN_FORM';
+export const SET_PHONE_NUMBER_FORM = 'reveal/SET_PHONE_NUMBER_FORM';
+export const SET_SELECTED_COUNTRY_CODE = 'reveal/SET_SELECTED_COUNTRY_CODE';
+export const SET_PHONE_NUMBER_FOR_LOGIN = 'reveal/SET_PHONE_NUMBER_FOR_LOGIN';

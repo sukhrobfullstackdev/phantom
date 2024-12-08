@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Se verifică dispozitivul tău"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Te rugăm să înregistrezi acest dispozitiv pentru a continua"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Am trimis un link de înregistrare a dispozitivului la"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Această aprobare rapidă și unică te va ajuta să-ți păstrezi contul în siguranță"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Aprobi autentificarea?"
+    },
+    "verify_device.new_device": {
+        "translation": "Browser\/dispozitiv nou"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Nu se potrivește cu browserul\/dispozitivul tău actual"
+    },
+    "verify_device.website": {
+        "translation": "Site web"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Noua adresă IP a dispozitivului"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Recunosc acest browser și acest dispozitiv"
+    },
+    "verify_device.reject": {
+        "translation": "Respinge"
+    },
+    "verify_device.approve": {
+        "translation": "Aprobă"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Solicitare de autentificare respinsă"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Am oprit dispozitivul nerecunoscut de la accesarea contului tău"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Ai greșit? Întoarce-te la **{appName}** pentru a reporni procesul de autentificare."
+    },
+    "verify_device.device_approved": {
+        "translation": "Autentificare aprobată"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Întoarce-te la **{appName}** pentru a termina autentificarea"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Acum poți închide această filă"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Linkul de aprobare a autentificării a expirat. Solicită unul nou pentru a continua."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Link expirat"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Trimiteți un alt link magic la \n**{userEmail}**.\nlinkul pentru conectare sau înregistrare."
+    },
+    "verify_device.resend_email": {
+        "translation": "Retrimiteți emailul"
+    },
+    "verify_device.close": {
+        "translation": "Închide"
+    }
+}

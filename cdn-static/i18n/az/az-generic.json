@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Uh oh! Xəta baş verdi"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Axtardığınız mənbəni tapmadıq."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Problemin həlli üçün bu tətbiqin developerləri ilə əlaqə saxlayın."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Problemin həlli üçün **{appName}** ilə əlaqə saxlayın."
+    },
+    "generic.internal_server_error": {
+        "translation": "Daxili server xətası"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Hazırda məsələni həll etməyə çalışırıq. Tezliklə yenidən cəhd edin."
+    },
+    "generic.close": {
+        "translation": "Bağlayın"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK-nın ödənişsiz planı əlçatan deyil. Ödənişli plana təkmilləşdirin"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Qiymət səhifəsi"
+    },
+    "generic.app_error": {
+        "translation": "Tətbiq xətası"
+    },
+    "generic.details": {
+        "translation": "MƏLUMATLAR"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Naməlum xəta baş verdi."
+    },
+    "generic.blocked_request": {
+        "translation": "Blok edilmiş sorğu"
+    },
+    "generic.try_again": {
+        "translation": "Yenidən cəhd edin!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Düzgün e-poçt qeyd edin"
+    },
+    "generic.back": {
+        "translation": "Geri"
+    },
+    "generic.loading": {
+        "translation": "Yüklənir"
+    },
+    "generic.success": {
+        "translation": "Alındı"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Təhlükəsizlik tədbiri məqsədilə bu əməliyyatı təsdiqləmək üçün Magic-dən yeni tab açılacaq."
+    },
+    "generic.trial_mode": {
+        "translation": "Sınaq Rejimi"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "İndi yeniləyin"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Brauzer dəstəklənmir"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Bütün aktiv brauzer uzantılarını müvəqqəti olaraq deaktiv edin və ya veb-brauzerləri dəyişib yenidən cəhd edin."
+    }
+}

@@ -1,0 +1,66 @@
+@import (reference) '~/app/index.less';
+
+.walletHomePage {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 680px;
+  text-align: center;
+}
+
+.customScrollBar {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 100vw;
+    #mg.themeProperty(background,
+      #mg.getThemeColor(light)[],
+      #323233,
+    );
+  }
+
+  &::-webkit-scrollbar-thumb {
+    #mg.themeProperty(background-color, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0.45));
+    border-radius: 100vw;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    #mg.themeProperty(background-color, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.6));
+  }
+}
+
+.note {
+  #mg.themeProperty(color, var(--silk80), #FFFFFFB8) !important;
+  display: inline;
+}
+
+.zerion {
+  text-decoration: none;
+  font-weight: 600;
+  #mg.themeProperty(color, #4e4d52, #FFFFFF) !important;
+  font-size: 14px;
+}
+
+.profilePicture {
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.tabs {
+  margin: 16px 0;
+}
+
+.tabListContainer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 320px;
+  margin: auto;
+}
+
+.faucetBannerPadding {
+  @media all and (max-width: 480px) {
+    display: none !important;
+  }
+}

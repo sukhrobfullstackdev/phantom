@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "Фактор за обновување веќе постои на оваа сметка"
+    },
+    "recovery.phone_number": {
+        "translation": "Телефонски број за обновување"
+    }
+}

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "magic-app.nameEnvConfigMap" . }}
+  namespace: {{ .Values.previewNamespace | default .Values.deployEnv }}
+  labels:
+    {{- include "magic-app.podLabels" . | nindent 4 }}
+    {{- include "magic-app.selectorLabels" . | nindent 4 }}
+data:
+  DEPLOY_ENV: {{ .Values.deployEnv }}
+  {{- .Values.configMapEnv.data | toYaml | nindent 2 }}

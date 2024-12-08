@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Indtast koden, der blev sendt til"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Ny kode er tilgængelig om {seconds}er"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Send en ny kode"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Ugyldig kode, prøv igen"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Det lader til, at telefonnummeret er ugyldigt.\nKontroller nummeret, og prøv igen."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kode udløbet"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "En ny kode bliver automatisk sendt til dig."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Sikkerhedsspærring"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "På grund af et mistænkeligt antal mislykkede loginforsøg er SMS-login midlertidigt blevet deaktiveret."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Prøv igen i"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Indtast en gyldig e-mailadresse."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "For mange loginforsøg. Prøv igen senere."
+    }
+}

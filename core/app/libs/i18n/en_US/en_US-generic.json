@@ -1,0 +1,92 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Uh oh! Something went wrong",
+        "notes": ""
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "We couldn't find the resource you're looking for.",
+        "notes": ""
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Please contact this app's developers for a resolution.",
+        "notes": ""
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Please contact **{appName}** for a resolution.",
+        "notes": ""
+    },
+    "generic.internal_server_error": {
+        "translation": "Internal server error",
+        "notes": ""
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "We're currently working on getting everything back to normal. Please try again soon.",
+        "notes": ""
+    },
+    "generic.close": {
+        "translation": "Close",
+        "notes": ""
+    },
+    "generic.back": {
+        "translation": "Back",
+        "notes": ""
+    },
+    "generic.loading": {
+        "translation": "Loading",
+        "notes": ""
+    },
+    "generic.success": {
+        "translation": "Success",
+        "notes": ""
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK is not available on a free plan, please upgrade to a paid plan",
+        "notes": ""
+    },
+    "generic.our_pricing_page": {
+        "translation": "Our Pricing Page",
+        "notes": ""
+    },
+    "generic.app_error": {
+        "translation": "App error",
+        "notes": ""
+    },
+    "generic.details": {
+        "translation": "DETAILS",
+        "notes": ""
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "An unknown error occurred.",
+        "notes": ""
+    },
+    "generic.blocked_request": {
+        "translation": "Blocked request",
+        "notes": ""
+    },
+    "generic.try_again": {
+        "translation": "Try Again!",
+        "notes": ""
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Please provide a valid email",
+        "notes": ""
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "For security purposes, a new tab from Magic will open for you to confirm this transaction.",
+        "notes": ""
+    },
+    "generic.trial_mode": {
+        "translation": "Trial Mode",
+        "notes": ""
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Upgrade Now",
+        "notes": ""
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Browser not supported"
+    },
+    "generic.browser_not_supported_description": {
+         "translation": "Please temporarily disable any active browser extensions or switch web browsers, and try again."
+    }
+}

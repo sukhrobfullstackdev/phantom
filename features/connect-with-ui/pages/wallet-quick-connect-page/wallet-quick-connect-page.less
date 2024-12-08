@@ -1,0 +1,52 @@
+@import (reference) '~/app/index.less';
+
+.text {
+  #mg.themeProperty(color, var(--silk80), #FFFFFFB8) !important;
+}
+
+.connectToAppHeader {
+  text-align: center;
+  font-size: 20px !important;
+}
+
+.activeWalletCard {
+  width: 90%;
+  padding: 16px;
+  #mg.themeProperty(background, #fff, #484848);
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.loadingSpinner {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.connectWalletButton {
+  height: 38px !important;
+  display: flex;
+  align-items: center;
+}
+
+.connectWalletButton:hover {
+  background: #mg.getThemeColor(primary) [] !important;
+}
+
+.switchWalletBtn {
+  background-color: #f8f8fa !important;
+  > span {
+    color: #000 !important;
+  }
+}
+
+.switchWalletBtn:hover {
+  background-color: #ededf3 !important;
+}

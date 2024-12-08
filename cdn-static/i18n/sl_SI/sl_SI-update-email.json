@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "Zahteva za posodobitev vašega e-poštnega naslova v **{updatedEmail}** je potekla."
+    },
+    "update_email.confirm_change": {
+        "translation": "Potrdi spremembo"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Potrdite spremembo iz vašega trenutnega e-poštnega naslova **{userEmail}**. Preverite svoj poštni predal."
+    },
+    "update_email.try_again_question": {
+        "translation": "Poskusi znova?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Potrdi nov e-poštni naslov"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Poslali smo vam e-pošto na **{updatedUserEmail}**. Preverite svoj poštni predal."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "Vaš e-poštni naslov je posodobljen!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Vrnite se na prvotni zavihek."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Vrnite se na prvotni zavihek **{appName}**."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Vrnite se na začetni zavihek in ponovno začnite potek posodobitve e-poštnega naslova"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Vrnite se na prvotni zavihek **{appName}** in ponovno začnite potek posodobitve e-poštnega naslova"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Povezava za potrditev je potekla"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Vašega e-poštnega naslova ni bilo mogoče potrditi. Zaprite to okno in ponovno zaženite potek dela."
+    },
+    "update_email.updating_email": {
+        "translation": "Posodabljanje e-poštnega naslova ..."
+    },
+    "update_email.last_step": {
+        "translation": "zadnji korak!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Za dokončanje posodobitve vašega e-poštnega naslova potrdite spremembo z vašega trenutnega e-poštnega naslova **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "Ponovno pošlji e-pošto"
+    },
+    "update_email.cancel": {
+        "translation": "Prekliči"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "To okno lahko zaprete."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Počakajte! Odpravljamo napako."
+    },
+    "update_email.oops": {
+        "translation": "Ups"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Trenutno si prizadevamo za ponovno vzpostavitev normalnega stanja. Kmalu poskusite znova."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "Potrditev posodobitve e-poštnega naslova"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—Potrditev posodobitve e-poštnega naslova"
+    }
+}

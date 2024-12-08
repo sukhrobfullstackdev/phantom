@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Обратно към {appName}"
+    },
+    "settings.title": {
+        "translation": "Настройки на акаунт"
+    },
+    "settings.off": {
+        "translation": "ИЗКЛ."
+    },
+    "settings.on": {
+        "translation": "ВКЛ."
+    },
+    "settings.turn_on": {
+        "translation": "Включване"
+    },
+    "settings.turn_off": {
+        "translation": "Изключване"
+    },
+    "settings.two_step_verification": {
+        "translation": "2-степенна проверка"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Добавете допълнителен слой защита, като въведете код за потвърждение на мобилно приложение всеки път, когато влизате"
+    },
+    "settings.phone_number": {
+        "translation": "Телефонен номер"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Актуализирайте текущия си телефонен номер"
+    }
+}

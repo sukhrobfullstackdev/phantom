@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Bir kimlik belirleme uygulaması\nkullanmanız gerekecektir"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "İki adımlı doğrulamayı etkinleştirmek için {authy} ya da {google} gibi bir kimlik belirleme uygulaması kullanmanız gerekecektir."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Bu kare kodu tara"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Kimlik belirleme uygulamanızı açıp bu kare kodu tarayın ya da kurulum anahtarınızı girin."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Lütfen kimlik belirleme uygulamanızın \noluşturduğu 6 haneli kodu girin"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Geçersiz kod. Lütfen tekrar deneyin."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Kurtarma kodunuzu kaydedin"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Kimlik belirleme uygulamanıza erişememeniz durumunda oturum açmak için bu kodu kulanabilirsiniz."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "{appName} kurtarma kodunuz"
+    },
+    "mfa.copy_code": {
+        "translation": "Kodu kopyala"
+    },
+    "mfa.finish_setup": {
+        "translation": "Kurulumu bitirin"
+    },
+    "mfa.key": {
+        "translation": "Anahtar"
+    },
+    "mfa.copy": {
+        "translation": "Kopyala"
+    },
+    "mfa.copied": {
+        "translation": "Kopyalandı"
+    },
+    "mfa.next": {
+        "translation": "İleri"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Cihazımı kaybettim"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Oturum açmak için kurtarma \nkodunuzu girin"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "2 adımlı doğrulama devre dışı bırakılacak"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8 karakterli kod"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Kurtarma kodumu kaybettim"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Geçersiz kod, lütfen tekrar deneyin"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Geçersiz kod. Hesabınızın kilitlenmesine ({denemeler}) deneme hakkınız kaldı."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Hesap kurtarma yardımı için lütfen {appName} destek ekibiyle iletişime geçin."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "{appName} destek ekibine ulaşın"
+    }
+}

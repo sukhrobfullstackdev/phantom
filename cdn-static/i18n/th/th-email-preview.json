@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "คลิกปุ่มด้านล่างเพื่อเข้าสู่ระบบ {appName}"
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "ปุ่มนี้จะหมดอายุใน 10 นาที"
+    },
+    "email_preview.login_to_app": {
+        "translation": "เข้าสู่ระบบ {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "การยืนยันคำขอนี้จะทำให้คุณเข้าสู่ระบบอย่างปลอดภัยโดยใช้ **hello@example.com**"
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "หากคุณไม่ได้ส่งคำขอนี้ ไม่ต้องกังวล คุณมองข้ามอีเมลนี้ได้อย่างปลอดภัย"
+    },
+    "email_preview.app_team": {
+        "translation": "- ทีม {appName}"
+    }
+}

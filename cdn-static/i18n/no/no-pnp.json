@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Din forrige innloggingsmetode"
+    },
+    "pnp.welcome": {
+        "translation": "Velkommen"
+    },
+    "pnp.welcome_back": {
+        "translation": "Velkommen tilbake"
+    },
+    "pnp.email": {
+        "translation": "E-post"
+    },
+    "pnp.email_aria": {
+        "translation": "Logg inn med e-postadresse"
+    },
+    "pnp.email_address": {
+        "translation": "E-postadresse"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Logg inn med telefonnummer"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefonnummer"
+    },
+    "pnp.login_signup": {
+        "translation": "Logg inn \/ Registrer deg"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Send inn pålogging"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Logg inn med {provider}"
+    },
+    "pnp.or": {
+        "translation": "Eller"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Søk etter landskoder"
+    },
+    "pnp.select_country_code": {
+        "translation": "Velg landskode"
+    },
+    "pnp.login_disabled": {
+        "translation": "Innlogging \/ Registrering deaktivert"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Kontakt {appName} for hjelp"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Kontakt apputvikleren for å få hjelp"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Brukervilkår"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Personvernerklæring"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Ved å fortsette godtar du {appName}'s"
+    }
+}

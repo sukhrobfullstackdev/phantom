@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "正在验证您的设备"
+    },
+    "verify_device.register_your_device": {
+        "translation": "请注册此设备以继续"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "我们已将设备注册链接发送到"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "这种快速一次性批准将帮助您的帐户保持安全"
+    },
+    "verify_device.register_new_device": {
+        "translation": "批准登录？"
+    },
+    "verify_device.new_device": {
+        "translation": "新浏览器\/设备"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "不匹配您的当前浏览器\/设备"
+    },
+    "verify_device.website": {
+        "translation": "网站"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "新设备 IP 地址"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "我认可此浏览器和设备"
+    },
+    "verify_device.reject": {
+        "translation": "拒绝"
+    },
+    "verify_device.approve": {
+        "translation": "批准"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "登录请求已被拒绝"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "我们已阻止无法识别的设备访问您的帐户"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "出错了？返回 **{appName}** 以重新开始登录过程。"
+    },
+    "verify_device.device_approved": {
+        "translation": "登录已批准"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "返回 **{appName}** 以完成登录"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "现在您可以关闭此标签页"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "您的登录批准链接已过期。请求新的链接以继续。"
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "链接已过期"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "再发一个魔法链接到 \n**{userEmail}**。\n 登录或注册的链接。"
+    },
+    "verify_device.resend_email": {
+        "translation": "重新发送邮件"
+    },
+    "verify_device.close": {
+        "translation": "关闭"
+    }
+}

@@ -1,0 +1,18 @@
+@import (reference) '~/app/index.less';
+
+.icon {
+  &:hover {
+    filter: brightness(90%);
+  }
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:focus {
+    outline: 2px solid #mg.getThemeColor(primary) [];
+    border-radius: 50%;
+  }
+}

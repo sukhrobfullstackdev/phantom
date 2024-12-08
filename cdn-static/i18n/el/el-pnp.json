@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Η προηγούμενη μέθοδος σύνδεσης"
+    },
+    "pnp.welcome": {
+        "translation": "Καλώς ορίσατε"
+    },
+    "pnp.welcome_back": {
+        "translation": "Καλώς ορίσατε και πάλι"
+    },
+    "pnp.email": {
+        "translation": "Email"
+    },
+    "pnp.email_aria": {
+        "translation": "Συνδεθείτε χρησιμοποιώντας μια διεύθυνση email"
+    },
+    "pnp.email_address": {
+        "translation": "Διεύθυνση email"
+    },
+    "pnp.phone": {
+        "translation": "Τηλέφωνο"
+    },
+    "pnp.phone_aria": {
+        "translation": "Συνδεθείτε χρησιμοποιώντας έναν αριθμό τηλεφώνου"
+    },
+    "pnp.phone_number": {
+        "translation": "Αριθμός τηλεφώνου"
+    },
+    "pnp.login_signup": {
+        "translation": "Σύνδεση\/Εγγραφή"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Υποβολή σύνδεσης"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Συνδεθείτε μέσω {provider}"
+    },
+    "pnp.or": {
+        "translation": "Εναλλακτικά"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Αναζήτηση για κωδικούς χωρών"
+    },
+    "pnp.select_country_code": {
+        "translation": "Επιλογή κωδικού χώρας"
+    },
+    "pnp.login_disabled": {
+        "translation": "Η σύνδεση\/εγγραφή είναι απενεργοποιημένη"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Επικοινωνήστε με την εφαρμογή {appName} για βοήθεια"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Επικοινωνήστε με τον προγραμματιστή της εφαρμογής για βοήθεια"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Όροι Χρήσης"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Πολιτική Απορρήτου"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Εάν συνεχίσετε, αποδέχεστε την Πολιτική Απορρήτου του {appName}"
+    }
+}

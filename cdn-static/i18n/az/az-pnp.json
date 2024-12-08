@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Əvvəlki giriş üsulunuz"
+    },
+    "pnp.welcome": {
+        "translation": "Xoş gəlmisiniz"
+    },
+    "pnp.welcome_back": {
+        "translation": "Yenidən xoş gəldiniz"
+    },
+    "pnp.email": {
+        "translation": "E-poçt"
+    },
+    "pnp.email_aria": {
+        "translation": "E-poçt ünvanı ilə daxil olun"
+    },
+    "pnp.email_address": {
+        "translation": "E-poçt ünvanı"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Telefon nömrəsi ilə daxil olun"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefon nömrəsi"
+    },
+    "pnp.login_signup": {
+        "translation": "Daxil olun\/Qeydiyyatdan keçin"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Girişi göndərin"
+    },
+    "pnp.login_using_aria": {
+        "translation": "{provider} ilə daxil olun"
+    },
+    "pnp.or": {
+        "translation": "VƏ YA"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Ölkə kodlarını seçin"
+    },
+    "pnp.select_country_code": {
+        "translation": "Ölkə kodunu seçin"
+    },
+    "pnp.login_disabled": {
+        "translation": "Giriş\/Qeydiyyat deaktiv edildi"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Kömək üçün {appName} ilə əlaqə saxlayın"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Kömək üçün bu tətbiqin tərtibatçısı ilə əlaqə saxlayın"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Xidmət Şərtləri"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Məxfilik Siyasəti"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Davam etməklə {appName} tətbiqini qəbul edirsiniz"
+    }
+}

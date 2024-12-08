@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Apasă butonul de mai jos pentru a te conecta la {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Acest buton va expira în 10 minute."
+    },
+    "email_preview.login_to_app": {
+        "translation": "conectează-te la {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Prin confirmarea acestei solicitări te vei conecta în siguranță cu ajutorul adresei **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Dacă nu tu ai trimis această solicitare, fii fără grijă, poți ignora acest e-mail."
+    },
+    "email_preview.app_team": {
+        "translation": "- Echipa {appName}"
+    }
+}

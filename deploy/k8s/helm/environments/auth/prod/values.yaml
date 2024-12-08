@@ -1,0 +1,21 @@
+deployment:
+  rollingUpdate:
+    maxSurge: "35%"
+  appContainer:
+    resources:
+      limits:
+        cpu: 1000m
+        memory: 2048Mi
+      requests:
+        cpu: 1000m
+        memory: 2048Mi
+
+affinity:
+  nodeAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 10
+        preference:
+          matchExpressions:
+            - key: "node.kubernetes.io/instance-type"
+              operator: "In"
+              values: ["c6i.xlarge"]

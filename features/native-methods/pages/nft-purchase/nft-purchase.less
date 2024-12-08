@@ -1,0 +1,44 @@
+@import (reference) '~/app/index.less';
+
+.nftPurchase {
+  @media all and (max-width: 480px) {
+    margin-top: -48px;
+  }
+}
+
+.nftPurchaseIframe {
+  margin-top: -16px;
+  margin-left: -48px;
+  margin-bottom: -32px;  
+
+  /* Apply styles when height is less than or equal to 800px */
+  @media all and (max-height: 800px) {
+    height: 70vh;
+  }
+
+  @media all and (max-width: 479px) {
+    width: 100vw;
+    margin: auto;
+    margin-left: -32px;
+  }
+}
+
+.nftImage {
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.nftImageFailed {
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  opacity: 0.3;
+}

@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "以前のログイン方法"
+    },
+    "pnp.welcome": {
+        "translation": "ようこそ"
+    },
+    "pnp.welcome_back": {
+        "translation": "お帰りなさい"
+    },
+    "pnp.email": {
+        "translation": "メールアドレス"
+    },
+    "pnp.email_aria": {
+        "translation": "メールアドレスを使用してログイン"
+    },
+    "pnp.email_address": {
+        "translation": "メールアドレス"
+    },
+    "pnp.phone": {
+        "translation": "電話"
+    },
+    "pnp.phone_aria": {
+        "translation": "電話番号を使用してログイン"
+    },
+    "pnp.phone_number": {
+        "translation": "電話番号"
+    },
+    "pnp.login_signup": {
+        "translation": "ログイン\/サインアップ"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "ログインを送信"
+    },
+    "pnp.login_using_aria": {
+        "translation": "{provider}でログイン"
+    },
+    "pnp.or": {
+        "translation": "または"
+    },
+    "pnp.search_country_codes": {
+        "translation": "国コードを検索"
+    },
+    "pnp.select_country_code": {
+        "translation": "国コードを選択"
+    },
+    "pnp.login_disabled": {
+        "translation": "ログイン\/サインアップが無効です"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "{appName}にお問い合わせください"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "このアプリの開発者にお問い合わせください"
+    },
+    "pnp.terms_of_service": {
+        "translation": "利用規約"
+    },
+    "pnp.privacy_policy": {
+        "translation": "プライバシーポリシー"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "続行すると、{appName}の以下に同意したことになります"
+    }
+}

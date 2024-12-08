@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Verifica del dispositivo"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registra il dispositivo per continuare"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Link di registrazione del dispositivo inviato a"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Questo rapido processo di approvazione una tantum aiuterà a proteggere il tuo account"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Approvare l'accesso?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nuovo browser\/dispositivo"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Non coincide con il browser\/dispositivo attuale"
+    },
+    "verify_device.website": {
+        "translation": "Sito web"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Indirizzo IP del nuovo dispositivo"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Riconosco questo browser e dispositivo"
+    },
+    "verify_device.reject": {
+        "translation": "Rifiuta"
+    },
+    "verify_device.approve": {
+        "translation": "Approva"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Richiesta di accesso rifiutata"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Abbiamo impedito al dispositivo non riconosciuto di accedere al tuo account"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Hai fatto un errore? Torna a **{appName}** per ricominciare la procedura di accesso."
+    },
+    "verify_device.device_approved": {
+        "translation": "Accesso approvato"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Torna su **{appName}** per completare l'accesso"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Ora puoi chiudere questa scheda"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Il link di approvazione dell'accesso è scaduto. Richiedine un altro per continuare."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Link scaduto"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Invia un nuovo link magico a \n**{userEmail}**.\nClicca sul link per accedere o registrarti."
+    },
+    "verify_device.resend_email": {
+        "translation": "Invia nuova email"
+    },
+    "verify_device.close": {
+        "translation": "Chiudi"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Го проверуваме вашиот уред"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Регистрирајте го уредот за да продолжите"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Пративме врска за регистрација на уред до"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Ова брзо еднократно одобрување ќе помогне за одржување на безбедноста на вашата сметка"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Да се одобри најавувањето?"
+    },
+    "verify_device.new_device": {
+        "translation": "Нов прелистувач\/уред"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Не се совпаѓа со вашиот моментален прелистувач\/уред"
+    },
+    "verify_device.website": {
+        "translation": "Веб-локација"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "IP-адреса на нов уред"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Ги препознавам овие прелистувач и уред"
+    },
+    "verify_device.reject": {
+        "translation": "Одбиј"
+    },
+    "verify_device.approve": {
+        "translation": "Одобри"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Барањето за најава е одбиено"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Спречивме непознат уред да пристапи до вашата сметка"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Направивте грешка? Вратете се на **{appName}** за одново да го започнете процесот на најавување."
+    },
+    "verify_device.device_approved": {
+        "translation": "Најавувањето е одобрено"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Вратете се на **{appName}** за да завршите со најавувањето"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Сега може да ја затворите оваа картичка"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Врската за одобрение на најавувањето истече. Побарајте нова за да продолжите."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Врската истече"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Испрати уште една magic врска до\n**{userEmail}**.\nврската за најавување или пријавување."
+    },
+    "verify_device.resend_email": {
+        "translation": "Повторно прати е-пошта"
+    },
+    "verify_device.close": {
+        "translation": "Затвори"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Jou vorige aantekenmetode"
+    },
+    "pnp.welcome": {
+        "translation": "Welkom"
+    },
+    "pnp.welcome_back": {
+        "translation": "Welkom terug"
+    },
+    "pnp.email": {
+        "translation": "E-pos"
+    },
+    "pnp.email_aria": {
+        "translation": "Teken aan met e-posadres"
+    },
+    "pnp.email_address": {
+        "translation": "E-posadres"
+    },
+    "pnp.phone": {
+        "translation": "Foon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Teken aan met foonnommer"
+    },
+    "pnp.phone_number": {
+        "translation": "Foonnommer"
+    },
+    "pnp.login_signup": {
+        "translation": "Teken aan\/skryf in"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Dien aantekening in"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Teken aan met {provider}"
+    },
+    "pnp.or": {
+        "translation": "Of"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Deursoek landkodes"
+    },
+    "pnp.select_country_code": {
+        "translation": "Kies landkode"
+    },
+    "pnp.login_disabled": {
+        "translation": "Aanteken\/inskryf gedeaktiveer"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Kontak {appName} vir hulp"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Kontak die ontwikkelaar van hierdie toepassing vir hulp"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Diensbepalings"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Privaatheidsbeleid"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Deur voort te gaan, aanvaar u {appName} se"
+    }
+}

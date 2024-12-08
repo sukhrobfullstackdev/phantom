@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Introduïu el codi enviat a"
+    },
+    "login_sms.new_code_available": {
+        "translation": "El codi nou estarà disponible en {seconds} s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Enviar un codi nou"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "El codi no és vàlid; torneu-ho a provar"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Sembla que el número de telèfon no és vàlid.\nComproveu-lo i torneu-ho a provar."
+    },
+    "login_sms.expired_code": {
+        "translation": "El codi ha caducat"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Se us enviarà un nou codi automàticament."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Blocatge de seguretat"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Degut a què hi ha hagut un nombre sospitós d'intents de connexió fallits, l'inici de sessió d'SMS s'ha desactivat temporalment."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Torneu-ho a provar en"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Introdueix una adreça electrònica vàlida."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Hi ha hagut massa intents d’inici de sessió. Torna-ho a provar més tard."
+    }
+}

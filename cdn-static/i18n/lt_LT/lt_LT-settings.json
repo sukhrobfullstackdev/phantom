@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Grįžti į „{appName}“"
+    },
+    "settings.title": {
+        "translation": "Paskyros nustatymai"
+    },
+    "settings.off": {
+        "translation": "IŠJUNGTA"
+    },
+    "settings.on": {
+        "translation": "ĮJUNGTA"
+    },
+    "settings.turn_on": {
+        "translation": "Įjungti"
+    },
+    "settings.turn_off": {
+        "translation": "Išjungti"
+    },
+    "settings.two_step_verification": {
+        "translation": "Dviejų žingsnių patvirtinimas"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Užtikrinkite papildomą apsaugą – kaskart prisijungdami įveskite mobiliosios programėlės patvirtinimo kodą"
+    },
+    "settings.phone_number": {
+        "translation": "Telefono numeris"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Atnaujinti esamą telefono numerį"
+    }
+}

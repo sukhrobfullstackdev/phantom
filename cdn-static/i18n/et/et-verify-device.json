@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Seadme kinnitamine"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Jätkamiseks registreerige see seade"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Saatsime seadme registreerimislingi aadressile"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "See kiire"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Kas kinnitada sisselogimine?"
+    },
+    "verify_device.new_device": {
+        "translation": "Uus brauser\/seade"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Ei ühildu teie praeguse brauseri\/seadmega"
+    },
+    "verify_device.website": {
+        "translation": "Veebisait"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Uue seadme IP-aadress"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Tunnen selle brauseri ja seadme ära"
+    },
+    "verify_device.reject": {
+        "translation": "Keeldu"
+    },
+    "verify_device.approve": {
+        "translation": "Kinnita"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Sisselogimistaotlus lükati tagasi"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Peatasime tundmatu seadme pääsu teie kontole"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Kas tegite vea? Sisselogimisprotsessi taasalustamiseks avage uuesti rakendus **{appName}*."
+    },
+    "verify_device.device_approved": {
+        "translation": "Sisselogimine on kinnitatud"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Sisselogimise lõpetamiseks naaske rakendusse **{appName}**"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Nüüd võite selle vahekaardi sulgeda"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Teie sisselogimise kinnituslink on aegunud. Jätkamiseks taotlege uut linki."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Link on aegunud"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Saada teine maagiline link \n**{userEmail}**.\n lingile, et sisse logida või registreeruda."
+    },
+    "verify_device.resend_email": {
+        "translation": "Saada e-kiri uuesti"
+    },
+    "verify_device.close": {
+        "translation": "Sule"
+    }
+}

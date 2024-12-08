@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Tilbake til {appName}"
+    },
+    "settings.title": {
+        "translation": "Kontoinnstillinger"
+    },
+    "settings.off": {
+        "translation": "AV"
+    },
+    "settings.on": {
+        "translation": "PÅ"
+    },
+    "settings.turn_on": {
+        "translation": "Slå på"
+    },
+    "settings.turn_off": {
+        "translation": "Slå av"
+    },
+    "settings.two_step_verification": {
+        "translation": "2-trinns bekreftelse"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Legg til et ekstra lag med sikkerhet ved å skrive inn en bekreftelseskode for mobilappen hver gang du logger på"
+    },
+    "settings.phone_number": {
+        "translation": "Telefonnummer"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Oppdater ditt nåværende telefonnummer"
+    }
+}

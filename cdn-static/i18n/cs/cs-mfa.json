@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Budete potřebovat\nověřovací aplikaci"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Chcete-li aktivovat dvoufázové ověřování, budete potřebovat ověřovací aplikaci, jako například {authy} nebo {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Naskenovat tento QR kód"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Otevřete ověřovací aplikaci a naskenujte tento QR kód nebo zadejte klíč pro nastavení."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Zadejte 6místný kód\nz vaší ověřovací aplikace"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Neplatný kód. Zkuste to prosím znovu později."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Uložit kód pro obnovu"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Tento kód lze použít k přihlášení, pokud ztratíte přístup k aplikaci pro ověřování. Uložte jej na bezpečném místě."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Váš kód obnovy {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Kopírovat kód"
+    },
+    "mfa.finish_setup": {
+        "translation": "Ukončit nastavení"
+    },
+    "mfa.key": {
+        "translation": "Klíč"
+    },
+    "mfa.copy": {
+        "translation": "Kopírovat"
+    },
+    "mfa.copied": {
+        "translation": "Zkopírováno"
+    },
+    "mfa.next": {
+        "translation": "Další"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Ztratil jsem své zařízení"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Zadejte kód pro obnovu\na přihlaste se"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "2fázové ověřování bude vypnuto"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8znakový kód"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Ztratil jsem kód pro obnovu"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Neplatný kód, zkuste to znovu"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Neplatný kód. ({attempts}) zbývajících pokusů před zablokováním účtu."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Pokud chcete získat pomoc s obnovou účtu, obraťte se na tým podpory {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Kontaktujte podporu {appName}"
+    }
+}

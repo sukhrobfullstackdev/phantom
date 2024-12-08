@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Atpakaļ uz {appName}"
+    },
+    "settings.title": {
+        "translation": "Konta iestatījumi"
+    },
+    "settings.off": {
+        "translation": "IZSLĒGTS"
+    },
+    "settings.on": {
+        "translation": "IESLĒGTS"
+    },
+    "settings.turn_on": {
+        "translation": "Ieslēgt"
+    },
+    "settings.turn_off": {
+        "translation": "Izslēgt"
+    },
+    "settings.two_step_verification": {
+        "translation": "Divpakāpju verifikācija"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Pievienojiet papildu drošības līmeni, katru reizi, kad ielogojaties, ievadot mobilās lietotnes verifikācijas kodu"
+    },
+    "settings.phone_number": {
+        "translation": "Tālruņa numurs"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Atjauniniet savu aktuālo tālruņa numuru"
+    }
+}

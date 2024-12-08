@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "มีปัจจัยกู้คืนอยู่แล้วในบัญชีนี้"
+    },
+    "recovery.phone_number": {
+        "translation": "กู้คืนหมายเลขโทรศัพท์"
+    }
+}

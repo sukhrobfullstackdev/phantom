@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "警告"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "您的私钥"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "安全存储，绝不泄露您的私钥"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "登出"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "复制到剪切板"
+    }
+}

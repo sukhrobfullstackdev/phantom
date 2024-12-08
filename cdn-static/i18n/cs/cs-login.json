@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Zkontrolujte e-mailovou schránku"
+    },
+    "login.confirm_your_email": {
+        "translation": "Potvrďte váš e-mail"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Zaslali jsme odkaz magic link na adresu"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Kliknutím se přihlásíte\/registrujete"
+    },
+    "login.check_your_inbox": {
+        "translation": "Zkontrolujte příchozí poštu"
+    },
+    "login.resend_email": {
+        "translation": "Znovu zaslat e-mail"
+    },
+    "login.close": {
+        "translation": "Zavřít"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Vraťte se na původní kartu."
+    },
+    "login.logging_you_in": {
+        "translation": "přihlašování…"
+    },
+    "login.logged_in": {
+        "translation": "Jste již přihlášeni!"
+    },
+    "login.logged_into_app": {
+        "translation": "Jste přihlášeni v aplikaci {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Toto okno můžete zavřít"
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Právě se snažíme vrátit vše zpátky do pořádku. Zkuste to za chvíli znovu."
+    },
+    "login.blocked_request": {
+        "translation": "Blokovaná žádost"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Vraťte se na původní kartu a nechte si zaslat nový odkaz magic link."
+    },
+    "login.request_new_link_app": {
+        "translation": "Vraťte se na původní kartu aplikace **{appName}** a nechte si zaslat nový odkaz magic link."
+    },
+    "login.magic_link_expired": {
+        "translation": "Platnost odkazu magic link vypršela"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Tuto kartu nezavírejte!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Na tuto kartu se vraťte poté, co kliknete na odkaz magic link."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Zaslat další odkaz magic link na\n**{userEmail}**.\n kliknutím se přihlásíte\/registrujete."
+    },
+    "login.try_again_later": {
+        "translation": "Zkuste to znovu"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Než zašlete další e-mail, počkejte **{seconds}s**"
+    },
+    "login.please_send_another_link": {
+        "translation": "Zašlete další odkaz magic link na\n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Chvilku strpení. Opravujeme chybu."
+    },
+    "login.confirming_your_login": {
+        "translation": "Potvrzování přihlášení"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName} — Potvrzování přihlášení"
+    },
+    "login.is_this_you": {
+        "translation": "Jste to vy?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Byla zaznamenána neobvyklá aktivita. Pomozte nám zabezpečit váš účet tím, že nám sdělíte, zda víte o pokusu o přihlášení z tohoto zařízení:"
+    },
+    "login.location": {
+        "translation": "Poloha:"
+    },
+    "login.no_block_this": {
+        "translation": "Ne, přihlášení zablokujte"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Ano, vím o tom"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Děkujeme za pomoc při zabezpečování vašeho účtu! Trvale jsme zablokovali pokusy o příhlášení z tohoto zařízení:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Pomozte nám zabezpečit váš účet tím, že nám sdělíte, zda víte o pokusu o přihlášení z tohoto zařízení:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Děkujeme za pomoc při zabezpečování vašeho účtu! Zablokovali jsme pokus o příhlášení z tohoto zařízení:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Odkaz je narušen — požádejte o nový odkaz Magic, nebo otevřete tento odkaz v jiném e-mailovém klientovi"
+    },
+    "login.app_is_private": {
+        "translation": "Aplikace {appName} je soukromá"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} nemá oprávnění pro otevření této aplikace"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Myslíte si, že došlo k chybě? Zkuste se přihlásit jinak nebo kontaktujte {appName} a požádejte o pomoc."
+    },
+    "login.access_denied": {
+        "translation": "Přístup byl odepřen"
+    },
+    "login.email_blocked_message": {
+        "translation": "Litujeme, ale nemáte oprávnění pro přihlášení k {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Přihlaste se pomocí odeslaného kouzelného odkazu"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Zadejte bezpečnostní kód zobrazený v {appName}"
+    },
+    "login.security_code": {
+        "translation": "Bezpečnostní kód:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Potom zadejte tento bezpečnostní kód:"
+    },
+    "login.copy": {
+        "translation": "Kopírovat"
+    },
+    "login.go_back_to_app": {
+        "translation": "Vrátit se k **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Přihlášení dokončeno!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Úspěšné přihlášení"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Nyní můžete tuto kartu zavřít"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Neplatná URL adresa pro přesměrování"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Zadaná URL adresa pro přesměrování není v seznamu povolených adres."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Kouzelný odkaz byl vyžádán z jiné IP adresy"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Klikněte na odkaz ze stejného zařízení. Pokud jste si tento odkaz nevyžádali, ignorujte tuto zprávu."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Byl překročen limit služby"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Kontaktujte **{appName}** a požádejte o pomoc s přístupem k účtu."
+    },
+    "login.security_code_expired": {
+        "translation": "Platnost bezpečnostního kódu vypršela"
+    },
+    "login.login_code_expired": {
+        "translation": "Platnost přihlašovacího kódu vypršela"
+    },
+    "login.request_new_login_code": {
+        "translation": "Požádejte o nový přihlašovací kód"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Požádat o nový kód"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Pokud chcete obdržet nový kód, vratťe se do {appName} a restartujte proces přihlášení."
+    }
+}

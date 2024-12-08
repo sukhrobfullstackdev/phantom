@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Uff da! Noe gikk galt"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Vi fant ikke ressursen du lette etter."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Kontakt utviklerne av denne appen for en løsning."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Vennligst kontakt **{appName}** for en løsning."
+    },
+    "generic.internal_server_error": {
+        "translation": "Intern serverfeil"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Vi jobber for tiden med å få alt tilbake til det normale. Prøv igjen snart."
+    },
+    "generic.close": {
+        "translation": "Lukk"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK er ikke tilgjengelig i en gratis plan. Vennligst oppgrader til en betalt plan"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Vår prisside"
+    },
+    "generic.app_error": {
+        "translation": "Appfeil"
+    },
+    "generic.details": {
+        "translation": "DETALJER"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "En ukjent feil oppstod."
+    },
+    "generic.blocked_request": {
+        "translation": "Blokkert forespørsel"
+    },
+    "generic.try_again": {
+        "translation": "Prøv igjen!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Oppgi en gyldig e-postadresse"
+    },
+    "generic.back": {
+        "translation": "Tilbake"
+    },
+    "generic.loading": {
+        "translation": "Laster"
+    },
+    "generic.success": {
+        "translation": "Suksess"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Av sikkerhetsgrunner vil en ny fane fra Magic åpnes for deg for å bekrefte denne transaksjonen."
+    },
+    "generic.trial_mode": {
+        "translation": "Prøveversjonsmodus"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Oppgrader nå"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Nettleseren støttes ikke"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Deaktiver aktive nettleserutvidelser midlertidig eller bytt nettleser, og prøv på nytt."
+    }
+}

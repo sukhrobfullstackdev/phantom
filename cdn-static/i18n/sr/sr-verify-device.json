@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Verifikovanje vašeg uređaja"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registrujte ovaj uređaj da biste nastavili"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Poslali smo link za registraciju uređaja na"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Ovo brzo jednokratno odobrenje će pomoći da vaš nalog bude bezbedan"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Odobriti prijavljivanje?"
+    },
+    "verify_device.new_device": {
+        "translation": "Novi pregledač\/uređaj"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Ne odgovara trenutnom pregledaču\/uređaju"
+    },
+    "verify_device.website": {
+        "translation": "Veb sajt"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "IP adresa novog uređaja"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Prepoznajem ovaj pregledač i uređaj"
+    },
+    "verify_device.reject": {
+        "translation": "Odbij"
+    },
+    "verify_device.approve": {
+        "translation": "Odobri"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Zahtev za prijavljivanje je odbijen"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Sprečili smo neprepoznati uređaj da pristupi vašem nalogu"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Napravili ste grešku? Idite na **{appName}** da biste ponovo pokrenuli proces prijavljivanja."
+    },
+    "verify_device.device_approved": {
+        "translation": "Prijavljivanje je odobreno"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Vratite se na **{appName}** da biste dovršili prijavljivanje"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Sada možete da zatvorite ovu karticu"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Vaš link za odobrenje za prijavu je istekao. Zatražite novi da biste nastavili."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Link je istekao"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Pošaljite drugi magični link na \n**{userEmail}**.\n link za prijavljivanje ili registraciju."
+    },
+    "verify_device.resend_email": {
+        "translation": "Ponovo pošalji imejl"
+    },
+    "verify_device.close": {
+        "translation": "Zatvori"
+    }
+}

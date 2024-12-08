@@ -1,0 +1,54 @@
+@import (reference) '~/app/index.less';
+
+.magic-icon-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 300px;
+
+  width: 32px;
+  height: 32px;
+
+  cursor: pointer;
+  pointer-events: auto;
+
+  transition: background 150ms linear;
+
+  &:disabled {
+    pointer-events: 'none';
+    opacity: 0.3;
+  }
+
+  &:focus {
+    outline: 2px solid #mg.getThemeColor(primary) [];
+    outline-offset: 2px;
+  }
+
+  &.variant-primary {
+    color: var(--ink80);
+    background-color: var(--silk10);
+  
+    &:hover {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(237, 235, 255, 1));
+    }
+  }
+  
+  &.variant-primary-dark {
+    color: white;
+    background-color: var(--slate1);
+    
+    &:hover {
+      background-blend-mode: normal;
+      background: linear-gradient(0deg, #252525, rgba(0, 0, 0, 0.1));
+    }
+  }
+}
+
+
+
+
+
+

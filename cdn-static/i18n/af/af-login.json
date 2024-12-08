@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Kyk in jou e-posse"
+    },
+    "login.confirm_your_email": {
+        "translation": "Bevestig jou e-posadres"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Ons het ’n towerskakel gestuur aan"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Klik die skakel om aan te teken of in te skryf."
+    },
+    "login.check_your_inbox": {
+        "translation": "Kyk in jou inbus"
+    },
+    "login.resend_email": {
+        "translation": "Stuur e-pos weer"
+    },
+    "login.close": {
+        "translation": "Maak toe"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Gaan terug na jou oorspronklike oortjie."
+    },
+    "login.logging_you_in": {
+        "translation": "jy word aangeteken ..."
+    },
+    "login.logged_in": {
+        "translation": "Jy is aangeteken!"
+    },
+    "login.logged_into_app": {
+        "translation": "Jy is by {appName} aangeteken!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Jy kan hierdie venster toemaak."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Ons werk tans daaraan om alles tot die normale te laat terugkeer. Probeer asseblief binnekort weer."
+    },
+    "login.blocked_request": {
+        "translation": "Gekeerde versoek"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Gaan terug na jou oorspronklike oortjie en versoek ’n nuwe towerskakel."
+    },
+    "login.request_new_link_app": {
+        "translation": "Gaan terug na jou oospronklike **{appName}**-oortjie en versoek ’n nuwe towerskakel."
+    },
+    "login.magic_link_expired": {
+        "translation": "Towerskakel het verval"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Moenie hierdie oortjie toemaak nie!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Kom terug na hierdie oortjie nadat jy jou towerskakel geklik het."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Stuur nog ’n towerskakel na\n**{userEmail}**.\nKlik die skakel om aan te teken of in te skryf."
+    },
+    "login.try_again_later": {
+        "translation": "Probeer later weer"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Wag asseblief **{seconds}s** voordat jy nog ’n e-pos stuur."
+    },
+    "login.please_send_another_link": {
+        "translation": "Stuur asseblief nog ’n towerskakel aan\n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Hou vas! Ons los ’n probleem op"
+    },
+    "login.confirming_your_login": {
+        "translation": "Jou aantekening word bevestig"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Jou aantekening word bevestig"
+    },
+    "login.is_this_you": {
+        "translation": "Is dit jy?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Buitengewone aktiwiteit is bespeur. Om ons te help om jou rekening veilig te hou, laat weet ons of jy die onderstaande poging om aan te teken herken:"
+    },
+    "login.location": {
+        "translation": "Ligging:"
+    },
+    "login.no_block_this": {
+        "translation": "Nee, keer dit"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Ja, dit is ek"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Dankie dat jy ons help om jou rekening veilig te hou! Ons het die onderstaande bron se poging om aan te teken gekeer, en sal toekomstige pogings ook keer:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Om ons te help om jou rekening veilig te hou, laat weet ons of jy die onderstaande poging om aan te teken herken:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Dankie dat jy ons help om jou rekening veilig te hou! Ons het die onderstaande bron se poging om aan te teken gekeer:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Skakel is stukkend – vra asseblief ‘n nuwe towerskakel aan of maak die skakel vanaf ‘n ander e-poskliënt oop"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} is privaat"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} het geen toestemming vir toegang tot hierdie toepassing nie"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Vermoed jy daar was ‘n fout? Probeer ander aantekenbesonderhede of kontak {appName} vir hulp."
+    },
+    "login.access_denied": {
+        "translation": "Toegang geweier"
+    },
+    "login.email_blocked_message": {
+        "translation": "Jammer, jy het nie toestemming om by {appName} aan te teken nie."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Meld aan met die towerskakel gestuur na"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Vul die sekuriteitskode in vertoon deur {appName}"
+    },
+    "login.security_code": {
+        "translation": "Sekuriteitskode:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Vul dan hierdie sekuriteitskode in:"
+    },
+    "login.copy": {
+        "translation": "Kopieer"
+    },
+    "login.go_back_to_app": {
+        "translation": "Gaan terug na **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Aanmelding voltooi!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Aanmelding suksesvol"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "U kan nou hierdie oortjie toemaak"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Ongeldige aanstuur-URL"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Die gegewe aanstuur-URL is nie in die toelaatlys nie."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Die toewerskakel is van ’n ander IP aangevra"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Klik asseblief op die skakel van dieselfde toestel. As u nie hierdie skakel aangevra het nie, ignoreer asseblief hierdie boodskap."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Diensvlak oorskry"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Kontak asseblief **{appName}** vir hulp om toegang te kry tot u rekening."
+    },
+    "login.security_code_expired": {
+        "translation": "Sekuriteitskode het verval"
+    },
+    "login.login_code_expired": {
+        "translation": "Aanmeldkode het verval"
+    },
+    "login.request_new_login_code": {
+        "translation": "Versoek asseblief 'n nuwe aanmeldkode"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Versoek 'n nuwe kode"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Om ’n nuwe kode te ontvang, keer asseblief terug na {appName} en begin die aantekenproses weer."
+    }
+}

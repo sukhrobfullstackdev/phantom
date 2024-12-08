@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "กลับไปที่ {appName}"
+    },
+    "settings.title": {
+        "translation": "การตั้งค่าบัญชี"
+    },
+    "settings.off": {
+        "translation": "ปิด"
+    },
+    "settings.on": {
+        "translation": "เปิด"
+    },
+    "settings.turn_on": {
+        "translation": "เปิด"
+    },
+    "settings.turn_off": {
+        "translation": "ปิด"
+    },
+    "settings.two_step_verification": {
+        "translation": "การตรวจสอบรับรอง 2 ขั้นตอน"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "เพิ่มความปลอดภัยขึ้นอีกชั้นโดยการป้อนรหัสตรวจสอบจากแอปมือถือในแต่ละครั้งที่คุณเข้าสู่ระบบ"
+    },
+    "settings.phone_number": {
+        "translation": "หมายเลขโทรศัพท์"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "หมายเลขโทรศัพท์ปัจจุบันของคุณ"
+    }
+}

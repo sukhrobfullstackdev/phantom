@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "È richiesta un'app\ndi autenticazione"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Per attivare l'autenticazione a due fattori è richiesta un'app di autenticazione come {authy} o {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Scansiona il QR code"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Apri l'app di autenticazione e scansione il QR code o inserisci la chiave di configurazione."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Inserisci il codice di 6 cifre\ndell'app di autenticazione"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Codice non valido. Riprova."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Salva il codice di recupero"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Questo codice consente il login in caso di perdita dell'accesso all'app di autenticazione. Conservalo in un luogo sicuro."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Il tuo codice di recupero {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Copia codice"
+    },
+    "mfa.finish_setup": {
+        "translation": "Termina configurazione"
+    },
+    "mfa.key": {
+        "translation": "Chiave"
+    },
+    "mfa.copy": {
+        "translation": "Copia"
+    },
+    "mfa.copied": {
+        "translation": "Copiato"
+    },
+    "mfa.next": {
+        "translation": "Avanti"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Ho smarrito il mio dispositivo"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Inserisci il codice di\nrecupero per accedere"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "La verifica in 2 passaggi verrà disabilitata"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Codice di 8 caratteri"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Ho perso il codice di recupero"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Codice non valido, riprova"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Codice non valido. Ti restano ({attempts}) tentativi prima che l'account venga bloccato."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Per ricevere assistenza con il recupero dell'account, contatta il servizio clienti {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Contatta il servizio clienti {appName}"
+    }
+}

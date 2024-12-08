@@ -1,0 +1,39 @@
+@import (reference) '../../../../styles/index.less';
+
+.AuthSecurityOtpChallenge {
+  padding: 0 36px;
+  h2 {
+    max-width: 360px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .PincodeInputWrapper {
+    form {
+      width: 75%;
+      margin: auto;
+      > div {
+        width: 44px;
+      }
+    }
+  }
+  .statusMessage {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #77767a;
+  }
+
+  .statusMessageError {
+    color: #mg.getThemeColor(error) [];
+    #mg.darkTheme({
+      color: #FFB5A1;
+    });
+  }
+}

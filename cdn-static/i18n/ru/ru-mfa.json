@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Вам понадобится\nприложение для аутентификации"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Чтобы включить двухэтапное подтверждение, вам понадобится приложение для аутентификации, например {authy} или {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Отсканируйте этот QR-код"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Откройте приложение для аутентификации и отсканируйте этот QR-код или введите ключ настройки."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Пожалуйста, введите 6-значный код\nиз приложения для аутентификации"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Недействительный код. Попробуйте еще раз."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Сохраните код восстановления"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Этот код можно использовать для входа в систему, если вы потеряете доступ к приложению для аутентификации. Храните его в надежном месте."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Ваш код восстановления {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Копировать код"
+    },
+    "mfa.finish_setup": {
+        "translation": "Завершить настройку"
+    },
+    "mfa.key": {
+        "translation": "Ключ"
+    },
+    "mfa.copy": {
+        "translation": "Копировать"
+    },
+    "mfa.copied": {
+        "translation": "Скопировано"
+    },
+    "mfa.next": {
+        "translation": "Далее"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Я потерял(-а) свое устройство"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Введите код восстановления, чтобы войти в систему"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Двухэтапная аутентификация будет отключена"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8-значный код"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Я потерял(-а) свой код восстановления"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Неверный код, повторите попытку"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Неверный код. ({attempts}) попыток, оставшихся до блокировки вашей учетной записи."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Если вам нужна помощь в восстановлении вашей учетной записи, обратитесь в службу поддержки {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Обратитесь в службу поддержки {appName}"
+    }
+}

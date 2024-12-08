@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Пожалуйста, введите код, отправленный на"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Новый код будет доступен через {seconds}с"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Отправить новый код"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Недействительный код, попробуйте еще раз"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Похоже, что номер телефона недействителен.\nПожалуйста, проверьте номер и попробуйте еще раз."
+    },
+    "login_sms.expired_code": {
+        "translation": "Срок действия кода истек"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Новый код будет отправлен вам автоматически."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Блокировка для безопасности"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Из-за подозрительного количества неудачных попыток входа в систему вход по СМС был временно отключен."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Попробуйте еще раз через"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Введите действительный адрес электронной почты."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Слишком много попыток входа. Повторите попытку позже."
+    }
+}

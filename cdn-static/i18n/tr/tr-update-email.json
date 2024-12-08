@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "E-postanızı **{updatedEmail}** olarak güncelleme talebinin süresi doldu."
+    },
+    "update_email.confirm_change": {
+        "translation": "Değişikliği onaylayın"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Geçerli e-postanız olan **{userEmail}** adresinden değişikliği onaylayın. Lütfen gelen kutunuzu kontrol edin."
+    },
+    "update_email.try_again_question": {
+        "translation": "Tekrar denensin mi?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Yeni e-postayı doğrulayın"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "**{updatedUserEmail}** adresine bir e-posta gönderdik. Lütfen gelen kutunuzu kontrol edin."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "E-postanız güncellendi!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "En başta kullandığınız sekmeye dönün."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "En başta kullandığınız **{appName}** sekmesine dönün."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "En başta kullandığınız sekmeye dönün ve e-posta güncelleme akışını tekrar başlatın"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "En başta kullandığınız **{appName}** sekmesine dönün ve e-posta güncelleme akışını tekrar başlatın"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Onay bağlantısının süresi doldu"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "E-posta adresiniz doğrulanamadı. Lütfen bu pencereyi kapatın ve akışı tekrar başlatın."
+    },
+    "update_email.updating_email": {
+        "translation": "E-posta güncelleniyor..."
+    },
+    "update_email.last_step": {
+        "translation": "son adım!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "E-postanızı güncelleme işlemini tamamlamak için geçerli e-postanız olan **{currentEmail}** adresinden değişikliği onaylayın"
+    },
+    "update_email.resend_email": {
+        "translation": "E-postayı Tekrar Gönder"
+    },
+    "update_email.cancel": {
+        "translation": "İptal"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Bu pencereyi kapatabilirsiniz."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Bekleyin! Bir sorunu düzeltiyoruz."
+    },
+    "update_email.oops": {
+        "translation": "Hata"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Şu anda her şeyin normale dönmesi için çalışıyoruz. Lütfen birazdan tekrar deneyin."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "E-posta güncelleme işlemi onaylanıyor"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—E-posta güncelleme işlemi onaylanıyor"
+    }
+}

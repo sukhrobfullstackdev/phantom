@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Επαλήθευση της συσκευής σας"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Καταχωρίστε τη συσκευή σας για να συνεχίσετε"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Στείλαμε έναν σύνδεσμο καταχώρισης συσκευής στο"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Αυτή η γρήγορη εφάπαξ έγκριση θα σας βοηθήσει να διατηρήσετε τον λογαριασμό σας ασφαλή"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Εγκρίνετε τη σύνδεση;"
+    },
+    "verify_device.new_device": {
+        "translation": "Νέο πρόγραμμα περιήγησης ή νέα συσκευή"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Δεν συμφωνεί με το πρόγραμμα περιήγησης ή τη συσκευή που χρησιμοποιείτε"
+    },
+    "verify_device.website": {
+        "translation": "Ιστότοπος"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Διεύθυνση IP νέας συσκευής"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Αναγνωρίζω το πρόγραμμα περιήγησης και τη συσκευή"
+    },
+    "verify_device.reject": {
+        "translation": "Απόρριψη"
+    },
+    "verify_device.approve": {
+        "translation": "Έγκριση"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Το αίτημα σύνδεσης απορρίφθηκε"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Αποτρέψαμε την πρόσβαση στον λογαριασμό σας από την άγνωστη συσκευή"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Έγινε κάποιο λάθος; Επιστρέψτε στην εφαρμογή **{appName}** για να επανεκκινήσετε τη διαδικασία σύνδεσης."
+    },
+    "verify_device.device_approved": {
+        "translation": "Η σύνδεση εγκρίθηκε"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Επιστρέψτε στην εφαρμογή **{appName}** για να ολοκληρώσετε τη σύνδεση"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Μπορείτε τώρα να κλείσετε αυτήν την καρτέλα"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Ο σύνδεσμος έγκρισης σύνδεσης έχει λήξει. Ζητήστε έναν νέο για να συνεχίσετε."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Ο σύνδεσμος έχει λήξει"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Στείλτε έναν άλλο μαγικό σύνδεσμο στο \n**{userEmail}**.\n ο σύνδεσμος για να συνδεθείτε ή να εγγραφείτε."
+    },
+    "verify_device.resend_email": {
+        "translation": "Επαναποστολή email"
+    },
+    "verify_device.close": {
+        "translation": "Κλείσιμο"
+    }
+}

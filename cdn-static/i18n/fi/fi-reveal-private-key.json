@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Varoitus"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Yksityinen avaimesi"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Säilytä yksityinen avaimesi turvallisesti äläkä paljasta sitä koskaan kenellekään muulle"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Kirjaudu ulos"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopioi leikepöydälle"
+    }
+}

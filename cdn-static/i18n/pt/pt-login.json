@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Verifique o seu email"
+    },
+    "login.confirm_your_email": {
+        "translation": "Confirme o seu email"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Enviámos um link mágico para"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Clique no link para iniciar sessão ou se registar."
+    },
+    "login.check_your_inbox": {
+        "translation": "Verifique a sua caixa de entrada"
+    },
+    "login.resend_email": {
+        "translation": "Reenviar email"
+    },
+    "login.close": {
+        "translation": "Fechar"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Volte ao seu separador original."
+    },
+    "login.logging_you_in": {
+        "translation": "a iniciar sessão…"
+    },
+    "login.logged_in": {
+        "translation": "Tem sessão iniciada!"
+    },
+    "login.logged_into_app": {
+        "translation": "Tem sessão iniciada em {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Pode fechar esta janela."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Estamos a trabalhar para repor tudo de volta ao normal. Por favor tente de novo mais tarde."
+    },
+    "login.blocked_request": {
+        "translation": "Pedido bloqueado"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Volte ao seu separador original e solicite um novo link mágico."
+    },
+    "login.request_new_link_app": {
+        "translation": "Volte ao seu separador original **{appName}** e solicite um novo link mágico."
+    },
+    "login.magic_link_expired": {
+        "translation": "Link mágico expirado"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Não feche este separador!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Volte a este separador depois de clicar no seu link mágico."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Envie outro link mágico para\n**{userEmail}**.\nClique no link para iniciar sessão ou registar-se."
+    },
+    "login.try_again_later": {
+        "translation": "Tente de novo mais tarde"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Por favor aguarde **{seconds}s** antes de enviar outro email."
+    },
+    "login.please_send_another_link": {
+        "translation": "Por favor envie outro link mágico para \n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Aguente um pouco! Estamos a corrigir um problema."
+    },
+    "login.confirming_your_login": {
+        "translation": "A confirmar o seu início de sessão"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName} — A confirmar o seu início de sessão"
+    },
+    "login.is_this_you": {
+        "translation": "Foi você?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Foi detetada atividade atípica. Para ajudar a manter a sua conta protegida, informe-nos se reconhece a seguinte tentativa de acesso:"
+    },
+    "login.location": {
+        "translation": "Localização:"
+    },
+    "login.no_block_this": {
+        "translation": "Não, bloquear"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Sim, fui eu"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Obrigado por nos ajudar a manter a sua conta protegida! Bloqueámos e iremos bloquear futuras tentativas de acesso a partir da origem abaixo:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Para ajudar a manter a sua conta segura, informe-nos se reconhece a seguinte tentativa de início de sessão:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Obrigado por nos ajudar a manter a sua conta segura! Bloqueámos a tentativa de início de sessão da origem abaixo:"
+    },
+    "login.magic_link_broken": {
+        "translation": "A ligação não está a funcionar - solicite uma nova ligação Magic ou abra a ligação a partir de outro cliente de e-mail"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} é privada"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} não tem qualquer permissão para aceder a esta aplicação"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Acha que há um erro? Tente um início de sessão diferente ou entre em contacto com {appName} para obter ajuda."
+    },
+    "login.access_denied": {
+        "translation": "Acesso negado"
+    },
+    "login.email_blocked_message": {
+        "translation": "Lamentamos, mas não tem permissão para iniciar sessão em {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Inicie sessão usando o link mágico enviado para"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Insira o código de segurança apresentado por {appName}"
+    },
+    "login.security_code": {
+        "translation": "Código de segurança:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Depois insira este código de segurança:"
+    },
+    "login.copy": {
+        "translation": "Copiar"
+    },
+    "login.go_back_to_app": {
+        "translation": "Voltar a **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Início de sessão concluído!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Início de sessão bem-sucedido"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Pode agora fechar este separador"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "URL de redirecionamento inválido"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "O URL de redirecionamento dado não está na lista de permissões."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "O link mágico foi solicitado de um IP diferente"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Clique no link do mesmo dispositivo. Se não tiver pedido este link, por favor ignore esta mensagem."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Limite de serviço excedido"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Contacte **{appName}** para obter ajuda no acesso à sua conta."
+    },
+    "login.security_code_expired": {
+        "translation": "Código de segurança expirado"
+    },
+    "login.login_code_expired": {
+        "translation": "Código de acesso expirado"
+    },
+    "login.request_new_login_code": {
+        "translation": "Solicite um novo código de acesso"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Solicitar um novo código"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Para receber um novo código, volte à {appName} e reinicie o processo de autenticação."
+    }
+}

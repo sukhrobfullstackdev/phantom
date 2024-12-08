@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Proverite e-poštu"
+    },
+    "login.confirm_your_email": {
+        "translation": "Potvrdite e-adresu"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Poslali smo magični link na"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Kliknite na link da biste se prijavili ili registrovali."
+    },
+    "login.check_your_inbox": {
+        "translation": "Proverite prijemno sanduče"
+    },
+    "login.resend_email": {
+        "translation": "Ponovo pošalji e-poruku"
+    },
+    "login.close": {
+        "translation": "Zatvori"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Vratite se na originalnu karticu."
+    },
+    "login.logging_you_in": {
+        "translation": "prijavljivanje..."
+    },
+    "login.logged_in": {
+        "translation": "Prijavljeni ste!"
+    },
+    "login.logged_into_app": {
+        "translation": "Prijavljeni ste na {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Možete da zatvorite ovaj prozor."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Trenutno radimo na tome da sve ponovo počne normalno da funkcioniše. Pokušajte ponovo uskoro."
+    },
+    "login.blocked_request": {
+        "translation": "Blokiran zahtev"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Vratite se na originalnu karticu i tražite novi magični link."
+    },
+    "login.request_new_link_app": {
+        "translation": "Vratite se na originalnu **{appName}** karticu i tražite novi magični link."
+    },
+    "login.magic_link_expired": {
+        "translation": "Magični link je istekao"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Nemojte da zatvarate ovu karticu!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Vratite se na ovu karticu nakon što kliknete na magični link."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Pošaljite još jedan magični link na \n**{userEmail}**.\n link za prijavljivanje ili registraciju."
+    },
+    "login.try_again_later": {
+        "translation": "Pokušajte ponovo kasnije"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Sačekajte **{seconds} s** pre nego što pošaljete drugu e-poruku."
+    },
+    "login.please_send_another_link": {
+        "translation": "Pošaljite još jedan magični link na \n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Sačekajte! Rešavamo problem"
+    },
+    "login.confirming_your_login": {
+        "translation": "Potvrda prijavljivanja"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName} – potvrda prijavljivanja"
+    },
+    "login.is_this_you": {
+        "translation": "Da li ste ovo vi?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Otkrivena je neuobičajena aktivnost. Da biste nam pomogli da zaštitimo vaš nalog, obavestite nas da li prepoznajete donji pokušaj prijavljivanja:"
+    },
+    "login.location": {
+        "translation": "Lokacija:"
+    },
+    "login.no_block_this": {
+        "translation": "Ne, blokiraj ovo"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Da, to sam ja"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Hvala vam što ste nam pomogli da zaštitimo vaš nalog! Blokirali smo i ubuduće ćemo blokirati pokušaje prijavljivanja iz donjeg izvora:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Da biste nam pomogli da zaštitimo vaš nalog, obavestite nas da li prepoznajete donji pokušaj prijavljivanja:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Hvala vam što ste nam pomogli da zaštitimo vaš nalog! Blokirali smo pokušaj prijavljivanja iz donjeg izvora:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Ova veza je oštećena — zatražite novu Magic vezu ili otvorite vezu sa druge e-adrese klijenta"
+    },
+    "login.app_is_private": {
+        "translation": "Aplikacija {appName} je privatna"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} nema dozvolu za pristup ovoj aplikaciji"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Mislite da je došlo do greške? Pokušajte sa drugačijim podacima za prijavljivanje ili se obratite aplikaciji {appName} za pomoć."
+    },
+    "login.access_denied": {
+        "translation": "Pristup je odbijen"
+    },
+    "login.email_blocked_message": {
+        "translation": "Nažalost nemate dozvolu da se prijavite na aplikaciju {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Prijavite se koristeći magičnu vezu poslatu u"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Unesite bezbednosni kod koji prikazuje {appName}"
+    },
+    "login.security_code": {
+        "translation": "Bezbednosni kod:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Zatim unesite bezbednosni kod:"
+    },
+    "login.copy": {
+        "translation": "Kopiraj"
+    },
+    "login.go_back_to_app": {
+        "translation": "Vratite se na **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Prijavljivanje je završeno!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Uspešno prijavljivanje"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Sada možete da zatvorite ovu karticu"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Nevažeća URL adresa za preusmeravanje"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Dati URL za preusmeravanje nije na listi dozvoljenih."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Magična veza je zatražena sa druge IP adrese"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Kliknite na vezu sa istog uređaja. Ako niste tražili ovu vezu, zanemarite ovu poruku."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Ograničenje usluge je premašeno"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Kontaktirajte **{appName}** za pomoć pri pristupu nalogu."
+    },
+    "login.security_code_expired": {
+        "translation": "Bezbednosni kôd je istekao"
+    },
+    "login.login_code_expired": {
+        "translation": "Šifra za prijavljivanje je istekla"
+    },
+    "login.request_new_login_code": {
+        "translation": "Zatražite novu šifru za prijavljivanje"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Zatražite novu šifru"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Da biste dobili novi kôd, vratite se na {appName} i ponovo pokrenite proces prijavljivanja."
+    }
+}

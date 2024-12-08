@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "O, nu! Ceva nu a funcționat corect"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Nu am putut găsi resursa pe care o cauți."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Te rugăm să contactezi dezvoltatorii aplicației pentru soluționare."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Te rugăm să contactezi **{appName}** pentru soluționare."
+    },
+    "generic.internal_server_error": {
+        "translation": "Eroare internă de server"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Lucrăm la revenirea situației la normal. Te rugăm să încerci din nou mai târziu."
+    },
+    "generic.close": {
+        "translation": "Închide"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK nu este disponibil pentru un abonament gratuit, te rugăm să treci la un abonament cu plată"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Pagina cu prețurile noastre"
+    },
+    "generic.app_error": {
+        "translation": "Eroare aplicație"
+    },
+    "generic.details": {
+        "translation": "DETALII"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "A avut loc o eroare necunoscută."
+    },
+    "generic.blocked_request": {
+        "translation": "Solicitare blocată"
+    },
+    "generic.try_again": {
+        "translation": "Încearcă din nou!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Te rugăm să introduci o adresă de e-mail validă"
+    },
+    "generic.back": {
+        "translation": "Înapoi"
+    },
+    "generic.loading": {
+        "translation": "Se încarcă"
+    },
+    "generic.success": {
+        "translation": "Reușit"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Din motive de securitate, se va deschide o nouă filă de la Magic pentru a confirma această tranzacție."
+    },
+    "generic.trial_mode": {
+        "translation": "Modul de încercare"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Faceți upgrade acum"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Browserul nu este acceptat"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Vă rugăm să dezactivați temporar orice extensie de browser activă sau să schimbați browserul web și să încercați din nou."
+    }
+}

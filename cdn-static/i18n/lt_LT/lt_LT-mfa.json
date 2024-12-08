@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Jums reikės\npatvirtinimo programėlės"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Jei norite įjungti dviejų žingsnių patvirtinimą, jums reikės patvirtinimo programėlės, pvz., „{authy}“ arba „{google}“."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Nuskaitykite šį QR kodą"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Atidarykite patvirtinimo programėlę ir nuskaitykite šį QR kodą arba įveskite sąrankos raktą."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Įveskite 6 skaitmenų kodą\niš patvirtinimo programėlės"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Kodas neteisingas. Bandykite dar kartą."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Išsaugokite atkūrimo kodą"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Šiuo kodu galite prisijungti, jei praradote prieigą prie patvirtinimo programėlės. Saugokite jį."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Jūsų „{appName}“ atkūrimo kodas"
+    },
+    "mfa.copy_code": {
+        "translation": "Nukopijuoti kodą"
+    },
+    "mfa.finish_setup": {
+        "translation": "Užbaigti sąranką"
+    },
+    "mfa.key": {
+        "translation": "Raktas"
+    },
+    "mfa.copy": {
+        "translation": "Kopijuoti"
+    },
+    "mfa.copied": {
+        "translation": "Nukopijuotas"
+    },
+    "mfa.next": {
+        "translation": "Kitas"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Netekau savo įrenginio"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Norėdami prisijungti, įveskite atkūrimo kodą"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "2 žingsnių patvirtinimas bus išjungtas"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Kodas iš 8 simbolių"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Netekau savo atkūrimo kodo"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Negaliojantis kodas, bandykite dar kartą"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Negaliojantis kodas. Liko ({attempts}) bandymai (-ų) įvesti kodą iki kol Jūsų paskyra bus užrakinta."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Siekiant atkurti paskyrą susisiekite su {appName} programėlės pagalbos komanda"
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Susisiekite su {appName} programėlės pagalba"
+    }
+}

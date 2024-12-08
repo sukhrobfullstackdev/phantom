@@ -1,0 +1,59 @@
+@import (reference) '~/app/index.less';
+
+.privateKey {
+  border: 1px solid #mg.getThemeColor(mid) [lighter];
+  background: #mg.getThemeColor(mid) [lightest];
+  border-radius: 10px;
+  word-break: break-all;
+  padding: 20px 70px;
+}
+
+.warningDescription {
+  #mg.themeProperty(color, #A36B14, #FFD594);
+  text-align: center;
+}
+
+.callToActionButtonsContainer {
+  width: 100%;
+  @media all and (max-width: 340px) {
+    flex-direction: column !important;
+  }
+}
+
+.callToAction {
+  flex: 1;
+  width: 100%;
+  #mg.themeProperty(background, 1px solid #d5d5d5, 1px solid #4e4e4e) !important;
+  #mg.themeProperty(background-color, #f8f8fa, #4e4e4e) !important;
+  @media all and (max-width: 340px) {
+    margin-bottom: 10px !important;
+  }
+}
+
+.ctaIcon {
+  margin-right: 8px;
+  line-height: 0;
+}
+
+.callToAction:hover {
+  #mg.themeProperty(background, 1px solid #d5d5d5, 1px solid #4e4e4e) !important;
+  #mg.themeProperty(background-color, #DDDBE0, #434343) !important;
+}
+
+.primaryButton {
+  width: 100%;
+}
+
+.rawPrivateKeyContainer {
+  font-family: monospace;
+  padding: 16px;
+  border-radius: 10px;
+  #mg.themeProperty(border, 1px solid #DDDBE0, 1px solid #4e4e4e);
+  word-break: break-all;
+  text-align: left;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}

@@ -1,0 +1,50 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Please enter the code sent to",
+        "notes": ""
+    },
+    "login_sms.new_code_available": {
+        "translation": "New code available in {seconds}s",
+        "notes": ""
+    },
+    "login_sms.send_new_code": {
+        "translation": "Send a new code",
+        "notes": ""
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Invalid code, please try again",
+        "notes": ""
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "It looks like that phone number is invalid. \nPlease check the number and try again.",
+        "notes": ""
+    },
+    "login_sms.expired_code": {
+        "translation": "Code Expired",
+        "notes": ""
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "A new code will be sent to you automatically.",
+        "notes": ""
+    },
+    "login_sms.security_lockout": {
+        "translation": "Security Lockout",
+        "notes": ""
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Due to a suspicious number of failed login attempts, SMS login has been temporarily disabled.",
+        "notes": ""
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Try again in",
+        "notes": ""
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Please enter a valid email address.",
+        "notes": ""
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Too many login attempts. Please try again later.",
+        "notes": ""
+    }
+}

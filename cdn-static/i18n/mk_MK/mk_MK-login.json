@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Проверете ја вашата адреса на е-пошта"
+    },
+    "login.confirm_your_email": {
+        "translation": "Потврдете ја вашата адреса на е-пошта"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Испративме магична врска до"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Кликнете на врската за да се најавите или регистрирате."
+    },
+    "login.check_your_inbox": {
+        "translation": "Проверете го вашето сандаче"
+    },
+    "login.resend_email": {
+        "translation": "Повторно испрати ја адресата на е-пошта"
+    },
+    "login.close": {
+        "translation": "Затвори"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Вратете се на првичната картичка."
+    },
+    "login.logging_you_in": {
+        "translation": "ве најавуваме..."
+    },
+    "login.logged_in": {
+        "translation": "Најавени сте!"
+    },
+    "login.logged_into_app": {
+        "translation": "Најавени сте на {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Може да го затворите овој прозорец."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Во моментов работиме на тоа сè да се врати во нормала. Ве молиме обидете се повторно наскоро."
+    },
+    "login.blocked_request": {
+        "translation": "Барањето е блокирано"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Вратете се на првичната картичка и побарајте нова магична врска."
+    },
+    "login.request_new_link_app": {
+        "translation": "Вратете се на првичната картичка на **{appName}** и побарајте нова магична врска."
+    },
+    "login.magic_link_expired": {
+        "translation": "Магичната врска истече"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Не затворајте ја оваа картичка!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Вратете се на оваа картичка откако ќе кликнете на магичната врска."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Испратете друга магична врска на \n**{userEmail}**.\n врска за најавување или регистрација."
+    },
+    "login.try_again_later": {
+        "translation": "Обидете се повторно подоцна"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Ве молиме почекајте **{seconds}** пред да испратите уште една е-пошта."
+    },
+    "login.please_send_another_link": {
+        "translation": "Ве молиме испратете уште една магична врска на **{userEmail}**."
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Држете се цврсто! Поправаме проблем."
+    },
+    "login.confirming_your_login": {
+        "translation": "Потврда на вашата најава"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Потврда на вашата најава"
+    },
+    "login.is_this_you": {
+        "translation": "Дали сте ова вие?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Откриена е невообичаена активност. За да ја заштитите вашата корисничка сметка, известете нè доколку го препознаете обидот за најавување подолу:"
+    },
+    "login.location": {
+        "translation": "Локација:"
+    },
+    "login.no_block_this": {
+        "translation": "Не, блокирај го ова"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Да, ова сум јас"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Ви благодариме што ни помагате да ја заштитиме вашата корисничка сметка! Ги блокиравме и ќе ги блокираме идните обиди за најавување од изворот подолу:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "За да ја заштитите вашата корисничка сметка, известете нè доколку го препознаете обидот за најавување подолу:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Ви благодариме што ни помагате да ја заштитиме вашата корисничка сметка! Го блокиравме обидот за најавување од изворот подолу:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Врската има пречки — побарајте нова врска со Magic или отворете ја врската од друга е-пошта на клиент"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} е приватна апликација"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} нема дозвола за пристап до оваа апликација"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Мислите дека дојде до грешка? Обидете се да се најавите со различна сметка или контактирајте со {appName} за помош."
+    },
+    "login.access_denied": {
+        "translation": "Одбиен пристап"
+    },
+    "login.email_blocked_message": {
+        "translation": "Извинете, немате дозвола да се најавите на {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Најавете се користејќи ја магичната врска испратена до"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Внесете го безбедносниот код прикажан од {appName}"
+    },
+    "login.security_code": {
+        "translation": "Безбедносен код:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Потоа внесете го овој безбедносен код:"
+    },
+    "login.copy": {
+        "translation": "Копирај"
+    },
+    "login.go_back_to_app": {
+        "translation": "Вратете се на **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Пријавувањето е завршено!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Пријавувањето е успешно"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Сега можете да ја затворите оваа картичка"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Неважечка URL-адреса за пренасочување"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Дадената URL-адреса за пренасочување не е во списокот со дозволи."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Магичната врска беше побарана од друга IP адреса"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Ве молиме кликнете на врската од истиот уред. Ако не сте ја побарале оваа врска, ве молиме игнорирајте ја оваа порака."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Ограничувањето на услугата е надминато"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Контактирајте со тимот на **{appName}** за помош за пристап до вашата сметка."
+    },
+    "login.security_code_expired": {
+        "translation": "Сигурносната шифра е истечена"
+    },
+    "login.login_code_expired": {
+        "translation": "Шифрата за најавување е истечена"
+    },
+    "login.request_new_login_code": {
+        "translation": "Побарајте нова шифра за најавување"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Побарајте нова шифра"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "За да добиете нова шифра, вратете се во {appName} и рестартирајте го процесот на најавување."
+    }
+}

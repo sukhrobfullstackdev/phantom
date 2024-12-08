@@ -1,0 +1,146 @@
+@import (reference) '~/app/index.less';
+
+.actionButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .actionCircle {
+    // Need to select a default color or the browser will
+    button {
+      background-color: rgb(239, 239, 239);
+    }
+
+    border-color: @white;
+    border-width: 2px;
+    border-radius: 50%;
+    border-style: solid;
+    &.dark {
+      #mg.themeProperty(border-color,
+        #323233,
+        #323233,
+      );
+      &:focus-within {
+        border-color: #mg.getThemeColor(primary) [];
+      }
+    }
+    &:focus-within {
+      border-color: #mg.getThemeColor(primary) [];
+    }
+    &.xSmall {
+      width: 28px;
+      height: 28px;
+    }
+    &.small {
+      width: 36px;
+      height: 36px;
+    }
+    &.medium {
+      width: 44px;
+      height: 44px;
+    }
+    &.large {
+      width: 52px;
+      height: 52px;
+    }
+  }
+  &.disabled {
+    opacity: 0.3;
+    cursor: auto;
+  }
+
+  &:hover .actionIcon.dark,
+  &:hover .actionIcon.secondary.dark {
+    #mg.themeProperty(background,
+      linear-gradient(0deg, #252525, rgba(0, 0, 0, 0.1)),
+      linear-gradient(0deg, #252525, rgba(0, 0, 0, 0.1)),
+    );
+    #mg.themeProperty(background-blend-mode,
+      color-burn, normal
+    );
+  }
+
+  &:hover .actionIcon.light,
+  &:hover .actionIcon.secondary.light {
+    #mg.themeProperty(background,
+      linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(237, 235, 255, 1)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(237, 235, 255, 1)),
+    );
+    #mg.themeProperty(background-blend-mode,
+      color-burn, normal
+    );
+  }
+
+  &:hover .actionIcon.dark.disabled,
+  &:hover .actionIcon.secondary.dark.disabled {
+    #mg.themeProperty(background, rgb(0, 0, 0), rgb(0, 0, 0));
+  }
+
+  &:hover .actionIcon.light.disabled,
+  &:hover .actionIcon.secondary.light.disabled {
+    #mg.themeProperty(background, rgb(239, 239, 239), rgb(239, 239, 239));
+  }
+
+  &:focus-within .actionCircle.dark.disabled,
+  &:focus-within .actionCircle.secondary.dark.disabled {
+    #mg.themeProperty(border, solid 2px rgb(0, 0, 0), solid 2px rgb(0, 0, 0));
+  }
+
+  &:focus-within .actionCircle.light.disabled,
+  &:focus-within .actionCircle.secondary.light.disabled {
+    #mg.themeProperty(border, solid 2px rgb(255, 255, 255), solid 2px rgb(255, 255, 255));
+  }
+
+  .actionIcon {
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    cursor: pointer;
+    &.dark {
+      #mg.themeProperty(background,
+      #252525,
+      #252525,
+      );
+      &.secondary {
+        #mg.themeProperty(background,
+        #252525,
+        #252525,
+        );
+      }
+    }
+    &.xSmall {
+      width: 24px;
+      height: 24px;
+    }
+    &.small {
+      width: 32px;
+      height: 32px;
+    }
+    &.medium {
+      width: 40px;
+      height: 40px;
+    }
+    &.large {
+      width: 48px;
+      height: 48px;
+    }
+    &.secondary {
+      svg {
+        fill: @magic;
+      }
+    }
+    &:focus-visible {
+      outline: none;
+    }
+    &:visited {
+      opacity: 50%;
+    }
+    &.disabled {
+      cursor: auto;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "โอ๊ะโอ! มีบางสิ่งผิดปกติ"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "เราไม่พบแหล่งข้อมูลที่คุณมองหา"
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "โปรดติดต่อผู้พัฒนาแอปนี้เพื่อแก้ปัญหา"
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "โปรดติดต่อ **{appName}** เพื่อแก้ปัญหา"
+    },
+    "generic.internal_server_error": {
+        "translation": "ข้อผิดพลาดเซิร์ฟเวอร์ภายใน"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "ขณะนี้เรากำลังทำงานเพื่อให้ทุกอย่างกลับมาเป็นปกติ โปรดลองอีกครั้งในอีกสักครู่"
+    },
+    "generic.close": {
+        "translation": "ปิด"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "SDK ไวท์ลาเบลใช้งานไม่ได้ในแผนฟรี โปรดอัปเดตเป็นแผนที่ชำระเงิน"
+    },
+    "generic.our_pricing_page": {
+        "translation": "หน้าราคาของเรา"
+    },
+    "generic.app_error": {
+        "translation": "ข้อผิดพลาดแอป"
+    },
+    "generic.details": {
+        "translation": "รายละเอียด"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "เกิดข้อผิดพลาดที่ไม่รู้จัก"
+    },
+    "generic.blocked_request": {
+        "translation": "คำขอที่ถูกบล็อก"
+    },
+    "generic.try_again": {
+        "translation": "ลองอีกครั้ง"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "โปรดระบุอีเมลที่ถูกต้อง"
+    },
+    "generic.back": {
+        "translation": "ย้อนกลับ"
+    },
+    "generic.loading": {
+        "translation": "กำลังโหลด"
+    },
+    "generic.success": {
+        "translation": "สำเร็จ"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "ด้วยวัตถุประสงค์ด้านความปลอดภัย แท็บใหม่จาก Magic จะเปิดขึ้นมาเพื่อให้คุณยืนยันธุรกรรมนี้"
+    },
+    "generic.trial_mode": {
+        "translation": "โหมดทดลองใช้"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "อัปเกรดตอนนี้"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "เบราว์เซอร์ไม่รองรับ"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "โปรดปิดใช้งานส่วนขยายเบราว์เซอร์ใด ๆ ที่ใช้งานอยู่ชั่วคราวหรือเปลี่ยนเว็บเบราว์เซอร์และลองอีกครั้ง"
+    }
+}

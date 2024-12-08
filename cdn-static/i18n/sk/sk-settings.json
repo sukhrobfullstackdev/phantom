@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Späť do {appName}"
+    },
+    "settings.title": {
+        "translation": "Nastavenia účtu"
+    },
+    "settings.off": {
+        "translation": "VYP."
+    },
+    "settings.on": {
+        "translation": "ZAP."
+    },
+    "settings.turn_on": {
+        "translation": "Zapnúť"
+    },
+    "settings.turn_off": {
+        "translation": "Vypnúť"
+    },
+    "settings.two_step_verification": {
+        "translation": "Dvojstupňové overenie"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Pridajte dodatočnú vrstvu zabezpečenia zadávaním overovacieho kódu z mobilnej aplikácie pri každom prihlasovaní"
+    },
+    "settings.phone_number": {
+        "translation": "Telefónne číslo"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Aktualizujte svoje telefónne číslo"
+    }
+}

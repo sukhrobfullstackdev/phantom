@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Kiểm tra email của bạn"
+    },
+    "login.confirm_your_email": {
+        "translation": "Xác nhận email của bạn"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Chúng tôi đã gửi qua email một liên kết ma thuật tới"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Nhấp vào liên kết để đăng nhập hoặc đăng ký."
+    },
+    "login.check_your_inbox": {
+        "translation": "Kiểm tra hộp thư của bạn"
+    },
+    "login.resend_email": {
+        "translation": "Gửi lại Email"
+    },
+    "login.close": {
+        "translation": "Đóng"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Quay trở lại tab ban đầu."
+    },
+    "login.logging_you_in": {
+        "translation": "đang đăng nhập bạn..."
+    },
+    "login.logged_in": {
+        "translation": "Bạn đã đăng nhập!"
+    },
+    "login.logged_into_app": {
+        "translation": "Bạn đã đăng nhập vào {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Bạn có thể đóng cửa sổ này."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Chúng tôi hiện đang nỗ lực để mọi thứ trở lại bình thường. Vui lòng thử lại sớm."
+    },
+    "login.blocked_request": {
+        "translation": "Đã chặn yêu cầu"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Quay lại tab ban đầu của bạn và yêu cầu một liên kết ma thuật mới."
+    },
+    "login.request_new_link_app": {
+        "translation": "Quay trở lại tab **{appName}** ban đầu của bạn và yêu cầu một liên kết ma thuật mới."
+    },
+    "login.magic_link_expired": {
+        "translation": "Liên kết ma thuật đã hết hạn"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Đừng đóng tab này!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Quay lại tab này sau khi bạn nhấp vào liên kết ma thuật của mình."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Gửi một liên kết ma thuật khác đến\n**{userEmail}**.\n liên kết để đăng nhập hoặc đăng ký."
+    },
+    "login.try_again_later": {
+        "translation": "Thử lại sau"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Vui lòng đợi **{seconds}s** trước khi gửi một email khác."
+    },
+    "login.please_send_another_link": {
+        "translation": "Vui lòng gửi một liên kết ma thuật khác tới \n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Vui lòng đợi! Chúng tôi đang khắc phục sự cố"
+    },
+    "login.confirming_your_login": {
+        "translation": "Xác nhận đăng nhập của bạn"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Xác nhận đăng nhập của bạn"
+    },
+    "login.is_this_you": {
+        "translation": "Đây có phải là bạn không?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Đã phát hiện hoạt động bất thường. Để giúp bảo mật tài khoản của bạn, hãy cho chúng tôi biết nếu bạn nhận ra nỗ lực đăng nhập bên dưới:"
+    },
+    "login.location": {
+        "translation": "Vị trí:"
+    },
+    "login.no_block_this": {
+        "translation": "Không, hãy chặn đăng nhập này"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Phải, đây là tôi"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Cảm ơn bạn đã giúp chúng tôi giữ an toàn cho tài khoản của bạn! Chúng tôi đã chặn và sẽ chặn các nỗ lực đăng nhập trong tương lai từ nguồn bên dưới:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Để giúp bảo mật tài khoản của bạn, hãy cho chúng tôi biết nếu bạn nhận ra nỗ lực đăng nhập bên dưới:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Cảm ơn bạn đã giúp chúng tôi giữ cho tài khoản của bạn an toàn! Chúng tôi đã chặn nỗ lực đăng nhập từ nguồn bên dưới:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Liên kết bị hỏng - vui lòng yêu cầu liên kết diệu kỳ mới hoặc mở liên kết từ máy khách email khác"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} là ứng dụng riêng tư"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} không có bất kỳ quyền nào để truy cập ứng dụng này"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Bạn nghĩ có sự nhầm lẫn? Hãy thử thông tin đăng nhập khác hoặc liên hệ với {appName} để được trợ giúp."
+    },
+    "login.access_denied": {
+        "translation": "Quyền truy cập bị từ chối"
+    },
+    "login.email_blocked_message": {
+        "translation": "Rất tiếc, bạn không có quyền đăng nhập vào {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Đăng nhập bằng liên kết diệu kỳ được gửi đến"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Nhập mã bảo mật được {appName} hiển thị"
+    },
+    "login.security_code": {
+        "translation": "Mã bảo mật:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Sau đó nhập mã bảo mật này:"
+    },
+    "login.copy": {
+        "translation": "Sao chép"
+    },
+    "login.go_back_to_app": {
+        "translation": "Quay lại **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Hoàn tất đăng nhập!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Đăng nhập thành công"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Bạn hiện có thể đóng tab này"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "URL chuyển hướng không hợp lệ"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "URL chuyển hướng được cung cấp không có trong danh sách cho phép."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Liên kết diệu kỳ được yêu cầu từ một IP khác"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Vui lòng nhấp vào liên kết từ cùng một thiết bị. Nếu bạn không yêu cầu liên kết này, vui lòng bỏ qua thông báo này."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Đã vượt quá giới hạn dịch vụ"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Vui lòng liên hệ với **{appName}** để được trợ giúp truy cập tài khoản của bạn."
+    },
+    "login.security_code_expired": {
+        "translation": "Mã bảo mật đã hết hạn"
+    },
+    "login.login_code_expired": {
+        "translation": "Mã đăng nhập đã hết hạn"
+    },
+    "login.request_new_login_code": {
+        "translation": "Vui lòng yêu cầu mã đăng nhập mới"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Yêu cầu mã mới"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Để nhận mã mới, vui lòng quay lại {appName} và bắt đầu lại quá trình đăng nhập."
+    }
+}

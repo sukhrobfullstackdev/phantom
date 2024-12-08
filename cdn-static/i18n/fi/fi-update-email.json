@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "Pyyntösi päivittää sähköpostiosoitteeksesi **{updatedEmail}** on vanhentunut."
+    },
+    "update_email.confirm_change": {
+        "translation": "Vahvista muutos"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Vahvista muutos nykyisestä sähköpostiosoitteestasi (**{userEmail}**). Tarkista saapuneet viestisi."
+    },
+    "update_email.try_again_question": {
+        "translation": "Haluatko yrittää uudelleen?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Vahvista uusi sähköpostiosoitteesi"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Olemme lähettäneet sähköpostiviestin osoitteeseen **{updatedUserEmail}**. Tarkista saapuneet viestisi."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "Sähköpostiosoitteesi on päivitetty!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Palaa takaisin alkuperäiselle välilehdellesi."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Palaa takaisin alkuperäiselle **{appName}** -välilehdellesi."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Palaa takaisin alkuperäiselle välilehdellesi ja aloita sähköpostiosoitteen päivitysprosessi uudelleen alusta"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Palaa takaisin alkuperäiselle **{appName}** -välilehdellesi ja aloita sähköpostiosoitteen päivitysprosessi uudelleen alusta"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Vahvistuslinkki on vanhentunut"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Sähköpostiosoitteesi vahvistaminen epäonnistui. Sulje tämä ikkuna ja aloita prosessi uudelleen alusta."
+    },
+    "update_email.updating_email": {
+        "translation": "Sähköpostiosoitetta päivitetään..."
+    },
+    "update_email.last_step": {
+        "translation": "viimeinen vaihe!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Viimeistele sähköpostiosoitteen päivitys vahvistamalla muutos nykyisestä sähköpostiosoitteestasi (**{currentEmail}**)"
+    },
+    "update_email.resend_email": {
+        "translation": "Lähetä sähköpostiviesti uudelleen"
+    },
+    "update_email.cancel": {
+        "translation": "Peruuta"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Voit sulkea tämän ikkunan."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Odota hetki! Korjaamme ongelmaa."
+    },
+    "update_email.oops": {
+        "translation": "Hups"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Yritämme saada kaiken toimimaan jälleen normaalisti. Yritä hetken kuluttua uudelleen."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "Sähköpostiosoitteen päivityksen vahvistus"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName} – sähköpostiosoitteen päivityksen vahvistus"
+    }
+}

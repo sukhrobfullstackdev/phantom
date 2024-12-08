@@ -1,0 +1,42 @@
+{
+    "settings.back_to_app": {
+        "translation": "Back to {appName}",
+        "notes": ""
+    },
+    "settings.title": {
+        "translation": "Account Settings",
+        "notes": ""
+    },
+    "settings.off": {
+        "translation": "OFF",
+        "notes": ""
+    },
+    "settings.on": {
+        "translation": "ON",
+        "notes": ""
+    },
+    "settings.turn_on": {
+        "translation": "Turn on",
+        "notes": ""
+    },
+    "settings.turn_off": {
+        "translation": "Turn off",
+        "notes": ""
+    },
+    "settings.two_step_verification": {
+        "translation": "2-step Verification",
+        "notes": ""
+    },
+    "settings.phone_number": {
+        "translation": "Phone number",
+        "notes": ""
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Add an extra layer of security by entering a mobile app verification code each time you log in",
+        "notes": ""
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Update your current phone number",
+        "notes": ""
+    }
+}

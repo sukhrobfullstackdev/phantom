@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Voer de code in die gestuurd is naar"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Nieuwe code beschikbaar over {seconds}en"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Stuur een nieuwe code"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Ongeldige code, probeer het nog eens"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Het lijkt erop dat het telefoonnummer ongeldig is.\nControleer het en probeer het nog eens."
+    },
+    "login_sms.expired_code": {
+        "translation": "Code verlopen"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Er wordt automatisch een nieuwe code naar je gestuurd."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Vergrendeld om veiligheidsredenen"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Vanwege een verdacht aantal mislukte inlogpogingen, is het inloggen met een sms-code tijdelijk uitgeschakeld."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Probeer opnieuw over"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Voer een geldig e-mailadres in."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Teveel inlogpogingen. Probeer het later nog eens."
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "檢查您的電郵"
+    },
+    "login.confirm_your_email": {
+        "translation": "確認您的電郵"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "我們已透過電郵把魔力連結傳送至"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "點選連結以登入或註冊。"
+    },
+    "login.check_your_inbox": {
+        "translation": "檢查您的收件匣"
+    },
+    "login.resend_email": {
+        "translation": "重新寄送電郵"
+    },
+    "login.close": {
+        "translation": "關閉"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "返回您的原始頁籤。"
+    },
+    "login.logging_you_in": {
+        "translation": "正在為您登入..."
+    },
+    "login.logged_in": {
+        "translation": "您已登入！"
+    },
+    "login.logged_into_app": {
+        "translation": "您已登入至 {appName}！"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "您可關閉本視窗。"
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "我們目前在努力讓一切恢復正常。請不久後再試一次。"
+    },
+    "login.blocked_request": {
+        "translation": "已阻擋的請求"
+    },
+    "login.request_new_link_generic": {
+        "translation": "返回您的原始頁籤，並請求新的魔術連結。"
+    },
+    "login.request_new_link_app": {
+        "translation": "返回您的原始 **{appName}** 頁籤，並請求新的魔術連結。"
+    },
+    "login.magic_link_expired": {
+        "translation": "魔術連結已過期"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "請不要關閉本頁籤！"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "請在點選魔術連結後返回本頁籤。"
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "傳送另一個魔術連結至 \n**{userEmail}**。\n點選連結以登入或註冊。"
+    },
+    "login.try_again_later": {
+        "translation": "稍後再試一次"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "請等待 **{seconds} 秒**才傳送另一封電郵。"
+    },
+    "login.please_send_another_link": {
+        "translation": "請傳送另一個魔術連結至 \n**{userEmail}**。\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "請稍後！我們在修復問題"
+    },
+    "login.confirming_your_login": {
+        "translation": "確認您的登入名"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}——確認您的登入名"
+    },
+    "login.is_this_you": {
+        "translation": "這是您嗎？"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "偵測到異常活動。為助我們保持您的帳戶安全，請讓我們知道您是否能識別以下登入嘗試："
+    },
+    "login.location": {
+        "translation": "位置："
+    },
+    "login.no_block_this": {
+        "translation": "否，阻擋該嘗試"
+    },
+    "login.yes_this_is_me": {
+        "translation": "是，這是我"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "感謝您助我們保持您的帳戶安全！我們已阻擋，且未來仍將阻擋以下來源的登入嘗試："
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "為助我們保持您的帳戶安全，請讓我們知道您是否能識別以下登入嘗試："
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "感謝您助我們保持您的帳戶安全！我們已阻擋以下來源的登入嘗試："
+    },
+    "login.magic_link_broken": {
+        "translation": "連結已損壞 — 請要求一個新的 Magic 連結或從另一個電子郵件用戶端中開啟該連結"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} 屬私人應用程式"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} 沒有任何權限存取此應用程式"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "認為有錯誤？試試其他登入方式或聯絡 {appName} 尋求幫助。"
+    },
+    "login.access_denied": {
+        "translation": "存取遭拒絕"
+    },
+    "login.email_blocked_message": {
+        "translation": "抱歉，您沒有權限登入 {appName}。"
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "使用傳送給您的 Magic 連結登入"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "輸入 {appName} 顯示的安全碼"
+    },
+    "login.security_code": {
+        "translation": "安全碼："
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "然後輸入此安全碼："
+    },
+    "login.copy": {
+        "translation": "複製"
+    },
+    "login.go_back_to_app": {
+        "translation": "返回至 **{appName}**。"
+    },
+    "login.login_complete": {
+        "translation": "登入完成！"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "登入成功"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "您現在可已關閉此分頁"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "無效重新導向 URL"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "允許清單中沒有指定的重新導向 URL。"
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "這是不同 IP 請求的 Magic 連結"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "請點擊相同裝置上的連結。若您並未請求此連結，請忽略本訊息。"
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "已超過服務限制"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "請聯絡 **{appName}** 以獲得存取帳號相關協助。"
+    },
+    "login.security_code_expired": {
+        "translation": "安全碼過期"
+    },
+    "login.login_code_expired": {
+        "translation": "登入代碼已過期"
+    },
+    "login.request_new_login_code": {
+        "translation": "請申請新的登入代碼"
+    },
+    "login.request_new_code_cta": {
+        "translation": "申請新代碼"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "若要接收新程式碼，請返回 {appName} 並重新啟動登入程序。"
+    }
+}

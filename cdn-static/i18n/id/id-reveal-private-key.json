@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Peringatan"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Kunci pribadi Anda"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Simpan dengan aman dan jangan sekali-kali mengungkapkan kunci pribadi Anda"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Keluar"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Salin ke papan klip"
+    }
+}

@@ -1,0 +1,46 @@
+@import (reference) '~/app/ui/styles/index.less';
+
+.DeviceConfirm {
+  margin-top: 32px;
+  padding: 0 14px;
+
+  .label {
+    #mg.themeProperty(color, @ink70, @silk50);
+    padding: 0;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .alert {
+    #mg.themeProperty(color, @alert70, @ruby30);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  .checkbox {
+    width: 10px;
+
+    & + div > span {
+      left: 12px !important;
+    }
+  }
+  .ctaButtons {
+    display: flex;
+    width: 100%;
+  }
+  hr {
+    width: 100%;
+    border: 1px solid @ink20;
+    #mg.themeProperty(border-color, @ink20, @slate4);
+  }
+  label {
+    padding: 12px;
+    #mg.themeProperty(background, @ink10, @silk80);
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+}

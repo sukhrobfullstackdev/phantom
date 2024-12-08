@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Kliknite na donji gumb za prijavu na {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Ovaj gumb će isteći za 10 minuta."
+    },
+    "email_preview.login_to_app": {
+        "translation": "prijava na {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Potvrđivanje ovog zahtjeva će vas sigurno prijaviti pomoću **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Ako niste uputili ovaj zahtjev, ne brinite, sigurno je ako ignorirate ovu e-poštu."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} tim"
+    }
+}

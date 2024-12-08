@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Yn ôl i {appName}"
+    },
+    "settings.title": {
+        "translation": "Gosodaiadau'r Cyfrif"
+    },
+    "settings.off": {
+        "translation": "I ffwrdd"
+    },
+    "settings.on": {
+        "translation": "YMLAEN"
+    },
+    "settings.turn_on": {
+        "translation": "Troi ymlaen"
+    },
+    "settings.turn_off": {
+        "translation": "Diffodd"
+    },
+    "settings.two_step_verification": {
+        "translation": "Dilysu dau gam"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Ychwanegwch haen ychwanegol o ddiogelwch drwy roi cod dilysu ap symudol bob tro rydych chi'n mewngofnodi"
+    },
+    "settings.phone_number": {
+        "translation": "Rhif ffôn"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Diweddaru eich rhif ffôn presennol"
+    }
+}

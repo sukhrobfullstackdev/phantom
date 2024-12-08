@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "Az e-mail címr-frissíté iránti kérés **{updatedEmail}** lejárt."
+    },
+    "update_email.confirm_change": {
+        "translation": "Erősítse meg a módosítást"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Erősítse meg a jelenlegi e-mail változást itt: **{userEmail}**. Kérjük, ellenőrizze a beérkező leveleket."
+    },
+    "update_email.try_again_question": {
+        "translation": "Próbálja újra?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "E-mail cím ellenőrzése"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "E-mailt küldtünk a **{updatedUserEmail}** címre. Kérjük, ellenőrizze a beérkező leveleket."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "E-mail címe frissítésre került!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Menjen vissza az eredeti fülre."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Térjen vissza az eredeti **{appName}** fülre."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Menjen vissza az eredeti fülre, és indítsa újra az e-mail frissítési folyamatát"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Térjen vissza az eredeti **{appName}** fülre, és indítsa újra az e-mail frissítési folyamatát"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "A megerősítő link lejárt"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Nem sikerült ellenőrizni az e-mail címét. Kérjük, zárja be ezt az ablakot, és indítsa újra a folyamatot."
+    },
+    "update_email.updating_email": {
+        "translation": "E-mail frissítése..."
+    },
+    "update_email.last_step": {
+        "translation": "utolsó lépés!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Az e-mail frissítésének befejezéséhez erősítse meg a jelenlegi e-mail változását itt: **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "E-mail újraküldése"
+    },
+    "update_email.cancel": {
+        "translation": "Mégse"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Bezárhatja ezt az ablakot."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Tartson ki! Egy problémán dolgozunk."
+    },
+    "update_email.oops": {
+        "translation": "Hoppá"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Jelenleg azon dolgozunk, hogy minden visszatérjen a normális kerékvágásba. Kérjük, próbálja újra hamarosan."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "E-mail-frissítés megerősítése"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—E-mail-frissítés megerősítése"
+    }
+}

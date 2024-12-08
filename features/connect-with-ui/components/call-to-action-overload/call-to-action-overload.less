@@ -1,0 +1,62 @@
+@import (reference) '~/app/index.less';
+
+.callToActionOverload {
+  &&&&& {
+    #mg.themeProperty(--bg-color, #fff, #0000);
+    #mg.themeProperty(--border-color, var(--ink30), var(--ink30));
+    #mg.themeProperty(--focus-color, var(--magic50), var(--magic50));
+    --border-size: 1px;
+
+    border: solid var(--border-size) var(--border-color);
+    background-color: var(--bg-color);
+
+    &:focus::after {
+      border: solid 2px var(--focus-color);
+    }
+
+    &:hover {
+      #mg.themeProperty(--bg-color, var(--ink10), var(--chalk44));
+    }
+  }
+
+  div,
+  span[aria-hidden='true'] {
+    position: absolute;
+  }
+
+  span[aria-hidden='true'] {
+    position: absolute;
+    left: 24px;
+  }
+
+  span[aria-hidden='true']:last-child {
+    position: absolute;
+    right: 24px;
+    left: unset;
+  }
+}
+
+.iconBtn {
+  &&&& {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    span {
+      position: absolute;
+    }
+    span[aria-hidden='true'] {
+      position: relative;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+.statefulButton {
+  & div {
+    line-height: 0;
+  }
+}

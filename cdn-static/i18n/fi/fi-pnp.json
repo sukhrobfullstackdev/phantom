@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Aiempi kirjautumismenetelmä"
+    },
+    "pnp.welcome": {
+        "translation": "Tervetuloa"
+    },
+    "pnp.welcome_back": {
+        "translation": "Tervetuloa takaisin"
+    },
+    "pnp.email": {
+        "translation": "Sähköposti"
+    },
+    "pnp.email_aria": {
+        "translation": "Kirjaudu sähköpostiosoitteella"
+    },
+    "pnp.email_address": {
+        "translation": "Sähköpostiosoite"
+    },
+    "pnp.phone": {
+        "translation": "Puhelin"
+    },
+    "pnp.phone_aria": {
+        "translation": "Kirjaudu puhelinnumerolla"
+    },
+    "pnp.phone_number": {
+        "translation": "Puhelinnumero"
+    },
+    "pnp.login_signup": {
+        "translation": "Kirjautuminen\/ilmoittautuminen"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Lähetä kirjautuminen"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Kirjaudu tällä: {provider}"
+    },
+    "pnp.or": {
+        "translation": "Tai"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Hae maakoodeja"
+    },
+    "pnp.select_country_code": {
+        "translation": "Valitse maakoodi"
+    },
+    "pnp.login_disabled": {
+        "translation": "Kirjautuminen\/ilmoittautuminen pois käytöstä"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Ota yhteyttä sovellukseen {appName} ohjeita varten"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Ota yhteyttä sovelluksen kehittäjään ohjeita varten"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Ehdot"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Tietosuojakäytännön"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Jatkamalla hyväksyt sovelluksen {appName}"
+    }
+}

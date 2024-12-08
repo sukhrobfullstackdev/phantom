@@ -1,0 +1,334 @@
+name: "Deploy"
+on:
+  push:
+    branches:
+      - master
+
+env:
+  ECR_REGISTRY: "584864542664.dkr.ecr.us-west-2.amazonaws.com"
+  ECR_REPOSITORY: auth
+
+permissions:
+  pull-requests: write # so we can comment on PR
+  id-token: write # This is required for aws creds requesting the JWT
+  contents: read  # This is required for aws creds actions/checkout
+
+jobs:
+  build-stagef:
+    name: Build/push stagef
+    runs-on: prod-runner
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture image tag
+        id: image-tag
+        run: echo "IMAGE_TAG=commit_$(git rev-parse --short HEAD)_stagef" >> "$GITHUB_OUTPUT"
+      - name: Configure AWS credentials for image build
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::584864542664:role/github-${{ github.repository_owner }}-${{ github.event.repository.name }}-role
+          aws-region: us-west-2
+      - name: Login to Amazon ECR
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Build docker image
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          file: deploy/Dockerfile
+          context: ./
+          tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.IMAGE_TAG }}
+          target: runner
+          cache-to: mode=max,image-manifest=true,oci-mediatypes=true,type=registry,ref=${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:cache_stagef
+          cache-from: type=registry,ref=${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:cache_stagef
+          build-args: |
+            NPM_TOKEN=${{ secrets.NPM_TOKEN }}
+            ENCRYPTED_COOKIE_KEY=${{ secrets.ENCRYPTED_COOKIE_KEY_STAGEF }}
+            SIGNED_COOKIE_KEY=${{ secrets.SIGNED_COOKIE_KEY_STAGEF }}
+            BACKEND_URL=https://api.stagef.magic.link
+            NFT_API_URL=https://nft-api.stagef.magic.link
+            GAS_API_URL=https://gas-api.stagef.magic.link
+            AUTH_S3_PATH=s3://assets.auth.stagef.magic.link
+            DATADOG_CLIENT_KEY=puba6d7661ad2e2a22fb47bf94a0c23544b
+            DATADOG_API_KEY=732fa83b0ce0f786a57301becbeb8e16
+            DATADOG_RUM_APP_KEY=9f6f3fdd-1d7c-4a3a-904a-67d27cc34265
+            DATADOG_RUM_CLIENT_KEY=pub445edf06d6f2db976fc4393d9dc2898a
+            HIGHTOUCH_API_KEY=45d6b7b5c59f5892c3e49b784fe955e2d85beafa6f0c098a829a04591a1ce813
+            HIGHTOUCH_API_HOST=us-east-1.hightouch-events.com
+            IS_MAGIC=1
+            GENERATE_SOURCEMAP=1
+            DEPLOY_ENV=${{ env.DEPLOY_ENV }}
+            ASSETS_BASE_URL=https://assets.auth.stagef.magic.link
+            INTERNAL_BACK_URL=https://api-a.stagef.magic-corp.link
+            GET_CREDENTIALS_PROXY_URL=https://gbscache.stagef.magic.link
+            MC_GOOGLE_OAUTH_CLIENT_ID=659515803301-5jqfpr22e8jv7pm15ct1voiruu09nhvu.apps.googleusercontent.com
+            MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_WALLET_HUB=pk_prod_01GTEYJ2ZB5SBRDH79FY843VHA
+            MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_DAPPS=pk_prod_01GXNN3PMY5GDYBTJYNY3VE63B
+            LAUNCH_DARKLY_CLIENT_ID=6290d903d4734b14b286d64f
+            ALCHEMY_ETHEREUM_API_KEY=THLzcjj0X_ktVcj80LZ60_twjxdWuUso
+            ALCHEMY_GOERLI_API_KEY=XDkXOl3fIkG3-XFvRmaa313PPJEehNx4
+            ALCHEMY_SEPOLIA_API_KEY=lnkxjj_rKFZRHqrrIvoerSJtzIdt2ElK
+            ALCHEMY_POLYGON_API_KEY=gQ41RwtnmeUVJtVLRSKGE8_V-dTWV7WD
+            ALCHEMY_MUMBAI_API_KEY=9b1326CuGOhpxr_RhB2QoPXKpfbuJsDF
+            ALCHEMY_OPTIMISM_API_KEY=NyNr8gCoYyusotfANwHTuRhIQp62ZF3u
+            ALCHEMY_OPTIMISM_GOERLI_API_KEY=ynnAby9IhcpGA9l3x3nqD5zuE4r2gWo4
+            ALCHEMY_ARBITRUM_ONE_API_KEY=0JEi2UcN80f4vOja1KopbdXWRKY4DXrD
+            ALCHEMY_ARBITRUM_SEPOLIA_API_KEY=6qaqXS9Hll37pWWWmhetS0v1pAkRKlFA
+            ALCHEMY_BASE_API_KEY=tbH7VdREUS9E1caIfz0FMCO_DfdJSNZS
+            ALCHEMY_BASE_SEPOLIA_API_KEY=xtBmbqs4Xe17IVlF65vU6BmTEKLBybir
+            SARDINE_URL_TEST=https://crypto.sandbox.sardine.ai
+            SARDINE_URL_PROD=https://crypto.sardine.ai
+            MAGIC_WALLET_DAPP_API_KEY=pk_live_CA4EE31250763286
+            MAGIC_WALLET_DAPP_REFERRER=https://wallet.stagef.magic.link
+        env:
+          IMAGE_TAG: ${{ steps.image-tag.outputs.IMAGE_TAG }}
+          DEPLOY_ENV: stagef
+    outputs:
+      IMAGE_TAG: ${{ steps.image-tag.outputs.IMAGE_TAG }}
+
+  build-prod:
+    name: Build/push prod
+    runs-on: prod-runner
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture image tag
+        id: image-tag
+        run: echo "IMAGE_TAG=commit_$(git rev-parse --short HEAD)_prod" >> "$GITHUB_OUTPUT"
+      - name: Configure AWS credentials for image build
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::584864542664:role/github-${{ github.repository_owner }}-${{ github.event.repository.name }}-role
+          aws-region: us-west-2
+      - name: Login to Amazon ECR
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Build docker image
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          file: deploy/Dockerfile
+          context: ./
+          tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.IMAGE_TAG }}
+          target: runner
+          cache-to: mode=max,image-manifest=true,oci-mediatypes=true,type=registry,ref=${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:cache_prod
+          cache-from: type=registry,ref=${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:cache_prod
+          build-args: |
+            NPM_TOKEN=${{ secrets.NPM_TOKEN }}
+            ENCRYPTED_COOKIE_KEY=${{ secrets.ENCRYPTED_COOKIE_KEY_PROD }}
+            SIGNED_COOKIE_KEY=${{ secrets.SIGNED_COOKIE_KEY_PROD }}
+            BACKEND_URL=https://api.magic.link
+            NFT_API_URL=https://nft-api.magic.link
+            GAS_API_URL=https://gas-api.magic.link
+            AUTH_S3_PATH=s3://assets.auth.magic.link
+            DATADOG_CLIENT_KEY=pub6e83b9e7b97e8037f6e1ab083d997dde
+            DATADOG_API_KEY=732fa83b0ce0f786a57301becbeb8e16
+            DATADOG_RUM_APP_KEY=9f6f3fdd-1d7c-4a3a-904a-67d27cc34265
+            DATADOG_RUM_CLIENT_KEY=pub445edf06d6f2db976fc4393d9dc2898a
+            HIGHTOUCH_API_KEY=622f282fa803576f2718b0b16d627cb089606ef4804afe682410895348d90d88
+            HIGHTOUCH_API_HOST=us-east-1.hightouch-events.com
+            IS_MAGIC=1
+            GENERATE_SOURCEMAP=0
+            DEPLOY_ENV=${{ env.DEPLOY_ENV }}
+            ASSETS_BASE_URL=https://assets.auth.magic.link
+            INTERNAL_BACK_URL=https://api-a.prod.magic-corp.link
+            GET_CREDENTIALS_PROXY_URL=https://gbscache.magic.link
+            MC_GOOGLE_OAUTH_CLIENT_ID=720671955707-j4bvuq2v3dvefdnm6brqsltduibq5u60.apps.googleusercontent.com
+            MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_WALLET_HUB=pk_prod_01GTEYJ2ZB5SBRDH79FY843VHA
+            MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_DAPPS=pk_prod_01GXNN3PMY5GDYBTJYNY3VE63B
+            LAUNCH_DARKLY_CLIENT_ID=6290d8d4377dc71563613cb0
+            ALCHEMY_ETHEREUM_API_KEY=2K3ZYHyus86aJQOTmeZOJu3KD1dlWW67
+            ALCHEMY_GOERLI_API_KEY=EyJ3Z0OYYb7uUVmlyFkxzBpqzuSbjrAj
+            ALCHEMY_SEPOLIA_API_KEY=OZixRaakGk_D2pr9s-yTrDJpAjdbvVGL
+            ALCHEMY_POLYGON_API_KEY=FXBozVMsvNJl8132xpIlTz8k5IK7Rklk
+            ALCHEMY_MUMBAI_API_KEY=jeNNjpLj-PMC-iOSCBLxurDjzIlQf8HV
+            ALCHEMY_OPTIMISM_API_KEY=Ff0uaCEWc7St-YvA6AypDs5z59EJlWEX
+            ALCHEMY_OPTIMISM_GOERLI_API_KEY=zDVg6enAOGVLbNy7gJLznqVaxxHic_B5
+            ALCHEMY_ARBITRUM_ONE_API_KEY=8rzA2E8pLknmZf2nFz68vmfO_5m3NBG1
+            ALCHEMY_ARBITRUM_SEPOLIA_API_KEY=jnVUAQ2a_UaYArLhGq5xTb4N_zkkZOwd
+            ALCHEMY_BASE_API_KEY=STC7h-bp4V-lW38b2W2aPYDR5uBOyOUG
+            ALCHEMY_BASE_SEPOLIA_API_KEY=L2HXc7dDnRk0OQw5XFHM8lGacT5rrUN2
+            SARDINE_URL_TEST=https://crypto.sandbox.sardine.ai
+            SARDINE_URL_PROD=https://crypto.sardine.ai
+            MAGIC_WALLET_DAPP_API_KEY=pk_live_882646865C70D783
+            MAGIC_WALLET_DAPP_REFERRER=https://wallet.magic.link
+        env:
+          IMAGE_TAG: ${{ steps.image-tag.outputs.IMAGE_TAG }}
+          DEPLOY_ENV: prod
+    outputs:
+      IMAGE_TAG: ${{ steps.image-tag.outputs.IMAGE_TAG }}
+
+  diff-stagef:
+    name: Diff stagef
+    runs-on: prod-runner
+    needs: build-stagef
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/k8s-diff
+        with:
+          aws-ecr-role-arn: arn:aws:iam::584864542664:role/github-${{ github.repository_owner }}-${{ github.event.repository.name }}-role
+          ecr-registry: ${{ env.ECR_REGISTRY }}
+          ecr-repository: ${{ env.ECR_REPOSITORY }}
+          s3-assets-bucket: assets.auth.stagef.magic.link
+          aws-s3-role-arn: arn:aws:iam::971106922139:role/github-magiclabs-phantom-role  # management
+          aws-eks-role-arn: arn:aws:iam::211163739222:role/github-magiclabs-eks-deploy-role  # int
+          aws-region: us-west-2
+          eks-cluster-name: int-eks-a-us-west-2
+          deploy-env: stagef
+          image-tag: ${{ env.IMAGE_TAG }}
+        env:
+          IMAGE_TAG: ${{ needs.build-stagef.outputs.IMAGE_TAG }}
+
+  diff-prod:
+    name: Diff prod
+    runs-on: prod-runner
+    needs: build-prod
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/k8s-diff
+        with:
+          aws-ecr-role-arn: arn:aws:iam::584864542664:role/github-${{ github.repository_owner }}-${{ github.event.repository.name }}-role
+          ecr-registry: ${{ env.ECR_REGISTRY }}
+          ecr-repository: ${{ env.ECR_REPOSITORY }}
+          s3-assets-bucket: assets.auth.magic.link
+          aws-s3-role-arn: arn:aws:iam::971106922139:role/github-magiclabs-phantom-role  # management
+          aws-eks-role-arn: arn:aws:iam::845442242126:role/github-magiclabs-eks-deploy-role  # live
+          aws-region: us-west-2
+          eks-cluster-name: live-eks-a-us-west-2
+          deploy-env: prod
+          image-tag: ${{ env.IMAGE_TAG }}
+        env:
+          IMAGE_TAG: ${{ needs.build-prod.outputs.IMAGE_TAG }}
+
+  deploy-stagef:
+    name: Deploy stagef
+    environment: stagef
+    runs-on: prod-runner
+    concurrency:
+      group: deploy-stagef
+      cancel-in-progress: false
+    needs:
+      - build-stagef
+      - diff-stagef
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/k8s-deploy
+        with:
+          aws-ecr-role-arn: arn:aws:iam::584864542664:role/github-${{ github.repository_owner }}-${{ github.event.repository.name }}-role
+          ecr-registry: ${{ env.ECR_REGISTRY }}
+          ecr-repository: ${{ env.ECR_REPOSITORY }}
+          s3-assets-bucket: assets.auth.stagef.magic.link
+          aws-s3-role-arn: arn:aws:iam::971106922139:role/github-magiclabs-phantom-role  # management
+          aws-eks-role-arn: arn:aws:iam::211163739222:role/github-magiclabs-eks-deploy-role  # int
+          aws-region: us-west-2
+          eks-cluster-name: int-eks-a-us-west-2
+          deploy-env: stagef
+          image-tag: ${{ env.IMAGE_TAG }}
+        env:
+          IMAGE_TAG: ${{ needs.build-stagef.outputs.IMAGE_TAG }}
+
+  qa-wolf-start:
+    name: QA Wolf Start
+    runs-on: prod-runner
+    outputs:
+      QA_WOLF_SUITE_ID: ${{ steps.qa-wolf-start.outputs.QA_WOLF_SUITE_ID }}
+      QA_WOLF_RELEVANT_RUN_ID: ${{ steps.qa-wolf-start.outputs.QA_WOLF_RELEVANT_RUN_ID }}
+    needs:
+      - deploy-stagef
+    steps:
+      - name: Start QA Wolf Test Suite
+        id: qa-wolf-start
+        shell: bash
+        run: |
+          suite_id=$(curl --silent -H "Authorization: qawolf_7db811be69e249c89a01e62a2cc805c8" -H "Content-Type: application/json" https://app.qawolf.com/api/webhooks/deploy_success | jq ".results[0].created_suite_id")
+          sleep 30
+          response=$(curl --silent -H "Authorization: qawolf_7db811be69e249c89a01e62a2cc805c8" -H "Content-Type: application/json" https://app.qawolf.com/api/v0/ci-greenlight/$(echo "$suite_id" | tr -d '"'))
+          relevantRunId=$(jq -r '.relevantRunId' <<<"$response")
+          relevantRunUrl=$(jq -r '.relevantRunUrl' <<<"$response")
+          echo "View QA Wolf test suite at $(echo "$relevantRunUrl" | tr -d '"')" >> $GITHUB_STEP_SUMMARY
+          echo "QA_WOLF_SUITE_ID=${suite_id}" >> $GITHUB_OUTPUT
+          echo "QA_WOLF_RELEVANT_RUN_ID=${relevantRunId}" >> $GITHUB_OUTPUT
+
+  qa-wolf-greenlight:
+    name: QA Wolf Greenlight
+    runs-on: prod-runner
+    needs:
+      - qa-wolf-start
+    steps:
+      - name: Wait for QA Wolf CI Greenlight
+        shell: bash
+        run: |
+          COUNTER=0
+          while true; do
+              response=$(curl --silent -H "Authorization: qawolf_7db811be69e249c89a01e62a2cc805c8" -H "Content-Type: application/json" https://app.qawolf.com/api/v0/ci-greenlight/${{ needs.qa-wolf-start.outputs.QA_WOLF_RELEVANT_RUN_ID }})
+              greenlight=$(jq -r '.greenlight' <<<"$response")
+              runStage=$(jq -r '.runStage' <<<"$response")
+              blockingBugsCount=$(jq -r '.blockingBugsCount' <<<"$response")
+
+              echo "Test suite status"
+              echo "greenlight: $greenlight"
+              echo "runStage: $runStage"
+              echo ""
+
+              if [ "$greenlight" = true ]; then
+                  echo "Tests done, ship code."
+                  break
+              elif [ "$runStage" = "canceled" ]; then
+                  echo "Tests canceled, exiting."
+                  exit 1
+                  break
+              elif [ "$runStage" = "completed" ]; then
+                  if [ "$blockingBugsCount" = "0" ]; then
+                      echo "Tests complete, 0 blocking bugs, ship it."
+                      break
+                  else
+                      echo "Tests complete, $blockingBugsCount blocking bugs."
+                      exit 1
+                      break
+                  fi               
+              else
+                  if [ $COUNTER -ge 120 ]; then
+                      echo "Tests are taking too long, exiting."
+                      exit 1
+                      break
+                  fi
+                  if [ "$runStage" = "initializing" ] || [ "$runStage" = "underReview" ]; then
+                      echo "Tests are $runStage, poll again in 30 seconds."
+                      COUNTER=$((COUNTER +1))
+                      sleep 30
+                  else
+                      echo "Encountered an unexpected situation."
+                      exit 1
+                      break
+                  fi
+              fi
+          done
+
+  deploy-prod:
+    name: Deploy prod
+    environment: prod
+    runs-on: prod-runner
+    concurrency:
+      group: deploy-prod
+      cancel-in-progress: false
+    needs: 
+      - qa-wolf-greenlight
+      - build-prod
+      - diff-prod
+    if: ${{ always() && needs.build-prod.result == 'success' && needs.diff-prod.result == 'success' && !(contains(needs.qa-wolf-greenlight.result, 'skipped')) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/k8s-deploy
+        with:
+          aws-ecr-role-arn: arn:aws:iam::584864542664:role/github-${{ github.repository_owner }}-${{ github.event.repository.name }}-role
+          ecr-registry: ${{ env.ECR_REGISTRY }}
+          ecr-repository: ${{ env.ECR_REPOSITORY }}
+          s3-assets-bucket: assets.auth.magic.link
+          aws-s3-role-arn: arn:aws:iam::971106922139:role/github-magiclabs-phantom-role  # management
+          aws-eks-role-arn: arn:aws:iam::845442242126:role/github-magiclabs-eks-deploy-role  # live
+          aws-region: us-west-2
+          eks-cluster-name: live-eks-a-us-west-2
+          deploy-env: prod
+          image-tag: ${{ env.IMAGE_TAG }}
+        env:
+          IMAGE_TAG: ${{ needs.build-prod.outputs.IMAGE_TAG }}

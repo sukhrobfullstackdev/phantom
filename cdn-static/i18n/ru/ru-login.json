@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Поверьте свою электронную почту"
+    },
+    "login.confirm_your_email": {
+        "translation": "Подтвердите свою электронную почту"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Мы отправили волшебную ссылку на"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Щелкните ссылку, чтобы войти или зарегистрироваться."
+    },
+    "login.check_your_inbox": {
+        "translation": "Проверьте свои входящие"
+    },
+    "login.resend_email": {
+        "translation": "Отправить электронную почту повторно"
+    },
+    "login.close": {
+        "translation": "Закрыть"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Вернуться к исходной вкладке."
+    },
+    "login.logging_you_in": {
+        "translation": "авторизация..."
+    },
+    "login.logged_in": {
+        "translation": "Вы вошли в систему!"
+    },
+    "login.logged_into_app": {
+        "translation": "Вы вошли в {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Вы можете закрыть это окно."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Сейчас мы работаем над тем, чтобы вернуть все в норму. Пожалуйста, попробуйте еще раз в ближайшее время."
+    },
+    "login.blocked_request": {
+        "translation": "Заблокированный запрос"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Вернитесь на исходную вкладку и запросите новую волшебную ссылку."
+    },
+    "login.request_new_link_app": {
+        "translation": "Вернитесь к исходной **{appName}** вкладке и запросите новую волшебную ссылку."
+    },
+    "login.magic_link_expired": {
+        "translation": "Срок действия волшебной ссылки истек"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Не закрывайте эту вкладку!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Вернитесь на эту вкладку после того, как нажмете свою волшебную ссылку."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Отправить еще одну волшебную ссылку на \n**{userEmail}**.\nссылка для входа или регистрации."
+    },
+    "login.try_again_later": {
+        "translation": "Попробуйте позже"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Пожалуйста, подождите **{seconds}с** перед отправкой следующей электронной почты."
+    },
+    "login.please_send_another_link": {
+        "translation": "Отправьте еще одну волшебную ссылку на \n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Держитесь крепче! Мы исправляем проблему"
+    },
+    "login.confirming_your_login": {
+        "translation": "Подтверждение вашего логина"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Подтверждение вашего логина"
+    },
+    "login.is_this_you": {
+        "translation": "Это вы?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Обнаружена необычная активность. Чтобы обеспечить безопасность вашего аккаунта, сообщите нам, если узнаете попытку входа в систему ниже:"
+    },
+    "login.location": {
+        "translation": "Местоположение:"
+    },
+    "login.no_block_this": {
+        "translation": "Нет, заблокируйте это"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Да, это я"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Спасибо за помощь в обеспечении безопасности вашего аккаунта! Мы заблокировали и будем блокировать попытки входа в систему из следующего источника:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Чтобы обеспечить безопасность вашего аккаунта, сообщите нам, если узнаете попытку входа в систему ниже:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Спасибо за помощь в обеспечении безопасности вашего аккаунта! Мы заблокировали попытку входа в систему из источника ниже:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Ссылка не работает – запросите новую ссылку Magic или откройте ссылку из другого почтового клиента"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} конфиденциально"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} не имеет разрешения на доступ к этому приложению"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Думаете, это ошибка? Попробуйте другой логин или обратитесь за помощью в {appName}."
+    },
+    "login.access_denied": {
+        "translation": "Доступ запрещен"
+    },
+    "login.email_blocked_message": {
+        "translation": "К сожалению, у вас нет разрешения на вход в {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Войдите, используя волшебную ссылку, отправленную на адрес"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Введите защитный код, отображаемый {appName}"
+    },
+    "login.security_code": {
+        "translation": "Код безопасности:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Затем введите этот защитный код:"
+    },
+    "login.copy": {
+        "translation": "Копировать"
+    },
+    "login.go_back_to_app": {
+        "translation": "Вернитесь к **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Вход в систему завершен!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Успешный вход в систему"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Теперь вы можете закрыть эту вкладку"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Недопустимый URL-адрес перенаправления"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Указанный URL-адрес перенаправления отсутствует в белом списке."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Волшебная ссылка была запрошена с другого IP"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Нажмите на ссылку с того же устройства. Если вы не запрашивали эту ссылку, проигнорируйте это сообщение."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Лимит службы превышен"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Свяжитесь с **{appName}**, чтобы получить доступ к своей учетной записи."
+    },
+    "login.security_code_expired": {
+        "translation": "Срок действия кода безопасности истек"
+    },
+    "login.login_code_expired": {
+        "translation": "Срок действия кода входа истек"
+    },
+    "login.request_new_login_code": {
+        "translation": "Запросите новый код входа"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Запросить новый код"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Чтобы получить новый код, вернитесь в {appName} и начните процесс входа заново."
+    }
+}

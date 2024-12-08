@@ -1,0 +1,37 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+  build:
+    commands:
+      - |
+        docker build \
+          -t static \
+          -f deploy/Dockerfile \
+          --target=builder \
+          --build-arg BACKEND_URL=${BACKEND_URL} \
+          --build-arg AUTH_S3_PATH=${AUTH_S3_PATH} \
+          --build-arg DATADOG_CLIENT_KEY=${DATADOG_CLIENT_KEY} \
+          --build-arg DATADOG_API_KEY=${DATADOG_API_KEY} \
+          --build-arg HIGHTOUCH_API_KEY=${HIGHTOUCH_API_KEY} \
+          --build-arg HIGHTOUCH_API_HOST=${HIGHTOUCH_API_HOST} \
+          --build-arg IS_MAGIC=${IS_MAGIC} \
+          --build-arg NPM_TOKEN=${NPM_TOKEN} \
+          --build-arg GENERATE_SOURCEMAP=${GENERATE_SOURCEMAP} \
+          --build-arg DEPLOY_ENV=${DEPLOY_ENV} \
+          --build-arg ASSETS_BASE_URL=${ASSETS_BASE_URL} \
+          --build-arg INTERNAL_BACK_URL=${INTERNAL_BACK_URL} .
+      - |
+        docker run --rm \
+          -v `pwd`/build:/tmp/build \
+          static \
+          cp -R ./build /tmp/
+      # TODO(ajen#OPS-829|2020-05-19): Rename app.html to index.html
+      - rm build/app.html
+      - aws s3 sync build $AUTH_S3_PATH --delete
+
+artifacts:
+  files:
+    build/**/*

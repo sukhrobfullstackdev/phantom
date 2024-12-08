@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Tilbage til {appName}"
+    },
+    "settings.title": {
+        "translation": "Kontoindstillinger"
+    },
+    "settings.off": {
+        "translation": "FRA"
+    },
+    "settings.on": {
+        "translation": "TIL"
+    },
+    "settings.turn_on": {
+        "translation": "Slå til"
+    },
+    "settings.turn_off": {
+        "translation": "Slå fra"
+    },
+    "settings.two_step_verification": {
+        "translation": "Totrinsbekræftelse"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Tilføj et ekstra sikkerhedslag ved at indtaste en mobilapp-bekræftelseskode, hver gang du logger ind."
+    },
+    "settings.phone_number": {
+        "translation": "Telefonnummer"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Opdater dit aktuelle telefonnummer"
+    }
+}

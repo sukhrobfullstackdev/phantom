@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "Faktor pemulihan sudah ada di akun ini"
+    },
+    "recovery.phone_number": {
+        "translation": "Nomor Telepon Pemulihan"
+    }
+}

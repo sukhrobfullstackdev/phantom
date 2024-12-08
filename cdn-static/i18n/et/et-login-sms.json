@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Palun sisestage kood, mis saadeti"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Uus kood on saadaval {seconds} sekundi pärast"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Saada uus kood"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Kehtetu kood, palun proovige uuesti"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "See telefoninumber tundub olevat kehtetu. \nPalun kontrollige numbrit ja proovige uuesti."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kood on aegunud"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Teile saadetakse automaatselt uus kood."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Turvalukustus"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Kahtlustäratavalt suure arvu ebaõnnestunud sisselogimiskatsete tõttu on SMS-iga sisselogimine ajutiselt keelatud."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Proovige uuesti"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Palun sisestage kehtiv e-posti aadress."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Liiga palju sisselogimise katseid. Palun proovige hiljem uuesti."
+    }
+}

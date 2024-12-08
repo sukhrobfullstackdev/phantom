@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "O seu método de início de sessão anterior"
+    },
+    "pnp.welcome": {
+        "translation": "Bem-vindo\/a"
+    },
+    "pnp.welcome_back": {
+        "translation": "Bem-vindo\/a de volta"
+    },
+    "pnp.email": {
+        "translation": "Email"
+    },
+    "pnp.email_aria": {
+        "translation": "Iniciar sessão usando endereço de email"
+    },
+    "pnp.email_address": {
+        "translation": "Endereço de email"
+    },
+    "pnp.phone": {
+        "translation": "Telefone"
+    },
+    "pnp.phone_aria": {
+        "translation": "Iniciar sessão usando número de telefone"
+    },
+    "pnp.phone_number": {
+        "translation": "Número de telefone"
+    },
+    "pnp.login_signup": {
+        "translation": "Iniciar sessão \/ Registar"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Submeter credenciais"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Iniciar sessão com {provider}"
+    },
+    "pnp.or": {
+        "translation": "Ou"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Pesquisar códigos de países"
+    },
+    "pnp.select_country_code": {
+        "translation": "Selecione o código do país"
+    },
+    "pnp.login_disabled": {
+        "translation": "Início de sessão \/ Registo desativado"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Contacte {appName} para pedir ajuda"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Contacte o programador desta aplicação para pedir ajuda"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Termos de Serviço"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Política de Privacidade"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Ao continuar, está a aceitar as seguintes condições {appName}:"
+    }
+}

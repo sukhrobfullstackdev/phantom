@@ -1,0 +1,85 @@
+@import (reference) '~/app/index.less';
+
+.profilePictureMotionDiv {
+  margin-right: -20px;
+  z-index: 5;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+.magicLogo {
+  box-shadow: 0px 2px 18px rgba(126, 55, 243, 0.48);
+  border-radius: 50px;
+  position: absolute;
+  z-index: 5;
+}
+
+.appLogo {
+  margin-left: -20px;
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+  #mg.themeProperty(background-color, #fff, 2px solid #323233);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  border: 2px solid #fff;
+  #mg.themeProperty(border, 2px solid #fff, 2px solid #323233);
+}
+
+.leftCircleBase {
+  #mg.themeProperty(border, 1px solid #ededf3, 1px solid #494949);
+  height: 72px;
+  width: 72px;
+  border-radius: 100%;
+}
+
+.rightCircleBase {
+  #mg.themeProperty(border, 1px solid #ededf3, 1px solid #494949);
+  height: 72px;
+  width: 72px;
+  border-radius: 100%;
+}
+
+.leftCircleAnimatedBorder {
+  border: 3px solid transparent;
+  border-right-color: #e361ff;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.rightCircleAnimatedBorder {
+  border: 3px solid transparent;
+  border-left-color: #7150ff;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.animateRightCircle {
+  animation: rotateRight 3s linear infinite;
+}
+
+.animateLeftCircle {
+  animation: rotateLeft 3s linear infinite;
+}
+
+@keyframes rotateRight {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes rotateLeft {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

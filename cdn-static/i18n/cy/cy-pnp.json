@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Eich dull o fewngofnodi blaenorol"
+    },
+    "pnp.welcome": {
+        "translation": "Croeso"
+    },
+    "pnp.welcome_back": {
+        "translation": "Croeso nôl"
+    },
+    "pnp.email": {
+        "translation": "E-bost"
+    },
+    "pnp.email_aria": {
+        "translation": "Mewngofnodi gan ddefnyddio cyfeiriad e-bost"
+    },
+    "pnp.email_address": {
+        "translation": "Cyfeiriad e-bost"
+    },
+    "pnp.phone": {
+        "translation": "Ffôn"
+    },
+    "pnp.phone_aria": {
+        "translation": "Mewngofnodi gan ddefnyddio rhif ffôn"
+    },
+    "pnp.phone_number": {
+        "translation": "Rhif ffôn"
+    },
+    "pnp.login_signup": {
+        "translation": "Mewngofnodi \/ Cofrestru"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Cyflwyno'r mewngofnodi"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Mewngofnodi gyda {provider}"
+    },
+    "pnp.or": {
+        "translation": "Neu"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Chwilio codau'r wlad"
+    },
+    "pnp.select_country_code": {
+        "translation": "Dewiswch god y wlad"
+    },
+    "pnp.login_disabled": {
+        "translation": "Analluogwyd Mewngofnodi \/ Cofrestru"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Cysylltwch â {appName} am gymorth"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Cysylltwch â datblygwr yr ap hwn am gymorth"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Telerau Gwasanaeth"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Polisi Preifatrwydd"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Trwy barhau, rydych chi'n derbyn {appName}"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "다음으로 전송된 코드 입력:"
+    },
+    "login_sms.new_code_available": {
+        "translation": "새 코드 {seconds}초 내에 사용 가능"
+    },
+    "login_sms.send_new_code": {
+        "translation": "새 코드 전송"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "유효하지 않은 코드, 다시 시도 바람"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "해당 전화번호는 유효하지 않은 것 같습니다.\n번호를 확인하고 다시 시도하십시오."
+    },
+    "login_sms.expired_code": {
+        "translation": "코드 만료됨"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "새 코드가 자동으로 전송됩니다."
+    },
+    "login_sms.security_lockout": {
+        "translation": "보안 잠금"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "로그인 시도 실패 횟수 초과로 인해 SMS 로그인이 일시적으로 비활성화되었습니다."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "재시도 가능 시간"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "유효한 이메일 주소를 입력하십시오."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "로그인 시도가 너무 많습니다. 나중에 다시 시도해 주세요."
+    }
+}

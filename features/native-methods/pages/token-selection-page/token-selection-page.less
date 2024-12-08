@@ -1,0 +1,29 @@
+@import (reference) '~/app/index.less';
+
+.tokenSelectionPage {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.customScrollBar {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 100vw;
+    #mg.themeProperty(background,
+      #mg.getThemeColor(light)[],
+      #323233,
+    );
+  }
+
+  &::-webkit-scrollbar-thumb {
+    #mg.themeProperty(background-color, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0.45));
+    border-radius: 100vw;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    #mg.themeProperty(background-color, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.6));
+  }
+}

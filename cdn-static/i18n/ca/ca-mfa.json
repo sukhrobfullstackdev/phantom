@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Et caldrà una\naplicació d'autenticació"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Per habilitar la verificació de dos passos, necessites una aplicació d'autenticació com ara {authy} o {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Escaneja aquest codi QR"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Obre l'aplicació d'autenticació i escaneja aquest codi QR o introdueix la clau de configuració."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Introdueix el codi de 6 dígits\nde la teva aplicació d'autenticació"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Codi no vàlid. Prova-ho un altre cop."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Desa el codi de recuperació"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "El pots fer servir per iniciar sessió si perds accés a l'aplicació d'autenticació. Desa'l en un lloc segur."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "El teu codi de recuperació de l'aplicació {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Copiar el codi"
+    },
+    "mfa.finish_setup": {
+        "translation": "Acabar la configuració"
+    },
+    "mfa.key": {
+        "translation": "Clau"
+    },
+    "mfa.copy": {
+        "translation": "Copiar"
+    },
+    "mfa.copied": {
+        "translation": "Copiat"
+    },
+    "mfa.next": {
+        "translation": "Següent"
+    },
+    "mfa.lost_code_button": {
+        "translation": "He perdut el meu dispositiu"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Introdueix el codi de\nrecuperació per iniciar la sessió"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Es desactivarà la verificació de dos passos"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Codi de 8 caràcters"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "He perdut el meu codi de recuperació"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Codi no vàlid. Torna-ho a provar."
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Codi no vàlid. Queden ({attempts}) intents abans que es bloquegi el compte."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Per obtenir ajuda per recuperar un compte, posa’t en contacte amb l’equip d’ajuda de {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Contacte d’ajuda de {appName}"
+    }
+}

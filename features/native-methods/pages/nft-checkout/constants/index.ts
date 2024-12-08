@@ -1,0 +1,24 @@
+export const REQUEST_STATUS = {
+  QUEUE: 'QUEUE',
+  MINTED: 'MINTED',
+  MINT_FAILED: 'MINT_FAILED',
+  IN_PROGRESS: 'IN_PROGRESS',
+  WEBHOOK_SUCCESS_SENT: 'WEBHOOK_SUCCESS_SENT',
+  WEBHOOK_FAILED_SENT: 'WEBHOOK_FAILED_SENT',
+} as const;
+
+export const NFT_MINTING_STATUS = {
+  PAYMENT_SENT: 0,
+  RETRIEVING_ITEM: 1,
+  DELIVERING_ITEM: 2,
+  DONE: 3,
+  ERROR: 4,
+} as const;
+
+export const CARD_TYPES = {
+  VISA: 'visa',
+  AMERICAN_EXPRESS: 'american-express',
+  DISCOVER: 'discover',
+  MASTERCARD: 'mastercard',
+  UNKNOWN: 'unkown',
+};

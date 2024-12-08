@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Oih! Midagi läks valesti"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Me ei leidnud teie otsitavat ressurssi."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Lahenduse saamiseks pöörduge selle rakenduse arendajate poole."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Palun kontakteeruge **{appName}** lahenduse leidmiseks."
+    },
+    "generic.internal_server_error": {
+        "translation": "Sisemine serveri viga"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Praegu töötame selle nimel, et kõik saaks normaalseks. Proovige varsti uuesti."
+    },
+    "generic.close": {
+        "translation": "Sulge"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK pole tasuta paketis saadaval, minge palun tasulisele versioonile"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Meie hinnakiri"
+    },
+    "generic.app_error": {
+        "translation": "Rakenduse viga"
+    },
+    "generic.details": {
+        "translation": "ÜKSIKASJAD"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Ilmnes tundmatu viga."
+    },
+    "generic.blocked_request": {
+        "translation": "Blokeeritud taotlus"
+    },
+    "generic.try_again": {
+        "translation": "Proovige uuesti!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Esitage kehtiv e-posti aadress"
+    },
+    "generic.back": {
+        "translation": "Tagasi"
+    },
+    "generic.loading": {
+        "translation": "Laadimine"
+    },
+    "generic.success": {
+        "translation": "Edu"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Turvalisuse tagamiseks avaneb uus Magic sakk, kus saate tehingu kinnitada."
+    },
+    "generic.trial_mode": {
+        "translation": "Prooviversioon"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Värskenda kohe"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Veebilehitsejat ei toetata"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Keelake ajutiselt kõik aktiivsed veebilehitseja laiendid või vahetage veebilehitsejaid ja proovige uuesti."
+    }
+}

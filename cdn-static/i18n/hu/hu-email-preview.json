@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Kattintson az alábbi gombra az {appName} alkalmazásba való bejelentkezéshez."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Ez a gomb 10 perc múlva lejár."
+    },
+    "email_preview.login_to_app": {
+        "translation": "jelentkezzen be ide: {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "A kérelem megerősítésével biztonságosan bejelentkezik a **hello@example.com** címmel."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Ha nem Ön kérte, ne aggódjon, nyugodtan figyelmen kívül hagyhatja ezt az e-mailt."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} csapat"
+    }
+}

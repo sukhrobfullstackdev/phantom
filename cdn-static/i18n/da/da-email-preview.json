@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Klik på knappen herunder for at logge ind på {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Denne knap udløber om 10 minutter."
+    },
+    "email_preview.login_to_app": {
+        "translation": "log ind op {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Bekræftelse af denne anmodning logger dig sikkert ind ved hjælp af **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Hvis du ikke fremsatte denne anmodning, skal du ikke bekymre dig, det er sikkert at se bort fra denne e-mail."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName}-team"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Проверка вашего устройства"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Зарегистрируйте это устройство, чтобы продолжить"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Мы отправили ссылку для регистрации устройства на"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Это быстрое одноразовое подтверждение поможет сохранить безопасность вашей учетной записи"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Подтвердить вход?"
+    },
+    "verify_device.new_device": {
+        "translation": "Новый браузер\/устройство"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Не соответствует вашему текущему браузеру\/устройству"
+    },
+    "verify_device.website": {
+        "translation": "Веб-сайт"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "IP-адрес нового устройства"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Я узнаю этот браузер и устройство"
+    },
+    "verify_device.reject": {
+        "translation": "Отклонить"
+    },
+    "verify_device.approve": {
+        "translation": "Утвердить"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Запрос на вход отклонен"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Мы прекратили доступ неузнаваемого устройства к вашей учетной записи"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Сделали ошибку? Вернитесь в **{appName}**, чтобы начать процесс входа заново."
+    },
+    "verify_device.device_approved": {
+        "translation": "Вход подтвержден"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Вернитесь в **{appName}**, чтобы завершить вход в"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Теперь вы можете закрыть эту вкладку"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Срок действия ссылки для подтверждения входа истек. Запросите новую, чтобы продолжить."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Срок действия ссылки истек"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Отправить еще одну магическую ссылку на \n**{userEmail}**.\n ссылка для входа или регистрации."
+    },
+    "verify_device.resend_email": {
+        "translation": "Отправить электронное письмо снова"
+    },
+    "verify_device.close": {
+        "translation": "Закрыть"
+    }
+}

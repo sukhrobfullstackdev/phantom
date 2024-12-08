@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "警告"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "秘密鍵"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "秘密鍵は安全に保管し、決して公開しないでください"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "ログアウト"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "クリップボードにコピー"
+    }
+}

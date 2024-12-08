@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Pre prihlásenie do {appName} kliknite na tlačidlo nižšie."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Platnosť tlačidla vyprší za 10 minút"
+    },
+    "email_preview.login_to_app": {
+        "translation": "prihláste sa do {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Potvrdením tejto požiadavky sa bezpečne prihlásite použitím **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Ak ste nezadali žiadnu požiadavku, bez obáv, pokojne tento e-mail ignorujte."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} tím"
+    }
+}

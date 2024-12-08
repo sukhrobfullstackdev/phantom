@@ -1,0 +1,28 @@
+.loopSpinner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotation 1s infinite linear;
+  z-index: 13;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loop {
+  animation: rotation 1s infinite linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

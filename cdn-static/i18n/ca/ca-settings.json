@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Tornar a {appName}"
+    },
+    "settings.title": {
+        "translation": "Configuració de compte"
+    },
+    "settings.off": {
+        "translation": "DESACTIVAT"
+    },
+    "settings.on": {
+        "translation": "ACTIVAT"
+    },
+    "settings.turn_on": {
+        "translation": "Activar"
+    },
+    "settings.turn_off": {
+        "translation": "Desactivar"
+    },
+    "settings.two_step_verification": {
+        "translation": "Verificació en 2 passos"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Afegeix una capa de seguretat addicional introduint un codi de verificació d'aplicació mòbil cada vegada que iniciïs sessió"
+    },
+    "settings.phone_number": {
+        "translation": "Número de telèfon"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Actualitza el número de telèfon actual"
+    }
+}

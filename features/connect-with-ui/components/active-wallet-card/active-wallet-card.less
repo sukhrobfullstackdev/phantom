@@ -1,0 +1,22 @@
+@import (reference) '~/app/index.less';
+
+.walletCard {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  #mg.themeProperty(background-color, #fff, #484848);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.address {
+  #mg.themeProperty(color, #77767a, #FFFFFFB8) !important;
+  text-align: left;
+  font-variant: no-contextual;
+}
+
+.copied {
+  font-weight: 500;
+  #mg.themeProperty(color, #00875f, #00a272);
+}

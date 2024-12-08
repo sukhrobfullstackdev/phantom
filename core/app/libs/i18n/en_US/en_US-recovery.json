@@ -1,0 +1,14 @@
+{
+  "recovery.recovery_factor_already_exists": {
+    "translation": "A recovery factor already exists on this account",
+    "notes": ""
+  },
+  "recovery.phone_number": {
+    "translation": "Recovery Phone Number",
+    "notes": ""
+  },
+  "recovery.invalid_credential": {
+    "translation": "Invalid credential. Please start over again.",
+    "notes": ""
+  }
+}

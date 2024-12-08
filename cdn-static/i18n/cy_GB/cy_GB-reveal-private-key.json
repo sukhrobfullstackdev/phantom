@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Rhybudd"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Eich allwedd breifat"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Storiwch yn ddiogel a pheidiwch fyth â datgelu'ch allwedd breifat"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Allgofnodwch"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Copïwch i'r clipfwrdd"
+    }
+}

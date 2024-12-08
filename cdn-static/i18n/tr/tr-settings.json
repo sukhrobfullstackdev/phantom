@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "{appName} uygulamasına dön"
+    },
+    "settings.title": {
+        "translation": "Hesap Ayarları"
+    },
+    "settings.off": {
+        "translation": "KAPALI"
+    },
+    "settings.on": {
+        "translation": "AÇIK"
+    },
+    "settings.turn_on": {
+        "translation": "Aç"
+    },
+    "settings.turn_off": {
+        "translation": "Kapat"
+    },
+    "settings.two_step_verification": {
+        "translation": "2 adımlı doğrulama"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Her oturum açtığınızda bir mobil uygulama doğrulama kodu girerek ilave bir güvenlik katmanı oluşturun"
+    },
+    "settings.phone_number": {
+        "translation": "Telefon numarası"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Geçerli telefon numaranızı güncelleyin"
+    }
+}

@@ -1,0 +1,66 @@
+@import (reference) '~/app/index.less';
+
+.bannerSpacer {
+  height: 0px;
+  margin-top: 32px;
+  @media all and (max-width: 480px) {
+    margin-top: -16px;
+  }
+  @media all and (max-width: 479px) {
+    margin-top: 0px;
+  }
+}
+
+.profileIconContainer {
+  #mg.themeProperty(background, #fff, #323233);
+  border-radius: 50%;
+  overflow: hidden;
+  max-height: 60px;
+  #mg.themeProperty(border, 2px solid #fff, 2px solid #323233);
+}
+
+.iconBackground {
+  background: #mg.getThemeColor(primary, 0.12) [];
+}
+
+.profilePicture {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.googleProfilePicture {
+  border-radius: 50%;
+  #mg.themeProperty(border, 2px solid #fff, 2px solid #323233);
+  overflow: hidden;
+}
+
+.accountSection {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  width: 100%;
+  color: inherit;
+}
+
+.walletAddress {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  background: none;
+  width: fit-content;
+  margin: auto;
+  font-variant: no-contextual;
+}
+
+.helpCenterLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.helpCenterLink:visited {
+  text-decoration: none;
+  color: inherit;
+}

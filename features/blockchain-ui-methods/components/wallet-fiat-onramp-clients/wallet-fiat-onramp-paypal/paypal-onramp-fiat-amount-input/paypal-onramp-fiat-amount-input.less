@@ -1,0 +1,59 @@
+@import (reference) '~/app/index.less';
+
+.Disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.PaypalFiatOnrampAmountInput {
+  width: 100%;
+  padding: 20px 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+  &:hover {
+    border: 1px solid @magicLighter;
+  }
+  &:focus-within {
+    border: 1px solid @magic;
+  }
+
+  input {
+    outline: none;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    width: 80%;
+  }
+
+  .AmountLabel {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+.AmountInputDark {
+  border: 1px solid @ink70;
+}
+.AmountInputLight {
+  border: 1px solid @ink30;
+}
+
+.OnrampAmountInputHasError {
+  border: 1px solid @redDarker !important;
+}

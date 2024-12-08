@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Vaše předchozí metoda přihlašování"
+    },
+    "pnp.welcome": {
+        "translation": "Vítejte"
+    },
+    "pnp.welcome_back": {
+        "translation": "Vítejte zpět"
+    },
+    "pnp.email": {
+        "translation": "E-mail"
+    },
+    "pnp.email_aria": {
+        "translation": "Přihlášení pomocí e-mailové adresy"
+    },
+    "pnp.email_address": {
+        "translation": "E-mailová adresa"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Přihlášení pomocí telefonního čísla"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefonní číslo"
+    },
+    "pnp.login_signup": {
+        "translation": "Přihlášení\/Registrace"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Potvrdit přihlášení"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Přihlásit se s {provider}"
+    },
+    "pnp.or": {
+        "translation": "Nebo"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Vyhledávat kódy zemí"
+    },
+    "pnp.select_country_code": {
+        "translation": "Vybrat kód země"
+    },
+    "pnp.login_disabled": {
+        "translation": "Vypnuté funkce Přihlášení\/Registrace"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Požádejte o pomoc {appName}"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Požádejte o pomoc vývojáře této aplikace"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Smluvní podmínky"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Zásady ochrany osobních údajů"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Pokračováním vyjadřujete souhlas s {appName}"
+    }
+}

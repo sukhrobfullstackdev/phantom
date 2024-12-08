@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Моля, въведете кода, изпратен на"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Нов код ще бъде наличен след {second} сек"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Изпращане на нов код"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Невалиден код, моля, опитайте отново"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Изглежда, че телефонният номер е невалиден.\nМоля, проверете номера и опитайте отново."
+    },
+    "login_sms.expired_code": {
+        "translation": "Кодът е изтекъл"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Автоматично ще Ви изпратим нов код."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Блокиране за сигурност"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Поради подозрителния брой неуспешни опити за влизане временно деактивираме влизането със SMS."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Опитайте отново след"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Моля, въведете валиден имейл адрес."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Твърде много опити за вход. Моля, опитайте отново по-късно."
+    }
+}

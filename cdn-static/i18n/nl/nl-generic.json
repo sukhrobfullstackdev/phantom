@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Oh jee! Er ging iets fout"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "We konden de bron die je zoekt niet vinden."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Neem contact op met de ontwikkelaar van deze app voor een oplossing."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Neem contact op met **{appName}** voor een oplossing."
+    },
+    "generic.internal_server_error": {
+        "translation": "Interne serverfout"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "We zijn momenteel bezig om alles weer te maken zoals het was. Probeer het later opnieuw."
+    },
+    "generic.close": {
+        "translation": "Sluiten"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK is niet beschikbaar bij een gratis abonnement. Upgrade naar een betaald abonnement"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Onze prijspagina"
+    },
+    "generic.app_error": {
+        "translation": "App-fout"
+    },
+    "generic.details": {
+        "translation": "DETAILS"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Er is een onbekende fout opgetreden."
+    },
+    "generic.blocked_request": {
+        "translation": "Verzoek geblokkeerd"
+    },
+    "generic.try_again": {
+        "translation": "Probeer het opnieuw!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Voer een geldig mailadres in"
+    },
+    "generic.back": {
+        "translation": "Terug"
+    },
+    "generic.loading": {
+        "translation": "Bezig met laden"
+    },
+    "generic.success": {
+        "translation": "Gelukt"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Om veiligheidsredenen wordt er een nieuw tabblad van Magic geopend waarin je deze transactie kunt bevestigen."
+    },
+    "generic.trial_mode": {
+        "translation": "Proefversie"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Nu upgraden"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Browser niet ondersteund"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Schakel actieve browserextensies tijdelijk uit of gebruik een andere browser om het nog eens te proberen."
+    }
+}

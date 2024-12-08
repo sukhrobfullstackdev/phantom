@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Voltar a {appName}"
+    },
+    "settings.title": {
+        "translation": "Definições de conta"
+    },
+    "settings.off": {
+        "translation": "DESLIGADO"
+    },
+    "settings.on": {
+        "translation": "LIGADO"
+    },
+    "settings.turn_on": {
+        "translation": "Ativar"
+    },
+    "settings.turn_off": {
+        "translation": "Desativar"
+    },
+    "settings.two_step_verification": {
+        "translation": "Verificação de 2 passos"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Adicione uma camada extra de segurança inserindo um código de verificação de aplicação móvel sempre que iniciar sessão"
+    },
+    "settings.phone_number": {
+        "translation": "Número de telefone"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Atualize o seu número de telefone atual"
+    }
+}

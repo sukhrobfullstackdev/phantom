@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Uyarı"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Özel anahtarınız"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Özel anahtarınızı güvenli bir şekilde saklayın ve hiçbir zaman başkalarıyla paylaşmayın"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Çıkış Yap"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Panoya kopyala"
+    }
+}

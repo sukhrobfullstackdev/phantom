@@ -1,0 +1,13 @@
+@import (reference) '~/app/index.less';
+
+.overlapIcons {
+  --padding-border: 0px;
+  padding: var(--padding-border);
+  z-index: 1;
+  border-radius: 100%;
+  margin-top: calc(var(--padding-border) * -1);
+  #mg.themeProperty(background,
+        #mg.getThemeColor(light)[],
+        #323233,
+    );
+}

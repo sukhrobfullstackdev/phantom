@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Bydd angen ap dilyswr arnoch."
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "I alluogi dilysu dau gam, bydd angen ap dilyswr fel {authy} neu {google} arnoch."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Sganiwch y cod QR hwn"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Agorwch eich ap dilyswr a sganiwch y cod QR hwn neu rhowch eich allwedd gosod."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Rhowch y cod 6 digid o'ch ap dilyswr"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Cod annilys. Rhowch gynnig arall arni."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Cadwch eich cod adfer"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Gellir defnyddio'r cod hwn i fewngofnodi os ydych chi'n colli mynediad i'ch ap dilyswr. Storiwch ef mewn man diogel."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Eich cod adfer {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Cod y copi"
+    },
+    "mfa.finish_setup": {
+        "translation": "Gorffen gosod"
+    },
+    "mfa.key": {
+        "translation": "Allwedd"
+    },
+    "mfa.copy": {
+        "translation": "Copïo"
+    },
+    "mfa.copied": {
+        "translation": "Wedi copïo"
+    },
+    "mfa.next": {
+        "translation": "Nesaf"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Rwyf wedi colli fy nyfais"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Rhowch eich cod adfer i fewngofnodi"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Bydd dilysu 2 gam yn cael ei analluogi"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Cod 8 nod"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Rwyf wedi colli fy nghod adfer"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Cod annilys, rhowch gynnig arall arni"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Cod annilys. ({attempts}) ymgais yn weddill cyn i'ch cyfrif gael ei gloi."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "I gael help i adfer eich cyfrif, cysylltwch â thîm cymorth {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Cysylltwch â chymorth {appName}"
+    }
+}

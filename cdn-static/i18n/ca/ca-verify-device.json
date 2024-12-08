@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Estem verificant el teu dispositiu"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registra aquest dispositiu per continuar"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Hem enviat un enllaç de registre de dispositiu a"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Aquesta aprovació única ràpida t'ajudarà a mantenir el teu compte fora de perill"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Aprovar l'inici de sessió?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nou navegador\/dispositiu"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "No coincideix amb el teu navegador\/dispositiu actual"
+    },
+    "verify_device.website": {
+        "translation": "Lloc web"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Adreça IP del nou dispositiu"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Reconec aquest navegador i aquest dispositiu"
+    },
+    "verify_device.reject": {
+        "translation": "Denegar"
+    },
+    "verify_device.approve": {
+        "translation": "Aprovar"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Sol·licitud d'inici de sessió denegat"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Hem impedit que el dispositiu no reconegut accedeixi al teu compte"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "T'has equivocat? Torna a **{appName}** per recomençar el procés d'inici de sessió."
+    },
+    "verify_device.device_approved": {
+        "translation": "Inici de sessió aprovat"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Torna a **{appName}** per finalitzar l'inici de sessió"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Ara pots tancar aquesta pestanya"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "L'enllaç d'aprovació per a l'inici de sessió ha caducat. Sol·licita'n un de nou per continuar."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "L'enllaç ha caducat"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Envia un altre enllaç de Magic a\n**{userEmail}**.\n l'enllaç per iniciar la sessió o registrar-vos."
+    },
+    "verify_device.resend_email": {
+        "translation": "Torna a enviar el correu electrònic"
+    },
+    "verify_device.close": {
+        "translation": "Tancar"
+    }
+}

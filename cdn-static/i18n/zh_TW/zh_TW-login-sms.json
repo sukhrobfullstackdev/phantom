@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "請輸入傳送的代碼"
+    },
+    "login_sms.new_code_available": {
+        "translation": "新代碼於 {seconds} 秒內有效"
+    },
+    "login_sms.send_new_code": {
+        "translation": "傳送新代碼"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "無效代碼，請重試"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "該電話號碼似乎無效。\n請檢查號碼並重試。"
+    },
+    "login_sms.expired_code": {
+        "translation": "代碼逾期"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "將自動傳送新代碼給您。"
+    },
+    "login_sms.security_lockout": {
+        "translation": "安全鎖定"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "由於嘗試登入失敗的可疑次數，SMS 登入已暫時停用。"
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "再試一次於"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "請輸入有效電子郵件地址。"
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "嘗試次數過多。請稍後重試。"
+    }
+}

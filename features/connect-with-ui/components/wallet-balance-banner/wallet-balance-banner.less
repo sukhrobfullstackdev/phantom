@@ -1,0 +1,18 @@
+@import (reference) '~/app/index.less';
+
+.container {
+  #mg.themeProperty(border-top, 1px solid var(--silk20), 1px solid #666666) !important;
+  #mg.themeProperty(border-bottom, 1px solid var(--silk20), 1px solid #666666) !important;
+  #mg.themeProperty(color, var(--silk80), #FFFFFFB8) !important;
+  height: 48px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: -48px;
+  margin-right: -48px;
+  padding: 0 16px;
+  @media all and (max-width: 479px) {
+    padding: 0 32px;
+  }
+}

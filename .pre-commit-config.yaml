@@ -1,0 +1,33 @@
+default_language_version:
+    python: python3.7
+
+repos:
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v4.3.0
+      hooks:
+          - id: trailing-whitespace
+            language_version: python3
+          - id: end-of-file-fixer
+            language_version: python3
+          - id: check-merge-conflict
+            language_version: python3
+    - repo: https://github.com/gruntwork-io/pre-commit
+      rev: v0.1.20 # Get the latest from: https://github.com/gruntwork-io/pre-commit/releases
+      hooks:
+        - id: terragrunt-hclfmt
+          files: "[terraform|terraform_tg].*.hcl"
+    - repo: https://github.com/antonbabenko/pre-commit-terraform
+      rev: v1.77.2 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
+      hooks:
+          - id: terraform_fmt
+          - id: terraform_tflint
+            files: terraform|terraform_tg
+            args:
+              - --args=--config=__GIT_WORKING_DIR__/.tflint.hcl
+          - id: terraform_tfsec
+            files: terraform|terraform_tg
+          - id: terraform_docs
+            files: terraform|terraform_tg
+            args:
+                - --hook-config=--add-to-existing-file=true
+                - --hook-config=--create-file-if-not-exist=true

@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "點選以下按鈕以登入至 {appName}。"
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "本按鈕會在 10 分鐘內過期。"
+    },
+    "email_preview.login_to_app": {
+        "translation": "登入至 {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "確認本請求可透過 **hello@example.com** 安全地為您登入。"
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "如果您沒有提出該請求，別擔心，可放心忽略本電郵。"
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} 團隊"
+    }
+}

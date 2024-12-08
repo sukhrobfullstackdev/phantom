@@ -1,0 +1,47 @@
+{
+    "update_phone_number.phone_number": {
+        "translation": "Telefonnummer"
+    },
+    "update_phone_number.title": {
+        "translation": "Oppdatere telefonnummer?"
+    },
+    "update_phone_number.description": {
+        "translation": "Når det er bekreftet, vil dette nye nummeret bli brukt for å få tilgang"
+    },
+    "update_phone_number.enter_otc": {
+        "translation": "Skriv inn koden sendt til"
+    },
+    "update_phone_number.confirm_change": {
+        "translation": "Bekreft endring"
+    },
+    "update_phone_number.verify_new_sms": {
+        "translation": "Bekreft ny sms"
+    },
+    "update_phone_number.your_phone_number_was_updated": {
+        "translation": "Telefonnummeret ditt ble oppdatert!"
+    },
+    "update_phone_number.otc_expired": {
+        "translation": "Sms engangskode utløpt"
+    },
+    "update_phone_number.failed_to_verify_sms_address": {
+        "translation": "Kunne ikke bekrefte telefonnummeret ditt. Lukk dette vinduet og start flyten på nytt."
+    },
+    "update_phone_number.update": {
+        "translation": "Oppdater"
+    },
+    "update_phone_number.resend_sms": {
+        "translation": "Send SMS på nytt"
+    },
+    "update_phone_number.cancel": {
+        "translation": "Avbryt"
+    },
+    "update_phone_number.hold_tight_fixing_issue": {
+        "translation": "Vent litt! Vi fikser et problem."
+    },
+    "update_phone_number.oops": {
+        "translation": "Ups"
+    },
+    "update_phone_number.currently_working_on_getting_back_to_normal": {
+        "translation": "Vi jobber for tiden med å få alt tilbake til det normale. \nPrøv igjen snart."
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "返回 {appName}"
+    },
+    "settings.title": {
+        "translation": "账户设置"
+    },
+    "settings.off": {
+        "translation": "关闭"
+    },
+    "settings.on": {
+        "translation": "打开"
+    },
+    "settings.turn_on": {
+        "translation": "打开"
+    },
+    "settings.turn_off": {
+        "translation": "关闭"
+    },
+    "settings.two_step_verification": {
+        "translation": "两步验证"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "每次登录时输入移动应用程序验证码，以增加额外的一层安全性"
+    },
+    "settings.phone_number": {
+        "translation": "电话号码"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "更新您的当前电话号码"
+    }
+}

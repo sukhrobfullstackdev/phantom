@@ -1,0 +1,79 @@
+@import (reference) '../../../styles/index.less';
+
+.SecuredByMagic {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover, &:active, &:focus {
+      text-decoration: none;
+    }
+  }
+
+  .text {
+    margin-right: 15px;
+    color: #mg.getThemeColor(tertiary)[];
+
+    &.small {
+      margin-right: 10px;
+      font-size: 12px;
+    }
+
+    &.fadedText {
+      #mg.themeProperty(color, #B6B4BA, #77767A);
+    }
+  }
+
+  &:hover, &:active, a:focus {
+    svg {
+      fill: url('#logo-gradient') !important;
+      filter: drop-shadow(0px 0px 6px rgba(@magicLighter, 0.7));
+    }
+
+    svg.small {
+      filter: drop-shadow(0px 0px 6px rgba(@magicLighter, 0.4));
+    }
+  }
+}
+
+.svgContainer {
+  &.fadedIcon svg {
+    #mg.themeProperty(fill, #B6B4BA, #77767A);
+  }
+
+  svg {
+    padding-top: 4px;
+    fill: #mg.getThemeColor(tertiary)[];
+    transition: filter 2s;
+  }
+}
+
+.logoGradient {
+  & stop:first-child {
+    stop-color: #402FC3;
+    animation: gradientA 2s ease-out infinite alternate;
+  }
+
+  & stop:last-child {
+    stop-color: #C970FF;
+    animation: gradientB 2s ease-out infinite alternate;
+  }
+}
+
+.createKeyframes(gradientA, {
+  0% { stop-color: #402FC3; }
+  50% { stop-color: #C970FF; }
+  0% { stop-color: #402FC3; }
+});
+
+.createKeyframes(gradientB, {
+  0% { stop-color: #C970FF; }
+  50% { stop-color: #402FC3; }
+  0% { stop-color: #C970FF; }
+});
+

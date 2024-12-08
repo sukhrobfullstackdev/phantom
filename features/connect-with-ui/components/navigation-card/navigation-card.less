@@ -1,0 +1,21 @@
+@import (reference) '~/app/index.less';
+
+.navigationCard {
+  #mg.themeProperty(background-color, var(--ink10), #484848) !important;
+  #mg.themeProperty(color, #000, #FFF) !important;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+  width: 100%;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.navigationCard:hover {
+  #mg.themeProperty(background-color, var(--ink30), #5c5b5b) !important;
+}

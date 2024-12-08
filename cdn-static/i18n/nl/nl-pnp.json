@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Je vorige inlogmethode"
+    },
+    "pnp.welcome": {
+        "translation": "Welkom"
+    },
+    "pnp.welcome_back": {
+        "translation": "Welkom terug"
+    },
+    "pnp.email": {
+        "translation": "E-mail"
+    },
+    "pnp.email_aria": {
+        "translation": "Log in met je e-mailadres"
+    },
+    "pnp.email_address": {
+        "translation": "E-mailadres"
+    },
+    "pnp.phone": {
+        "translation": "Telefoon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Log in met je telefoonnummer"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefoonnummer"
+    },
+    "pnp.login_signup": {
+        "translation": "Log in \/ Meld je aan"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Voer inlogcode in"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Log in met {provider}"
+    },
+    "pnp.or": {
+        "translation": "Of"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Zoek landcodes"
+    },
+    "pnp.select_country_code": {
+        "translation": "Selecteer landcode"
+    },
+    "pnp.login_disabled": {
+        "translation": "Log in \/ Aanmelden uitgeschakeld"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Neem contact op met {appName} voor hulp"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Neem contact op met de ontwikkelaar van deze app voor hulp"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Servicevoorwaarden"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Privacybeleid van {appName}"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Als je doorgaat, stem je in met het"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Bekrefter enheten din"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registrer denne enheten for å fortsette"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Vi sendte en lenke for å registrere enheten til"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Denne raske engangsgodkjenningen vil bidra til å holde kontoen din sikker"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Godkjenne pålogging?"
+    },
+    "verify_device.new_device": {
+        "translation": "Ny nettleser\/enhet"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Samsvarer ikke med din nåværende nettleser\/enhet"
+    },
+    "verify_device.website": {
+        "translation": "Nettsted"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "IP-adresse til ny enhet"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Jeg kjenner igjen denne nettleseren og enheten"
+    },
+    "verify_device.reject": {
+        "translation": "Avvis"
+    },
+    "verify_device.approve": {
+        "translation": "Godkjenn"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Påloggingsforespørsel avvist"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Vi har stoppet den ukjente enheten fra å få tilgang til kontoen din"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Gjorde du en feil? Gå tilbake til **{appName}** for å starte påloggingsprosessen på nytt."
+    },
+    "verify_device.device_approved": {
+        "translation": "Pålogging godkjent"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Gå tilbake til **{appName}** for å fullføre påloggingen"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Nå kan du lukke denne fanen"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Godkjenningslenken din for pålogging er utløpt. Be om en ny for å fortsette."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Lenken er utløpt"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Send en ny magisk lenke til\n**{userEmail}**.\nKlikk på lenken for å logge på eller registrere deg."
+    },
+    "verify_device.resend_email": {
+        "translation": "Send e-posten på nytt"
+    },
+    "verify_device.close": {
+        "translation": "Lukk"
+    }
+}

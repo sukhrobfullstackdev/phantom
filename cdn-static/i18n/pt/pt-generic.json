@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ups! Algo correu mal"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Não conseguimos encontrar o recurso que procura."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Por favor contacte os programadores desta aplicação para obter uma resolução."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Por favor contacte **{appName}** para obter uma resolução."
+    },
+    "generic.internal_server_error": {
+        "translation": "Erro de servidor interno"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Estamos atualmente a trabalhar para repor tudo de volta ao normal. Por favor tente de novo mais tarde."
+    },
+    "generic.close": {
+        "translation": "Fechar"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelaber SDK não está disponível num plano gratuito, por favor faça upgrade para um plano pago"
+    },
+    "generic.our_pricing_page": {
+        "translation": "A nossa página de Preçário"
+    },
+    "generic.app_error": {
+        "translation": "Erro na aplicação"
+    },
+    "generic.details": {
+        "translation": "DETALHES"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Ocorreu um erro desconhecido."
+    },
+    "generic.blocked_request": {
+        "translation": "Pedido bloqueado"
+    },
+    "generic.try_again": {
+        "translation": "Tente de novo!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Por favor forneça um email válido"
+    },
+    "generic.back": {
+        "translation": "Voltar"
+    },
+    "generic.loading": {
+        "translation": "A carregar"
+    },
+    "generic.success": {
+        "translation": "Sucesso"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Para efeitos de segurança, um novo separador do Magic irá abrir para que possa confirmar esta transação."
+    },
+    "generic.trial_mode": {
+        "translation": "Modo de avaliação"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Fazer o upgrade agora"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Navegador não suportado"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Desative temporariamente quaisquer extensões de navegador ativas ou mude de navegador, e tente novamente."
+    }
+}

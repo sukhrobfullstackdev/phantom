@@ -1,0 +1,35 @@
+@import (reference) '~/app/index.less';
+
+.TrialModeBanner {
+  padding: 0;
+  margin-top: 14px;
+  margin-bottom: -48px;
+  width: 432px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    linear-gradient(275.13deg, #ebd408 0%, #fa4f20 68.23%);
+  border-radius: 28px 28px 0 0;
+  color: white;
+  .bannerContent {
+    padding: 14px 22px;
+    button {
+      background: var(--white) !important;
+    }
+    .btnText {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+        linear-gradient(275.13deg, #ebd408 0%, #fa4f20 68.23%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      font-size: 14px;
+      margin: -2px -10px;
+      font-weight: 600;
+    }
+  }
+  @media all and (max-width: 479px) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+  }
+}

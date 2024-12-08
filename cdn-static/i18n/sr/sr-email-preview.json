@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Kliknite na donje dugme da biste se prijavili na {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Ovo dugme će isteći za 10 minuta."
+    },
+    "email_preview.login_to_app": {
+        "translation": "prijavite se na {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Ako potvrdite ovaj zahtev, bezbedno ćete se prijaviti pomoću **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Ako niste napravili ovaj zahtev, ne brinite, slobodno možete da zanemarite ovu e-poruku."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} tim"
+    }
+}

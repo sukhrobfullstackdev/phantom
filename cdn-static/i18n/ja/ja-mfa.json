@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "認証アプリが\n必要になります"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "2段階認証を有効にするには、{authy}または{google}などの認証アプリが必要になります。"
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "このQRコードをスキャン"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "認証アプリを開き、このQRコードをスキャンするか、セットアップキーを入力してください。"
+    },
+    "mfa.enter_totp_body": {
+        "translation": "認証アプリの6桁のコードを\n入力してください。"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "コードが無効です。もう一度やり直してください。"
+    },
+    "mfa.recovery_code_title": {
+        "translation": "リカバリーコードを保存"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "このコードは、認証アプリにアクセスできなくなった場合、ログインに使用できます。安全な場所に保管してください。"
+    },
+    "mfa.recovery_code_label": {
+        "translation": "{appName}のリカバリーコード"
+    },
+    "mfa.copy_code": {
+        "translation": "コードをコピー"
+    },
+    "mfa.finish_setup": {
+        "translation": "セットアップを終了"
+    },
+    "mfa.key": {
+        "translation": "キー"
+    },
+    "mfa.copy": {
+        "translation": "コピー"
+    },
+    "mfa.copied": {
+        "translation": "コピーしました"
+    },
+    "mfa.next": {
+        "translation": "次"
+    },
+    "mfa.lost_code_button": {
+        "translation": "デバイスを紛失してしまいました"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "復元コードを入力すると\nログインできます"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "2段階認証は無効になります"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8文字のコード"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "復元コードを紛失してしまいました"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "コードが無効です。もう一度やり直してください"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "コードが無効です。無効なコードです。アカウントがロックされるまであと（{attempts}）回試行できます。"
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "アカウントの復旧については、{appName}のサポートチームにお問い合わせください。"
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "{appName}のサポートに問い合わせる"
+    }
+}

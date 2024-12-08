@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Vérification de votre appareil"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Veuillez enregistrer cet appareil pour continuer"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Nous avons envoyé un lien d'enregistrement d'appareil à"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Cette approbation unique et rapide vous aidera à protéger votre compte"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Approuver la connexion ?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nouveau navigateur ou nouvel appareil"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Ne correspond pas à votre navigateur\/appareil actuel"
+    },
+    "verify_device.website": {
+        "translation": "Site Internet"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Nouvelle adresse IP de l'appareil"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Je reconnais ce navigateur et cet appareil"
+    },
+    "verify_device.reject": {
+        "translation": "Rejeter"
+    },
+    "verify_device.approve": {
+        "translation": "Approuver"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Demande de connexion rejetée"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Nous avons empêché l'appareil non reconnu d'accéder à votre compte"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Vous avez fait une erreur ? Revenez à **{appName}** pour redémarrer le processus de connexion."
+    },
+    "verify_device.device_approved": {
+        "translation": "Connexion approuvée"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Revenez à **{appName}** pour finaliser la connexion"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Vous pouvez désormais fermer cet onglet"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Votre lien d'approbation de connexion a expiré. Pour continuer, veuillez en demander un nouveau."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Le lien a expiré"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Envoyer un autre lien Magic à\n**{userEmail}**.\n Cliquez sur le lien pour vous connecter ou vous inscrire."
+    },
+    "verify_device.resend_email": {
+        "translation": "Renvoyer l'e-mail"
+    },
+    "verify_device.close": {
+        "translation": "Fermer"
+    }
+}

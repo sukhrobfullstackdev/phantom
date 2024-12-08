@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Bạn sẽ cần có một\nứng dụng xác thực"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Để bật xác minh hai bước, bạn sẽ cần một ứng dụng xác thực như {authy} hoặc {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Quét mã QR này"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Mở ứng dụng xác thực của bạn và quét mã QR này hoặc nhập khóa thiết lập của bạn."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Vui lòng nhập mã gồm 6 chữ số\ntừ ứng dụng xác thực của bạn"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Mã không hợp lệ. Vui lòng thử lại."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Lưu mã khôi phục"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Mã này có thể được sử dụng để đăng nhập nếu bạn mất quyền truy cập vào ứng dụng xác thực của mình. Vui lòng lưu giữ mã ở một nơi an toàn."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Mã khôi phục {appName} của bạn"
+    },
+    "mfa.copy_code": {
+        "translation": "Sao chép mã"
+    },
+    "mfa.finish_setup": {
+        "translation": "Hoàn tất thiết lập"
+    },
+    "mfa.key": {
+        "translation": "Khóa"
+    },
+    "mfa.copy": {
+        "translation": "Sao chép"
+    },
+    "mfa.copied": {
+        "translation": "Đã sao chép"
+    },
+    "mfa.next": {
+        "translation": "Tiếp theo"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Tôi bị mất thiết bị của mình"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Nhập mã khôi phục của bạn để đăng nhập"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Đã tắt tính năng xác minh 2 bước"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Mã gồm 8 ký tự"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Tôi bị mất mã khôi phục"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Mã không hợp lệ, vui lòng thử lại"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Mã không hợp lệ. Còn ({attempts}) lần thử trước khi tài khoản của bạn bị khóa."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Để được trợ giúp khôi phục tài khoản của bạn, vui lòng liên hệ với đội ngũ hỗ trợ {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Liên hệ với bộ phận hỗ trợ của {appName}"
+    }
+}

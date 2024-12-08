@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "啊呀！出错了"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "我们找不到您要找的资源。"
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "请联系此应用的开发者解决。"
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "请联系**{appName}**解决。"
+    },
+    "generic.internal_server_error": {
+        "translation": "内部服务器错误"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "我们目前正在努力使一切恢复正常。请尽快再试。"
+    },
+    "generic.close": {
+        "translation": "关闭"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "白标签SDK在免费计划中不可用，请升级至付费计划"
+    },
+    "generic.our_pricing_page": {
+        "translation": "我们的报价页面"
+    },
+    "generic.app_error": {
+        "translation": "应用程序错误"
+    },
+    "generic.details": {
+        "translation": "详情"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "出现位置错误。"
+    },
+    "generic.blocked_request": {
+        "translation": "屏蔽请求"
+    },
+    "generic.try_again": {
+        "translation": "重试！"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "请提供有效邮箱"
+    },
+    "generic.back": {
+        "translation": "返回"
+    },
+    "generic.loading": {
+        "translation": "正在加载"
+    },
+    "generic.success": {
+        "translation": "成功"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "出于安全目的，将从 Magic 打开新标签页，供您确认此交易。"
+    },
+    "generic.trial_mode": {
+        "translation": "试用模式"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "立即升级"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "浏览器不受支持"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "请临时禁用任何活动的浏览器扩展或切换 Web 浏览器，然后重试。"
+    }
+}

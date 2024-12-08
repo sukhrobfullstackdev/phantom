@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Klik die knoppie hier onder om by {appName} aan te teken."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Hierdie knoppie sal oor 10 minute verval."
+    },
+    "email_preview.login_to_app": {
+        "translation": "teken aan by {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Bevestiging van hierdie versoek sal jou veilig aanteken met **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "As jy nie hierdie versoek gemaak het nie, bekommer jou nie! Dit is veilig om hierdie e-pos te ignoreer."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName}-span"
+    }
+}

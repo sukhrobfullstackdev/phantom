@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "คำขออัปเดตอีเมลเป็น **{updatedEmail}** หมดอายุแล้ว"
+    },
+    "update_email.confirm_change": {
+        "translation": "ยืนยันการเปลี่ยนแปลง"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "ยืนยันการเปลี่ยนแปลงจากอีเมลปัจจุบันของคุณที่ **{userEmail}** โปรดตรวจสอบกล่องขาเข้าของคุณ"
+    },
+    "update_email.try_again_question": {
+        "translation": "ลองอีกครั้งหรือไม่?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "ยืนยันอีเมลใหม่"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "เราส่งอีเมลไปที่ **{updatedUserEmail}** โปรดตรวจสอบกล่องขาเข้าของคุณ"
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "อัปเดตอีเมลของคุณแล้ว!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "ย้อนกลับไปยังแท็บเดิม"
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "ย้อนกลับไปยังแท็บ **{appName}** เดิม"
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "ย้อนกลับไปยังแท็บเดิมและเริ่มขั้นตอนการอัปเดตอีเมลอีกครั้ง"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "ย้อนกลับไปยังแท็บ **{appName}** เดิมและเริ่มขั้นตอนการอัปเดตอีเมลอีกครั้ง"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "ลิงก์การยืนยันหมดอายุแล้ว"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "การยืนยันที่อยู่อีเมลของคุณล้มเหลว โปรดปิดหน้าต่างนี้และเริ่มต้นขั้นตอนใหม่อีกครั้ง"
+    },
+    "update_email.updating_email": {
+        "translation": "กำลังอัปเดตอีเมล..."
+    },
+    "update_email.last_step": {
+        "translation": "ขั้นตอนสุดท้าย!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "เพื่อให้การอัปเดตอีเมลเสร็จสิ้น ให้ยืนยันการเปลี่ยนแปลงจากอีเมลปัจจุบันของคุณที่ **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "ส่งอีเมลอีกครั้ง"
+    },
+    "update_email.cancel": {
+        "translation": "ยกเลิก"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "คุณสามารถปิดหน้าต่างนี้ได้"
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "รอสักครู่! เรากำลังแก้ไขปัญหา"
+    },
+    "update_email.oops": {
+        "translation": "อุ้ย"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "ขณะนี้เรากำลังทำงานเพื่อให้ทุกอย่างกลับมาเป็นปกติ โปรดลองอีกครั้งในอีกสักครู่"
+    },
+    "update_email.confirming_email_update": {
+        "translation": "การยืนยันการอัปเดตอีเมล"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—การยืนยันการอัปเดตอีเมล"
+    }
+}

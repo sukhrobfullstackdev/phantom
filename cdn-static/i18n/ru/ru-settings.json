@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Вернуться в {appName}"
+    },
+    "settings.title": {
+        "translation": "Настройки аккаунта"
+    },
+    "settings.off": {
+        "translation": "ВЫКЛ."
+    },
+    "settings.on": {
+        "translation": "ВКЛ."
+    },
+    "settings.turn_on": {
+        "translation": "Включить"
+    },
+    "settings.turn_off": {
+        "translation": "Выключить"
+    },
+    "settings.two_step_verification": {
+        "translation": "2-этапное подтверждение"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Добавьте дополнительный уровень безопасности, вводя код подтверждения мобильного приложения каждый раз при входе в систему"
+    },
+    "settings.phone_number": {
+        "translation": "Номер телефона"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Обновите свой текущий номер телефона"
+    }
+}

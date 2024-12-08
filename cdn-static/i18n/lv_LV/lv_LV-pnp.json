@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Jūsu iepriekšējā ielogošanās metode"
+    },
+    "pnp.welcome": {
+        "translation": "Sveicināti"
+    },
+    "pnp.welcome_back": {
+        "translation": "Sveicināti atpakaļ"
+    },
+    "pnp.email": {
+        "translation": "E-pasts"
+    },
+    "pnp.email_aria": {
+        "translation": "Ielogoties ar e-pastu"
+    },
+    "pnp.email_address": {
+        "translation": "E-pasts"
+    },
+    "pnp.phone": {
+        "translation": "Tālrunis"
+    },
+    "pnp.phone_aria": {
+        "translation": "Ielogoties ar tālruņa numuru"
+    },
+    "pnp.phone_number": {
+        "translation": "Tālruņa numurs"
+    },
+    "pnp.login_signup": {
+        "translation": "Ielogoties\/Reģistrēties"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Iesniegt ielogošanās info."
+    },
+    "pnp.login_using_aria": {
+        "translation": "Ielogoties ar {provider}"
+    },
+    "pnp.or": {
+        "translation": "vai"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Meklēt valstu kodus"
+    },
+    "pnp.select_country_code": {
+        "translation": "Izvēlēties valsts kodu"
+    },
+    "pnp.login_disabled": {
+        "translation": "Ielogošanās\/reģistrēšanās atspējota"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Lai saņemtu palīdzību, sazinināties ar {appName}"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Lai saņemtu palīdzību, sazināties ar šīs lietotnes izstrādātāju"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Pakalpojuma sniegšanas noteikumi"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Privātuma politika"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Turpinot jūs piekrītat {appName}"
+    }
+}

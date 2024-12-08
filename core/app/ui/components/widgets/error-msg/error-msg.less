@@ -1,0 +1,19 @@
+@import (reference) '../../../styles/index.less';
+
+.statusMessage {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #77767a;
+}
+
+.statusMessageError {
+  color: #mg.getThemeColor(error)[];
+  #mg.darkTheme({
+    color: #FFB5A1;
+  });
+}

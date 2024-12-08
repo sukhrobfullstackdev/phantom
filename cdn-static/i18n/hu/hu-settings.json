@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Vissza a(z) {appName} alkalmazáshoz"
+    },
+    "settings.title": {
+        "translation": "Fiókbeállítások"
+    },
+    "settings.off": {
+        "translation": "KI"
+    },
+    "settings.on": {
+        "translation": "BE"
+    },
+    "settings.turn_on": {
+        "translation": "Bekapcsolás"
+    },
+    "settings.turn_off": {
+        "translation": "Kikapcsolás"
+    },
+    "settings.two_step_verification": {
+        "translation": "Kétlépéses ellenőrzés"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Fokozza tovább a biztonságot – adjon meg egy mobilalkalmazásból származó ellenőrző kódot minden egyes bejelentkezéskor"
+    },
+    "settings.phone_number": {
+        "translation": "Telefonszám"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Jelenlegi telefonszám frissítése"
+    }
+}

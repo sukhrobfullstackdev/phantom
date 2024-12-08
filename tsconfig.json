@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "build",
+    "paths": {
+      "~/app/*": ["core/app/*"],
+      "~/features/*": ["features/*"],
+      "~/server/*": ["core/server/*"],
+      "~/shared/*": ["core/shared/*"],
+      "~/test/*": ["test/*"],
+      "~/node_modules/*": ["node_modules/*"]
+    }
+  },
+
+  "include": ["**/*.ts", "**/*.tsx"],
+
+  "exclude": ["node_modules", "scripts/plops"],
+
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "files": true,
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}

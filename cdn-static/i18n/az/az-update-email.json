@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "E-poçtunuzu **{updatedEmail}** olaraq yeniləmək üçün göndərilən sorğunun vaxtı başa çatıb."
+    },
+    "update_email.confirm_change": {
+        "translation": "Dəyişikliyi təsdiq edin"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "**{userEmail}** hesabında cari e-poçtunuzdakı dəyişikliyi təsdiq edin. Gələnlər qutusuna baxın"
+    },
+    "update_email.try_again_question": {
+        "translation": "Yenidən cəhd edilsin?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Yeni e-poçtu təsdiq edin"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "**{updatedUserEmail}** hesabına e-məktub göndərdik. Gələnlər qutusuna baxın."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "E-poçtunuz yeniləndi!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Orijinal tabınıza qayıdın."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Orijinal**{appName}** tabınıza qayıdın."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Orijinal tabınıza qayıdıb e-poçtun yenilənməsi axınını yenidən başladın"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Orijinal**{appName}** tabına qayıdıb e-poçtun yenilənməsi axınını yenidən başladın"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Təsdiq linkinin vaxtı bitdi"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "E-poçt ünvanınız təsdiqlənmədi. Bu pəncərəni bağlayın və axını yenidən başladın."
+    },
+    "update_email.updating_email": {
+        "translation": "E-poçt yenilənir..."
+    },
+    "update_email.last_step": {
+        "translation": "son mərhələ!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "E-poçt yeniliyini tamamlamaq üçün **{currentEmail}** hesabında cari e-poçtunuzdakı dəyişikliyi təsdiq edin"
+    },
+    "update_email.resend_email": {
+        "translation": "E-məktubu yenidən göndərin"
+    },
+    "update_email.cancel": {
+        "translation": "Ləğv edin"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Bu pəncərəni bağlaya bilərsiniz."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Gözləyin! Problemi həll edirik."
+    },
+    "update_email.oops": {
+        "translation": "Ups"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Hazırda məsələni həll etməyə çalışırıq. Tezliklə yenidən cəhd edin."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "E-poçt yeniliyi təsdiq edilir"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—E-poçt yeniliyi təsdiq edilir"
+    }
+}

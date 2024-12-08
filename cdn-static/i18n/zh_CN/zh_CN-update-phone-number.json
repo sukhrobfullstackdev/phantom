@@ -1,0 +1,47 @@
+{
+    "update_phone_number.phone_number": {
+        "translation": "电话号码"
+    },
+    "update_phone_number.title": {
+        "translation": "更新电话号码？"
+    },
+    "update_phone_number.description": {
+        "translation": "验证之后，此新号码将用于访问"
+    },
+    "update_phone_number.enter_otc": {
+        "translation": "请输入发送给以下对象的代码："
+    },
+    "update_phone_number.confirm_change": {
+        "translation": "确认更改"
+    },
+    "update_phone_number.verify_new_sms": {
+        "translation": "验证新短信"
+    },
+    "update_phone_number.your_phone_number_was_updated": {
+        "translation": "您的电话号码已更新！"
+    },
+    "update_phone_number.otc_expired": {
+        "translation": "短信一次性代码已过期"
+    },
+    "update_phone_number.failed_to_verify_sms_address": {
+        "translation": "验证您的电话号码失败。请关闭此窗口并再次重启流程。"
+    },
+    "update_phone_number.update": {
+        "translation": "更新"
+    },
+    "update_phone_number.resend_sms": {
+        "translation": "重新发送短信"
+    },
+    "update_phone_number.cancel": {
+        "translation": "取消"
+    },
+    "update_phone_number.hold_tight_fixing_issue": {
+        "translation": "请稍等！我们正在修复问题。"
+    },
+    "update_phone_number.oops": {
+        "translation": "糟糕"
+    },
+    "update_phone_number.currently_working_on_getting_back_to_normal": {
+        "translation": "我们当前正在致力于使一切恢复正常。请稍后重试。"
+    }
+}

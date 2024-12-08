@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Cihazınız doğrulanıyor"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Devam etmek için lütfen bu cihazı kaydedin"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Şuraya bir cihaz kayıt bağlantısı gönderdik:"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Bu tek seferlik hızlı onay, hesabınızın güvenliğini sağlayacaktır"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Oturum açmayı onaylıyor musunuz?"
+    },
+    "verify_device.new_device": {
+        "translation": "Yeni Tarayıcı\/Cihaz"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Mevcut tarayıcınızla\/cihazınızla eşleşmiyor"
+    },
+    "verify_device.website": {
+        "translation": "Web sitesi"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Yeni Cihaz IP Adresi"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Bu tarayıcıyı ve cihazı tanıyorum"
+    },
+    "verify_device.reject": {
+        "translation": "Reddet"
+    },
+    "verify_device.approve": {
+        "translation": "Onayla"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Oturum açma isteği reddedildi"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Tanınmayan cihazın hesabınıza erişimini engelledik"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Bir hata mı yaptınız? Oturum açma sürecini yeniden başlatmak için **{appName}** uygulamasına geri dönün."
+    },
+    "verify_device.device_approved": {
+        "translation": "Oturum açma onaylandı"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Oturum açma işlemini tamamlamak için **{appName}** uygulamasına geri dönün"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Artık bu sekmeyi kapatabilirsiniz"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Oturum açma onayı bağlantınızın süresi doldu. Devam etmek için yeni bir bağlantı isteyin."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Bağlantının süresi doldu"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "**{userEmail}** adresine başka bir sihirli bağlantı gönderin.\nOturum açmak veya kaydolmak için bağlantıyı kullanın."
+    },
+    "verify_device.resend_email": {
+        "translation": "E-postayı Tekrar Gönder"
+    },
+    "verify_device.close": {
+        "translation": "Kapat"
+    }
+}

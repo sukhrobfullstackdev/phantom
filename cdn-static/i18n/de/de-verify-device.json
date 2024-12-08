@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Ihr Gerät verifizieren"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Bitte registrieren Sie dieses Gerät, um fortzufahren"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Wir haben einen Link zur Geräteregistrierung gesendet an:"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Diese kurze einmalige Genehmigung dient dem Schutz Ihres Kontos"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Anmeldung genehmigen?"
+    },
+    "verify_device.new_device": {
+        "translation": "Neuer Browser\/neues Gerät"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Stimmt nicht mit Ihrem aktuellen Browser\/Gerät überein"
+    },
+    "verify_device.website": {
+        "translation": "Website"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Neue Geräte-IP-Adresse"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Ich erkenne diesen Browser und das Gerät"
+    },
+    "verify_device.reject": {
+        "translation": "Ablehnen"
+    },
+    "verify_device.approve": {
+        "translation": "Genehmigen"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Anmeldeanfrage abgelehnt"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Wir haben den Zugriff des unerkannten Geräts auf Ihr Konto verhindert"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Haben Sie einen Fehler gemacht? Kehren Sie zu **{appName}** zurück, um den Anmeldeprozess von vorne zu beginnen."
+    },
+    "verify_device.device_approved": {
+        "translation": "Anmeldung genehmigt"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Kehren Sie zu **{appName}** zurück, um die Anmeldung abzuschließen"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Sie können diese Registerkarte nun schließen"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Ihr Link zur Anmeldungsgenehmigung ist abgelaufen. Fordern Sie einen neuen an, um fortzufahren."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Link abgelaufen"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Einen weiteren magischen Link senden an \n**{userEmail}**.\n den Link, um sich anzumelden oder zu registrieren."
+    },
+    "verify_device.resend_email": {
+        "translation": "E-Mail erneut senden"
+    },
+    "verify_device.close": {
+        "translation": "Schließen"
+    }
+}

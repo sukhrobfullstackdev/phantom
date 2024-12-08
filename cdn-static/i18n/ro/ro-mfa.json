@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Veți avea nevoie de o\naplicație de autentificare"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Pentru a activa verificarea în doi pași, veți avea nevoie de o aplicație de autentificare precum {authy} sau {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Scanați acest cod QR"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Deschideți aplicația de autentificare și scanați acest cod QR sau introduceți cheia de configurare."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Vă rugăm să introduceți codul format din 6 cifre \ndin aplicația dumneavoastră de autentificare"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Cod nevalid. Vă rugăm să încercați din nou."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Salvați codul de recuperare"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Acest cod poate fi utilizat pentru a vă conecta dacă pierdeți accesul la aplicația dumneavoastră de autentificare. Păstrați-l în siguranță."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Codul de recuperare pentru {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Copiere cod"
+    },
+    "mfa.finish_setup": {
+        "translation": "Finalizare configurare"
+    },
+    "mfa.key": {
+        "translation": "Cheie"
+    },
+    "mfa.copy": {
+        "translation": "Copiere"
+    },
+    "mfa.copied": {
+        "translation": "Copiat"
+    },
+    "mfa.next": {
+        "translation": "Înainte"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Mi-am pierdut dispozitivul"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Introduceți codul\nde recuperare pentru a vă conecta"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Se va dezactiva verificarea în 2 etape"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Cod din 8 caractere"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Mi-am pierdut codul de recuperare"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Cod incorect, încercați din nou"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Cod incorect. Mai rămân ({attempts}) încercări până ce contul este blocat."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Dacă aveți nevoie de ajutor la recuperarea contului, contactați echipa de asistență {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Contactați asistența {appName}"
+    }
+}

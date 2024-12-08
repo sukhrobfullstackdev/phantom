@@ -1,0 +1,47 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "O na! Aeth rhywbeth o'i le"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Nid oeddem yn gallu dod o hyd i'r adnodd rydych yn chwilio amdano."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Cysylltwch â datblygwyr yr ap hwn i gael datrysiad."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Cysylltwch ag **{appName}** i gael datrysiad."
+    },
+    "generic.internal_server_error": {
+        "translation": "Gwall gweinydd mewnol"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Rydym yn gweithio ar hyn o bryd ar sut i gael popth yn ôl i'r drefn arferol. Rhowch gynnig arall arni mewn ychydig,"
+    },
+    "generic.close": {
+        "translation": "Caewch"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Nid yw Whitelabel SDK ar gael ar gynllun rhad ac am ddim, uwchraddiwch i gynllun y telir amdano"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Ein Tudalen Prisiau"
+    },
+    "generic.app_error": {
+        "translation": "Gwall ap"
+    },
+    "generic.details": {
+        "translation": "MANYLION"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Digwyddodd gwall anhysbys."
+    },
+    "generic.blocked_request": {
+        "translation": "Cais wedi'i atal"
+    },
+    "generic.try_again": {
+        "translation": "Rhowch Gynnig Arni Eto!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Rhowch e-bost dilys"
+    }
+}

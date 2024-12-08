@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Sjekk e-posten din"
+    },
+    "login.confirm_your_email": {
+        "translation": "Bekreft e-posten din"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Vi sendte en magisk lenke til"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Klikk på lenken for å logge på eller registrer deg."
+    },
+    "login.check_your_inbox": {
+        "translation": "Sjekk innboksen din"
+    },
+    "login.resend_email": {
+        "translation": "Send e-post på nytt"
+    },
+    "login.close": {
+        "translation": "Lukk"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Gå tilbake til den opprinnelige fanen."
+    },
+    "login.logging_you_in": {
+        "translation": "logger deg på ..."
+    },
+    "login.logged_in": {
+        "translation": "Du er logget inn!"
+    },
+    "login.logged_into_app": {
+        "translation": "Du er logget inn på {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Du kan lukke dette vinduet."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Vi jobber for tiden med å få alt tilbake til det normale. Prøv igjen snart."
+    },
+    "login.blocked_request": {
+        "translation": "Blokkert forespørsel"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Gå tilbake til den opprinnelige fanen og be om en ny magisk lenke."
+    },
+    "login.request_new_link_app": {
+        "translation": "Gå tilbake til din originale **{appName}** -fane og be om en ny magisk lenke."
+    },
+    "login.magic_link_expired": {
+        "translation": "Magisk lenke er utløpt"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Ikke lukk denne fanen!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Kom tilbake til denne fanen når du har klikket på den magiske lenken din."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Send enda en magisk lenke til \n**{userEmail}**.\n lenken for å logge på eller registrere deg."
+    },
+    "login.try_again_later": {
+        "translation": "Prøv igjen senere"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Vennligst vent **{seconds}s** før du sender en ny e-post."
+    },
+    "login.please_send_another_link": {
+        "translation": "Send enda en magisk lenke til\n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Vent litt! Vi løser et problem"
+    },
+    "login.confirming_your_login": {
+        "translation": "Bekrefter påloggingen din"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Bekrefter påloggingen din"
+    },
+    "login.is_this_you": {
+        "translation": "Er dette deg?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Uvanlig aktivitet ble oppdaget. For å beskytte kontoen din, gi oss beskjed hvis du gjenkjenner påloggingsforsøket nedenfor:"
+    },
+    "login.location": {
+        "translation": "Posisjon:"
+    },
+    "login.no_block_this": {
+        "translation": "Nei, blokker dette"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Ja, dette er meg"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Takk for at du hjelper oss med å holde kontoen din sikker! Vi har blokkert, og vil blokkere fremtidige påloggingsforsøk fra kilden nedenfor:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "For å beskytte kontoen din, gi oss beskjed hvis du gjenkjenner påloggingsforsøket nedenfor:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Takk for at du hjelper oss med å holde kontoen din sikker! Vi har blokkert påloggingsforsøket fra kilden nedenfor:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Lenken er skadet - be om en ny Magic -lenke eller åpne lenken fra en annen e -postklient"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} er privat"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} har ikke tillatelse til å få tilgang til denne appen"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Tror du det er en feil? Prøv en annen pålogging eller kontakt {appName} for hjelp."
+    },
+    "login.access_denied": {
+        "translation": "Ingen tilgang"
+    },
+    "login.email_blocked_message": {
+        "translation": "Beklager, du har ikke tillatelse til å logge på {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Logg inn med den magiske lenken som ble sendt til"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Skriv inn sikkerhetskoden som vises av {appName}"
+    },
+    "login.security_code": {
+        "translation": "Sikkerhetskode:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Skriv deretter inn denne sikkerhetskoden:"
+    },
+    "login.copy": {
+        "translation": "Kopiere"
+    },
+    "login.go_back_to_app": {
+        "translation": "Gå tilbake til **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Innlogging fullført!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Vellykket innlogging"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Du kan nå lukke denne fanen"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Ugyldig viderekoblingsadresse"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Den oppgitte viderekoblingsadressen er ikke på godkjenningslisten."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Den magiske koblingen ble forespurt fra en annen IP"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Klikk på koblingen fra samme enhet. Hvis du ikke ba om denne lenken, kan du ignorere denne meldingen."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Tjenestegrensen er overskredet"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Kontakt **{appName}** for hjelp til å få tilgang til kontoen din."
+    },
+    "login.security_code_expired": {
+        "translation": "Sikkerhetskoden er utløpt"
+    },
+    "login.login_code_expired": {
+        "translation": "Innloggingskoden er utløpt"
+    },
+    "login.request_new_login_code": {
+        "translation": "Be om en ny innloggingskode"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Be om en ny kode"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Gå tilbake til {appName} for å motta en ny kode og starte påloggingsprosessen på nytt."
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Вашият предишен начин за влизане"
+    },
+    "pnp.welcome": {
+        "translation": "Добре дошли"
+    },
+    "pnp.welcome_back": {
+        "translation": "Добре дошли отново"
+    },
+    "pnp.email": {
+        "translation": "Имейл"
+    },
+    "pnp.email_aria": {
+        "translation": "Влизане с имейл адрес"
+    },
+    "pnp.email_address": {
+        "translation": "Имейл адрес"
+    },
+    "pnp.phone": {
+        "translation": "Телефон"
+    },
+    "pnp.phone_aria": {
+        "translation": "Влизане с телефонен номер"
+    },
+    "pnp.phone_number": {
+        "translation": "Телефонен номер"
+    },
+    "pnp.login_signup": {
+        "translation": "Влизане\/регистрация"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Подаване на данни за вход"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Влизане с {provider}"
+    },
+    "pnp.or": {
+        "translation": "Или"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Търсене на кодове на държави"
+    },
+    "pnp.select_country_code": {
+        "translation": "Избор на код на държава"
+    },
+    "pnp.login_disabled": {
+        "translation": "Влизането\/регистрацията деактивирана"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Потърсете помощ от {appName}"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Потърсете помощ от разработчика на това приложение"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Условия за използване"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Политика за сигурност"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Ако продължите, потвърждавате {appName}"
+    }
+}

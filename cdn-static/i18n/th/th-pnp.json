@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "วิธีการเข้าสู่ระบบก่อนหน้าของคุณ"
+    },
+    "pnp.welcome": {
+        "translation": "ยินดีต้อนรับ"
+    },
+    "pnp.welcome_back": {
+        "translation": "ยินดีต้อนรับกลับมา"
+    },
+    "pnp.email": {
+        "translation": "อีเมล"
+    },
+    "pnp.email_aria": {
+        "translation": "เข้าสู่ระบบโดยใช้ที่อยู่อีเมล"
+    },
+    "pnp.email_address": {
+        "translation": "ที่อยู่อีเมล"
+    },
+    "pnp.phone": {
+        "translation": "โทรศัพท์"
+    },
+    "pnp.phone_aria": {
+        "translation": "เข้าสู่ระบบโดยใช้หมายเลขโทรศัพท์"
+    },
+    "pnp.phone_number": {
+        "translation": "หมายเลขโทรศัพท์"
+    },
+    "pnp.login_signup": {
+        "translation": "เข้าสู่ระบบ \/ สมัคร"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "ส่งการเข้าสู่ระบบ"
+    },
+    "pnp.login_using_aria": {
+        "translation": "เข้าสู่ระบบด้วย {provider}"
+    },
+    "pnp.or": {
+        "translation": "หรือ"
+    },
+    "pnp.search_country_codes": {
+        "translation": "ค้นหารหัสประเทศ"
+    },
+    "pnp.select_country_code": {
+        "translation": "เลือกรหัสประเทศ"
+    },
+    "pnp.login_disabled": {
+        "translation": "เข้าสู่ระบบ \/ สมัคร ปิดใช้งาน"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "ติดต่อ {appName} เพื่อขอความช่วยเหลือ"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "ติดต่อนักพัฒนาของแอปเพื่อขอความช่วยเหลือ"
+    },
+    "pnp.terms_of_service": {
+        "translation": "เงื่อนไขการบริการ"
+    },
+    "pnp.privacy_policy": {
+        "translation": "นโยบายความเป็นส่วนตัว"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "การดำเนินการต่อแสดงว่าคุณยอมรับ {appName}"
+    }
+}

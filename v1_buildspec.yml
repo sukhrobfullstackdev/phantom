@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+  build:
+    commands:
+      - yum -y install libusb
+      - yarn install
+      - yarn build
+      - if [ -f "./build/app.html" ]; then mv ./build/app.html ./build/index.html; fi
+      - aws s3 sync build $AUTH_S3_PATH --delete
+
+artifacts:
+  files:
+    build/**/*

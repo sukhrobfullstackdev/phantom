@@ -1,0 +1,149 @@
+name: 'Preview Deployment: Create'
+concurrency:
+  group: preview-deployment-${{ github.ref }}
+  cancel-in-progress: false
+on:
+  pull_request:
+    types:
+      - labeled
+      - opened
+      - synchronize
+      - reopened
+
+permissions:
+  pull-requests: write # so we can comment on PR
+  id-token: write # This is required for aws creds requesting the JWT
+  contents: read  # This is required for aws creds actions/checkout
+
+env:
+  ECR_REGISTRY: '584864542664.dkr.ecr.us-west-2.amazonaws.com'
+  ECR_REPOSITORY: auth
+  DEPLOY_ENV: preview-deployments
+
+jobs:
+  build:
+    name: Build/push app image
+    if: contains(github.event.pull_request.labels.*.name, 'deploy-preview')
+    runs-on: prod-runner
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture image tag
+        id: image-tag
+        run: echo "IMAGE_TAG=commit_$(git rev-parse --short HEAD)_preview" >> "$GITHUB_OUTPUT"
+      - name: Configure AWS credentials for eks deploy
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::584864542664:role/github-${{ github.repository_owner }}-${{ github.event.repository.name }}-role
+          aws-region: us-west-2
+      - name: Login to Amazon ECR
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Get Preview Deployment Name
+        id: preview
+        run: |
+          PREVIEW_NAMESPACE="$(echo $GITHUB_HEAD_REF | tr '[:upper:]' '[:lower:]' | sed 's:/:-:;s:_:-:' | cut -c -40 | awk 'match($0, /[a-z0-9]([-a-z0-9]*[a-z0-9])?/) { print substr( $0, RSTART, RLENGTH )}')"
+          echo "Deployment Namespace: $PREVIEW_NAMESPACE"
+          echo "namespace=$PREVIEW_NAMESPACE" >> $GITHUB_OUTPUT
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Build docker image
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          load: false
+          file: deploy/Dockerfile
+          cache-to: mode=max,image-manifest=true,oci-mediatypes=true,type=registry,ref=${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:cache_preview
+          cache-from: type=registry,ref=${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:cache_preview
+          context: ./
+          tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.IMAGE_TAG }}
+          target: runner
+          build-args: |
+            NPM_TOKEN=${{ secrets.NPM_TOKEN }}
+            ENCRYPTED_COOKIE_KEY=asdfasdfasdfasdfasdfasdfasdfasdf
+            SIGNED_COOKIE_KEY=fdsafdsafdsafdsafdsafdsafdsafdsa
+            BACKEND_URL=https://api.stagef.magic.link
+            NFT_API_URL=https://nft-api.stagef.magic.link
+            GAS_API_URL=https://gas-api.stagef.magic.link
+            DATADOG_CLIENT_KEY=puba6d7661ad2e2a22fb47bf94a0c23544b
+            DATADOG_API_KEY=732fa83b0ce0f786a57301becbeb8e16
+            DATADOG_RUM_APP_KEY=9f6f3fdd-1d7c-4a3a-904a-67d27cc34265
+            DATADOG_RUM_CLIENT_KEY=pub445edf06d6f2db976fc4393d9dc2898a
+            HIGHTOUCH_API_KEY=45d6b7b5c59f5892c3e49b784fe955e2d85beafa6f0c098a829a04591a1ce813
+            HIGHTOUCH_API_HOST=us-east-1.hightouch-events.com
+            IS_MAGIC=1
+            GENERATE_SOURCEMAP=1
+            DEPLOY_ENV=stagef
+            INTERNAL_BACK_URL=https://api-a.stagef.magic-corp.link
+            GET_CREDENTIALS_PROXY_URL=https://gbscache.stagef.magic.link
+            MC_GOOGLE_OAUTH_CLIENT_ID=659515803301-5jqfpr22e8jv7pm15ct1voiruu09nhvu.apps.googleusercontent.com
+            MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_WALLET_HUB=pk_prod_01GTEYJ2ZB5SBRDH79FY843VHA
+            MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_DAPPS=pk_prod_01GXNN3PMY5GDYBTJYNY3VE63B
+            LAUNCH_DARKLY_CLIENT_ID=6290d903d4734b14b286d64f
+            ALCHEMY_ETHEREUM_API_KEY=THLzcjj0X_ktVcj80LZ60_twjxdWuUso
+            ALCHEMY_GOERLI_API_KEY=XDkXOl3fIkG3-XFvRmaa313PPJEehNx4
+            ALCHEMY_SEPOLIA_API_KEY=lnkxjj_rKFZRHqrrIvoerSJtzIdt2ElK
+            ALCHEMY_POLYGON_API_KEY=gQ41RwtnmeUVJtVLRSKGE8_V-dTWV7WD
+            ALCHEMY_MUMBAI_API_KEY=9b1326CuGOhpxr_RhB2QoPXKpfbuJsDF
+            ALCHEMY_OPTIMISM_API_KEY=NyNr8gCoYyusotfANwHTuRhIQp62ZF3u
+            ALCHEMY_OPTIMISM_GOERLI_API_KEY=ynnAby9IhcpGA9l3x3nqD5zuE4r2gWo4
+            ALCHEMY_ARBITRUM_ONE_API_KEY=0JEi2UcN80f4vOja1KopbdXWRKY4DXrD
+            ALCHEMY_ARBITRUM_SEPOLIA_API_KEY=6qaqXS9Hll37pWWWmhetS0v1pAkRKlFA
+            ALCHEMY_BASE_API_KEY=tbH7VdREUS9E1caIfz0FMCO_DfdJSNZS
+            ALCHEMY_BASE_SEPOLIA_API_KEY=xtBmbqs4Xe17IVlF65vU6BmTEKLBybir
+            SARDINE_URL_TEST=https://crypto.sandbox.sardine.ai
+            SARDINE_URL_PROD=https://crypto.sardine.ai
+            MAGIC_WALLET_DAPP_API_KEY=pk_live_CA4EE31250763286
+            MAGIC_WALLET_DAPP_REFERRER=https://wallet.stagef.magic.link
+        env:
+          IMAGE_TAG: ${{ steps.image-tag.outputs.IMAGE_TAG }}
+    outputs:
+      IMAGE_TAG: ${{ steps.image-tag.outputs.IMAGE_TAG }}
+
+  deploy:
+    name: Deploy Preview Environment
+    if: contains(github.event.pull_request.labels.*.name, 'deploy-preview')
+    runs-on: prod-runner
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure AWS credentials for eks deploy
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::211163739222:role/github-magiclabs-eks-deploy-role
+          aws-region: us-west-2
+      - name: Configure kubectl
+        run: |
+          aws --region us-west-2 eks update-kubeconfig --name int-eks-a-us-west-2
+      - uses: azure/setup-kubectl@v4.0.0  # XXX change this to "@v4" once upstream publishes it
+      - uses: azure/setup-helm@v4.0.0  # XXX change this to "@v4" once upstream publishes it
+      - name: Get Preview Deployment Name
+        id: preview
+        run: |
+          PREVIEW_NAMESPACE="$(echo $GITHUB_HEAD_REF | tr '[:upper:]' '[:lower:]' | sed 's:/:-:;s:_:-:' | cut -c -40 | awk 'match($0, /[a-z0-9]([-a-z0-9]*[a-z0-9])?/) { print substr( $0, RSTART, RLENGTH )}')"
+          echo "Deployment Namespace: $PREVIEW_NAMESPACE"
+          echo "namespace=$PREVIEW_NAMESPACE" >> $GITHUB_OUTPUT
+      - name: Create Helm Template
+        run: >
+          make helm-template \
+            NEW_CLUSTER=True \
+            DEPLOY_ENV=${DEPLOY_ENV} \
+            IMAGE_TAG=${{env.IMAGE_TAG}} \
+            FORTMATIC_APP= \
+            PREVIEW_NAMESPACE="${{ steps.preview.outputs.namespace }}"
+        env:
+          IMAGE_TAG: ${{ needs.build.outputs.IMAGE_TAG }}
+      - name: Create Namespace
+        run: |
+          kubectl get namespace "${{ steps.preview.outputs.namespace }}" 2>/dev/null \
+            || kubectl create namespace "${{ steps.preview.outputs.namespace }}"
+      - name: Configure cluster-ca
+        run: kubectl create secret generic cluster-ca -n "${{ steps.preview.outputs.namespace }}" --from-literal ca.crt="${{ secrets.CLUSTER_CA }}" || true
+      - name: Check k8s Diff
+        run: make k8s-diff
+      - name: Deploy to EKS
+        run: make k8s-deploy
+      - name: Create comment with link
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          message: |
+            🚀 This pull request is being deployed to https://auth-${{ steps.preview.outputs.namespace }}.stagef.magic.link!
+            Logs for all apps in the preview branch may be seen in DD using this query `kube_namespace:${{ steps.preview.outputs.namespace }}`

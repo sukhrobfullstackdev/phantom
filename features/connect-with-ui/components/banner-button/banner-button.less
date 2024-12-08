@@ -1,0 +1,52 @@
+@import (reference) '~/app/index.less';
+
+.actionButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .actionCircle {
+    cursor: pointer;
+    border-color: @white;
+    backdrop-filter: blur(3px);
+    border-width: 2px;
+    border-radius: 50%;
+    border-style: solid;
+    &:focus-within {
+      border-color: #mg.getThemeColor(primary) [];
+    }
+    &.small {
+      width: 36px;
+      height: 36px;
+    }
+    &.transparent {
+      border-color: transparent;
+      border-width: 0px;
+    }
+  }
+  .actionIcon {
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    cursor: pointer;
+    &.small {
+      width: 32px;
+      height: 32px;
+    }
+    &.transparent {
+      #mg.themeProperty(background-color,
+      rgba(255, 255, 255, 0.08),
+      rgba(0, 0, 0, 0.06),
+    );
+    }
+    &:hover {
+      #mg.themeProperty(background-color,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.15),
+      );
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Upozorenje"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Vaš privatni ključ"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Sačuvajte privatni ključ na bezbednom mestu i nikada nemojte da ga otkrivate"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Odjavi me"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopiraj u ostavu"
+    }
+}

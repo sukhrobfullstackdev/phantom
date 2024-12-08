@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "장치 확인"
+    },
+    "verify_device.register_your_device": {
+        "translation": "계속하려면 이 장치를 등록하십시오"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "장치 등록 링크를 다음으로 전송하였습니다"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "이 빠른 일회성 승인은 계정을 안전하게 유지하는 데 도움이 됩니다"
+    },
+    "verify_device.register_new_device": {
+        "translation": "로그인을 승인하시겠습니까?"
+    },
+    "verify_device.new_device": {
+        "translation": "새 브라우저\/장치"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "현재 브라우저\/장치와 일치하지 않습니다"
+    },
+    "verify_device.website": {
+        "translation": "웹사이트"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "새 장치 IP 주소"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "이 브라우저와 장치를 인식합니다"
+    },
+    "verify_device.reject": {
+        "translation": "거부"
+    },
+    "verify_device.approve": {
+        "translation": "승인"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "로그인 요청 거부됨"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "인식할 수 없는 장치가 귀하의 계정에 액세스하는 것을 중지했습니다"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "잘못하셨습니까? 로그인 프로세스를 다시 시작하려면 **{appName}**으로 돌아가십시오."
+    },
+    "verify_device.device_approved": {
+        "translation": "로그인 승인됨"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "로그인을 완료하려면 **{appName}**으로 돌아가십시오"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "이 탭을 이제 닫을 수 있습니다"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "로그인 승인 링크가 만료되었습니다. 계속하려면 새로 요청하십시오."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "링크 만료"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "**{userEmail}** 이메일로\n다른 매직 링크를 보냅니다.\n로그인 또는 가입 링크입니다."
+    },
+    "verify_device.resend_email": {
+        "translation": "이메일 다시 보내기"
+    },
+    "verify_device.close": {
+        "translation": "닫기"
+    }
+}

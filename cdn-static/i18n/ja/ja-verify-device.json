@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "お使いのデバイスを認証しています"
+    },
+    "verify_device.register_your_device": {
+        "translation": "続行するには、このデバイスを登録してください"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "デバイス登録リンクが以下に送信されました"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "この迅速な1回限りの承認により、アカウントを安全な状態に保てます"
+    },
+    "verify_device.register_new_device": {
+        "translation": "ログインを承認しますか？"
+    },
+    "verify_device.new_device": {
+        "translation": "新しいブラウザ\/デバイス"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "現在のブラウザ\/デバイスと一致しません"
+    },
+    "verify_device.website": {
+        "translation": "ウェブサイト"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "新しいデバイスのIPアドレス"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "このブラウザとデバイスは認識しています"
+    },
+    "verify_device.reject": {
+        "translation": "拒否"
+    },
+    "verify_device.approve": {
+        "translation": "承認"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "ログインリクエストが拒否されました"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "認識されていないデバイスはアカウントにアクセスできなくなりました"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "間違えましたか？**{appName}**に戻ると、ログイン手続きが再開されます。"
+    },
+    "verify_device.device_approved": {
+        "translation": "ログインが承認されました"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "**{appName}**に戻ると、ログインが完了します"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "このタブを閉じることができます。"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "ログイン承認リンクの有効期限が切れています。続行するには、新しいリンクをリクエストしてください。"
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "リンクの有効期限が切れました"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "別のマジックリンクを \n**{userEmail}**に送信します。\n ログインまたはサインアップするためのリンクとなります。"
+    },
+    "verify_device.resend_email": {
+        "translation": "メールを再送"
+    },
+    "verify_device.close": {
+        "translation": "閉じる"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Advarsel"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Din private nøkkel"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Lagre trygt og avslør aldri den private nøkkelen din"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Logg ut"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopier til utklippstavle"
+    }
+}

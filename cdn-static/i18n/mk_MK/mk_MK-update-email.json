@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "Барањето за ажурирање на вашата е-пошта на **{updatedEmail}** е истечено."
+    },
+    "update_email.confirm_change": {
+        "translation": "Потврди ја промената"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Потврдете ја промената од тековната адреса на е-пошта на **{userEmail}**. Ве молиме проверете го вашето сандаче."
+    },
+    "update_email.try_again_question": {
+        "translation": "Обиди се повторно?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Потврди ја новата адреса на е-пошта"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Испративме е-пошта до **{updatedUserEmail}**. Ве молиме проверете го вашето сандаче."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "Вашата адреса на е-пошта е ажурирана!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Вратете се на првичната картичка."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Вратете се на првичната картичка на **{appName}**."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Вратете се на првичната картичка и повторно започнете го процесот за ажурирање на адреса на е-пошта"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Вратете се на првичната картичка на **{appName}** и повторно започнете го процесот за ажурирање на адреса на е-пошта"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Врската за потврда истече"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Верификацијата на вашата адреса на е-пошта беше неуспешна. Затворете го прозорецот и повторно започнете го процесот."
+    },
+    "update_email.updating_email": {
+        "translation": "Ажурирање на адресата на е-пошта..."
+    },
+    "update_email.last_step": {
+        "translation": "последен чекор!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "За да завршите со ажурирање на вашата адреса на е-пошта, потврдете ја промената од тековната адреса на е-пошта на **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "Повторно испрати ја адресата на е-пошта"
+    },
+    "update_email.cancel": {
+        "translation": "Откажи"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Може да го затворите овој прозорец."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Држете се цврсто! Поправаме проблем."
+    },
+    "update_email.oops": {
+        "translation": "Упс"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Во моментов работиме на тоа сè да се врати во нормала. Ве молиме обидете се повторно наскоро."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "Се потврдува ажурирањето на адресата на е-пошта"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—Се потврдува ажурирањето на адресата на е-пошта"
+    }
+}

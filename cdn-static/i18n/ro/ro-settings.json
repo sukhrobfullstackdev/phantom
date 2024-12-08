@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Înapoi la {appName}"
+    },
+    "settings.title": {
+        "translation": "Setări cont"
+    },
+    "settings.off": {
+        "translation": "Oprire"
+    },
+    "settings.on": {
+        "translation": "Pornire"
+    },
+    "settings.turn_on": {
+        "translation": "Activare"
+    },
+    "settings.turn_off": {
+        "translation": "Dezactivare"
+    },
+    "settings.two_step_verification": {
+        "translation": "Verificare în 2 pași"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Adăugați un nivel suplimentar de securitate introducând un cod de verificare a aplicației mobile de fiecare dată când vă conectați"
+    },
+    "settings.phone_number": {
+        "translation": "Număr de telefon"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Actualizați numărul de telefon curent"
+    }
+}

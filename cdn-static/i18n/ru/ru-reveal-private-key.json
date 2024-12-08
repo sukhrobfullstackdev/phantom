@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Предупреждение"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Ваш личный ключ"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Безопасно храните и никогда не разглашайте свой личный ключ"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Выйти"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Скопировать в буфер обмена"
+    }
+}

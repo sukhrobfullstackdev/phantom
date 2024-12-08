@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Bitte geben Sie den Code ein, den wir wie folgt versendet haben: an "
+    },
+    "login_sms.new_code_available": {
+        "translation": "Neuer Code ist in {seconds}n verfügbar"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Einen neuen Code versenden"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Ungültiger Code, bitte versuchen Sie es erneut."
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Diese Telefonnummer ist anscheinend ungültig. Bitte überprüfen Sie die Nummer und versuchen Sie es erneut."
+    },
+    "login_sms.expired_code": {
+        "translation": "Code abgelaufen"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Ein neuer Code geht Ihnen automatisch zu."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Sicherheitssperrung"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Aufgrund einer verdächtig hohen Zahl fehlgeschlagener Log-in-Versuche wurde die SMS-Anmeldung vorübergehend deaktiviert."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Versuchen Sie es erneut in"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Geben Sie eine gültige E-Mail-Adresse ein."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Zu viele Anmeldeversuche. Versuchen Sie es später erneut."
+    }
+}

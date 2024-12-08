@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Maalesef bir hata oluştu"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Aradığınız kaynağı bulamadık."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Çözüm için lütfen bu uygulamanın geliştiricileriyle iletişime geçin."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Çözüm için lütfen **{appName}** ekibiyle iletişime geçin."
+    },
+    "generic.internal_server_error": {
+        "translation": "Dahili sunucu hatası"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Şu anda her şeyin normale dönmesi için çalışıyoruz. Lütfen birazdan tekrar deneyin."
+    },
+    "generic.close": {
+        "translation": "Kapat"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Ücretsiz pakette beyaz etiket SDK'si sunulmaz. Lütfen ücretli bir pakete geçin"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Fiyatlandırma Sayfamız"
+    },
+    "generic.app_error": {
+        "translation": "Uygulama hatası"
+    },
+    "generic.details": {
+        "translation": "AYRINTILAR"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Bilinmeyen bir hata oluştu."
+    },
+    "generic.blocked_request": {
+        "translation": "Talep engellendi"
+    },
+    "generic.try_again": {
+        "translation": "Tekrar deneyin!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Lütfen geçerli bir e-posta adresi girin"
+    },
+    "generic.back": {
+        "translation": "Geri"
+    },
+    "generic.loading": {
+        "translation": "Yükleniyor"
+    },
+    "generic.success": {
+        "translation": "Başarılı"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Güvenlik amacıyla, bu işlemi onaylamanız için Magic'te yeni bir sekme açılacaktır."
+    },
+    "generic.trial_mode": {
+        "translation": "Deneme Modu"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Şimdi Yükselt"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Tarayıcı desteklenmiyor"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Lütfen etkin tüm tarayıcı eklentilerini geçici olarak devre dışı bırakıp veya web tarayıcısını değiştirip tekrar deneyin."
+    }
+}

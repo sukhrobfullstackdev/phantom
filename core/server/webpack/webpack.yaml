@@ -1,0 +1,211 @@
+# ---------------------------------------------------------------------------- #
+# The following ENV variables will be interpolated into the generated Webpack
+# bundle attached to `process.env`.
+
+env:
+  - 'NODE_ENV'
+  - 'DEPLOY_ENV'
+  - 'BACKEND_URL'
+  - 'NFT_API_URL'
+  - 'GAS_API_URL'
+  - 'HIGHTOUCH_API_KEY'
+  - 'HIGHTOUCH_API_HOST'
+  - 'DATADOG_CLIENT_KEY'
+  - 'DATADOG_API_KEY'
+  - 'DATADOG_RUM_APP_KEY'
+  - 'DATADOG_RUM_CLIENT_KEY'
+  - 'DATADOG_WEB3_CLIENT_KEY'
+  - 'IS_MAGIC'
+  - 'IS_STATIC_DEPLOYMENT'
+  - 'GET_CREDENTIALS_PROXY_URL'
+  - 'MC_GOOGLE_OAUTH_CLIENT_ID'
+  - 'MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_WALLET_HUB'
+  - 'MC_FIAT_ON_RAMP_ONRAMPER_API_KEY_DAPPS'
+  - 'LAUNCH_DARKLY_CLIENT_ID'
+  - 'ALCHEMY_ETHEREUM_API_KEY'
+  - 'ALCHEMY_GOERLI_API_KEY'
+  - 'ALCHEMY_SEPOLIA_API_KEY'
+  - 'ALCHEMY_POLYGON_API_KEY'
+  - 'ALCHEMY_MUMBAI_API_KEY'
+  - 'ALCHEMY_OPTIMISM_API_KEY'
+  - 'ALCHEMY_OPTIMISM_GOERLI_API_KEY'
+  - 'ALCHEMY_ARBITRUM_ONE_API_KEY'
+  - 'ALCHEMY_ARBITRUM_SEPOLIA_API_KEY'
+  - 'ALCHEMY_BASE_API_KEY'
+  - 'ALCHEMY_BASE_SEPOLIA_API_KEY'
+  - 'SARDINE_URL_TEST'
+  - 'SARDINE_URL_PROD'
+  - 'MAGIC_WALLET_DAPP_API_KEY'
+  - 'MAGIC_WALLET_DAPP_REFERRER'
+
+# ---------------------------------------------------------------------------- #
+# The following NPM DEPENDENCIES (including globs) will be included / excluded
+# from transpilation and polyfilling by `babel-loader`. By default, all
+# ES6-formatted NPM modules will be transpiled to ES5 for LEGACY BUNDLES ONLY.
+# Modules that are detected to be ES5-compatible are automatically excluded.
+
+babel:
+  excludeNodeModules:
+    - '@fortmatic/ledger-bridge-*'
+    - 'core-js'
+
+  includeNodeModules:
+    []
+
+    # Example:
+    # - "some-npm-package-name"
+    # - "@some/other-npm-package-name"
+    # - "@some/package-name-*-with-glob"
+
+# ---------------------------------------------------------------------------- #
+# The following NPM DEPENDENCIES will be REPLACED by the LOCAL MODULE PATHS
+# relative to the REPOSITORY ROOT for LEGACY BUNDLES ONLY. Use this to
+# workaround compatiblity issues for some of our dependencies in ES5
+# environments (like IE11).
+
+legacyBundleModuleReplacements:
+  framer-motion: './core/app/libs/polyfills/framer-motion'
+
+# ---------------------------------------------------------------------------- #
+# The following keys represent Webpack "chunks" assigned to a list of LOCAL
+# MODULE PATHS (including globs) relative to the REPOSITORY ROOT. This is
+# effective for INITIAL and/or LAZY-LOADED, ASYNC chunks.
+
+localChunks:
+  ui:
+    - './core/app/ui/**/*.{ts,tsx}'
+    - './core/app/**/*.less'
+
+  services:
+    - './core/app/services/**/*.{ts,tsx}'
+
+  store:
+    - './core/app/store/**/*.{ts,tsx}'
+
+  rpc:
+    - './core/app/rpc/**/*.{ts,tsx}'
+
+  # Example:
+  # foo:
+  #   - "./core/app/some-lazy-module.ts"
+  #   - "./core/app/some/other/lazy-module.ts"
+  #   - "./core/app/some/folder/**/*"
+
+# The following async chunk groups from `localChunks` will be preloaded.
+preloadLocalChunks:
+  - 'ui'
+  - 'services'
+  - 'store'
+  - 'rpc'
+
+# ---------------------------------------------------------------------------- #
+# The following keys represent Webpack "chunks" assigned to a list NPM
+# DEPENDENCIES (including globs) to contain in that chunk"s bundle. This is
+# effective for INITIAL and/or LAZY-LOADED, ASYNC chunks.
+
+vendorChunks:
+  ledger-bridge-flow:
+    - '@fortmatic/ledger-bridge-flow'
+
+  ledger-bridge-icon:
+    - '@fortmatic/ledger-bridge-icon'
+
+  ledger-bridge-harmony:
+    - '@fortmatic/ledger-bridge-harmony'
+
+  ledger-bridge-polkadot:
+    - '@fortmatic/ledger-bridge-polkadot'
+
+  ledger-bridge-tezos:
+    - '@fortmatic/ledger-bridge-tezos'
+
+  ledger-bridge-zilliqa:
+    - '@fortmatic/ledger-bridge-zilliqa'
+
+  ledger-bridge-solana:
+    - '@fortmatic/ledger-bridge-solana'
+
+  ledger-bridge-cosmos:
+    - '@fortmatic/ledger-bridge-cosmos'
+
+  ledger-bridge-avalanche:
+    - '@fortmatic/ledger-bridge-avalanche'
+
+  ledger-bridge-algorand:
+    - '@fortmatic/ledger-bridge-algorand'
+
+  ledger-bridge-bitcoin:
+    - '@fortmatic/ledger-bridge-bitcoin'
+
+  ledger-bridge-near:
+    - '@fortmatic/ledger-bridge-near'
+
+  ledger-bridge-conflux:
+    - '@fortmatic/ledger-bridge-conflux'
+
+  ledger-bridge-terra:
+    - '@fortmatic/ledger-bridge-terra'
+
+  ledger-bridge-taquito:
+    - '@fortmatic/ledger-bridge-taquito'
+
+  ledger-bridge-ed:
+    - '@fortmatic/ledger-bridge-ed'
+
+  ledger-bridge-hedera:
+    - '@fortmatic/ledger-bridge-hedera'
+
+  localforage:
+    - 'localforage'
+    - 'localforage-driver-memory'
+
+  aws:
+    - 'aws-sdk'
+
+  crypto:
+    - '@web3-js/*'
+    - 'web3-*'
+    - 'crypto-js'
+    - 'eth-sig-util'
+    - 'eth-lib'
+    - 'ethjs-*'
+    - 'ethereumjs-*'
+    - 'ethereum-bloom-filters'
+    - 'ethereum-cryptography'
+    - 'bn.js'
+    - 'number-to-bn'
+    - 'browserify-sign'
+    - 'browserify-aes'
+    - 'browserify-rsa'
+    - 'md5.js'
+    - 'elliptic'
+    - 'keccak'
+    - 'js-sha3'
+    - 'sha.js'
+    - 'hash.js'
+    - 'tweetnacl'
+
+  react:
+    - 'react'
+    - 'react-dom'
+    - 'scheduler'
+    - 'react-router'
+    - 'react-router-dom'
+    - 'react-redux'
+    - '@seznam/compose-react-refs'
+    - 'usable-react'
+    - 'react-is'
+    - 'mini-create-react-context'
+    - 'hoist-non-react-statics'
+    - '@magiclabs/ui'
+    - 'framer-motion'
+
+  # Example:
+  # foo:
+  #   - "some-npm-package-name"
+  #   - "@some/other-npm-package-name"
+  #   - "@some/package-name-*-with-glob"
+
+# The following async chunk groups from `vendorChunks` will be preloaded.
+preloadVendorChunks:
+  - 'react'

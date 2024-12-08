@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Vai precisar de uma\naplicação de autenticação"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Para ativar a verificação de dois passos, irá precisar de uma aplicação de autenticação como {authy} ou {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Digitalize este código QR"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Abra a sua aplicação de autenticação e digitalize este código QR ou insira a sua chave de configuração."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Por favor insira o código de 6 dígitos\nda sua aplicação de autenticação"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Código inválido. Por favor tente de novo."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Guarde o seu código de recuperação"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Este código pode ser usado para iniciar sessão se perder o acesso à sua aplicação de autenticação. Guarde-o num local seguro."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "O seu código de recuperação {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Copiar código"
+    },
+    "mfa.finish_setup": {
+        "translation": "Concluir a configuração"
+    },
+    "mfa.key": {
+        "translation": "Chave"
+    },
+    "mfa.copy": {
+        "translation": "Copiar"
+    },
+    "mfa.copied": {
+        "translation": "Copiado"
+    },
+    "mfa.next": {
+        "translation": "Próximo"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Perdi o meu dispositivo"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Insira o seu código de recuperação\npara iniciar sessão"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "A verificação de 2 passos será desativada"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Código de 8 caracteres"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Perdi o meu código de recuperação"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Código inválido, tente de novo"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Código inválido. ({attempts}) tentativas restantes antes de a sua conta ser bloqueada."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Para ajuda na recuperação da sua conta, contacte a equipa de suporte {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Contacte o suporte {appName}"
+    }
+}

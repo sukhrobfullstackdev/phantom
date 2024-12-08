@@ -1,0 +1,53 @@
+@import (reference) '~/app/index.less';
+
+.enrollCodePage {
+  text-align: center;
+
+  button {
+    width: 100%;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    white-space: pre-wrap;
+  }
+
+  .body {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .keyLabel {
+    font-weight: 600;
+    font-size: 16px;
+    flex: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+
+  .secret {
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    user-select: text;
+  }
+
+  .copyButton {
+    cursor: pointer;
+  }
+
+  .qrCodeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    canvas {
+      padding: 8px;
+      border-radius: 10px;
+      background-color: white;
+    }
+  }
+}

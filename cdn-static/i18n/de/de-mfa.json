@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Sie benötigen eine\nAuthentifizierungs-App"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Für die zweistufige Verifizierung benötigen Sie eine Authentifizierungs-App wie {authy} oder {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Diesen QR-Code scannen"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Öffnen Sie die Authentifizierungs-App und scannen Sie diesen QR-Code oder geben Sie Ihren Setup-Schlüssel ein."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Bitte geben Sie den 6-stelligen Code \nvon Ihrer Authentifizierungs-App ein"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Ungültiger Code. Bitte versuchen Sie es noch einmal."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Wiederherstellungscode speichern"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Mit diesem Code können Sie sich anmelden, wenn Sie keinen Zugriff mehr auf Ihre Authentifizierungs-App haben. Bewahren Sie ihn an einem sicheren Ort auf."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Ihr Wiederherstellungscode von {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Code kopieren"
+    },
+    "mfa.finish_setup": {
+        "translation": "Einrichtung fertigstellen"
+    },
+    "mfa.key": {
+        "translation": "Schlüssel"
+    },
+    "mfa.copy": {
+        "translation": "Kopieren"
+    },
+    "mfa.copied": {
+        "translation": "Kopiert"
+    },
+    "mfa.next": {
+        "translation": "Weiter"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Ich habe mein Gerät verloren"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Geben Sie zu Anmeldung\nIhren Wiederherstellungscode ein"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Die 2-Schritt-Verifizierung wird deaktiviert"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8-Zeichen-Code"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Ich habe meinen Wiederherstellungscode verloren"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Ungültiger Code. Bitte versuchen Sie es erneut."
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Ungültiger Code. ({attempts}) verbleibende Versuche, bevor Ihr Konto gesperrt wird."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Wenn Sie Unterstützung bei der Wiederherstellung Ihres Kontos benötigen, wenden Sie sich bitte an das {appName}-Support-Team."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Kontaktieren sie den {appName}-Support"
+    }
+}

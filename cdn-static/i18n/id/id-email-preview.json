@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Klik tombol di bawah untuk masuk ke {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Tombol ini akan kedaluwasa dalam 10 menit."
+    },
+    "email_preview.login_to_app": {
+        "translation": "masuk ke {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Konfirmasikan permintaan ini untuk masuk dengan aman menggunakan **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Jika Anda tidak membuat permintaan ini, jangan khawatir, abaikan saja email ini."
+    },
+    "email_preview.app_team": {
+        "translation": "- Tim {appName}"
+    }
+}

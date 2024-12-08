@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Εισαγάγετε τον κωδικό που εστάλη στη διεύθυνση"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Νέος κωδικός διαθέσιμος σε {seconds} δευτ."
+    },
+    "login_sms.send_new_code": {
+        "translation": "Αποστολή νέου κωδικού"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Μη έγκυρος κωδικός, δοκιμάστε ξανά"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Φαίνεται ότι ο αριθμός τηλεφώνου δεν είναι έγκυρος.\nΕλέγξτε τον αριθμό και δοκιμάστε ξανά."
+    },
+    "login_sms.expired_code": {
+        "translation": "Ο κωδικός έληξε"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Θα λάβετε έναν νέο κωδικό αυτόματα."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Κλείδωμα ασφαλείας"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Η σύνδεση με SMS έχει προσωρινά απενεργοποιηθεί εξαιτίας ύποπτου αριθμού ανεπιτυχών προσπαθειών σύνδεσης."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Δοκιμάστε ξανά για σύνδεση"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Πάρα πολλές προσπάθειες σύνδεσης. Παρακαλώ δοκιμάστε ξανά αργότερα."
+    }
+}

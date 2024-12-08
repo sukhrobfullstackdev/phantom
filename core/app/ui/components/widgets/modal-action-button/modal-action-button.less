@@ -1,0 +1,33 @@
+@import (reference) '~/app/index.less';
+
+.actionButton {
+  transition: background 150ms linear;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 40px;
+  padding: 0;
+  cursor: pointer;
+  #mg.themeProperty(background,
+    var(--silk10),
+    var(--chalk6),
+  );
+
+  &:hover {
+    #mg.themeProperty(background,
+      var(--silk30),
+      var(--chalk12),
+    );
+  }
+}
+
+.profilePicture {
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.appNameHeader {
+  color: @silk;
+  font-size: 14px;
+}

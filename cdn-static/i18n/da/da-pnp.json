@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Din tidligere loginmetode"
+    },
+    "pnp.welcome": {
+        "translation": "Velkommen"
+    },
+    "pnp.welcome_back": {
+        "translation": "Velkommen tilbage"
+    },
+    "pnp.email": {
+        "translation": "E-mail"
+    },
+    "pnp.email_aria": {
+        "translation": "Log ind med e-mailadresse"
+    },
+    "pnp.email_address": {
+        "translation": "E-mailadresse"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Log ind med telefonnummer"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefonnummer"
+    },
+    "pnp.login_signup": {
+        "translation": "Login\/tilmelding"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Send login"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Log ind med {provider}"
+    },
+    "pnp.or": {
+        "translation": "Eller"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Søg landekoder"
+    },
+    "pnp.select_country_code": {
+        "translation": "Vælg landekode"
+    },
+    "pnp.login_disabled": {
+        "translation": "Login\/tilmelding er deaktiveret"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Kontakt {appName} for at få hjælp"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Kontakt udvikleren af denne app for at få hjælp"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Betingelser for brug"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Privatlivspolitik"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Hvis du fortsætter, accepterer du {appName}s"
+    }
+}

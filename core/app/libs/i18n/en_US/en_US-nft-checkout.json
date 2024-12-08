@@ -1,0 +1,267 @@
+{
+  "nft_checkout.invalid_params": {
+    "translation": "Please check your NFT checkout params.",
+    "notes": ""
+  },
+  "nft_checkout.zip_code_empty": {
+    "translation": "Postal code is required",
+    "notes": ""
+  },
+  "nft_checkout.zip_code_length_of_5": {
+    "translation": "ZIP code should have a length of 5",
+    "notes": ""
+  },
+  "nft_checkout.zip_code_alphanumeric_only": {
+    "translation": "Invalid Postal code",
+    "notes": ""
+  },
+  "nft_checkout.expiration_date_invalid": {
+    "translation": "Please enter a valid expiration date (MM/YY)",
+    "notes": ""
+  },
+  "nft_checkout.cvv_invalid": {
+    "translation": "Invalid security code",
+    "notes": ""
+  },
+  "nft_checkout.full_legal_name_invalid_entry": {
+    "translation": "Invalid entry, please try again",
+    "notes": ""
+  },
+  "nft_checkout.full_legal_name_required": {
+    "translation": "Full legal name is required",
+    "notes": ""
+  },
+  "nft_checkout.card_number_invalid": {
+    "translation": "Please enter a valid credit/debit card number",
+    "notes": ""
+  },
+  "nft_checkout.no_longer_available_item": {
+    "translation": "Sorry, this item is no longer available. Your payment method has not been charged.",
+    "notes": ""
+  },
+  "nft_checkout.someting_wrong": {
+    "translation": "There was an error with your purchase. Please try again.",
+    "notes": ""
+  },
+  "nft_checkout.sequred_by_bank_grade": {
+    "translation": "Secured by bank-grade encryption",
+    "notes": ""
+  },
+  "nft_checkout.on_its_way": {
+    "translation": "**{name}** is on its way. You can safely close this window.",
+    "notes": ""
+  },
+  "nft_checkout.ran_into_a_technical_issue": {
+    "translation": "We ran into a technical issue. You have not been charged. Please try again.",
+    "notes": ""
+  },
+  "nft_checkout.internal_server_error": {
+    "translation": "Internal server error",
+    "notes": ""
+  },
+  "nft_checkout.sorry_internal_server_error": {
+    "translation": "Sorry, we ran into an internal server error. You have not been charged. Please try again. If the issue persists, please contact support.",
+    "notes": ""
+  },
+  "nft_checkout.issue_with_your_payment": {
+    "translation": "There was an issue with your payment. You have not been charged. Please check your payment information and try again.",
+    "notes": ""
+  },
+  "nft_checkout.is_now_available": {
+    "translation": "is now available",
+    "notes": ""
+  },
+  "nft_checkout.payment_details": {
+    "translation": "Payment details",
+    "notes": ""
+  },
+  "nft_checkout.cvc": {
+    "translation": "CVC",
+    "notes": ""
+  },
+  "nft_checkout.card_number": {
+    "translation": "Card number",
+    "notes": ""
+  },
+  "nft_checkout.full_legal_name": {
+    "translation": "Full legal name",
+    "notes": ""
+  },
+  "nft_checkout.expiration": {
+    "translation": "Expiration",
+    "notes": ""
+  },
+  "nft_checkout.zip_code": {
+    "translation": "Postal code",
+    "notes": ""
+  },
+  "nft_checkout.review_purchase": {
+    "translation": "Review Purchase",
+    "notes": ""
+  },
+  "nft_checkout.confirm_purchase": {
+    "translation": "Confirm Purchase",
+    "notes": ""
+  },
+  "nft_checkout.price": {
+    "translation": "Price",
+    "notes": ""
+  },
+  "nft_checkout.total_price": {
+    "translation": "Total Price",
+    "notes": ""
+  },
+  "nft_checkout.total": {
+    "translation": "Total",
+    "notes": ""
+  },
+  "nft_checkout.quantity": {
+    "translation": "Quantity",
+    "notes": ""
+  },
+  "nft_checkout.payment": {
+    "translation": "Payment",
+    "notes": ""
+  },
+  "nft_checkout.send_to": {
+    "translation": "Send to",
+    "notes": ""
+  },
+  "nft_checkout.sending_to": {
+    "translation": "Sending to",
+    "notes": ""
+  },
+  "nft_checkout.buy_now": {
+    "translation": "Buy Now",
+    "notes": ""
+  },
+  "nft_checkout.confirming_order": {
+    "translation": "Confirming order...",
+    "notes": ""
+  },
+  "nft_checkout.order_confirmed": {
+    "translation": "Order confirmed",
+    "notes": ""
+  },
+  "nft_checkout.payment_sent": {
+    "translation": "Payment sent",
+    "notes": ""
+  },
+  "nft_checkout.item_sold_out": {
+    "translation": "Item sold out",
+    "notes": ""
+  },
+  "nft_checkout.close": {
+    "translation": "Close",
+    "notes": ""
+  },
+  "nft_checkout.view_in_wallet": {
+    "translation": "View",
+    "notes": ""
+  },
+  "nft_checkout.back_to_app": {
+    "translation": "Close",
+    "notes": ""
+  },
+  "nft_checkout.retrieving_item": {
+    "translation": "Retrieving item",
+    "notes": ""
+  },
+  "nft_checkout.item_retrieved": {
+    "translation": "Item retrieved",
+    "notes": ""
+  },
+
+  "nft_checkout.something_went_wrong": {
+    "translation": "Something went wrong",
+    "notes": ""
+  },
+  "nft_checkout.try_again": {
+    "translation": "Try Again",
+    "notes": ""
+  },
+  "nft_checkout.payment_failed": {
+    "translation": "Payment failed",
+    "notes": ""
+  },
+  "nft_checkout.order_id": {
+    "translation": "Order ID: {orderId}",
+    "notes": ""
+  },
+  "nft_checkout.payment_confirmed": {
+    "translation": "Payment confirmed",
+    "notes": ""
+  },
+  "nft_checkout.payment_approved": {
+    "translation": "Payment approved",
+    "notes": ""
+  },
+  "nft_checkout.view_transaction": {
+    "translation": "View transaction",
+    "notes": ""
+  },
+  "nft_checkout.delivery_may_take_a_few_minutes": {
+    "translation": "Delivery may take a few minutes. You can safely close this window.",
+    "notes": ""
+  },
+  "nft_checkout.creating_item": {
+    "translation": "Creating item",
+    "notes": ""
+  },
+  "nft_checkout.preparing_for_delivery": {
+    "translation": "Preparing for delivery",
+    "notes": ""
+  },
+  "nft_checkout.delivering_item": {
+    "translation": "Delivering item",
+    "notes": ""
+  },
+  "nft_checkout.item_delivered": {
+    "translation": "Item delivered",
+    "notes": ""
+  },
+  "nft_checkout.you_need_minimum_balance": {
+    "translation": "You need {amount} {currency} + gas fees",
+    "notes": ""
+  },
+  "nft_checkout.current_balance": {
+    "translation": "Current balance",
+    "notes": ""
+  },
+  "nft_checkout.receive": {
+    "translation": "Receive",
+    "notes": ""
+  },
+  "nft_checkout.buy": {
+    "translation": "Buy",
+    "notes": ""
+  },
+  "nft_checkout.faucet": {
+    "translation": "Faucet",
+    "notes": ""
+  },
+  "nft_checkout.credit_or_debit": {
+    "translation": "Credit or Debit",
+    "notes": ""
+  },
+  "nft_checkout.insufficient_funds": {
+    "translation": "Insufficient funds",
+    "notes": ""
+  },
+  "nft_checkout.usd_price_includes_all_fees": {
+    "translation": "USD price includes all fees",
+    "notes": ""
+  },
+  "nft_checkout.make_sure_your_network": {
+    "translation": "Make sure you’re transferring assets on the **{networkName}** network",
+    "notes": ""
+  },
+  "nft_checkout.not_enough_balance": {
+    "translation": "Not enough balance. Please try again.",
+    "notes": ""
+  },
+  "nft_checkout.network_fee": {
+    "translation": "Network fee",
+    "notes": ""
+  }
+}

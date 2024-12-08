@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "이런! 문제가 발생했습니다."
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "찾으려는 리소스를 찾을 수 없습니다."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "해결 방법은 앱 개발자에게 문의하시기 바랍니다."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "해결 방법은 **{appName}**에 문의하시기 바랍니다."
+    },
+    "generic.internal_server_error": {
+        "translation": "내부 서버 오류"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "현재 상황을 해결하기 위해 노력하고 있습니다. 잠시 후 다시 시도하십시오."
+    },
+    "generic.close": {
+        "translation": "닫기"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "화이트라벨 SDK는 무료 플랜에서 이용할 수 없습니다. 유료 플랜으로 업그레이드하십시오."
+    },
+    "generic.our_pricing_page": {
+        "translation": "가격 페이지"
+    },
+    "generic.app_error": {
+        "translation": "앱 오류"
+    },
+    "generic.details": {
+        "translation": "상세정보"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "알 수 없는 오류가 발생했습니다."
+    },
+    "generic.blocked_request": {
+        "translation": "차단된 요청"
+    },
+    "generic.try_again": {
+        "translation": "다시 시도하십시오!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "올바른 이메일 주소를 제공해 주십시오."
+    },
+    "generic.back": {
+        "translation": "뒤로"
+    },
+    "generic.loading": {
+        "translation": "로드 중"
+    },
+    "generic.success": {
+        "translation": "성공"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "보안을 위해 이 거래를 확인할 수 있는 Magic의 새 탭이 열립니다."
+    },
+    "generic.trial_mode": {
+        "translation": "평가판 모드"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "지금 업그레이드"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "브라우저 지원되지 않음"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "활성화된 브라우저 확장 프로그램을 일시적으로 비활성화하거나 웹 브라우저를 전환한 후 다시 시도하세요."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Nhấp vào nút bên dưới để đăng nhập {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Nút này sẽ hết hạn sau 10 phút."
+    },
+    "email_preview.login_to_app": {
+        "translation": "đăng nhập vào {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Việc xác nhận yêu cầu này sẽ giúp bạn đăng nhập an toàn bằng **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Nếu bạn không đưa ra yêu cầu này, đừng lo lắng, bạn có thể yên tâm bỏ qua email này."
+    },
+    "email_preview.app_team": {
+        "translation": "- nhóm {appName}"
+    }
+}

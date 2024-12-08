@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Eszköz ellenőrzése"
+    },
+    "verify_device.register_your_device": {
+        "translation": "A folytatáshoz regisztrálja ezt az eszközt"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Elküldtünk egy eszközregisztrációs hivatkozást a következő e-mail-címre:"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Ez a gyors egyszeri jóváhagyás gondoskodik a fiókja biztonságáról"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Jóváhagyja a bejelentkezést?"
+    },
+    "verify_device.new_device": {
+        "translation": "Új böngésző\/eszköz"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Nem egyezik a jelenlegi böngészőjével\/eszközével"
+    },
+    "verify_device.website": {
+        "translation": "Weboldal"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Új eszköz IP-címe"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Felismerem ezt a böngészőt és ezt az eszközt"
+    },
+    "verify_device.reject": {
+        "translation": "Elutasítás"
+    },
+    "verify_device.approve": {
+        "translation": "Jóváhagyás"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Bejelentkezési kérelem elutasítva"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Megakadályoztuk, hogy a fel nem ismert eszköz hozzáférjen a fiókjához"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Hibázott? Lépjen vissza a(z) **{appName}** alkalmazásba a bejelentkezési folyamat újrakezdéséhez."
+    },
+    "verify_device.device_approved": {
+        "translation": "Bejelentkezés jóváhagyva"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Lépjen vissza a(z) **{appName}** alkalmazásba a bejelentkezés befejezéséhez"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Most már bezárhatja ezt a lapot"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "A bejelentkezési jóváhagyási hivatkozás lejárt. A folytatáshoz igényeljen új hivatkozást."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "A hivatkozás lejárt"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Másik magiclink küldése a(z) \n**{userEmail}** címre.\n Link a bejelentkezéshez vagy regisztráláshoz."
+    },
+    "verify_device.resend_email": {
+        "translation": "E-mail újraküldése"
+    },
+    "verify_device.close": {
+        "translation": "Bezárás"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Teil on vaja autentimisrakendust"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Kaheastmelise kinnitamise lubamiseks vajate autentimisrakendust, nagu {authy} või {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Skanni see QR-kood"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Avage autentimisrakendus ja skannige see QR-kood või sisestage seadistusvõti."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Sisestage 6-kohaline kood\noma autentimisrakendusest"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Vale kood. Proovige uuesti."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Salvestage oma taastekood"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Seda koodi saab kasutada sisselogimiseks, kui kaotate juurdepääsu autentimisrakendusele. Hoidke seda kindlas kohas."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Teie rakenduse {appName} taastekood"
+    },
+    "mfa.copy_code": {
+        "translation": "Kopeeri kood"
+    },
+    "mfa.finish_setup": {
+        "translation": "Vii seadistamine lõpule"
+    },
+    "mfa.key": {
+        "translation": "Võti"
+    },
+    "mfa.copy": {
+        "translation": "Kopeeri"
+    },
+    "mfa.copied": {
+        "translation": "Kopeeritud"
+    },
+    "mfa.next": {
+        "translation": "Edasi"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Kaotasin oma seadme"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Sisselogimiseks sisestage oma taastamise kood"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Kaheastmeline kinnitamine keelatakse"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8 tähemärgiga kood"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Kaotasin oma taastekoodi"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Vale kood, palun proovige uuesti"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Vale kood. On jäänud ({attempts}) katset, enne kui teie konto lukustatakse."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Konto taastamiseks abi saamiseks võtke ühendust rakenduse {appName} tugimeeskonnaga."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Võtke ühendust rakenduse {appName} klienditoega"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Внимание"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Вашият частен ключ"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Запишете частния си ключ на безопасно място и не го споделяйте с никого"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Изход"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Копиране в клипборда"
+    }
+}

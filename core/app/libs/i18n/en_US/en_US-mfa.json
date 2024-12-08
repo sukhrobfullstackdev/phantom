@@ -1,0 +1,94 @@
+{
+  "mfa.prompt_authenticator_title": {
+    "translation": "You'll need an\n authenticator app",
+    "notes": ""
+  },
+  "mfa.prompt_authenticator_copy": {
+    "translation": "To enable two-step verification, you’ll need an authenticator app like {authy} or {google}.",
+    "notes": ""
+  },
+  "mfa.scan_qr_code_title": {
+    "translation": "Scan this QR code",
+    "notes": ""
+  },
+  "mfa.scan_qr_code_body": {
+    "translation": "Open your authenticator app and scan this QR code or enter your setup key.",
+    "notes": ""
+  },
+  "mfa.enter_totp_body": {
+    "translation": "Please enter the 6-digit code \nfrom your authenticator app",
+    "notes": ""
+  },
+  "mfa.enter_totp_invalid_code": {
+    "translation": "Invalid code. Please try again.",
+    "notes": ""
+  },
+  "mfa.two_fa_already_enabled": {
+    "translation": "2FA already enabled for this account",
+    "notes": ""
+  },
+  "mfa.recovery_code_title": {
+    "translation": "Save your recovery code",
+    "notes": ""
+  },
+  "mfa.recovery_code_body": {
+    "translation": "This code can be used to log in if you lose access to your authenticator app. Store it someplace safe.",
+    "notes": ""
+  },
+  "mfa.recovery_code_label": {
+    "translation": "Your {appName} recovery code",
+    "notes": ""
+  },
+  "mfa.copy_code": {
+    "translation": "Copy code",
+    "notes": ""
+  },
+  "mfa.finish_setup": {
+    "translation": "Finish setup",
+    "notes": ""
+  },
+  "mfa.key": {
+    "translation": "Key",
+    "notes": ""
+  },
+  "mfa.copy": {
+    "translation": "Copy",
+    "notes": ""
+  },
+  "mfa.copied": {
+    "translation": "Copied",
+    "notes": ""
+  },
+  "mfa.next": {
+    "translation": "Next",
+    "notes": ""
+  },
+  "mfa.lost_code_button": {
+    "translation": "I lost my device"
+  },
+  "mfa.use_recovery_code_body": {
+    "translation": "Enter your recovery\ncode to log in"
+  },
+  "mfa.use_recovery_code_warning": {
+    "translation": "2-step verification will be disabled"
+  },
+  "mfa.recovery_code_input_placeholder": {
+    "translation": "8-character code"
+  },
+  "mfa.lost_recovery_code": {
+    "translation": "I lost my recovery code"
+  },
+  "mfa.invalid_recovery_code_msg": {
+    "translation": "Invalid code, please try again"
+  },
+  "mfa.max_attempt_warning_msg": {
+    "translation": "Invalid code. ({attempts}) attempts remaining before your account is locked."
+  },
+  "mfa.lost_recovery_code_body": {
+    "translation": "For help recovering your account, please contact the {appName} support team."
+  },
+  "mfa.lost_recovery_code_contact": {
+    "translation": "Contact {appName} support"
+  }
+}
+

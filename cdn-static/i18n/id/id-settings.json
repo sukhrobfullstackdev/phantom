@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Kembali ke {appName}"
+    },
+    "settings.title": {
+        "translation": "Pengaturan Akun"
+    },
+    "settings.off": {
+        "translation": "NONAKTIF"
+    },
+    "settings.on": {
+        "translation": "AKTIF"
+    },
+    "settings.turn_on": {
+        "translation": "Aktifkan"
+    },
+    "settings.turn_off": {
+        "translation": "Nonaktifkan"
+    },
+    "settings.two_step_verification": {
+        "translation": "Verifikasi 2 langkah"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Tambahkan lapis keamanan ekstra dengan memasukkan kode verifikasi aplikasi seluler setiap kali kamu masuk"
+    },
+    "settings.phone_number": {
+        "translation": "Nomor telepon"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Perbarui nomor telepon Anda saat ini"
+    }
+}

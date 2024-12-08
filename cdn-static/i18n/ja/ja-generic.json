@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "大変！問題が発生しました"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "お探しのリソースが見つかりませんでした。"
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "解決策については、このアプリの開発者にお問い合わせください。"
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "解決策については、**{appName}**にお問い合わせください。"
+    },
+    "generic.internal_server_error": {
+        "translation": "内部サーバーエラー"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "現在、すべてを正常に戻す作業を行っています。しばらくしてからもう一度やり直してください。"
+    },
+    "generic.close": {
+        "translation": "閉じる"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "ホワイトラベルSDKは無料プランでは利用できません。有料プランにアップグレードしてください"
+    },
+    "generic.our_pricing_page": {
+        "translation": "価格設定ページ"
+    },
+    "generic.app_error": {
+        "translation": "アプリエラー"
+    },
+    "generic.details": {
+        "translation": "詳細情報"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "不明なエラーが発生しました。"
+    },
+    "generic.blocked_request": {
+        "translation": "ブロックされたリクエスト"
+    },
+    "generic.try_again": {
+        "translation": "やり直してください！"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "有効なメールアドレスを入力してください"
+    },
+    "generic.back": {
+        "translation": "戻る"
+    },
+    "generic.loading": {
+        "translation": "読み込んでいます"
+    },
+    "generic.success": {
+        "translation": "成功"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "セキュリティのため、この取引を確認するためのMagicの新しいタブが開きます。"
+    },
+    "generic.trial_mode": {
+        "translation": "トライアルモード"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "今すぐアップグレード"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "ブラウザが対応していません"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "有効なブラウザの拡張機能を一時的に無効にするか、ウェブブラウザを切り替えて、もう一度やり直してください。"
+    }
+}

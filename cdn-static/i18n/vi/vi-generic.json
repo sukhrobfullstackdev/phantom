@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Rất tiếc! Đã xảy ra lỗi"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Chúng tôi không thể tìm thấy tài nguyên bạn đang tìm kiếm."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Vui lòng liên hệ với nhà phát triển ứng dụng này để được giải quyết."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Vui lòng liên hệ **{appName}** để tìm ra giải pháp."
+    },
+    "generic.internal_server_error": {
+        "translation": "Lỗi máy chủ nội bộ"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Chúng tôi hiện đang nỗ lực để mọi thứ trở lại bình thường. Vui lòng thử lại sớm."
+    },
+    "generic.close": {
+        "translation": "Đóng"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK không khả dụng trên gói miễn phí, vui lòng nâng cấp lên gói trả phí"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Trang Định giá"
+    },
+    "generic.app_error": {
+        "translation": "Lỗi ứng dụng"
+    },
+    "generic.details": {
+        "translation": "CHI TIẾT"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Đã xảy ra lỗi không xác định."
+    },
+    "generic.blocked_request": {
+        "translation": "Đã chặn yêu cầu"
+    },
+    "generic.try_again": {
+        "translation": "Vui lòng thử lại!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Vui lòng cung cấp một email hợp lệ"
+    },
+    "generic.back": {
+        "translation": "Quay lại"
+    },
+    "generic.loading": {
+        "translation": "Đang tải"
+    },
+    "generic.success": {
+        "translation": "Thành công"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Vì mục đích bảo mật, một tab mới từ Magic sẽ mở ra để bạn xác nhận giao dịch này."
+    },
+    "generic.trial_mode": {
+        "translation": "Chế độ dùng thử"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Nâng cấp ngay"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Trình duyệt không được hỗ trợ"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Vui lòng tạm thời tắt mọi tiện ích mở rộng đang hoạt động của trình duyệt hoặc chuyển đổi trình duyệt web và thử lại."
+    }
+}

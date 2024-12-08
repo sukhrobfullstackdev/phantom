@@ -1,0 +1,47 @@
+{
+    "update_phone_number.phone_number": {
+        "translation": "หมายเลขโทรศัพท์"
+    },
+    "update_phone_number.title": {
+        "translation": "อัปเดตหมายเลขโทรศัพท์หรือไม่?"
+    },
+    "update_phone_number.description": {
+        "translation": "เมื่อยืนยันแล้ว หมายเลขใหม่นี้จะใช้ในการเข้าถึง"
+    },
+    "update_phone_number.enter_otc": {
+        "translation": "โปรดป้อนรหัสที่ส่งไปที่"
+    },
+    "update_phone_number.confirm_change": {
+        "translation": "ยืนยันการเปลี่ยนแปลง"
+    },
+    "update_phone_number.verify_new_sms": {
+        "translation": "ยืนยัน sms ใหม่"
+    },
+    "update_phone_number.your_phone_number_was_updated": {
+        "translation": "อัปเดตหมายเลขโทรศัพท์ของคุณแล้ว!"
+    },
+    "update_phone_number.otc_expired": {
+        "translation": "รหัสครั้งเดียวทาง sms หมดอายุแล้ว"
+    },
+    "update_phone_number.failed_to_verify_sms_address": {
+        "translation": "การยืนยันหมายเลขโทรศัพท์ของคุณล้มเหลว โปรดปิดหน้าต่างนี้และรีสตาร์ตลำดับอีกครั้ง"
+    },
+    "update_phone_number.update": {
+        "translation": "อัปเดต"
+    },
+    "update_phone_number.resend_sms": {
+        "translation": "ส่ง SMS อีกครั้ง"
+    },
+    "update_phone_number.cancel": {
+        "translation": "ยกเลิก"
+    },
+    "update_phone_number.hold_tight_fixing_issue": {
+        "translation": "รอเดี๋ยว! เรากำลังแก้ไขปัญหา"
+    },
+    "update_phone_number.oops": {
+        "translation": "อุ๊ย"
+    },
+    "update_phone_number.currently_working_on_getting_back_to_normal": {
+        "translation": "ขณะนี้เรากำลังทำงานเพื่อให้ทุกอย่างกลับมาเป็นปกติ โปรดลองอีกครั้งในไม่ช้า"
+    }
+}

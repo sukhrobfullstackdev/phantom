@@ -1,0 +1,35 @@
+@import (reference) '~/app/index.less';
+
+.PayWithPaypalCta {
+  width: 100%;
+  button {
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 300px;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background: @paypalYellow;
+    color: @silk100;
+  }
+  button:hover {
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+    background-color: rgba(255, 196, 57, 0.8);
+  }
+  button:active {
+    background-color: rgba(255, 196, 57, 0.8);
+  }
+}
+
+.Disabled {
+  cursor: not-allowed;
+  button {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+}

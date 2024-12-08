@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Назад во {appName}"
+    },
+    "settings.title": {
+        "translation": "Поставки за сметката"
+    },
+    "settings.off": {
+        "translation": "ИСКЛУЧЕНО"
+    },
+    "settings.on": {
+        "translation": "ВКЛУЧЕНО"
+    },
+    "settings.turn_on": {
+        "translation": "Вклучи"
+    },
+    "settings.turn_off": {
+        "translation": "Исклучи"
+    },
+    "settings.two_step_verification": {
+        "translation": "Верификација во 2 чекори"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Додајте дополнителен слој на безбедност со внесување код за верификација на мобилната апликација секој пат кога ќе се најавите"
+    },
+    "settings.phone_number": {
+        "translation": "Телефонски број"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Ажурирајте го вашиот тековен телефонски број"
+    }
+}

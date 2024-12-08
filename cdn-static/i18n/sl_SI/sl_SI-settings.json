@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Nazaj na {appName}"
+    },
+    "settings.title": {
+        "translation": "Nastavitve računa"
+    },
+    "settings.off": {
+        "translation": "IZKLOPLJENO"
+    },
+    "settings.on": {
+        "translation": "VKLOPLJENO"
+    },
+    "settings.turn_on": {
+        "translation": "Vklop"
+    },
+    "settings.turn_off": {
+        "translation": "Izklop"
+    },
+    "settings.two_step_verification": {
+        "translation": "Dvostopenjsko preverjanje"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Dodajte dodatno raven varnosti z vnosom kode za preverjanje mobilne aplikacije ob vsaki prijavi."
+    },
+    "settings.phone_number": {
+        "translation": "Telefonska številka"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Posodobite svojo aktualno telefonsko številko"
+    }
+}

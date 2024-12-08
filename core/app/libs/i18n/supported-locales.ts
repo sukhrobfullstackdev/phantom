@@ -1,0 +1,48 @@
+export const SUPPORTED_LOCALES = {
+  af: true,
+  az: true,
+  bg: true,
+  ca: true,
+  cs: true,
+  cy: true,
+  da: true,
+  de: true,
+  el: true,
+  en: true,
+  en_us: true,
+  es: true,
+  et: true,
+  fi: true,
+  fr: true,
+  hr: true,
+  hu: true,
+  id: true,
+  it: true,
+  ja: true,
+  ko: true,
+  lt: true,
+  lv: true,
+  mk: true,
+  nl: true,
+  no: true,
+  pt: true,
+  ro: true,
+  ru: true,
+  sk: true,
+  sl: true,
+  sr: true,
+  sv: true,
+  th: true,
+  tr: true,
+  vi: true,
+  pl_pl: true,
+  pl: true,
+  zh_cn: true,
+  zh_tw: true,
+};
+
+export type Locale = keyof typeof SUPPORTED_LOCALES;
+
+export function isSupportedLocale(locale: string): locale is Locale {
+  return locale in SUPPORTED_LOCALES;
+}

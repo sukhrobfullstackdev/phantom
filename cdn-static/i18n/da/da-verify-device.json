@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Din enhed bliver verificeret"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registrer venligst denne enhed for at fortsætte"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Vi har sendt et registreringslink for enheden til"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Denne hurtige engangsgodkendelse hjælper til med at holde din konto sikker"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Godkend login?"
+    },
+    "verify_device.new_device": {
+        "translation": "Ny browser\/enhed"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Stemmer ikke overens med din nuværende browser\/enhed"
+    },
+    "verify_device.website": {
+        "translation": "Website"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "IP-adresse til ny enhed"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Jeg genkender denne browser og enhed"
+    },
+    "verify_device.reject": {
+        "translation": "Afvis"
+    },
+    "verify_device.approve": {
+        "translation": "Godkend"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Loginanmodningen er afvist"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Vi har stoppet den ukendte enhed fra at kunne få adgang til din konto"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Har du lavet en fejl? Gå tilbage til **{appName}** for at starte loginprocessen igen."
+    },
+    "verify_device.device_approved": {
+        "translation": "Login er godkendt"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Gå tilbage til **{appName}** for at afslutte login"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Du kan nu lukke denne fane"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Dit link til godkendelse af login er udløbet. Anmod om et nyt for at fortsætte."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Linket er udløbet"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Send et nyt magisk link til \n**{userEmail}**.\n linket for at logge ind eller tilmelde dig."
+    },
+    "verify_device.resend_email": {
+        "translation": "Send e-mail igen"
+    },
+    "verify_device.close": {
+        "translation": "Luk"
+    }
+}

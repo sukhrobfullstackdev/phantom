@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Verifying your device"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Please register this device to continue"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "We sent a device registration link to"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "This quick one-time approval will help keep your account secure"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Approve login?"
+    },
+    "verify_device.new_device": {
+        "translation": "New Browser\/Device"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Does not match your current browser\/device"
+    },
+    "verify_device.website": {
+        "translation": "Website"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "New Device IP Address"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "I recognize this browser and device"
+    },
+    "verify_device.reject": {
+        "translation": "Reject"
+    },
+    "verify_device.approve": {
+        "translation": "Approve"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Login request rejected"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "We've stopped the unrecognized device from accessing your account"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Made a mistake? Head back to **{appName}** to restart the login process."
+    },
+    "verify_device.device_approved": {
+        "translation": "Login approved"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Go back to **{appName}** to finish logging in"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "You can now close this tab"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Your login approval link has expired. Request a new one to continue."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Link expired"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Send another magic link to \n**{userEmail}**.\n the link to log in or sign up."
+    },
+    "verify_device.resend_email": {
+        "translation": "Resend Email"
+    },
+    "verify_device.close": {
+        "translation": "Close"
+    }
+}

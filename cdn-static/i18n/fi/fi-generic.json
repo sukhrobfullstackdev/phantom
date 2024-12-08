@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Voi ei! Jokin meni vikaan"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Emme löytäneet etsimääsi resurssia."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Yritä ratkaista ongelma ottamalla yhteyttä tämän sovelluksen kehittäjään."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Yritä ratkaista ongelma ottamalla yhteyttä **{appName}** -sovelluksen kehittäjään."
+    },
+    "generic.internal_server_error": {
+        "translation": "Sisäinen palvelinvirhe"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Yritämme saada kaiken toimimaan jälleen normaalisti. Yritä hetken kuluttua uudelleen."
+    },
+    "generic.close": {
+        "translation": "Sulje"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK ei sisälly maksuttomaan tilaukseen; päivitä maksulliseen tilaukseen"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Hinnoittelusivumme"
+    },
+    "generic.app_error": {
+        "translation": "Sovellusvirhe"
+    },
+    "generic.details": {
+        "translation": "TARKEMMAT TIEDOT"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Tapahtui jokin tuntematon virhe."
+    },
+    "generic.blocked_request": {
+        "translation": "Pyyntö estetty"
+    },
+    "generic.try_again": {
+        "translation": "Yritä uudelleen!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Syötä kelvollinen sähköpostiosoite"
+    },
+    "generic.back": {
+        "translation": "Takaisin"
+    },
+    "generic.loading": {
+        "translation": "Ladataan"
+    },
+    "generic.success": {
+        "translation": "Onnistui"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Uusi Magic-välilehti avautuu ja pyytää sinua vahvistamaan tämän maksutapahtuman turvallisuuden vuoksi."
+    },
+    "generic.trial_mode": {
+        "translation": "Kokeilutila"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Päivitä nyt"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Selainta ei tueta"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Poista aktiiviset selainlaajennukset väliaikaisesti käytöstä tai vaihda verkkoselainta ja yritä uudelleen."
+    }
+}

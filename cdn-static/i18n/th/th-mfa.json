@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "คุณต้องมี\nแอป authenticator"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "หากต้องการเปิดใช้งานการตรวจสอบรับรองสองขั้นตอน คุณต้องมีแอป authenticator เช่น {authy} หรือ {google}"
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "สแกนรหัส QR นี้"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "เปิดแอป authenticator ของคุณและสแกนรหัส QR นี้หรือป้อนคีย์ตั้งค่าของคุณ"
+    },
+    "mfa.enter_totp_body": {
+        "translation": "โปรดป้อนรหัส 6 หลัก\nจากแอป authenticator ของคุณ"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "รหัสไม่ถูกต้อง โปรดลองอีกครั้ง"
+    },
+    "mfa.recovery_code_title": {
+        "translation": "บันทึกรหัสกู้คืนของคุณ"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "รหัสนี้สามารถใช้เข้าสู่ระบบได้หากคุณไม่สามารถเข้าถึงแอป authenticator ได้ โปรดเก็บไว้ในที่ปลอดภัย"
+    },
+    "mfa.recovery_code_label": {
+        "translation": "รหัสกู้คืน {appName} ของคุณ"
+    },
+    "mfa.copy_code": {
+        "translation": "คัดลอกรหัส"
+    },
+    "mfa.finish_setup": {
+        "translation": "ตั้งค่าเสร็จสิ้น"
+    },
+    "mfa.key": {
+        "translation": "คีย์"
+    },
+    "mfa.copy": {
+        "translation": "คัดลอก"
+    },
+    "mfa.copied": {
+        "translation": "คัดลอกแล้ว"
+    },
+    "mfa.next": {
+        "translation": "ถัดไป"
+    },
+    "mfa.lost_code_button": {
+        "translation": "อุปกรณ์ของฉันหายไป"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "ป้อนรหัสกู้คืน\nเพื่อเข้าสู่ระบบ"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "การยืนยัน 2 ขั้นตอนจะปิดใช้งาน"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "รหัส 8 ตัวอักษร"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "ฉันทำรหัสกู้คืนหาย"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "รหัสไม่ถูกต้อง โปรดลองอีกครั้ง"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "รหัสไม่ถูกต้อง ลองได้อีก ({attempts}) ครั้งก่อนที่บัญชีของคุณจะถูกล็อก"
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "ขอความช่วยเหลือในการกู้คืนบัญชีของคุณ โปรดติดต่อทีมสนับสนุน {appName}"
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "ติดต่อฝ่ายสนับสนุน {appName}"
+    }
+}

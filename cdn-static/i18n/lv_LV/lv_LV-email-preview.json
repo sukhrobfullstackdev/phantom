@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Noklikšķiniet uz zemāk esošās pogas, lai ielogotos {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Šīs pogas derīguma termiņš beigsies pēc 10 minūtēm."
+    },
+    "email_preview.login_to_app": {
+        "translation": "ielogoties {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "Šī pieprasījuma apstiprināšana Jūs droši ielogos, izmantojot ** hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Ja neiesniedzāt šo pieprasījumu, neuztraucieties, droši varat ignorēt šo e-pasta ziņojumu."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} komanda"
+    }
+}

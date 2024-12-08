@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Verifierar din enhet"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registrera denna enhet för att fortsätta"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Vi har skickat en länk för enhetsregistrering till"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Detta snabba engångsgodkännande kommer att bidra till att skydda ditt konto"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Godkänna inloggning?"
+    },
+    "verify_device.new_device": {
+        "translation": "Ny webbläsare\/enhet"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Matchar inte din nuvarande webbläsare\/enhet"
+    },
+    "verify_device.website": {
+        "translation": "Webbplats"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "IP-adress för ny enhet"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Jag känner igen denna webbläsare och enhet"
+    },
+    "verify_device.reject": {
+        "translation": "Neka"
+    },
+    "verify_device.approve": {
+        "translation": "Godkänn"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Inloggningsbegäran nekades"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Vi har spärrat den okända enhetens åtkomst till ditt konto"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Har du gjort ett misstag? Gå tillbaka till **{appName}** för att starta om inloggningen."
+    },
+    "verify_device.device_approved": {
+        "translation": "Inloggning godkänd"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Gå tillbaka till **{appName}**  för att slutföra inloggningen"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Nu kan du stänga den här fliken"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Din länk för godkännande av inloggning är inte längre giltig. Begär en ny för att fortsätta."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Länken är inte längre giltig"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Skicka en ny Magic-länk till\n**{userEmail}**.\nKlicka på länken för att logga in eller registrera dig."
+    },
+    "verify_device.resend_email": {
+        "translation": "Skicka e-post igen"
+    },
+    "verify_device.close": {
+        "translation": "Stäng"
+    }
+}

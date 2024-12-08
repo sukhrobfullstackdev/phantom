@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Terug naar {appName}"
+    },
+    "settings.title": {
+        "translation": "Accountinstellingen"
+    },
+    "settings.off": {
+        "translation": "UIT"
+    },
+    "settings.on": {
+        "translation": "AAN"
+    },
+    "settings.turn_on": {
+        "translation": "Zet aan"
+    },
+    "settings.turn_off": {
+        "translation": "Zet uit"
+    },
+    "settings.two_step_verification": {
+        "translation": "Dubbele verificatie"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Voeg een extra beschermingslaag toe door steeds als u inlogt een mobiele app verificatiecode in te voeren"
+    },
+    "settings.phone_number": {
+        "translation": "Telefoonnummer"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Werk je huidige telefoonnummer bij"
+    }
+}

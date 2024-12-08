@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "Verzoek om je e-mail te wijzigen in **{updatedEmail}** is verlopen."
+    },
+    "update_email.confirm_change": {
+        "translation": "Bevestig wijziging"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Bevestig de wijziging van je huidige e-mail op**{userEmail}**. Controleer je inbox."
+    },
+    "update_email.try_again_question": {
+        "translation": "Opnieuw proberen?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Nieuwe e-mail verifiëren"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "We hebben een mail gestuurd naar **{updatedUserEmail}**. Controleer je inbox."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "Je e-mail is bijgewerkt!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Ga terug naar je oorspronkelijke tabblad."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Ga terug naar je oorspronkelijke **{appName}** tabblad."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Ga terug naar je oorspronkelijke tabblad en start het proces voor het updaten van je e-mail opnieuw"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Ga terug naar je oorspronkelijke **{appName}** tab en start het proces voor het updaten van je e-mail opnieuw"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Bevestigingslink verlopen"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Verifiëren van je e-mailadres is mislukt. Sluit dit venster en start het proces opnieuw."
+    },
+    "update_email.updating_email": {
+        "translation": "E-mail updaten..."
+    },
+    "update_email.last_step": {
+        "translation": "laatste stap!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Om het updaten van je e-mail af te ronden, bevestig je de wijziging van de huidige e-mail op **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "E-mail opnieuw verzenden"
+    },
+    "update_email.cancel": {
+        "translation": "Annuleren"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Je kunt dit venster sluiten."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Een moment! We zijn een probleem aan het oplossen."
+    },
+    "update_email.oops": {
+        "translation": "Oeps"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "We zijn momenteel bezig om alles weer te maken zoals het was. Probeer het later opnieuw."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "E-mail update bevestigen"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—E-mail update bevestigen"
+    }
+}

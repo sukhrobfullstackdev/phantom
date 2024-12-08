@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ai jai jai! Iets het skeefgeloop"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Ons kon nie die hulpbron waarna jy soek kry nie."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Kontak asseblief hierdie toepassing se ontwikkelaars vir ’n oplossing."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Kontak asseblief **{appName}** vir ’n oplossing."
+    },
+    "generic.internal_server_error": {
+        "translation": "Interne bedienerfout"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Ons werk tans daaraan om alles tot die normale te laat terugkeer. Probeer asseblief binnekort weer."
+    },
+    "generic.close": {
+        "translation": "Maak toe"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Witmerk-SDK is nie met ’n gratis plan beskikbaar nie. Gradeer asseblief op na ’n betaalde plan."
+    },
+    "generic.our_pricing_page": {
+        "translation": "Ons bladsy oor prysbepaling"
+    },
+    "generic.app_error": {
+        "translation": "Toepassingsfout"
+    },
+    "generic.details": {
+        "translation": "BESONDERHEDE"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "’n Onbekende fout het voorgekom."
+    },
+    "generic.blocked_request": {
+        "translation": "Gekeerde versoek"
+    },
+    "generic.try_again": {
+        "translation": "Probeer weer!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Gee asseblief ’n geldige e-posadres"
+    },
+    "generic.back": {
+        "translation": "Terug"
+    },
+    "generic.loading": {
+        "translation": "Laai"
+    },
+    "generic.success": {
+        "translation": "Sukses"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Vir sekuriteitsdoeleindes sal ’n nuwe oortjie van Magic oopgaan sodat jy hierdie transaksie kan bevestig."
+    },
+    "generic.trial_mode": {
+        "translation": "Proeflopiemodus"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Werk nou by"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Nie-ondersteunde blaaier"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Skakel asseblief enige aktiewe blaaieruitbreidings af of verander van webblaaier, en probeer dan weer."
+    }
+}

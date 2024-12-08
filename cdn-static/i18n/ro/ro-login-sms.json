@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Te rugăm să introduci codul trimis la"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Cod nou disponibil în {seconds}s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Trimite un cod nou"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Cod invalid, încearcă din nou"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Se pare că numărul de telefon este invalid.\nVerifică numărul și încearcă din nou."
+    },
+    "login_sms.expired_code": {
+        "translation": "Cod expirat"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Un nou cod îți va fi trimis în mod automat."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Blocare de securitate"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Din cauza unui număr suspicios de încercări de conectare eșuate, conectarea prin SMS a fost temporar dezactivată."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Încercați din nou în"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Introduceți o adresă de e-mail corectă."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Prea multe încercări de conectare. Încercați din nou mai târziu."
+    }
+}

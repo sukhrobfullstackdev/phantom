@@ -1,0 +1,48 @@
+# These are the default values. Following values must be modified
+# deployEnv - set required DEPLOY_ENV
+# prefix - set required NAME_PREFIX
+
+deployEnv: &deployEnv default
+prefix: auth
+
+settings:
+  magic_dd_apm_enabled: true
+deployment:
+  rollingUpdate:
+    maxSurge: "20%"
+    maxUnavailable: 0
+  appContainer:
+    image: null
+    tag: null
+    command: ["yarn"]
+    args: ["serve", "-{{ .Values.deployEnv }}"]
+    port: 3014
+    resources:
+      limits:
+        cpu: 500m
+        memory: 384Mi
+      requests:
+        cpu: 500m
+        memory: 384Mi
+
+configMapEnv:
+  data:
+    FORTMATIC_RUNTIME: k8s
+
+serviceAccount:
+  create: false
+service:
+  create: false
+ingress:
+  create: false
+
+addDefaultAffinity: true
+affinity:
+  nodeAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 10
+        preference:
+          matchExpressions:
+            - key: "node.kubernetes.io/instance-type"
+              operator: "In"
+              values: ["t3a.large", "t3a.xlarge", "t3a.2xlarge"]

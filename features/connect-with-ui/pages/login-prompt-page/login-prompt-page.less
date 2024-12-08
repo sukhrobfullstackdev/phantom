@@ -1,0 +1,40 @@
+@import (reference) '~/app/index.less';
+
+.disable {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.loginPromptPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .appTitle {
+    color: #mg.getThemeColor(primary) [];
+  }
+
+  .pageHeader {
+    display: inline;
+  }
+
+  .altWalletsContainer {
+    button:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}
+
+.GoogleLoginForm {
+  .oneTapContainer {
+    iframe {
+      width: 100% !important;
+    }
+  }
+}
+
+.text {
+  #mg.themeProperty(color, var(--silk80), #FFFFFFB8) !important;
+  text-align: center;
+}

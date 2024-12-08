@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Проверка на устройството ви"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Моля, регистрирайте това устройство, за да продължите"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Изпратихме връзка за регистрация на устройство до"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Това бързо еднократно одобрение ще помогне да защитим акаунта ви"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Одобряване на влизането?"
+    },
+    "verify_device.new_device": {
+        "translation": "Нов браузър\/устройство"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Не съответства на текущия ви браузър\/устройство"
+    },
+    "verify_device.website": {
+        "translation": "Уебсайт"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "IP адрес на новото устройство"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Разпознавам този браузър и устройство"
+    },
+    "verify_device.reject": {
+        "translation": "Отхвърляне"
+    },
+    "verify_device.approve": {
+        "translation": "Одобряване"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Заявката за вход е отхвърлена"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Спряхме неразпознатото устройство от достъпа до вашия акаунт"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Направихте грешка? Върнете се обратно към **{appName}**, за да започнете отново процеса на вход."
+    },
+    "verify_device.device_approved": {
+        "translation": "Входът е одобрен"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Върнете се към **{appName}**, за да завършите влизането си"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Вече можете да затворите този раздел"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Връзката за одобрение на входа е изтекла. Поискайте нова, за да продължите."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Връзката е изтекла"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Изпрати нова връзка на Magic на \n**{userEmail}**.\n връзката за влизане или регистрация."
+    },
+    "verify_device.resend_email": {
+        "translation": "Повторно изпращане на имейл"
+    },
+    "verify_device.close": {
+        "translation": "Затваряне"
+    }
+}

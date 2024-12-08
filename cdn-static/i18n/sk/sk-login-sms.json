@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Zadajte kód, ktorý bol odoslaný na"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Nový kód bude k dispozícii o {seconds} s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Odoslať nový kód"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Neplatný kód, skúste to znova"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Zdá sa, že toto telefónne číslo nie je platné. \nSkontrolujte číslo a skúste to znova."
+    },
+    "login_sms.expired_code": {
+        "translation": "Platnosť kódu vypršala"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Nový kód vám pošleme automaticky."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Bezpečnostné zablokovanie"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Z dôvodu podozrivo veľkého počtu neúspešných pokusov o prihlásenie bolo prihlasovanie cez SMS dočasne vypnuté."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Skúste to znova o"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Zadajte platnú e-mailovú adresu."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Príliš veľa pokusov o prihlásenie. Skúste to neskôr."
+    }
+}

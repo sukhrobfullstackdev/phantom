@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Hoiatus"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Teie privaatvõti"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Hoidke oma privaatvõtit turvaliselt ja ärge seda kunagi avaldage"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Logi välja"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopeeri lõikelauale"
+    }
+}

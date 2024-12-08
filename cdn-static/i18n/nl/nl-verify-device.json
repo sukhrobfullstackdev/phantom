@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Je apparaat wordt geverifieerd"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registreer dit apparaat om door te gaan"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "We hebben een link waarmee je je apparaat kunt registreren, gestuurd naar"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Met deze snelle, eenmalige goedkeuring beveilig je je account"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Inloggen toestaan?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nieuwe browser\/nieuw apparaat"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Sluit niet aan bij je huidige browser\/apparaat"
+    },
+    "verify_device.website": {
+        "translation": "Website"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Nieuw IP-adres van apparaat"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Ik herken deze browser en dit apparaat"
+    },
+    "verify_device.reject": {
+        "translation": "Afwijzen"
+    },
+    "verify_device.approve": {
+        "translation": "Goedkeuren"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Inlogverzoek afgewezen"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Het apparaat dat we niet herkennen, mag geen toegang meer krijgen tot je account"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Foutje gemaakt? Ga terug naar **{appName}** om opnieuw in te loggen."
+    },
+    "verify_device.device_approved": {
+        "translation": "Inloggen goedgekeurd"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Ga terug anar **{appName}** om in te loggen"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Je kunt dit tabblad nu sluiten"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "De link die je hebt ontvangen om je inloggegevens goed te keuren, is verlopen. Vraag een nieuwe aan om door te gaan."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Link verlopen"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Stuur een andere Magic-link naar\n**{userEmail}**.\n de link om mee in te loggen of om je mee aan te melden."
+    },
+    "verify_device.resend_email": {
+        "translation": "E-mail opnieuw versturen"
+    },
+    "verify_device.close": {
+        "translation": "Sluiten"
+    }
+}

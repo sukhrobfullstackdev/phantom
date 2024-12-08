@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Lūdzu, ievadiet kodu, ko saņēmāt"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Jauns kods būs pieejams pēc {seconds}s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Nosūtīt jaunu kodu"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Nederīgs kods, lūdzu mēģiniet vēlreiz"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Šķiet, ka tālruņa numurs nav derīgs.\nLūdzu pārliecinieties, ka tālruņa numurs ir pareizs, un mēģiniet vēlreiz."
+    },
+    "login_sms.expired_code": {
+        "translation": "Koda derīguma termiņš ir beidzies"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Jaunais kods jums tiks nosūtīts automātiski."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Drošības bloķēšana"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Pārāk daudz neveiksmīgu pieteikšanās mēģinājumu. SMS pieteikšanās ir īslaicīgi atspējota."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Mēģiniet vēlreiz pēc"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Ievadiet derīgu e-pasta adresi."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Pārāk daudz pieteikšanās mēģinājumu. Mēģiniet vēlreiz vēlāk."
+    }
+}

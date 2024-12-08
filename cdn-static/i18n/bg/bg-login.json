@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Проверете имейла си"
+    },
+    "login.confirm_your_email": {
+        "translation": "Потвърдете имейл адреса си"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Изпратихме вълшебна връзка на"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Кликнете върху връзката, за да влезете или да се регистрирате."
+    },
+    "login.check_your_inbox": {
+        "translation": "Проверете входящите си писма"
+    },
+    "login.resend_email": {
+        "translation": "Повторно изпращане на имейл"
+    },
+    "login.close": {
+        "translation": "Изход"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Върнете се към първоначалния прозорец."
+    },
+    "login.logging_you_in": {
+        "translation": "вписваме Ви..."
+    },
+    "login.logged_in": {
+        "translation": "Вписахте се!"
+    },
+    "login.logged_into_app": {
+        "translation": "Вписахте се в {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Може да затворите този прозорец."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "В момента работим по отстраняването на проблема. Моля, опитайте отново след малко."
+    },
+    "login.blocked_request": {
+        "translation": "Блокирана заявка"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Върнете се към първоначалния прозорец и заявете нова вълшебна връзка."
+    },
+    "login.request_new_link_app": {
+        "translation": "Върнете се към първоначалния прозорец в **{appName}** и заявете нова вълшебна връзка."
+    },
+    "login.magic_link_expired": {
+        "translation": "Изтекла вълшебна връзка"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Не затваряйте този прозорец!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Върнете се в този прозорец, след като кликнете върху вълшебната връзка."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Изпратете друга вълшебна връзка на\n**{userEmail}**.\nКликнете върху връзката, за да влезете или да се регистрирате."
+    },
+    "login.try_again_later": {
+        "translation": "Опитайте отново по-късно"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Моля, изчакайте **{seconds} сек**, преди да изпратите нов имейл."
+    },
+    "login.please_send_another_link": {
+        "translation": "Моля, изпратете нова вълшебна връзка на \n**{userEmail}**.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Почакайте! Отстраняваме проблем"
+    },
+    "login.confirming_your_login": {
+        "translation": "Потвърждаване на данните Ви за вход"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName} — потвърждаване на данните Ви за вход"
+    },
+    "login.is_this_you": {
+        "translation": "Това Вие ли сте?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Засякохме необичайна дейност. За да ни помогнете да предпазим акаунта Ви, уведомете ни дали разпознавате опита за влизане по-долу:"
+    },
+    "login.location": {
+        "translation": "Местоположение:"
+    },
+    "login.no_block_this": {
+        "translation": "Не, блокирайте го"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Да, това съм аз"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Благодарим, че ни помогнахте да предпазим акаунта Ви! Блокирахме опита и ще блокираме всички бъдещи опити за влизане от източника по-долу:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "За да ни помогнете да предпазим акаунта Ви, уведомете ни дали разпознавате опита за влизане по-долу:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Благодарим, че ни помогнахте да предпазим акаунта Ви! Блокирахме опита за влизане от източника по-долу:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Връзката не работи — заявете нова вълшебна връзка или отворете връзката от друг имейл клиент"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} е с поверителен достъп"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} няма разрешение за достъп до това приложение"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Смятате, че има грешка? Опитайте с други данни за вход или потърсете помощ от {appName}."
+    },
+    "login.access_denied": {
+        "translation": "Достъпът отказан"
+    },
+    "login.email_blocked_message": {
+        "translation": "Съжаляваме, но нямате разрешение за достъп до {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Влезте през връзката към Magic, изпратена на"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Въведете кода за сигурност, показан от {appName}"
+    },
+    "login.security_code": {
+        "translation": "Код за сигурност:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "След това въведете този код за сигурност:"
+    },
+    "login.copy": {
+        "translation": "Копиране"
+    },
+    "login.go_back_to_app": {
+        "translation": "Връщане назад към **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "Влизането е извършено!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Влизането е успешно"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Вече можете да затворите този раздел"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Невалиден URL адрес за пренасочване"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Даденият URL адрес за пренасочване не фигурира в списъка с позволени адреси."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Връзката към Magic е заявена от различен IP адрес"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Моля, кликнете върху връзката от същото устройство. Ако не сте заявили тази връзка, моля, игнорирайте съобщението."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Лимитът на услугата е надвишен"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Моля, свържете се с **{appName}** за помощ при осъществяване на достъп до акаунта ви."
+    },
+    "login.security_code_expired": {
+        "translation": "Кодът за сигурност е изтекъл"
+    },
+    "login.login_code_expired": {
+        "translation": "Кодът за влизане е изтекъл"
+    },
+    "login.request_new_login_code": {
+        "translation": "Моля, заявете нов код за влизане"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Заявка за нов код"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "За да получите нов код, моля, върнете се на {appName} и рестартирайте процеса по влизане."
+    }
+}

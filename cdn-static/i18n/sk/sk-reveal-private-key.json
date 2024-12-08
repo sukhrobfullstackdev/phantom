@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Upozornenie"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Váš osobný kľúč"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Váš osobný kľúč si bezpečne uchovajte a nikdy ho neprezrádzajte."
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Odhlásiť sa"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopírovať do schránky"
+    }
+}

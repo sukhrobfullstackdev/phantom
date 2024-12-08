@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Avertizare"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Cheia ta privată"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Păstrează în siguranță și nu îți divulga niciodată cheia privată"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Deconectează-te"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Copiază în clipboard"
+    }
+}

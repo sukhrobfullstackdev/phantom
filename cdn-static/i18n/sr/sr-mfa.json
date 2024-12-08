@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Biće vam potrebna\n aplikacija za potvrdu identiteta"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Da biste omogućili verifikaciju u dva koraka, biće vam potrebna aplikacija za potvrdu identiteta kao što je {authy} ili {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Skenirajte QR kod"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Otvorite aplikaciju za potvrdu identiteta i skenirajte QR kod ili unesite ključ za podešavanje."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Unesite 6-cifreni kod \niz aplikacije za potvrdu identiteta"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Nevažeći kod, Pokušajte ponovo kasnije."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Sačuvajte kod za oporavak"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Ovaj kod se može koristiti za prijavljivanje ako izgubite pristup aplikaciji za potvrdu identiteta. Sačuvajte ga na nekom sigurnom mestu."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Vaš {appName} kod za oporavak"
+    },
+    "mfa.copy_code": {
+        "translation": "Kopiraj kod"
+    },
+    "mfa.finish_setup": {
+        "translation": "Dovrši podešavanje"
+    },
+    "mfa.key": {
+        "translation": "Ključ"
+    },
+    "mfa.copy": {
+        "translation": "Kopiraj"
+    },
+    "mfa.copied": {
+        "translation": "Kopirano"
+    },
+    "mfa.next": {
+        "translation": "Sledeće"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Izgubio\/la sam uređaj"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Unesite kod za\noporavak da biste se prijavili"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Verifikacija u 2 koraka će biti onemogućena"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Kod od 8-znakova"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Izgubio\/la sam kod za oporavak"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Nevažeći kod, pokušajte ponovo"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Nevažeći kod. ({attempts}) pokušaja je preostalo pre nego što nalog bude zaključan."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Za pomoć u oporavku naloga kontaktirajte {appName} tim podrške."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Obratite {appName} podršci"
+    }
+}

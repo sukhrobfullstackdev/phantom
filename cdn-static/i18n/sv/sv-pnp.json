@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Ditt tidigare inloggningssätt"
+    },
+    "pnp.welcome": {
+        "translation": "Välkommen"
+    },
+    "pnp.welcome_back": {
+        "translation": "Välkommen tillbaka"
+    },
+    "pnp.email": {
+        "translation": "E-post"
+    },
+    "pnp.email_aria": {
+        "translation": "Logga in med e-postadress"
+    },
+    "pnp.email_address": {
+        "translation": "E-postadress"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Logga in med telefonnummer"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefonnummer"
+    },
+    "pnp.login_signup": {
+        "translation": "Logga in \/ Registrera"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Ange inloggningsuppgifter"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Logga in med {provider}"
+    },
+    "pnp.or": {
+        "translation": "Eller"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Sök landskoder"
+    },
+    "pnp.select_country_code": {
+        "translation": "Välj landskod"
+    },
+    "pnp.login_disabled": {
+        "translation": "Inloggning\/registrering har inaktiverats"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Kontakta {appName} för hjälp"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Kontakta appens utvecklare för hjälp"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Användarvillkor"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Integritetspolicy"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Genom att fortsätta godkänner du {appName}s"
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "Comproveu el vostre correu electrònic"
+    },
+    "login.confirm_your_email": {
+        "translation": "Confirmeu el vostre correu electrònic"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Hem enviat un enllaç màgic a"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Feu clic per iniciar sessió o registrar-vos."
+    },
+    "login.check_your_inbox": {
+        "translation": "Comproveu la vostra safata d'entrada"
+    },
+    "login.resend_email": {
+        "translation": "Reenviar correu electrònic"
+    },
+    "login.close": {
+        "translation": "Tancar"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Torneu a la vostra pestanya original."
+    },
+    "login.logging_you_in": {
+        "translation": "Iniciant sessió a..."
+    },
+    "login.logged_in": {
+        "translation": "Heu iniciat sessió!"
+    },
+    "login.logged_into_app": {
+        "translation": "Heu iniciat sessió a {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Podeu tancar aquesta finestra."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Estem treballant perquè tot torni a la normalitat. Torneu-ho a intentar més tard."
+    },
+    "login.blocked_request": {
+        "translation": "Sol·licitud bloquejada"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Torneu a la vostra pestanya original i sol·liciteu un nou enllaç màgic."
+    },
+    "login.request_new_link_app": {
+        "translation": "Torneu a la vostra pestanya original de **{appName}** i sol·liciteu un nou enllaç màgic."
+    },
+    "login.magic_link_expired": {
+        "translation": "Ha expirat l'enllaç màgic"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "No tanqueu aquesta pestanya."
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Torneu a aquesta pestanya després de fer clic a l'enllaç màgic."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "Envieu un altre enllaç màgic a **{userEmail}**.\nFeu clic a l'enllaç per iniciar sessió o registrar-vos."
+    },
+    "login.try_again_later": {
+        "translation": "Torna-ho a intentar més tard"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Espereu **{seconds} s** abans d'enviar un altre correu electrònic."
+    },
+    "login.please_send_another_link": {
+        "translation": "Envieu un altre enllaç màgic a **{userEmail}**.\n\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Espereu, estem solucionant un problema"
+    },
+    "login.confirming_your_login": {
+        "translation": "Confirmant el vostre inici de sessió"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}: confirmant el vostre inici de sessió"
+    },
+    "login.is_this_you": {
+        "translation": "Sou vós?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "S'ha detectat una activitat inusual. Per ajudar-nos a mantenir el vostre compte segur, comproveu si reconeixeu el següent intent d'inici de sessió:"
+    },
+    "login.location": {
+        "translation": "Ubicació:"
+    },
+    "login.no_block_this": {
+        "translation": "No, bloqueja'l"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Sí, soc jo"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Gràcies per ajudar-nos a mantenir el vostre compte segur! Hem bloquejat l'intent d'inici de sessió, i bloquejarem els futurs, des de la següent font:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Per ajudar-nos a mantenir el vostre compte segur, comproveu si reconeixeu el següent intent d'inici de sessió:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Gràcies per ajudar-nos a mantenir el vostre compte segur! Hem bloquejat l'intent d'inici de sessió des de la següent font:"
+    },
+    "login.magic_link_broken": {
+        "translation": "L'enllaç està trencat - demana un nou enllaç Magic o obre l'enllaç des d'un altre client de correu electrònic"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} és privat"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} no té permís per accedir a aquesta aplicació"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Et sembla que ha de ser un error? Prova un inici de sessió diferent o posa't en contacte amb {appName} perquè t'ajudin."
+    },
+    "login.access_denied": {
+        "translation": "Accés denegat"
+    },
+    "login.email_blocked_message": {
+        "translation": "Ens sap greu, no tens permís per iniciar sessió a {appName}."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Inicia sessió amb l’enllaç màgic que s’ha enviat a"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "Introdueix el codi de seguretat que es mostra a {appName}"
+    },
+    "login.security_code": {
+        "translation": "Codi de seguretat:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "A continuació, introdueix aquest codi de seguretat:"
+    },
+    "login.copy": {
+        "translation": "Copiar"
+    },
+    "login.go_back_to_app": {
+        "translation": "Torna a **{appName}**."
+    },
+    "login.login_complete": {
+        "translation": "S’ha completat l’inici de sessió!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "S’ha pogut iniciar la sessió"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Ja pots tancar la pestanya"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Redirecció d'URL no vàlida"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "La redirecció d'URL proporcionada no es troba a la llista de permesos."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "L’enllaç màgic s’ha sol·licitat des d’una IP diferent"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Fes clic a l’enllaç des del mateix dispositiu. Si no l’has demanat, ignora aquest missatge."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "S’ha superat el límit del servei"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Posa’t en contacte amb **{appName}** per obtenir ajuda per accedir al teu compte."
+    },
+    "login.security_code_expired": {
+        "translation": "Codi de seguretat caducat"
+    },
+    "login.login_code_expired": {
+        "translation": "El codi d'inici de sessió ha caducat"
+    },
+    "login.request_new_login_code": {
+        "translation": "Sol·licita un codi d'inici de sessió nou"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Sol·licitar un codi nou"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Per rebre un codi nou, torneu a {appName} i comenceu de nou el procés d'inici de sessió."
+    }
+}

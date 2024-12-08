@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "{appName} tətbiqinə qayıdın"
+    },
+    "settings.title": {
+        "translation": "Hesab parametrləri"
+    },
+    "settings.off": {
+        "translation": "DEAKTİV"
+    },
+    "settings.on": {
+        "translation": "AKTİV"
+    },
+    "settings.turn_on": {
+        "translation": "Aktiv edin"
+    },
+    "settings.turn_off": {
+        "translation": "Deaktiv edin"
+    },
+    "settings.two_step_verification": {
+        "translation": "2 mərhələli doğrulama"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Hər dəfə daxil olduğunuz zaman mobil tətbiqin doğrulama kodunu daxil edərək yeni təhlükəsizlik səviyyəsi əlavə edin"
+    },
+    "settings.phone_number": {
+        "translation": "Telefon nömrəsi"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Cari telefon nömrənizi yeniləyin"
+    }
+}

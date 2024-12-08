@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "返回 {appName}"
+    },
+    "settings.title": {
+        "translation": "帳戶設定"
+    },
+    "settings.off": {
+        "translation": "關閉"
+    },
+    "settings.on": {
+        "translation": "開啟"
+    },
+    "settings.turn_on": {
+        "translation": "開啟"
+    },
+    "settings.turn_off": {
+        "translation": "關閉"
+    },
+    "settings.two_step_verification": {
+        "translation": "2 步驗證"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "每次登入時輸入行動應用程式驗證碼來增加額外的安全保護"
+    },
+    "settings.phone_number": {
+        "translation": "電話號碼"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "更新目前電話號碼"
+    }
+}

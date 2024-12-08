@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "**{updatedEmail}**(으)로의 이메일 업데이트 요청이 만료되었습니다."
+    },
+    "update_email.confirm_change": {
+        "translation": "변경 내용 확인"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "현재 이메일인 **{userEmail}**에서 변경 내용을 확인해 주십시오. 받은편지함을 확인 바랍니다."
+    },
+    "update_email.try_again_question": {
+        "translation": "다시 시도하시겠습니까?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "새 이메일 인증"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "**{updatedUserEmail}**으로 이메일을 보냈습니다. 받은편지함을 확인해 주십시오."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "이메일 업데이트를 완료했습니다!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "기존 탭으로 돌아가십시오."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "기존 **{appName}** 탭으로 돌아가십시오."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "기존 탭으로 돌아가서 이메일 업데이트 과정을 다시 시작하십시오."
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "기존 **{appName}** 탭으로 돌아가서 이메일 업데이트 과정을 다시 시작하십시오."
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "확인 링크 만료됨"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "이메일 주소 인증에 실패했습니다. 이 창을 닫고 과정을 다시 시작하십시오."
+    },
+    "update_email.updating_email": {
+        "translation": "이메일 업데이트 중..."
+    },
+    "update_email.last_step": {
+        "translation": "마지막 단계입니다!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "이메일 업데이트를 끝내려면 현재 이메일인 **{currentEmail}**에서 변경 내용을 확인해 주십시오."
+    },
+    "update_email.resend_email": {
+        "translation": "이메일 재전송"
+    },
+    "update_email.cancel": {
+        "translation": "취소"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "이 창을 닫으셔도 됩니다."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "기다려 주십시오! 문제를 해결하는 중입니다."
+    },
+    "update_email.oops": {
+        "translation": "이런"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "현재 상황을 해결하기 위해 노력하고 있습니다. 잠시 후 다시 시도하십시오."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "이메일 업데이트 확인"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—이메일 업데이트 확인"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Szüksége lesz\negy hitelesítő alkalmazásra"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "A kétlépéses ellenőrzés engedélyezéséhez szüksége lesz egy hitelesítő alkalmazásra, mint például az {authy} vagy a {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Olvassa be ezt a QR-kódot"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Nyissa meg a hitelesítő alkalmazást, és olvassa be ezt a QR-kódot, vagy adja meg a beállítási kulcsot."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Kérjük, adja meg a hitelesítő alkalmazásban\nkapott 6 számjegyű kódot"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Érvénytelen kód. Kérjük, próbálja újra később."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Visszaállítási kód mentése"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Ezzel a kóddal jelentkezhet be, ha elveszíti hozzáférését a hitelesítő alkalmazáshoz. Tartsa biztonságos helyen."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "{appName} visszaállítási kód"
+    },
+    "mfa.copy_code": {
+        "translation": "Kód másolása"
+    },
+    "mfa.finish_setup": {
+        "translation": "Beállítás befejezése"
+    },
+    "mfa.key": {
+        "translation": "Kulcs"
+    },
+    "mfa.copy": {
+        "translation": "Másolás"
+    },
+    "mfa.copied": {
+        "translation": "Másolva"
+    },
+    "mfa.next": {
+        "translation": "Következő"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Elveszítettem a készülékem"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Adja meg a helyreállítási\nkódot a bejelentkezéshez"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "a 2 lépéses ellenőrzés le lesz tiltva"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8 karakterből álló kód"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Elveszítettem a helyreállítási kódomat"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Érvénytelen kód, próbálja meg újra"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Érvénytelen kód. ({attempts}) próbálkozás maradt a fiókja zárolásáig."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "A fiókja helyreállításával kapcsolatban forduljon a(z) {appName} támogatási csapatához."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Kapcsolatfelvétel a(z) {appName} támogatási csapatával"
+    }
+}

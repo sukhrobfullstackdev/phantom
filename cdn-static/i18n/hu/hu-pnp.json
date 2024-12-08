@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Az előző bejelentkezési mód"
+    },
+    "pnp.welcome": {
+        "translation": "Üdvözöljük"
+    },
+    "pnp.welcome_back": {
+        "translation": "Üdvözöljük újra"
+    },
+    "pnp.email": {
+        "translation": "E-mail"
+    },
+    "pnp.email_aria": {
+        "translation": "Bejelentkezés e-mail-cím használatával"
+    },
+    "pnp.email_address": {
+        "translation": "E-mail-cím"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Bejelentkezés telefonszám használatával"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefonszám"
+    },
+    "pnp.login_signup": {
+        "translation": "Bejelentkezés\/Regisztráció"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Bejelentkezés elküldése"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Bejelentkezés a következővel: {provider}"
+    },
+    "pnp.or": {
+        "translation": "Vagy"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Országkódok kiválasztása"
+    },
+    "pnp.select_country_code": {
+        "translation": "Országkód kiválasztása"
+    },
+    "pnp.login_disabled": {
+        "translation": "Bejelentkezés\/Regisztráció letiltva"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Forduljon segítségért a(z) {appName} alkalmazáshoz"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Forduljon segítségért az alkalmazás fejlesztőjéhez"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Szolgáltatási feltételek"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Adatvédelmi szabályzatát"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "A folytatással elfogadja a(z) {appName}"
+    }
+}

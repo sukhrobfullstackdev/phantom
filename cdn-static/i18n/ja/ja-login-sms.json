@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "以下に送信されたコードを入力してください"
+    },
+    "login_sms.new_code_available": {
+        "translation": "新しいコードは{seconds}秒後に利用できます"
+    },
+    "login_sms.send_new_code": {
+        "translation": "新しいコードを送信"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "コードが無効です。もう一度やり直してください"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "その電話番号は無効のようです。\n番号を確認してから、もう一度やり直してください。"
+    },
+    "login_sms.expired_code": {
+        "translation": "コードの期限が切れました"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "新しいコードが自動送信されます。"
+    },
+    "login_sms.security_lockout": {
+        "translation": "セキュリティロックアウト"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "不審な数のログインの失敗があったため、SMSログインは一時的に無効になっています。"
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "もう一度やり直してください"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "有効なメールアドレスを入力してください"
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "ログイン回数が多すぎます。後でもう一度やり直してください。"
+    }
+}

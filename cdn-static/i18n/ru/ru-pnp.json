@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Ваш предыдущий способ входа"
+    },
+    "pnp.welcome": {
+        "translation": "Добро пожаловать"
+    },
+    "pnp.welcome_back": {
+        "translation": "С возвращением"
+    },
+    "pnp.email": {
+        "translation": "Электронная почта"
+    },
+    "pnp.email_aria": {
+        "translation": "Вход с адресом электронной почты"
+    },
+    "pnp.email_address": {
+        "translation": "Адрес электронной почты"
+    },
+    "pnp.phone": {
+        "translation": "Телефон"
+    },
+    "pnp.phone_aria": {
+        "translation": "Вход с номером телефона"
+    },
+    "pnp.phone_number": {
+        "translation": "Номер телефона"
+    },
+    "pnp.login_signup": {
+        "translation": "Войти \/ Зарегистрироваться"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Отправить данные для входа"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Войти с {provider}"
+    },
+    "pnp.or": {
+        "translation": "Или"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Искать коды стран"
+    },
+    "pnp.select_country_code": {
+        "translation": "Выбрать код страны"
+    },
+    "pnp.login_disabled": {
+        "translation": "Вход \/ Регистрация отключена"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Обратиться к {appName} за помощью"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Обратитесь к разработчику этого приложения за помощью"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Условия использования"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Политика конфиденциальности"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Продолжая, вы принимаете {appName}"
+    }
+}

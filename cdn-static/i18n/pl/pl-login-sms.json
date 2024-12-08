@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Wprowadź kod wysłany na"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Nowy kod będzie dostępny za {seconds} s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Wyślij nowy kod"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Nieprawidłowy kod, spróbuj ponownie"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Wygląda na to, że numer telefonu jest nieprawidłowy.\nSprawdź numer i spróbuj ponownie."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kod wygasł"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Nowy kod zostanie wysłany do Ciebie automatycznie."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Blokada bezpieczeństwa"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "W związku z podejrzaną liczbą nieudanych prób logowania logowanie SMS zostało tymczasowo wyłączone."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Spróbuj ponownie za"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Wprowadź prawidłowy adres e-mail."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Zbyt wiele prób logowania. Spróbuj ponownie później."
+    }
+}

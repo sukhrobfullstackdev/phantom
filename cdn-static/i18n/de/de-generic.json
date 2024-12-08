@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Oje! Etwas ist schiefgelaufen."
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Wir konnten die von Ihnen gesuchte Ressource nicht finden."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Bitte kontaktieren Sie die Entwickler dieser App, um eine Lösung zu finden."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Bitte kontaktieren Sie **{appName}** zur Lösung des Problems."
+    },
+    "generic.internal_server_error": {
+        "translation": "Interner Server-Fehler"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Wir arbeiten derzeit daran, alles wieder in Ordnung zu bringen. Bitte versuchen Sie es in Kürze erneut."
+    },
+    "generic.close": {
+        "translation": "Schließen"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Das Whitelabel-SDK ist im kostenlosen Tarif nicht verfügbar, bitte führen Sie ein Upgrade auf einen kostenpflichtigen Tarif durch."
+    },
+    "generic.our_pricing_page": {
+        "translation": "Unsere Preisübersicht"
+    },
+    "generic.app_error": {
+        "translation": "App-Fehler"
+    },
+    "generic.details": {
+        "translation": "DETAILS"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Ein unbekannter Fehler ist aufgetreten."
+    },
+    "generic.blocked_request": {
+        "translation": "Anfrage blockiert"
+    },
+    "generic.try_again": {
+        "translation": "Erneut versuchen"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Bitte geben Sie eine gültige E-Mail-Adresse an."
+    },
+    "generic.back": {
+        "translation": "Zurück"
+    },
+    "generic.loading": {
+        "translation": "Laden"
+    },
+    "generic.success": {
+        "translation": "Erfolg"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Aus Sicherheitsgründen wird Magic eine neue Registerkarte öffnen, damit Sie diesen Vorgang bestätigen können."
+    },
+    "generic.trial_mode": {
+        "translation": "Testmodus"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Jetzt upgraden"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Browser wird nicht unterstützt"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Bitte deaktivieren Sie vorübergehend alle aktiven Browser-Erweiterungen oder wechseln Sie den Browser, und versuchen Sie es dann erneut."
+    }
+}

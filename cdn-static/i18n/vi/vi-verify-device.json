@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Đang xác minh thiết bị của bạn"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Vui lòng đăng ký thiết bị này để tiếp tục"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Chúng tôi đã gửi một liên kết đăng ký thiết bị tới"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Việc phê duyệt một lần nhanh chóng này sẽ giúp giữ an toàn cho tài khoản của bạn"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Phê duyệt đăng nhập"
+    },
+    "verify_device.new_device": {
+        "translation": "Trình duyệt\/Thiết bị mới"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Không khớp với trình duyệt\/thiết bị hiện tại của bạn"
+    },
+    "verify_device.website": {
+        "translation": "Trang web"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Địa chỉ IP của thiết bị mới"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Tôi nhận ra trình duyệt và thiết bị này"
+    },
+    "verify_device.reject": {
+        "translation": "Từ chối"
+    },
+    "verify_device.approve": {
+        "translation": "Phê duyệt"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Đã từ chối yêu cầu đăng nhập"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Chúng tôi đã ngăn không cho thiết bị lạ truy cập vào tài khoản của bạn"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Bạn gặp phải lỗi? Quay lại **{appName}** để bắt đầu lại quá trình đăng nhập."
+    },
+    "verify_device.device_approved": {
+        "translation": "Đã phê duyệt đăng nhập"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Quay lại **{appName}** để hoàn tất đăng nhập"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Bạn hiện có thể đóng tab này"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Liên kết phê duyệt đăng nhập của bạn đã hết hạn. Hãy têu cầu một liên kết mới để tiếp tục."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Liên kết đã hết hạn"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Gửi một liên kết ma thuật khác đến\n**{userEmail}**.\n liên kết để đăng nhập hoặc đăng ký."
+    },
+    "verify_device.resend_email": {
+        "translation": "Gửi lại Email"
+    },
+    "verify_device.close": {
+        "translation": "Đóng"
+    }
+}

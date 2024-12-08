@@ -1,0 +1,59 @@
+@import (reference) '~/app/index.less';
+
+.networkContainer {
+  cursor: pointer;
+}
+
+.networkNameContainer {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  &:hover {
+    #mg.themeProperty(background-color, var(--ink20), var(--slate1));
+    border-radius: 32px;
+  }
+
+  p {
+    white-space: nowrap;
+  }
+}
+
+.mainnet {
+  #mg.themeProperty(color, #77767a, #FFFFFFB8) !important;
+}
+
+.testnet {
+  #mg.themeProperty(color, #a36b14, #FFD594) !important;
+}
+
+.mainnetInverseLight {
+  color: #ffffffb8 !important;
+}
+
+.mainnetInverseDark {
+  color: #19191a !important;
+}
+
+.testnetInverseLight {
+  color: #ffd594 !important;
+}
+
+.testnetInverseDark {
+  color: #a36b14 !important;
+}
+
+.text {
+  max-width: 80%;
+  text-align: center;
+  #mg.themeProperty(color, #77767a, #ffffffb8) !important;
+}
+
+.light {
+  color: #fff !important;
+}
+
+.dark {
+  color: #000 !important;
+}

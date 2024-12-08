@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Masukkan kode yang dikirim ke"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Kode baru tersedia dalam {seconds}"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Kirim kode baru"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Kode tidak valid, silakan coba lagi"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Tampaknya nomor telepon tidak valid.\nSilakan periksa nomor dan coba lagi."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kode Kedaluwarsa"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Kode baru akan dikirim otomatis kepada Anda."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Penguncian Keamanan"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Karena sejumlah percobaan gagal login yang mencurigakan, login SMS sementara telah dinonaktifkan."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Coba lagi dalam"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Masukkan alamat email yang valid."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Percobaan masuk ke akun terlalu banyak. Coba lagi nanti."
+    }
+}

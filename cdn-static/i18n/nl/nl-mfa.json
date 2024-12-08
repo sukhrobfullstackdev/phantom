@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Je hebt een\nauthenticatie-app nodig"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Om dubbele verificatie in te schakelen, heb je een authenticatie0app nodig zoals {authy} of {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Scan deze QR-code"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Open je authenticatie-app en scan deze QR-code of voer je instellingssleutel in."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Voer de 6-cijferige code in\nvan je authenticatie-app"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Ongeldige code. Probeer het opnieuw."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Sla je herstelcode op"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Deze code kan gebruikt worden om in te loggen als je geen toegang meer hebt tot je authenticatie-app. Bewaar het op een veilige plek."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Je {appName} herstelcode"
+    },
+    "mfa.copy_code": {
+        "translation": "Kopieer code"
+    },
+    "mfa.finish_setup": {
+        "translation": "Instellen afronden"
+    },
+    "mfa.key": {
+        "translation": "Sleutel"
+    },
+    "mfa.copy": {
+        "translation": "Kopiëren"
+    },
+    "mfa.copied": {
+        "translation": "Gekopieerd"
+    },
+    "mfa.next": {
+        "translation": "Volgende"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Ik ben mijn apparaat kwijt"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Voer je herstelcode\nin om in te loggen"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Tweestapsverificatie wordt uitgeschakeld"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Code die uit 8 tekens bestaat"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Ik ben mijn herstelcode kwijt"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Ongeldige code, probeer het nog eens"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Ongeldige code. Je hebt nog ({attempts}) pogingen voordat je account geblokkeerd wordt."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Heb je hulp nodig bij het herstellen van je account, neem dan contact op met de klantenservice van {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Neem contact op met de klantenservice van {appName}"
+    }
+}

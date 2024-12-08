@@ -1,0 +1,50 @@
+@import (reference) '~/app/index.less';
+.Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    border-radius: 28px;
+    @media (max-width: 480px) {
+      border-radius: 0px;
+    }
+}
+
+.ConfirmationContainer {
+    width: 320px;
+    height: 176px;
+    border-radius: 28px;
+    padding: 32px 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConfirmationText {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.ConfirmationCode {
+    font-weight: 700;
+}
+
+.PinCodeInputWrapper {
+    width: 55%;
+    form {
+      width: 100%;
+      margin: auto;
+      & > div {
+        width: 44px;
+      }
+    }
+}

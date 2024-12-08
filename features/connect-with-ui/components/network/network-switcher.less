@@ -1,0 +1,28 @@
+@import (reference) '~/app/index.less';
+
+.container {
+    width: 100%;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    #mg.themeProperty(color, var(--ink80), var(--ink10));
+    &:hover {
+        background: var(--magic50a25);
+        border-radius: 8px;
+    }
+    &:active {
+        background: var(--magic50);
+        border-radius: 8px;
+    }
+}

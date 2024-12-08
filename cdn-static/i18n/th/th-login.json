@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "ตรวจสอบอีเมลของคุณ"
+    },
+    "login.confirm_your_email": {
+        "translation": "ยืนยันอีเมลของคุณ"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "เราส่งอีเมลลิงก์พิเศษไปที่"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "คลิกลิงก์เพื่อเข้าสู่ระบบหรือสมัคร"
+    },
+    "login.check_your_inbox": {
+        "translation": "ตรวจสอบกล่องขาเข้าของคุณ"
+    },
+    "login.resend_email": {
+        "translation": "ส่งอีเมลอีกครั้ง"
+    },
+    "login.close": {
+        "translation": "ปิด"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "ย้อนกลับไปยังแท็บเดิม"
+    },
+    "login.logging_you_in": {
+        "translation": "คุณกำลังเข้าสู่ระบบ..."
+    },
+    "login.logged_in": {
+        "translation": "คุณเข้าสู่ระบบแล้ว!"
+    },
+    "login.logged_into_app": {
+        "translation": "คุณเข้าสู่ระบบ {appName}!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "คุณสามารถปิดหน้าต่างนี้ได้"
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "ขณะนี้เรากำลังทำงานเพื่อให้ทุกอย่างกลับมาเป็นปกติ โปรดลองอีกครั้งในอีกสักครู่"
+    },
+    "login.blocked_request": {
+        "translation": "คำขอถูกบล็อก"
+    },
+    "login.request_new_link_generic": {
+        "translation": "ย้อนกลับไปยังแท็บเดิมและขอลิงก์พิเศษใหม่"
+    },
+    "login.request_new_link_app": {
+        "translation": "ย้อนกลับไปยังแท็บ **{appName}** เดิมและขอลิงก์พิเศษใหม่"
+    },
+    "login.magic_link_expired": {
+        "translation": "ลิงก์พิเศษหมดอายุแล้ว"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "อย่าปิดแท็บนี้!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "กลับมายังแท็บนี้หลังจากคุณคลิกลิงก์พิเศษแล้ว"
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "ส่งลิงก์พิเศษอีกอันไปที่ \n**{userEmail}**\n ลิงก์เพื่อเข้าสู่ระบบหรือสมัคร"
+    },
+    "login.try_again_later": {
+        "translation": "ลองอีกครั้งภายหลัง"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "โปรดรอ **{seconds} วินาที** ก่อนส่งอีเมลอีกฉบับ"
+    },
+    "login.please_send_another_link": {
+        "translation": "โปรดส่งลิงก์พิเศษอีกอันไปที่ \n**{userEmail}**\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "รอสักครู่! เรากำลังแก้ไขปัญหา"
+    },
+    "login.confirming_your_login": {
+        "translation": "การยืนยันการเข้าสู่ระบบของคุณ"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—การยืนยันการเข้าสู่ระบบของคุณ"
+    },
+    "login.is_this_you": {
+        "translation": "นี่คือคุณใช่ไหม?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "มีการตรวจพบกิจกรรมผิดปกติ เพื่อช่วยปกป้องบัญชีของคุณให้ปลอดภัย แจ้งให้เราทราบว่าคุณรับรู้ถึงความพยายามเข้าสู่ระบบด้านล่างหรือไม่:"
+    },
+    "login.location": {
+        "translation": "ตำแหน่ง:"
+    },
+    "login.no_block_this": {
+        "translation": "ไม่ใช่ บล็อกได้เลย"
+    },
+    "login.yes_this_is_me": {
+        "translation": "ใช่ นี่คือฉัน"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "ขอขอบคุณที่ช่วยเราปกป้องบัญชีของคุณให้ปลอดภัย! เราบล็อกความพยายามเข้าสู่ระบบด้านล่าง ซึ่งจะถูกบล็อกต่อไปในอนาคตด้วย:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "เพื่อช่วยให้บัญชีของคุณปลอดภัย โปรดแจ้งให้เราทราบว่าคุณรับรู้ถึงความพยายามเข้าสู่ระบบด้านล่างหรือไม่:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "ขอขอบคุณที่ช่วยเราปกป้องบัญชีของคุณปลอดภัย! เราบล็อกความพยายามเข้าสู่ระบบจากแหล่งด้านล่าง:"
+    },
+    "login.magic_link_broken": {
+        "translation": "ลิงก์ชำรุด - โปรดของลิงก์ Magic ใหม่เพื่อเปิดลิงก์จากไคลเอ็นต์อีเมลอื่น"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} เป็นส่วนบุคคล"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} ไม่ได้รับอนุญาตให้เข้าถึงแอปนี้"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "คิดว่านี่คือความผิดพลาดใช่ไหม? ลองใช้ล็อกอินอื่นหรือติดต่อ {appName} เพื่อขอความช่วยเหลือ"
+    },
+    "login.access_denied": {
+        "translation": "การเข้าถึงถูกปฏิเสธ"
+    },
+    "login.email_blocked_message": {
+        "translation": "ขออภัย คุณไม่ได้รับอนุญาตให้เข้าสู่ระบบ {appName}"
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "เข้าสู่ระบบโดยใช้ลิงก์วิเศษที่ส่งไปที่"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "ป้อนรหัสความปลอดภัยที่แอป {appName} แสดง"
+    },
+    "login.security_code": {
+        "translation": "รหัสความปลอดภัย:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "จากนั้้นป้อนรหัสความปลอดภัยนี้:"
+    },
+    "login.copy": {
+        "translation": "คัดลอก"
+    },
+    "login.go_back_to_app": {
+        "translation": "กลับไปที่ **{appName}**"
+    },
+    "login.login_complete": {
+        "translation": "เข้าสู่ระบบเรียบร้อย!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "เข้าสู่ระบบสำเร็จ"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "ตอนนี้คุณสามารถปิดแท็บนี้ได้"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "URL เปลี่ยนเส้นทางไม่ถูกต้อง"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "URL เปลี่ยนเส้นทางดังกล่าวไม่ได้อยู่ในรายการอนุญาต"
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "มีการขอลิงก์วิเศษจาก IP ที่แตกต่างออกไป"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "โปรดคลิกลิงก์จากอุปกรณ์เดียวกัน หากคุณไม่ได้ขอลิงก์นี้ โปรดมองข้ามข้อความนี้"
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "เกินขีดจำกัดบริการ"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "โปรดติดต่อ **{appName}** เพื่อขอความช่วยเหลือในการเข้าถึงบัญชีของคุณ"
+    },
+    "login.security_code_expired": {
+        "translation": "รหัสความปลอดภัยหมดอายุ"
+    },
+    "login.login_code_expired": {
+        "translation": "รหัสเข้าสู่ระบบหมดอายุแล้ว"
+    },
+    "login.request_new_login_code": {
+        "translation": "โปรดขอรหัสเข้าสู่ระบบใหม่"
+    },
+    "login.request_new_code_cta": {
+        "translation": "ขอรหัสใหม่"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "เพื่อรับรหัสใหม่ โปรดกลับไปที่ {appName} และรีสตาร์ตขั้นตอนเข้าสู่ระบบ"
+    }
+}

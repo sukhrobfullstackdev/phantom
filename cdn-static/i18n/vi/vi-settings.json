@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Quay lại {appName}"
+    },
+    "settings.title": {
+        "translation": "Cài đặt tài khoản"
+    },
+    "settings.off": {
+        "translation": "TẮT"
+    },
+    "settings.on": {
+        "translation": "BẬT"
+    },
+    "settings.turn_on": {
+        "translation": "Bật"
+    },
+    "settings.turn_off": {
+        "translation": "Tắt"
+    },
+    "settings.two_step_verification": {
+        "translation": "Xác minh 2 bước"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Thêm lớp bảo mật bổ sung bằng cách nhập mã xác minh ứng dụng dành cho thiết bị di động mỗi khi bạn đăng nhập"
+    },
+    "settings.phone_number": {
+        "translation": "Số điện thoại"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Cập nhật số điện thoại hiện tại của bạn"
+    }
+}

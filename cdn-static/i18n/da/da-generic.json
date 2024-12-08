@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Åh! Noget gik galt"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Vi kunne ikke finde den ressource, du leder efter."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Kontakt udviklerne af denne app for en løsning."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Kontakt **{appName}** for en løsning."
+    },
+    "generic.internal_server_error": {
+        "translation": "Intern serverfejl"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Vi arbejder i øjeblikket på at få alt tilbage til det normale. Prøv igen snart."
+    },
+    "generic.close": {
+        "translation": "Luk"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK er ikke tilgængelig i en gratis ordning, bedes du opgradere til en betalt ordning"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Vores prisside"
+    },
+    "generic.app_error": {
+        "translation": "App-fejl"
+    },
+    "generic.details": {
+        "translation": "DETALJER"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "En ukendt fejl opstod."
+    },
+    "generic.blocked_request": {
+        "translation": "Blokeret anmodning"
+    },
+    "generic.try_again": {
+        "translation": "Prøv igen!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Angiv en gyldig e-mail"
+    },
+    "generic.back": {
+        "translation": "Tilbage"
+    },
+    "generic.loading": {
+        "translation": "Indlæser"
+    },
+    "generic.success": {
+        "translation": "Det lykkedes"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Af sikkerhedsmæssige årsager bliver der åbnet en ny fane fra Magic, så du kan bekræfte denne transaktion."
+    },
+    "generic.trial_mode": {
+        "translation": "Prøveversion"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Opgrader nu"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Browseren er ikke understøttet"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Deaktiver eventuelle aktive browserudvidelser, eller skift webbrowser, og prøv igen."
+    }
+}

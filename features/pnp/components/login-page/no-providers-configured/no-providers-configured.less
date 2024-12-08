@@ -1,0 +1,20 @@
+@import (reference) '~/app/index.less';
+
+.NoProvidersConfigured {
+  width: 100%;
+  padding: 24px;
+  border-radius: 12px;
+  #mg.themeProperty(background-color, #mg.getThemeColor(mid)[lightest], #mg.getThemeColor(mid)[darkest]);
+  #mg.themeProperty(color, #mg.getThemeColor(mid)[], #mg.getThemeColor(mid)[lighter]);
+
+  .message {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .instruction {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

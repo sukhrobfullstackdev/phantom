@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Ostrzeżenie"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Twój klucz prywatny"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Bezpiecznie przechowuj klucz prywatny i nie ujawniaj go"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Wyloguj"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopiuj do schowka"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Veuillez saisir le code envoyé à"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Nouveau code disponible dans {seconds}s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Envoyer un nouveau code"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Code incorrect, merci de réessayer"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Il semblerait que le numéro de téléphone soit incorrect.\nMerci de vérifier le numéro et de réessayer."
+    },
+    "login_sms.expired_code": {
+        "translation": "Code expiré"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Un nouveau code vous sera envoyé automatiquement."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Verrouillage de sécurité"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "En raison d'un nombre suspect de tentatives de connexion échouées, la connexion SMS a été temporairement désactivée."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Réessayez"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Veuillez saisir une adresse e-mail valide."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Trop de tentatives de connexion. Veuillez réessayer plus tard."
+    }
+}

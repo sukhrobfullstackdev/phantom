@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "このアカウントには、すでに復元要因が存在します"
+    },
+    "recovery.phone_number": {
+        "translation": "電話番号を復元"
+    }
+}

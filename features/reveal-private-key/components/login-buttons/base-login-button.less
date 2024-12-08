@@ -1,0 +1,68 @@
+@import (reference) '~/app/index.less';
+
+.BaseLoginButton {
+  width: 100%;
+
+  &.condensed {
+    width: auto;
+    button {
+      padding: 12px !important;
+    }
+  }
+
+  .btnContent {
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+    &.condensed {
+      width: auto;
+      line-height: 0;
+    }
+
+    .icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -10px;
+
+      &.condensed {
+        position: static;
+        transform: none;
+      }
+    }
+
+    .greenLight {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -10px;
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      border: solid 2px #mg.getThemeColor(secondary)[];
+
+      #mg.lightTheme({
+        background-color: #mg.getThemeColor(primary)[];
+      });
+
+      #mg.darkTheme({
+        background-color: #mg.getThemeColor(primary)[];
+      });
+
+      &.condensed {
+        top: -5px;
+        right: -12px;
+      }
+    }
+  }
+
+  .greenLightLabel {
+    text-align: center;
+    margin-top: 8px;
+    color: #mg.getThemeColor(mid)[];
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+}

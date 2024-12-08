@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Ihre bisherige Anmeldemethode"
+    },
+    "pnp.welcome": {
+        "translation": "Willkommen"
+    },
+    "pnp.welcome_back": {
+        "translation": "Willkommen zurück"
+    },
+    "pnp.email": {
+        "translation": "E-Mail"
+    },
+    "pnp.email_aria": {
+        "translation": "Mit E-Mail-Adresse anmelden"
+    },
+    "pnp.email_address": {
+        "translation": "E-Mail-Adresse"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Mit Telefonnummer anmelden"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefonnummer"
+    },
+    "pnp.login_signup": {
+        "translation": "Anmeldung\/Registrierung"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Anmeldung übermitteln"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Mit {provider} anmelden"
+    },
+    "pnp.or": {
+        "translation": "Oder"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Landesvorwahlen auswählen"
+    },
+    "pnp.select_country_code": {
+        "translation": "Landesvorwahl auswählen"
+    },
+    "pnp.login_disabled": {
+        "translation": "Anmeldung\/Registrierung deaktiviert"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Kontaktieren Sie bei Problemen {appName}"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Kontaktieren Sie bei Problemen den Entwickler dieser App"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Geschäftsbedingungen"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Datenschutzrichtlinie"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Indem Sie fortfahren, akzeptieren Sie die {appName}s"
+    }
+}

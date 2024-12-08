@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "아래 버튼을 클릭하면 {appName}에 로그인합니다."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "이 버튼은 10분 뒤 만료됩니다."
+    },
+    "email_preview.login_to_app": {
+        "translation": "{appName}에 로그인"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "이 요청을 확인하면 **hello@example.com**를 사용하여 안전하게 로그인합니다."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "이 요청을 한 적이 없다면 본 이메일을 무시하십시오."
+    },
+    "email_preview.app_team": {
+        "translation": "- {appName} 팀"
+    }
+}

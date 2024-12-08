@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ой! Что-то пошло не так"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Нам не удалось найти ресурс, который вы ищете."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Пожалуйста, свяжитесь с разработчиками этого приложения для решения проблемы."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Пожалуйста, свяжитесь с **{appName}** для решения проблемы."
+    },
+    "generic.internal_server_error": {
+        "translation": "Внутренняя ошибка сервера"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Сейчас мы работаем над тем, чтобы вернуть все в норму. Пожалуйста, попробуйте еще раз в ближайшее время."
+    },
+    "generic.close": {
+        "translation": "Закрыть"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK в бесплатном плане недоступен, перейдите на платный план"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Наша страница с ценами"
+    },
+    "generic.app_error": {
+        "translation": "Ошибка приложения"
+    },
+    "generic.details": {
+        "translation": "ДАННЫЕ"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Произошла неизвестная ошибка."
+    },
+    "generic.blocked_request": {
+        "translation": "Заблокированный запрос"
+    },
+    "generic.try_again": {
+        "translation": "Попробуйте снова!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Пожалуйста, укажите действительную электронную почту"
+    },
+    "generic.back": {
+        "translation": "Назад"
+    },
+    "generic.loading": {
+        "translation": "Загрузка"
+    },
+    "generic.success": {
+        "translation": "Успех"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "В целях безопасности для подтверждения этой транзакции откроется новая вкладка от Magic."
+    },
+    "generic.trial_mode": {
+        "translation": "Пробный режим"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Обновить сейчас"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Браузер не поддерживается"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Временно отключите все активные расширения браузера или переключитесь на другой браузер и попробуйте снова."
+    }
+}

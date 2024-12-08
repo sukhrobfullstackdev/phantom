@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Notiek ierīces verifikācija"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Lūdzu, reģistrējiet šo ierīci, lai turpinātu"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Mēs nosūtījām ierīces reģistrācijas saiti uz"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Šī ātrā vienreizējā apstiprināšana palīdzēs aizsargāt Jūsu kontu"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Vai apstiprināt pieteikšanos?"
+    },
+    "verify_device.new_device": {
+        "translation": "Jauna pārlūkprogramma\/ierīce"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Neatbilst Jūsu pašreizējai pārlūkprogrammai\/ierīcei"
+    },
+    "verify_device.website": {
+        "translation": "Tīmekļa vietne"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Jauna ierīces IP adrese"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Es atpazīstu šo pārlūkprogrammu un ierīci"
+    },
+    "verify_device.reject": {
+        "translation": "Noraidīt"
+    },
+    "verify_device.approve": {
+        "translation": "Apstiprināt"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Pieteikšanās pieprasījums noraidīts"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Esam apturējuši neatpazītas ierīces piekļuvi Jūsu kontam"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Pieļāvāt kļūdu? Dodieties atpakaļ uz  **{appName}**, lai atsāktu pieteikšanās procesu."
+    },
+    "verify_device.device_approved": {
+        "translation": "Pieteikšanās apstiprināta"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Dodieties atpakaļ uz **{appName}**, lai pabeigtu pieteikšanos"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Tagad varat aizvērt šo cilni"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Jūsu pieteikšanās apstiprinājuma saites derīguma termiņš ir beidzies. Lai turpinātu, pieprasiet jaunu."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Saite vairs nav derīga"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Nosūtīt jaunu maģisko saiti uz \n**{userEmail}**.\nSaite, lai pieteiktos vai reģistrētos."
+    },
+    "verify_device.resend_email": {
+        "translation": "Nosūtīt e-pasta vēstuli vēlreiz"
+    },
+    "verify_device.close": {
+        "translation": "Aizvērt"
+    }
+}

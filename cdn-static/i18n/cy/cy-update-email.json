@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "Gofynnwch i ddiweddaru'ch e-bost i **{updatedEmail}** wedi dod i ben."
+    },
+    "update_email.confirm_change": {
+        "translation": "Cadarnhewch y newid"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Cadarnhewch y newid o'ch e-bost cyfredol ar **{userEmail}**. Edrychwch yn eich mewnflwch."
+    },
+    "update_email.try_again_question": {
+        "translation": "Rhowch gynnig arni eto?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Dilyswch yr e-bost newydd"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Anfonom e-bost i **{updatedUserEmail}**. Edrychwch yn eich mewnflwch."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "Diweddarwyd eich e-bost!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Ewch yn ôl i'ch tab gwreiddiol."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Ewch yn ôl i'ch tab **{appName}** gwreiddiol."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Ewch yn ôl i'ch tab gwreiddiol a dechreuwch y llif diweddaru e-bost eto"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Ewch yn ôl i'ch tab **{appName}** gwreiddiol a dechreuwch y llif diweddaru e-bost eto"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Dolen cadarnhau wedi dod i ben"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Wedu methu â dilysu'ch cyfeiriad e-bost. Caewch y ffenestr hon ac ailgychwynnwch y llif eto."
+    },
+    "update_email.updating_email": {
+        "translation": "Yn diweddaru'r e-bost..."
+    },
+    "update_email.last_step": {
+        "translation": "y cam olaf!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "I orffen diweddaru'ch e-bost, cadarnhewch y newid o'ch e-bost cyfredol ar **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "Ailanfonwch yr E-bost"
+    },
+    "update_email.cancel": {
+        "translation": "Canslwch"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Gallwch gau'r ffenestr hon."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Un funud! Rydym yn trwsio problem."
+    },
+    "update_email.oops": {
+        "translation": "Wps"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Rydym yn gweithio ar gael popeth yn ôl i'r drefn arferol ar hyn o bryd . Rhowch gynnig arni eto mewn ychydig."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "Yn cadarnhau diweddaru'r e-bost"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—Yn cadarnhau diweddaru'r e-bost"
+    }
+}

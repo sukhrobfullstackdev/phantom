@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "驗證裝置"
+    },
+    "verify_device.register_your_device": {
+        "translation": "請註冊該裝置以繼續"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "我們傳送裝置註冊連結至"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "此快速一次性核准有助於確保帳號的安全"
+    },
+    "verify_device.register_new_device": {
+        "translation": "核准登入嗎？"
+    },
+    "verify_device.new_device": {
+        "translation": "新瀏覽器／裝置"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "與目前的瀏覽器／裝置不符"
+    },
+    "verify_device.website": {
+        "translation": "網站"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "新裝置 IP 位址"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "我認識這個瀏覽器和裝置"
+    },
+    "verify_device.reject": {
+        "translation": "拒絕"
+    },
+    "verify_device.approve": {
+        "translation": "核准"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "登入請求被拒絕"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "我們已阻止無法識別的裝置存取您的帳號"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "發生錯誤？前往 **{appName}** 重新啟動登入程序。"
+    },
+    "verify_device.device_approved": {
+        "translation": "已核准登入"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "返回 **{appName}** 完成登入"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "現在可以關閉此分頁"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "您的登入核准連結已過期。申請新連結以繼續。"
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "連結已過期"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "將另一個魔法連結傳送送至\n**{userEmail}**。\n  登入或註冊的連結。"
+    },
+    "verify_device.resend_email": {
+        "translation": "重新傳送電子郵件"
+    },
+    "verify_device.close": {
+        "translation": "關閉"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Tagasi rakendusse {appName}"
+    },
+    "settings.title": {
+        "translation": "Konto seaded"
+    },
+    "settings.off": {
+        "translation": "VÄLJAS"
+    },
+    "settings.on": {
+        "translation": "SEES"
+    },
+    "settings.turn_on": {
+        "translation": "Lülita sisse"
+    },
+    "settings.turn_off": {
+        "translation": "Lülita välja"
+    },
+    "settings.two_step_verification": {
+        "translation": "Kaheastmeline kinnitamine"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Lisaturvalisuse jaoks sisestage sisselogimisel iga kord mobiilirakenduse kinnituskood"
+    },
+    "settings.phone_number": {
+        "translation": "Telefoninumber"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Värskendage oma praegust telefoninumbrit"
+    }
+}

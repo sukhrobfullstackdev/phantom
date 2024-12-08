@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Ќе ви треба\n апликација автентикатор"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "За да се овозможи верификација во два чекори, ќе ви треба апликација автентикатор како {authy} или {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Скенирај го овој QR-код"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Отворете ја апликацијата автентикатор и скенирајте го овој QR-код или внесете го клучот за поставување."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Внесете го кодот со 6 цифри \nод апликацијата автентикатор"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Погрешен код. Обидете се повторно."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Зачувај го кодот за обнова"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Овој код не може да се користи за пријавување ако го изгубите пристапот до апликацијата автентикатор. Зачувајте го на некое безбедно место."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Код за обнова на {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Копирај го кодот"
+    },
+    "mfa.finish_setup": {
+        "translation": "Заврши го поставувањето"
+    },
+    "mfa.key": {
+        "translation": "Клуч"
+    },
+    "mfa.copy": {
+        "translation": "Копирај"
+    },
+    "mfa.copied": {
+        "translation": "Копирано"
+    },
+    "mfa.next": {
+        "translation": "Следно"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Го изгубив мојот уред"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Внесете го вашиот код за\nобнова за да се најавите"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Потврдата во 2 чекори ќе биде оневозможена"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "Код од 8 знаци"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Го изгубив кодот за обновување"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Неважечки код, обидете се повторно"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Неважечки код. ({attempts}) преостанати обиди пред да се заклучи вашата сметка."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "За помош при обновувањето на вашата сметка, ве молиме контактирајте го тимот за поддршка на {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Контактирајте со поддршката на {appName}"
+    }
+}

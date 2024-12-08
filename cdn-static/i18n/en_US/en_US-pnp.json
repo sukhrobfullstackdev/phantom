@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Your previous login method"
+    },
+    "pnp.welcome": {
+        "translation": "Welcome"
+    },
+    "pnp.welcome_back": {
+        "translation": "Welcome back"
+    },
+    "pnp.email": {
+        "translation": "Email"
+    },
+    "pnp.email_aria": {
+        "translation": "Log in using email address"
+    },
+    "pnp.email_address": {
+        "translation": "Email address"
+    },
+    "pnp.phone": {
+        "translation": "Phone"
+    },
+    "pnp.phone_aria": {
+        "translation": "Log in using phone number"
+    },
+    "pnp.phone_number": {
+        "translation": "Phone number"
+    },
+    "pnp.login_signup": {
+        "translation": "Log in \/ Sign up"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Submit login"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Log in with {provider}"
+    },
+    "pnp.or": {
+        "translation": "Or"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Search country codes"
+    },
+    "pnp.select_country_code": {
+        "translation": "Select country code"
+    },
+    "pnp.login_disabled": {
+        "translation": "Login \/ Sign up disabled"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Contact {appName} for help"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Contact this app's developer for help"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Terms of Service"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Privacy Policy"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "By continuing, you accept {appName}'s"
+    }
+}

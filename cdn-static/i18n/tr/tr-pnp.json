@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Önceki oturum açma yönteminiz"
+    },
+    "pnp.welcome": {
+        "translation": "Hoş geldiniz"
+    },
+    "pnp.welcome_back": {
+        "translation": "Tekrar hoş geldiniz"
+    },
+    "pnp.email": {
+        "translation": "E-posta"
+    },
+    "pnp.email_aria": {
+        "translation": "E-posta adresi ile oturum açın"
+    },
+    "pnp.email_address": {
+        "translation": "E-posta adresi"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Telefon numarası ile oturum açın"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefon numarası"
+    },
+    "pnp.login_signup": {
+        "translation": "Oturm açın \/ Kaydolun"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Oturum açma bilgilerini girin"
+    },
+    "pnp.login_using_aria": {
+        "translation": "{provider} ile oturum açın"
+    },
+    "pnp.or": {
+        "translation": "Veya"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Ülke kodu arayın"
+    },
+    "pnp.select_country_code": {
+        "translation": "Ülke kodu seçin"
+    },
+    "pnp.login_disabled": {
+        "translation": "Oturum açma \/ Kayıt etkin değil"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Yardım için {appName} ile iletişime geçin"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Yardım için uygulamanın geliştiricisi ile iletişime geçin"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Hizmet Koşulları"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Gizlilik Politikası"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Devam ederseniz {appName} uygulaması için şunu kabul etmiş olacaksınız:"
+    }
+}

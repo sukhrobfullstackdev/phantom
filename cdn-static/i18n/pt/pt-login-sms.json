@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Por favor insira o código enviado para"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Novo código disponível em {seconds}s"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Enviar um novo código"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Código inválido, por favor tente de novo"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Parece que esse número de telefone é inválido.\nPor favor verifique o número e tente de novo."
+    },
+    "login_sms.expired_code": {
+        "translation": "Código expirado"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Receberá automaticamente um novo código."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Bloqueio de segurança"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Devido a um número suspeito de tentativas de acesso falhadas, o início de sessão por SMS foi temporariamente desativado."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Tente novamente dentro de"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Insira um endereço de email válido."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Demasiadas tentativas de acesso. Tente de novo mais tarde."
+    }
+}

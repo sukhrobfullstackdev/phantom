@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "您需要一個\n驗證器應用程式"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "若要啟用 2 步驗證，您需要一個身份驗證器應用程式，例如 {authy} 或 {google}。"
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "掃描此 QR 碼"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "開啟您的身份驗證器應用程式並掃描此 QR 碼或輸入您的設定金鑰。"
+    },
+    "mfa.enter_totp_body": {
+        "translation": "請輸入身份驗證器應\n用程式的 6 位數代碼"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "代碼無效。請重試。"
+    },
+    "mfa.recovery_code_title": {
+        "translation": "儲存您的復原碼"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "如果您無法存取身份驗證器應用程式，則可用此代碼登入。請將其存放在安全的地方。"
+    },
+    "mfa.recovery_code_label": {
+        "translation": "您的 {appName} 復原碼"
+    },
+    "mfa.copy_code": {
+        "translation": "複製代碼"
+    },
+    "mfa.finish_setup": {
+        "translation": "完成設定"
+    },
+    "mfa.key": {
+        "translation": "金鑰"
+    },
+    "mfa.copy": {
+        "translation": "複製"
+    },
+    "mfa.copied": {
+        "translation": "已複製"
+    },
+    "mfa.next": {
+        "translation": "下一步"
+    },
+    "mfa.lost_code_button": {
+        "translation": "裝置遺失"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "輸入您的恢復\n代碼以登入"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "將停用 2 步驟驗證"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8 字元代碼"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "恢復代碼遺失"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "無效代碼，請再試一次"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "無效代碼。再嘗試 ({attempts}) 次後將鎖定帳號。"
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "如需恢復帳號相關幫助，請聯絡 {appName} 客服團隊。"
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "聯絡 {appName} 客服"
+    }
+}

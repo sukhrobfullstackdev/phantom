@@ -1,0 +1,13 @@
+settings:
+  magic_dd_apm_enabled: false
+
+deployment:
+  appContainer:
+    args: ["serve", "-stagef"]
+
+serviceAccount:
+  create: true
+service:
+  create: true
+ingress:
+  create: true

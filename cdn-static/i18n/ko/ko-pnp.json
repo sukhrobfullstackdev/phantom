@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "이전 로그인 수단"
+    },
+    "pnp.welcome": {
+        "translation": "환영합니다"
+    },
+    "pnp.welcome_back": {
+        "translation": "복귀를 환영합니다"
+    },
+    "pnp.email": {
+        "translation": "이메일"
+    },
+    "pnp.email_aria": {
+        "translation": "이메일 주소로 로그인"
+    },
+    "pnp.email_address": {
+        "translation": "이메일 주소"
+    },
+    "pnp.phone": {
+        "translation": "휴대폰"
+    },
+    "pnp.phone_aria": {
+        "translation": "휴대폰번호로 로그인"
+    },
+    "pnp.phone_number": {
+        "translation": "휴대폰번호"
+    },
+    "pnp.login_signup": {
+        "translation": "로그인 \/ 회원가입"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "로그인 제출"
+    },
+    "pnp.login_using_aria": {
+        "translation": "{provider}(으)로 로그인"
+    },
+    "pnp.or": {
+        "translation": "또는"
+    },
+    "pnp.search_country_codes": {
+        "translation": "국가 코드 검색"
+    },
+    "pnp.select_country_code": {
+        "translation": "국가 코드 선택"
+    },
+    "pnp.login_disabled": {
+        "translation": "로그인 \/ 회원가입 사용 안 함"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "{appName}에 문의하여 도움 요청"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "이 앱 개발자에게 문의하여 도움 요청"
+    },
+    "pnp.terms_of_service": {
+        "translation": "서비스 이용약관"
+    },
+    "pnp.privacy_policy": {
+        "translation": "개인정보 보호정책"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "계속하면 {appName}의 다음 사항을 수락합니다"
+    }
+}

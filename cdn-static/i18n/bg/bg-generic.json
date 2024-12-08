@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ами сега! Нещо се обърка"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Не успяхме да намерим ресурса, който търсите."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Моля, свържете се с разработчиците на приложението, за да намерите решение на проблема."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Моля, свържете се с екипа на **{appName}** за решение."
+    },
+    "generic.internal_server_error": {
+        "translation": "Вътрешна грешка в сървъра"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "В момента работим върху отстраняването на проблема. Моля, опитайте отново след малко."
+    },
+    "generic.close": {
+        "translation": "Изход"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK не е налично в безплатен план. Моля, надградете до платен план"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Ценовата ни листа"
+    },
+    "generic.app_error": {
+        "translation": "Грешка в приложението"
+    },
+    "generic.details": {
+        "translation": "ПОДРОБНОСТИ"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Възникна неизвестна грешка."
+    },
+    "generic.blocked_request": {
+        "translation": "Блокирана заявка"
+    },
+    "generic.try_again": {
+        "translation": "Опитайте отново!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Моля, въведете валиден имейл адрес"
+    },
+    "generic.back": {
+        "translation": "Назад"
+    },
+    "generic.loading": {
+        "translation": "Зареждане"
+    },
+    "generic.success": {
+        "translation": "Операцията е успешна"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "От съображения за сигурност ще се отвори нов раздел от Magic, от който да потвърдите трансакцията."
+    },
+    "generic.trial_mode": {
+        "translation": "Пробен режим"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Надстройте сега"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Браузърът не се поддържа"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Моля, временно деактивирайте всички активни разширения на браузъра или преминете на друг уеб браузър и опитайте отново."
+    }
+}

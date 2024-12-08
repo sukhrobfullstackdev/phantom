@@ -1,0 +1,5 @@
+export const SET_PHONE_NUMBER_FORM = 'updatePhoneNumber/SET_PHONE_NUMBER_FORM';
+export const SET_SELECTED_COUNTRY_CODE = 'updatePhoneNumber/SET_SELECTED_COUNTRY_CODE';
+export const SET_SELECTED_COUNTRY_CODE_CALLING_CODE = 'updatePhoneNumber/SET_SELECTED_COUNTRY_CODE_CALLING_CODE';
+export const SET_PARSED_PHONE_NUMBER = 'updatePhoneNumber/SET_PARSED_PHONE_NUMBER';
+export const SET_AUTH_FACTOR_ID = 'updatePhoneNumber/SET_AUTH_FACTOR_ID';

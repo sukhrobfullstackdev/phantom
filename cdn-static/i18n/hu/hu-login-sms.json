@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Kérjük, adja meg az alábbi címre elküldött kódot:"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Új kód érhető el {seconds} másodperc múlva"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Új kód küldése"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Érvénytelen kód, kérjük, próbálja meg újra"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Úgy tűnik, hogy a telefonszám érvénytelen.\nKérjük, ellenőrizze a számot, és próbálja meg újra."
+    },
+    "login_sms.expired_code": {
+        "translation": "A kód lejárt"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "A rendszer automatikusan új kódot küld Önnek."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Biztonsági zárolás"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "A sikertelen bejelentkezési kísérletek gyanúsan magas száma miatt a rendszer átmenetileg letiltotta az SMS-alapú bejelentkezést."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Próbálja újra ennyi idő múlva:"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Kérjük, érvényes e-mail-címet adjon meg."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Túl sok bejelentkezési próbálkozás. Próbálja meg újra később."
+    }
+}

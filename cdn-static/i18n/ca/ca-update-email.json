@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "La sol·licitud per actualitzar el vostre correu electrònic a **{updatedEmail}** ha expirat."
+    },
+    "update_email.confirm_change": {
+        "translation": "Confirmar canvi"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Confirmeu el canvi del correu electrònic actual a **{userEmail}**. Comproveu la vostra safata d'entrada."
+    },
+    "update_email.try_again_question": {
+        "translation": "Voleu tornar-ho a intentar?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Verificar el nou correu electrònic"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Hem enviat un correu electrònic a **{updatedUserEmail}**. Comproveu la vostra safata d'entrada."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "El vostre correu electrònic ha sigut actualitzat."
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Torneu a la vostra pestanya original."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Torneu a la vostra pestanya original de **{appName}**."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Torneu a la vostra pestanya original i comenceu de nou el procés d'actualització de correu electrònic."
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Torneu a la pestanya original de **{appName}** i comenceu de nou el procés d'actualització del correu electrònic."
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Ha expirat l'enllaç de confirmació"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "No s'ha pogut verificar la vostra adreça de correu electrònic. Tanqueu aquesta finestra i comenceu de nou el procés."
+    },
+    "update_email.updating_email": {
+        "translation": "Actualitzant correu electrònic..."
+    },
+    "update_email.last_step": {
+        "translation": "Només un altre pas!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Per a acabar d'actualitzar el vostre correu electrònic, confirmeu el canvi del correu electrònic actual a **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "Reenviar correu electrònic"
+    },
+    "update_email.cancel": {
+        "translation": "Cancel·lar"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Podeu tancar aquesta finestra."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Espereu, estem solucionant un problema."
+    },
+    "update_email.oops": {
+        "translation": "Vaja!"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Estem treballant perquè tot torni a la normalitat. Torneu-ho a intentar més tard."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "Confirmant l'actualització del correu electrònic"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}: confirmant l'actualització del correu electrònic"
+    }
+}

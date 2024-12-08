@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "El teu mètode d'inici de sessió anterior"
+    },
+    "pnp.welcome": {
+        "translation": "Benvingut"
+    },
+    "pnp.welcome_back": {
+        "translation": "Ben tornat"
+    },
+    "pnp.email": {
+        "translation": "Correu electrònic"
+    },
+    "pnp.email_aria": {
+        "translation": "Inicia sessió fent servir l'adreça electrònica"
+    },
+    "pnp.email_address": {
+        "translation": "Adreça electrònica"
+    },
+    "pnp.phone": {
+        "translation": "Telèfon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Inicia sessió fent servir el número de telèfon"
+    },
+    "pnp.phone_number": {
+        "translation": "Número de telèfon"
+    },
+    "pnp.login_signup": {
+        "translation": "Inici de sessió \/ Registre"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Enviar inici de sessió"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Inicia sessió amb {provider}"
+    },
+    "pnp.or": {
+        "translation": "O"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Cerca codis de país"
+    },
+    "pnp.select_country_code": {
+        "translation": "Selecciona el codi de país"
+    },
+    "pnp.login_disabled": {
+        "translation": "Inici de sessió \/ Registre desactivat"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Posa't en contacte amb {appName} si et cal ajuda"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Posa't en contacte amb el desenvolupador d'aquesta aplicació si et cal ajuda"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Condicions del servei"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Política de privacitat"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Si continues, acceptes a {appName}"
+    }
+}

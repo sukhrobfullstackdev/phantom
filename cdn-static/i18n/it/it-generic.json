@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Oh oh! Qualcosa è andato storto"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Non abbiamo trovato la risorsa che cerchi."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Contatta gli sviluppatori dell'app per risolvere il problema."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Contatta **{appName}** per risolvere il problema."
+    },
+    "generic.internal_server_error": {
+        "translation": "Errore interno al server"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Stiamo lavorando per riportare tutto alla normalità. Riprova più tardi."
+    },
+    "generic.close": {
+        "translation": "Chiudi"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Whitelabel SDK non è disponibile con il piano gratuito, passa a un piano a pagamento"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Le nostre tariffe"
+    },
+    "generic.app_error": {
+        "translation": "Errore app"
+    },
+    "generic.details": {
+        "translation": "DETTAGLI"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Si è verificato un errore sconosciuto."
+    },
+    "generic.blocked_request": {
+        "translation": "Richiesta bloccata"
+    },
+    "generic.try_again": {
+        "translation": "Riprova!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Inserisci un indirizzo email valido"
+    },
+    "generic.back": {
+        "translation": "Indietro"
+    },
+    "generic.loading": {
+        "translation": "Caricamento"
+    },
+    "generic.success": {
+        "translation": "Fatto"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Per motivi di sicurezza, si aprirà una nuova scheda Magic per confermare la transazione."
+    },
+    "generic.trial_mode": {
+        "translation": "Modalità di prova"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Passa a un piano superiore"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Browser non supportato"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Disattiva temporaneamente eventuali estensioni del browser attive o passa a un altro browser web e riprova."
+    }
+}

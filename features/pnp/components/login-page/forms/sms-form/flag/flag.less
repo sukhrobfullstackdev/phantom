@@ -1,0 +1,17 @@
+@import (reference) '~/app/index.less';
+
+.Flag {
+  width: 16px;
+  height: 16px;
+  border-radius: 99px;
+  overflow: hidden;
+  #mg.themeProperty(border, solid 1px #mg.getThemeColor(mid)[lighter], solid 1px #mg.getThemeColor(mid)[darker]);
+
+  > img {
+    position: relative;
+    object-fit: cover;
+    width: 16px;
+    height: 16px;
+    display: block;
+  }
+}

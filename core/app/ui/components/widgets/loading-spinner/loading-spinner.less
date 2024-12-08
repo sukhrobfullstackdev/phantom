@@ -1,0 +1,22 @@
+@import (reference) '../../../styles/index.less';
+
+.LoadingSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .loader {
+    line-height: 0;
+    transform-origin: center center;
+    animation: rotate 1s linear infinite;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

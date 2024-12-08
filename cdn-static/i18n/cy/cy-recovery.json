@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "Mae ffactor adfer eisoes yn bodoli ar y cyfrif hwn"
+    },
+    "recovery.phone_number": {
+        "translation": "Rhif Ffôn Adfer"
+    }
+}

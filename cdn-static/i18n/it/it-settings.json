@@ -1,0 +1,32 @@
+{
+    "settings.back_to_app": {
+        "translation": "Torna a {appName}"
+    },
+    "settings.title": {
+        "translation": "Impostazioni account"
+    },
+    "settings.off": {
+        "translation": "Disattivata"
+    },
+    "settings.on": {
+        "translation": "Attivata"
+    },
+    "settings.turn_on": {
+        "translation": "Attiva"
+    },
+    "settings.turn_off": {
+        "translation": "Disattiva"
+    },
+    "settings.two_step_verification": {
+        "translation": "Autenticazione a due fattori"
+    },
+    "settings.mfa_tooltip": {
+        "translation": "Aggiungi un livello di sicurezza in più inserendo un codice di verifica da ricevere su un'app mobile a ogni accesso."
+    },
+    "settings.phone_number": {
+        "translation": "Numero di telefono"
+    },
+    "settings.phone_number_tooltip": {
+        "translation": "Aggiorna il numero di telefono attuale"
+    }
+}

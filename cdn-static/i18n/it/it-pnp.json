@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Modalità di accesso precedente"
+    },
+    "pnp.welcome": {
+        "translation": "Ti diamo il benvenuto"
+    },
+    "pnp.welcome_back": {
+        "translation": "Piacere di rivederti"
+    },
+    "pnp.email": {
+        "translation": "Email"
+    },
+    "pnp.email_aria": {
+        "translation": "Accedi con indirizzo email"
+    },
+    "pnp.email_address": {
+        "translation": "Indirizzo email"
+    },
+    "pnp.phone": {
+        "translation": "Telefono"
+    },
+    "pnp.phone_aria": {
+        "translation": "Accedi con numero di telefono"
+    },
+    "pnp.phone_number": {
+        "translation": "Numero di telefono"
+    },
+    "pnp.login_signup": {
+        "translation": "Accedi \/ Registrati"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Esegui l'accesso"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Accedi con {provider}"
+    },
+    "pnp.or": {
+        "translation": "O"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Cerca prefisso internazionale"
+    },
+    "pnp.select_country_code": {
+        "translation": "Seleziona prefisso internazionale"
+    },
+    "pnp.login_disabled": {
+        "translation": "Accesso \/ Registrazione non consentiti"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Contatta {appName} per ricevere assistenza"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Contatta lo sviluppatore dell'app per ricevere assistenza"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Termini di servizio"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Informativa sulla privacy"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Continuando accetti le seguenti condizioni di {appName}:"
+    }
+}

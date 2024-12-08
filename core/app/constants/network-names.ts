@@ -1,0 +1,17 @@
+export const NETWORK_NAMES = {
+  ETHEREUM: 'Ethereum',
+  GOERLI: 'Goerli Testnet',
+  SEPOLIA: 'Sepolia Testnet',
+  POLYGON: 'Polygon',
+  POLYGON_MUMBAI: 'Polygon Mumbai Testnet',
+  POLYGON_AMOY: 'Polygon Amoy Testnet',
+  OPTIMISM: 'Optimism',
+  OPTIMISM_GOERLI: 'Optimism Goerli Testnet',
+  ARBITRUM_ONE: 'Arbitrum One',
+  ARBITRUM_SEPOLIA: 'Arbitrum Sepolia Testnet',
+  BASE: 'Base',
+  BASE_SEPOLIA: 'Base Sepolia Testnet',
+  ZKSYNC_MAINNET: 'zkSync Mainnet',
+  ZKSYNC_SEPOLIA: 'zkSync Sepolia Testnet',
+  ETHERLINK_TESTNET: 'Etherlink Testnet',
+} as const;

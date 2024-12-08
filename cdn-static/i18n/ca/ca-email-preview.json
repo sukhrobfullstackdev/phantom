@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Feu clic al botó següent per iniciar sessió a {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Aquest botó expirarà en 10 minuts."
+    },
+    "email_preview.login_to_app": {
+        "translation": "iniciar sessió a {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "El fet de confirmar aquesta sol·licitud iniciarà la vostra sessió amb seguretat utilitzant **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Si no heu fet aquesta sol·licitud, no us preocupeu. Es pot ignorar aquest correu electrònic amb seguretat."
+    },
+    "email_preview.app_team": {
+        "translation": ": equip de {appName}"
+    }
+}

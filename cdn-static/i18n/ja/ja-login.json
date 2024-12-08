@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "メールをチェック"
+    },
+    "login.confirm_your_email": {
+        "translation": "メールを確認"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "マジックリンクを以下にメールで送信しました"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "リンクをクリックしてログインまたはサインアップしてください。"
+    },
+    "login.check_your_inbox": {
+        "translation": "受信トレイをチェック"
+    },
+    "login.resend_email": {
+        "translation": "メールを再送信"
+    },
+    "login.close": {
+        "translation": "閉じる"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "元のタブに戻ってください。"
+    },
+    "login.logging_you_in": {
+        "translation": "ログインしています..."
+    },
+    "login.logged_in": {
+        "translation": "ログインしました！"
+    },
+    "login.logged_into_app": {
+        "translation": "{appName}にログインしました！"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "このウィンドウを閉じることができます。"
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "現在、すべてを正常に戻す作業を行っています。しばらくしてからもう一度やり直してください。"
+    },
+    "login.blocked_request": {
+        "translation": "ブロックされたリクエスト"
+    },
+    "login.request_new_link_generic": {
+        "translation": "元のタブに戻り、新しいマジックリンクをリクエストしてください。"
+    },
+    "login.request_new_link_app": {
+        "translation": "元の**{appName}**タブに戻り、新しいマジックリンクをリクエストしてください。"
+    },
+    "login.magic_link_expired": {
+        "translation": "マジックリンクの有効期限が切れました"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "このタブを閉じないでください！"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "マジックリンクをクリックしたら、このタブに戻ってください。"
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "別のマジックリンクを以下に送信します。\n**{userEmail}**\nログインまたはサインアップするためのリンク。"
+    },
+    "login.try_again_later": {
+        "translation": "あとでもう一度やり直してください"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "**{seconds}秒**待ってから、別のメールを送信してください。"
+    },
+    "login.please_send_another_link": {
+        "translation": "別のマジックリンクを以下に送信してください。\n**{userEmail}**"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "このままお待ちください！問題を修正しています"
+    },
+    "login.confirming_your_login": {
+        "translation": "ログインを確認しています"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—ログインを確認しています"
+    },
+    "login.is_this_you": {
+        "translation": "これはあなたですか？"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "異常な動作が検出されました。アカウントの安全性を確保するために、以下にログインしようとしたことに覚えがある場合はお知らせください。"
+    },
+    "login.location": {
+        "translation": "場所："
+    },
+    "login.no_block_this": {
+        "translation": "いいえ、ブロックします"
+    },
+    "login.yes_this_is_me": {
+        "translation": "はい、私です"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "アカウントの安全性の確保にご協力いただきありがとうございます。以下のソースからの今後のログイン試行をブロックしました。"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "アカウントの安全性を確保するために、以下にログインしようとしたことに覚えがある場合はお知らせください。"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "アカウントの安全性の確保にご協力いただきありがとうございます。以下のソースからのログイン試行をブロックしました。"
+    },
+    "login.magic_link_broken": {
+        "translation": "リンクが切れています - 新しいマジックリンクをリクエストするか、他のメールクライアントからリンクを開いてください"
+    },
+    "login.app_is_private": {
+        "translation": "{appName}はプライベートです"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail}はこのアプリにアクセスする権限がありません"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "間違いがあると思いますか？別のログイン方法を試すか、{appName}にお問い合わせください。"
+    },
+    "login.access_denied": {
+        "translation": "アクセスが拒否されました"
+    },
+    "login.email_blocked_message": {
+        "translation": "申し訳ありません。{appName}にログインする権限がありません。"
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "以下に送信されたマジックリンクを使用してログイン"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "{appName}で表示されるセキュリティコードを入力"
+    },
+    "login.security_code": {
+        "translation": "セキュリティコード："
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "その後、このセキュリティコードを入力してください："
+    },
+    "login.copy": {
+        "translation": "コピー"
+    },
+    "login.go_back_to_app": {
+        "translation": "**{appName}**に戻る。"
+    },
+    "login.login_complete": {
+        "translation": "ログイン完了！"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "ログイン成功"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "このタブを閉じられるようになりました"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "リダイレクトURLが無効です"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "指定されたリダイレクトURLが許可リストにありません。"
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "マジックリンクは別のIPからリクエストされました"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "同じデバイスからリンクをクリックしてください。このリンクをリクエストしていない場合は、このメッセージを無視してください。"
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "サービスの上限を超えました"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "アカウントへのアクセスについては、**{appName}**にお問い合わせください。"
+    },
+    "login.security_code_expired": {
+        "translation": "セキュリティコードの有効期限が切れています"
+    },
+    "login.login_code_expired": {
+        "translation": "ログインコードの有効期限が切れています"
+    },
+    "login.request_new_login_code": {
+        "translation": "新しいコードをリクエストしてください"
+    },
+    "login.request_new_code_cta": {
+        "translation": "新しいコードをリクエスト"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "新しいコードを受け取るには、{appName}に戻り、ログイン処理を再開してください。"
+    }
+}

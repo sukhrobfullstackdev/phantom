@@ -1,0 +1,8 @@
+{
+    "recovery.recovery_factor_already_exists": {
+        "translation": "Υπάρχει ήδη ένας παράγοντας ανάκτησης σε αυτόν τον λογαριασμό"
+    },
+    "recovery.phone_number": {
+        "translation": "Αριθμός Τηλεφώνου Ανάκτησης"
+    }
+}

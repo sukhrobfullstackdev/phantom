@@ -1,0 +1,47 @@
+{
+    "update_phone_number.phone_number": {
+        "translation": "Telefoonnummer"
+    },
+    "update_phone_number.title": {
+        "translation": "Telefoonnummer bijwerken?"
+    },
+    "update_phone_number.description": {
+        "translation": "Als het nummer geverifieerd is, kun je het gebruiken voor"
+    },
+    "update_phone_number.enter_otc": {
+        "translation": "Voer de code in die verstuurd is naar"
+    },
+    "update_phone_number.confirm_change": {
+        "translation": "Wijziging bevestigen"
+    },
+    "update_phone_number.verify_new_sms": {
+        "translation": "sms nieuw verifiëren"
+    },
+    "update_phone_number.your_phone_number_was_updated": {
+        "translation": "Je telefoonnummer is bijgewerkt!"
+    },
+    "update_phone_number.otc_expired": {
+        "translation": "Eenmalige sms-code verlopen"
+    },
+    "update_phone_number.failed_to_verify_sms_address": {
+        "translation": "We konden je telefoonnummer niet verifiëren. Sluit dit venster en start de flow opnieuw."
+    },
+    "update_phone_number.update": {
+        "translation": "Bijwerken"
+    },
+    "update_phone_number.resend_sms": {
+        "translation": "Sms opnieuw versturen"
+    },
+    "update_phone_number.cancel": {
+        "translation": "Annuleren"
+    },
+    "update_phone_number.hold_tight_fixing_issue": {
+        "translation": "Nog even geduld, we zijn bezig met het oplossen van een probleem."
+    },
+    "update_phone_number.oops": {
+        "translation": "Oei"
+    },
+    "update_phone_number.currently_working_on_getting_back_to_normal": {
+        "translation": "We zijn hard aan het werk alles te herstellen. Probeer het later nog eens."
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "login.check_your_email": {
+        "translation": "E-poçtunuzu yoxlayın"
+    },
+    "login.confirm_your_email": {
+        "translation": "E-poçtunuzu təsdiq edin"
+    },
+    "login.we_emailed_a_magic_link_to": {
+        "translation": "Bura sehirli link göndərdik:"
+    },
+    "login.click_the_link_to_signup": {
+        "translation": "Giriş və ya qeydiyyat üçün linkə klikləyin."
+    },
+    "login.check_your_inbox": {
+        "translation": "Gələnlər qutusuna baxın"
+    },
+    "login.resend_email": {
+        "translation": "E-məktubu yenidən göndərin"
+    },
+    "login.close": {
+        "translation": "Bağlayın"
+    },
+    "login.go_back_to_original_tab": {
+        "translation": "Orijinal tabınıza geri qayıdın."
+    },
+    "login.logging_you_in": {
+        "translation": "daxil olursunuz..."
+    },
+    "login.logged_in": {
+        "translation": "Daxil oldunuz!"
+    },
+    "login.logged_into_app": {
+        "translation": "{appName} tətbiqinə daxil oldunuz!"
+    },
+    "login.you_can_close_this_window": {
+        "translation": "Bu pəncərəni bağlayın."
+    },
+    "login.currently_working_on_getting_back_to_normal": {
+        "translation": "Hazırda məsələni həll etməyə çalışırıq. Tezliklə yenidən cəhd edin."
+    },
+    "login.blocked_request": {
+        "translation": "Blok edilmiş sorğu"
+    },
+    "login.request_new_link_generic": {
+        "translation": "Orijinal tabınıza qayıdıb yeni sehirli link üçün sorğu göndərin."
+    },
+    "login.request_new_link_app": {
+        "translation": "Orijinal **{appName}** tabına qayıdıb yeni sehirli link üçün sorğu göndərin."
+    },
+    "login.magic_link_expired": {
+        "translation": "Sehrli linkin vaxtı başa çatdı"
+    },
+    "login.dont_close_this_tab": {
+        "translation": "Bu tabı bağlamayın!"
+    },
+    "login.come_back_to_this_tab": {
+        "translation": "Sehirli linkə kliklədikdən sonra bu taba qayıdın."
+    },
+    "login.send_another_magic_link_to_email": {
+        "translation": "**{userEmail}** hesabına başqa sehirli link göndərin.\n giriş və ya qeydiyyat üçün link."
+    },
+    "login.try_again_later": {
+        "translation": "Sonra yenidən cəhd edin"
+    },
+    "login.please_wait_x_seconds": {
+        "translation": "Başqa e-məktub göndərməzdən əvvəl **{seconds} saniyə** gözləyin."
+    },
+    "login.please_send_another_link": {
+        "translation": "**{userEmail}** hesabına başqa sehirli link göndərin.\n"
+    },
+    "login.hold_tight_fixing_issue": {
+        "translation": "Gözləyin! Problemi həll edirik"
+    },
+    "login.confirming_your_login": {
+        "translation": "Girişiniz təsdiq edilir"
+    },
+    "login.appname_confirming_your_login": {
+        "translation": "{appName}—Girişiniz təsdiq edilir"
+    },
+    "login.is_this_you": {
+        "translation": "Bu sizsiniz?"
+    },
+    "login.unusual_activity_detected": {
+        "translation": "Qeyri-adi faəliyyət aşkarlandı. Aşağıdakı giriş cəhdi haqqında məlumatınız varsa, bizə bildirməklə hesabınızın təhlükəsizliyini qorumağımıza kömək edin:"
+    },
+    "login.location": {
+        "translation": "Məkan:"
+    },
+    "login.no_block_this": {
+        "translation": "Xeyr, blok edin"
+    },
+    "login.yes_this_is_me": {
+        "translation": "Bəli, bu mənəm"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure": {
+        "translation": "Hesabınızın təhlükəsizliyi qorumağımıza kömək etdiyiniz üçün təşəkkür edirik! Giriş cəhdi blok edildi. Gələcəkdə aşağıdakı mənbədən edilən giriş cəhdləri blok ediləcək:"
+    },
+    "login.let_us_know_if_you_recognize": {
+        "translation": "Aşağıdakı giriş cəhdi haqqında məlumatınız varsa, bizə bildirməklə hesabınızın təhlükəsizliyini qorumağımıza kömək edin:"
+    },
+    "login.thanks_for_helping_us_keep_your_account_secure_admin": {
+        "translation": "Hesabınızın təhlükəsizliyini qorumaqda bizə kömək etdiyiniz üçün təşəkkür edirik! Aşağıdakı mənbədən edilən giriş cəhdini blok etdik:"
+    },
+    "login.magic_link_broken": {
+        "translation": "Link xətalıdır — yeni Magic linki üçün sorğu göndərin və ya onu başqa e-poçt klientindən açın"
+    },
+    "login.app_is_private": {
+        "translation": "{appName} məxfidir"
+    },
+    "login.cannot_access_private_app": {
+        "translation": "{userEmail} adlı istifadəçinin bu tətbiqə daxil olmaq üçün icazəsi yoxdur"
+    },
+    "login.think_theres_a_mistake": {
+        "translation": "Səhvlik olduğunu düşünürsünüz? Fərqli hesabla daxil olun və ya kömək üçün {appName} ilə əlaqə saxlayın."
+    },
+    "login.access_denied": {
+        "translation": "Girişdən imtina edildi"
+    },
+    "login.email_blocked_message": {
+        "translation": "{appName} tətbiqinə daxil olmaq üçün icazəniz yoxdur."
+    },
+    "login.login_using_the_magic_link_sent_to": {
+        "translation": "Göndərilən birdəfəlik keçiddən istifadə edərək daxil olun"
+    },
+    "login.enter_the_security_code_displayed_by": {
+        "translation": "{appName} tərəfindən göstərilən təhlükəsizlik kodunu daxil edin"
+    },
+    "login.security_code": {
+        "translation": "Təhlükəsizlik kodu:"
+    },
+    "login.then_enter_this_security_code": {
+        "translation": "Sonra bu təhlükəsizlik kodunu daxil edin:"
+    },
+    "login.copy": {
+        "translation": "Kopyalayın"
+    },
+    "login.go_back_to_app": {
+        "translation": "**{appName}** səhifəsinə qayıdın."
+    },
+    "login.login_complete": {
+        "translation": "Giriş tamamlandı!"
+    },
+    "login.redirect_login_complete_header": {
+        "translation": "Giriş edildi"
+    },
+    "login.redirect_login_complete_content": {
+        "translation": "Artıq bu tabı bağlaya bilərsiniz"
+    },
+    "login.invalid_redirect_url_header": {
+        "translation": "Yanlış Yönləndirmə URL-i"
+    },
+    "login.invalid_redirect_url": {
+        "translation": "Verilmiş yönləndirmə URL-i etibarlı ünvanlar siyahısında deyil."
+    },
+    "login.magic_link_sent_from_different_ip_header": {
+        "translation": "Birdəfəlik keçid başqa IP-dən tələb olunub"
+    },
+    "login.magic_link_sent_from_different_ip": {
+        "translation": "Eyni cihazdakı keçidə klikləyin. Keçid tələb etməmisinizsə, bu mesaja əhəmiyyət verməyin."
+    },
+    "login.mau_limit_exceeded_heading": {
+        "translation": "Xidmət limitini keçib"
+    },
+    "login.mau_limit_exceeded_description": {
+        "translation": "Hesabınıza giriş etməyə yardım üçün **{appName}** ilə əlaqə saxlayın."
+    },
+    "login.security_code_expired": {
+        "translation": "Təhlükəsizlik kodunun müddəti bitib"
+    },
+    "login.login_code_expired": {
+        "translation": "Giriş kodunun müddəti bitib"
+    },
+    "login.request_new_login_code": {
+        "translation": "Yeni giriş kodu tələb edin"
+    },
+    "login.request_new_code_cta": {
+        "translation": "Yeni kod tələb edin"
+    },
+    "login.to_receive_a_new_code_please_return_to_app": {
+        "translation": "Yeni kod əldə etmək üçün {appName} tətbiqinə qayıdın və giriş prosesini yenidən başladın."
+    }
+}

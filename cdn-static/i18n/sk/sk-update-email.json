@@ -1,0 +1,74 @@
+{
+    "update_email.update_request_failed": {
+        "translation": "Požiadavka na aktualizáciu vášho e-mailu **{updatedEmail}** už nie je platná."
+    },
+    "update_email.confirm_change": {
+        "translation": "Potvrdiť zmenu"
+    },
+    "update_email.confirm_current_email": {
+        "translation": "Potvrďte zmenu zo svojho súčasného e-mailu na**{userEmail}**. Skontrolujte si schránku."
+    },
+    "update_email.try_again_question": {
+        "translation": "Skúsiť znova?"
+    },
+    "update_email.verify_new_email": {
+        "translation": "Overiť nový e-mail"
+    },
+    "update_email.we_sent_an_email_to_new_email": {
+        "translation": "Poslali sme e-mail na **{updatedUserEmail}**. Skontrolujte si schránku."
+    },
+    "update_email.your_email_was_updated": {
+        "translation": "Váš e-mail bol aktualizovaný!"
+    },
+    "update_email.go_back_to_original_tab": {
+        "translation": "Vráťte sa späť na svoju pôvodnú kartu."
+    },
+    "update_email.go_back_to_original_appname_tab": {
+        "translation": "Vráťte sa späť na svoju pôvodnú **{appName}** kartu."
+    },
+    "update_email.go_back_to_your_original_tab_and_restart": {
+        "translation": "Vráťte sa späť na svoju pôvodnú kartu a začnite s aktualizáciou e-mailu znova"
+    },
+    "update_email.go_back_to_your_original_app_tab_and_restart": {
+        "translation": "Vráťte sa späť na svoju pôvodnú **{appName}** kartu a začnite s aktualizáciou e-mailu znova"
+    },
+    "update_email.confirmation_link_expired": {
+        "translation": "Odkaz na potvrdenie už nie je platný"
+    },
+    "update_email.failed_to_verify_email_address": {
+        "translation": "Nepodarilo sa nám overiť vašu e-mailovú adresu. Zatvrote toto okno a začnite od začiatku."
+    },
+    "update_email.updating_email": {
+        "translation": "Aktualizovanie e-mailu..."
+    },
+    "update_email.last_step": {
+        "translation": "posledný krok!"
+    },
+    "update_email.to_finish_updating_confirm_current_email": {
+        "translation": "Pre ukončenie aktualizácie e-mailu potvrďte zmenu zo svojho súčasného e-mailu na **{currentEmail}**"
+    },
+    "update_email.resend_email": {
+        "translation": "Znovu poslať e-mail"
+    },
+    "update_email.cancel": {
+        "translation": "Zrušiť"
+    },
+    "update_email.you_can_close_this_window": {
+        "translation": "Toto okno môžete zatvoriť."
+    },
+    "update_email.hold_tight_fixing_issue": {
+        "translation": "Ešte chvíľu! Problém práve riešime."
+    },
+    "update_email.oops": {
+        "translation": "Ups"
+    },
+    "update_email.currently_working_on_getting_back_to_normal": {
+        "translation": "Momentálne pracujeme na to, aby bolo všetko opäť v poriadku. Skúste to znova neskôr."
+    },
+    "update_email.confirming_email_update": {
+        "translation": "potvrdiť aktualizáciu e-mailu"
+    },
+    "update_email.appname_confirming_email_update": {
+        "translation": "{appName}—Potvrdiť aktualizáciu e-mailu"
+    }
+}

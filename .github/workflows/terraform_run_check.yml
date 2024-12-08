@@ -1,0 +1,47 @@
+name: Run tf check
+on:
+  workflow_call:
+    inputs:
+      check_name:
+        type: string
+        required: true
+      find_dir:
+        type: string
+        default: ""
+        description: find "path" argument, defines where find will search for stuff. Add leading `/`
+      find_args:
+        type: string
+        default: ""
+        description: Argument to the find command to get folder list where to run the checks
+      commands:
+        type: string
+        required: true
+        description: Commands to run in subdir
+
+jobs:
+  run_check:
+    runs-on: ubuntu-latest
+    name: ${{ inputs.precommit_hook_id }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: install terraform
+        uses: hashicorp/setup-terraform@v2
+      - name: install tfsec
+        working-directory: /tmp
+        run: wget -O - -q https://github.com/aquasecurity/tfsec/releases/latest/download/tfsec-linux-amd64 > tfsec && install tfsec /usr/local/bin/
+      - name: install tflint
+        working-directory: /tmp
+        run: wget -O - -q https://github.com/terraform-linters/tflint/releases/latest/download/tflint_linux_amd64.zip | gunzip > tflint && install tflint /usr/local/bin/
+      - name: install terraform-docs
+        working-directory: /tmp
+        run: wget -O - -q https://github.com/terraform-docs/terraform-docs/releases/download/v0.18.0/terraform-docs-v0.18.0-linux-amd64.tar.gz | tar xfvpz - && install terraform-docs /usr/local/bin/
+      - name: "Run check: ${{ inputs.check_name }}"
+        run: >-
+          set -e;
+          tf_dirs=$(find ${GITHUB_WORKSPACE}${{ inputs.find_dir }} -type f -name '*.tf' -not -path '*/.terraform/*' -not -path '*/.tfsec/*' ${{ inputs.find_args }} | xargs -P 1 -n 1 dirname | sort -u);
+
+          for i in ${tf_dirs}; do
+            cd ${i}
+            echo "In $(pwd)"
+            ${{ inputs.commands }}
+          done

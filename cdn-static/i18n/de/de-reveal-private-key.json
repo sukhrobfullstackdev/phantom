@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Achtung"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Ihr privater Schlüssel"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Speichern Sie Ihren privaten Schlüssel sicher ab und geben Sie ihn niemals weiter."
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Abmelden"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "In die Zwischenablage kopieren"
+    }
+}

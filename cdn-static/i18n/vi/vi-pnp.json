@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Phương thức đăng nhập trước đó của bạn"
+    },
+    "pnp.welcome": {
+        "translation": "Chào mừng"
+    },
+    "pnp.welcome_back": {
+        "translation": "Chào mừng bạn quay trở lại"
+    },
+    "pnp.email": {
+        "translation": "Email"
+    },
+    "pnp.email_aria": {
+        "translation": "Đăng nhập bằng địa chỉ email"
+    },
+    "pnp.email_address": {
+        "translation": "Địa chỉ email"
+    },
+    "pnp.phone": {
+        "translation": "Điện thoại"
+    },
+    "pnp.phone_aria": {
+        "translation": "Đăng nhập bằng số điện thoại"
+    },
+    "pnp.phone_number": {
+        "translation": "Số điện thoại"
+    },
+    "pnp.login_signup": {
+        "translation": "Đăng nhập\/Đăng ký"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Gửi thông tin đăng nhập"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Đăng nhập với {provider}"
+    },
+    "pnp.or": {
+        "translation": "Hoặc"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Tìm kiếm mã quốc gia"
+    },
+    "pnp.select_country_code": {
+        "translation": "Chọn mã quốc gia"
+    },
+    "pnp.login_disabled": {
+        "translation": "Đã tắt tính năng Đăng nhập\/Đăng ký"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Liên hệ {appName} để được trợ giúp"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Liên hệ với nhà phát triển ứng dụng này để được trợ giúp"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Điều khoản Sử dụng"
+    },
+    "pnp.privacy_policy": {
+        "translation": "Chính sách về Quyền riêng tư"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Bằng cách tiếp tục, bạn chấp nhận với Chính sách về Quyền riêng tư và Điều khoản Sử dụng của {appName}"
+    }
+}

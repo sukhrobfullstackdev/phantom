@@ -1,0 +1,32 @@
+@import (reference) '~/app/index.less';
+
+.homePageAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover .actionIcon {
+      #mg.themeProperty(background,
+        var(--silk30),
+        var(--chalk12),
+      );
+    }
+    .actionIcon {
+        transition: all 150ms linear;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    
+        #mg.themeProperty(background,
+          var(--silk10),
+          var(--chalk6),
+        );
+      
+    }
+}

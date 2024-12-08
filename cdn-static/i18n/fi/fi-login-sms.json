@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Anna koodi, joka lähetettiin osoitteeseen"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Uusi koodi on saatavilla {seconds} kuluttua"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Lähetä uusi koodi"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Väärä koodi. Yritä uudelleen."
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Näyttää siltä, että puhelinnumero ei ole kelvollinen.\nTarkista numero a yritä uudelleen."
+    },
+    "login_sms.expired_code": {
+        "translation": "Koodi on vanhentunut"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Sinulle lähetetään uusi koodi automaattisesti."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Turvalukitus"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Useista epäilyttävistä kirjautumisyrityksistä johtuen kirjautuminen tekstiviestillä on tilapäisesti pois käytöstä."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Yritä uudelleen, kun on kulunut"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Anna kelvollinen sähköpostiosoite."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Liian monta kirjautumisyritystä. Yritä myöhemmin uudelleen."
+    }
+}

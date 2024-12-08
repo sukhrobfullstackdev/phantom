@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Lütfen şuraya gönderilmiş olan kodu girin:"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Yeni kod, {seconds}sn içinde kullanılabilir"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Yeni kod gönder"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Geçersiz kod. Lütfen tekrar deneyin"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Görünüşe göre telefon numarası geçersiz.\nLütfen numarayı kontrol edin ve tekrar deneyin."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kodun Süresi Doldu"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Size otomatik olarak yeni bir kod gönderilecek."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Güvenlik Kilidi"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Şüpheli sayıda başarısız giriş denemesi nedeniyle, SMS ile giriş geçici olarak devre dışı bırakıldı."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Şu kadar süre sonra tekrar deneyin:"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Lütfen geçerli bir e-posta adresi girin."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Çok fazla oturum açma denemesi yaptınız. Lütfen daha sonra tekrar deneyin."
+    }
+}

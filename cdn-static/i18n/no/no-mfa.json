@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Du trenger en\nautentiseringsapp"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "For å aktivere totrinnsverifisering trenger du en autentiseringsapp som {authy} eller {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Skann denne QR-koden"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Åpne autentiseringsappen og skann denne QR-koden eller skriv inn oppsettnøkkelen."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Skriv inn den 6-sifrede koden\nfra autentiseringsappen din"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Ugyldig kode. Prøv på nytt."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Lagre gjenopprettingskoden"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Denne koden kan brukes til å logge på hvis du mister tilgangen til autentiseringsappen din. Oppbevar den et trygt sted."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Din {appName} gjenopprettingskode"
+    },
+    "mfa.copy_code": {
+        "translation": "Kopier koden"
+    },
+    "mfa.finish_setup": {
+        "translation": "Fullfør oppsettet"
+    },
+    "mfa.key": {
+        "translation": "Nøkkel"
+    },
+    "mfa.copy": {
+        "translation": "Kopiere"
+    },
+    "mfa.copied": {
+        "translation": "Kopiert"
+    },
+    "mfa.next": {
+        "translation": "Neste"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Jeg mistet enheten min"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Skriv inn din gjenopprettingskode\nfor å logge inn"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "2-trinns bekreftelse vil bli deaktivert"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8-tegns kode"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Jeg mistet gjenopprettingskoden min"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Ugyldig kode, prøv igjen"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Ugyldig kode. ({attempts}) gjenværende forsøk før kontoen din blir låst."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "For hjelp med å gjenopprette kontoen din, må du kontakte {appName} kundestøtte."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Kontakt {appName} kundestøtte"
+    }
+}

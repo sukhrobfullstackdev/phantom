@@ -1,0 +1,65 @@
+{
+    "pnp.your_previous_login_method": {
+        "translation": "Vaš prejšnji način prijave"
+    },
+    "pnp.welcome": {
+        "translation": "Dobrodošli"
+    },
+    "pnp.welcome_back": {
+        "translation": "Dobrodošli nazaj"
+    },
+    "pnp.email": {
+        "translation": "E-pošta"
+    },
+    "pnp.email_aria": {
+        "translation": "Prijava z e-poštnim naslovom"
+    },
+    "pnp.email_address": {
+        "translation": "E-poštni naslov"
+    },
+    "pnp.phone": {
+        "translation": "Telefon"
+    },
+    "pnp.phone_aria": {
+        "translation": "Prijava s telefonsko številko"
+    },
+    "pnp.phone_number": {
+        "translation": "Telefonska številka"
+    },
+    "pnp.login_signup": {
+        "translation": "Prijava\/registracija"
+    },
+    "pnp.login_signup_aria": {
+        "translation": "Pošlji prijavo"
+    },
+    "pnp.login_using_aria": {
+        "translation": "Prijava z {provider}"
+    },
+    "pnp.or": {
+        "translation": "Ali"
+    },
+    "pnp.search_country_codes": {
+        "translation": "Iskanje kod držav"
+    },
+    "pnp.select_country_code": {
+        "translation": "Izbira kode države"
+    },
+    "pnp.login_disabled": {
+        "translation": "Prijava\/registracija onemogočena"
+    },
+    "pnp.contact_app_for_help": {
+        "translation": "Za pomoč se obrnite na {appName}"
+    },
+    "pnp.contact_app_for_help_generic": {
+        "translation": "Za pomoč se obrnite na razvijalca te aplikacije"
+    },
+    "pnp.terms_of_service": {
+        "translation": "Pogoji storitve"
+    },
+    "pnp.privacy_policy": {
+        "translation": "politiko zasebnosti {appName}"
+    },
+    "pnp.browsewrap_text": {
+        "translation": "Če nadaljujete, sprejemate"
+    }
+}

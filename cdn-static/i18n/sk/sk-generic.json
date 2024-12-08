@@ -1,0 +1,71 @@
+{
+    "generic.uh_oh_something_went_wrong": {
+        "translation": "Ups! Niečo sa pokazilo"
+    },
+    "generic.couldnt_find_resource": {
+        "translation": "Nepodarilo sa nám nájsť zdroj, ktorý hľadáte."
+    },
+    "generic.please_contact_app_devs_generic": {
+        "translation": "Pre riešenie kontaktujte vývojára aplikácie."
+    },
+    "generic.please_contact_app_devs_app": {
+        "translation": "Pre riešenie kontaktujte **{appName}**."
+    },
+    "generic.internal_server_error": {
+        "translation": "Chyba na internom serveri"
+    },
+    "generic.currently_working_on_getting_back_to_normal": {
+        "translation": "Momentálne pracujeme na to, aby bolo všetko opäť v poriadku. Skúste to znova neskôr."
+    },
+    "generic.close": {
+        "translation": "Zatvorte"
+    },
+    "generic.wl_sdk_not_available": {
+        "translation": "Aplikácia Whitelabel SDK nie je dostupná v programe zadarmo, aktualizujte si platený program"
+    },
+    "generic.our_pricing_page": {
+        "translation": "Naša stránka s cenami"
+    },
+    "generic.app_error": {
+        "translation": "Chyby aplikácie"
+    },
+    "generic.details": {
+        "translation": "PODROBNOSTI"
+    },
+    "generic.an_unknown_error_occured": {
+        "translation": "Vyskytla sa neznáma chyba."
+    },
+    "generic.blocked_request": {
+        "translation": "Zablokovaná žiadosť"
+    },
+    "generic.try_again": {
+        "translation": "Skúste to znovu!"
+    },
+    "generic.please_provide_valid_email": {
+        "translation": "Zadajte platný e-mail"
+    },
+    "generic.back": {
+        "translation": "Späť"
+    },
+    "generic.loading": {
+        "translation": "Načítava sa"
+    },
+    "generic.success": {
+        "translation": "Úspech"
+    },
+    "generic.for_security_reasons_a_new_tab_will_open": {
+        "translation": "Z bezpečnostných dôvodov sa otvorí nová karta z aplikácie Magic, v ktorej musíte potvrdiť túto transakciu."
+    },
+    "generic.trial_mode": {
+        "translation": "Skúšobný režim"
+    },
+    "generic.upgrade_now_widget_ui": {
+        "translation": "Inovovať"
+    },
+    "generic.browser_not_supported_heading": {
+        "translation": "Prehliadač nie je podporovaný"
+    },
+    "generic.browser_not_supported_description": {
+        "translation": "Dočasne vypnite všetky aktívne rozšírenia prehliadača alebo prejdite na iný webový prehliadač a skúste to znova."
+    }
+}

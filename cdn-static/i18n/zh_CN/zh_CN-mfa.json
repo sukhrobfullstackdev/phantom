@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "您需要身份验证\n 程序应用程序"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "要启用两步验证，您需要身份验证程序应用程序，如 {authy} 或 {google}。"
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "扫描此二维码"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "打开身份验证程序应用程序，然后扫描此二维码，或者输入设置密钥。"
+    },
+    "mfa.enter_totp_body": {
+        "translation": "请从身份验证程序应用程序\n输入 6 位代码"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "代码无效。请重试。"
+    },
+    "mfa.recovery_code_title": {
+        "translation": "保存您的恢复代码"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "如果您失去对身份验证程序应用程序的访问权限，可以使用此代码登录。请将其存储在安全的地方。"
+    },
+    "mfa.recovery_code_label": {
+        "translation": "您的 {appName} 恢复代码"
+    },
+    "mfa.copy_code": {
+        "translation": "复制代码"
+    },
+    "mfa.finish_setup": {
+        "translation": "完成设置"
+    },
+    "mfa.key": {
+        "translation": "密钥"
+    },
+    "mfa.copy": {
+        "translation": "复制"
+    },
+    "mfa.copied": {
+        "translation": "已复制"
+    },
+    "mfa.next": {
+        "translation": "下一步"
+    },
+    "mfa.lost_code_button": {
+        "translation": "我丢失了我的设备"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "用于登录的代码"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "将禁用两步式验证"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8 字符的代码"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "我丢失了恢复代码"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "代码无效，请重试"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "代码无效。还剩余 ({attempts}) 次尝试，此后将锁定您的帐户。"
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "如需帮助来恢复您的帐户，请联系 {appName} 支持团队。"
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "联系 {appName} 支持人员"
+    }
+}

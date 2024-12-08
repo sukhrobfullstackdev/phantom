@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Įspėjimas"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Jūsų privatusis raktas"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Saugiai saugoti ir niekada neatskleisti jūsų privačiojo rakto"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Atsijungti"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Kopijuoti į mainų sritį"
+    }
+}

@@ -1,0 +1,85 @@
+name: Phantom K8s Diff
+inputs:
+  aws-ecr-role-arn:
+    description: "AWS role ARN for ECR"
+    required: true
+  ecr-registry:
+    description: "ECR Registry ARN"
+    required: true
+  ecr-repository:
+    description: "ECR Repository Name"
+    required: true
+  s3-assets-bucket:
+    description: "S3 bucket containing front end assets"
+    required: true
+  aws-s3-role-arn:
+    description: "AWS role ARN for S3"
+    required: true
+  aws-eks-role-arn:
+    description: "AWS role ARN for EKS"
+    required: true
+  aws-region:
+    description: "AWS Region"
+    required: true
+  eks-cluster-name:
+    description: "EKS cluster name"
+    required: true
+  deploy-env:
+    description: "DEPLOY_ENV"
+    required: true
+  image-tag:
+    description: "IMAGE_TAG"
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Configure AWS credentials for image fetch
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        role-to-assume: ${{ inputs.aws-ecr-role-arn }}
+        aws-region: ${{ inputs.aws-region }}
+    - name: Login to Amazon ECR
+      uses: aws-actions/amazon-ecr-login@v2
+    - name: Copy assets from container to localhost
+      shell: bash
+      run: |
+        mkdir -p /tmp/build
+        docker run --rm -t -v /tmp/build:/tmp/build ${{ inputs.ecr-registry }}/${{ inputs.ecr-repository }}:${{ inputs.image-tag }} cp -R ./build /tmp/
+        ls -la /tmp/build/
+
+    - name: Configure AWS credentials for s3 sync
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        role-to-assume: ${{ inputs.aws-s3-role-arn }}
+        aws-region: ${{ inputs.aws-region }}
+    - name: Dry run copy assets to S3
+      shell: bash
+      run: |
+        aws s3 sync --dryrun /tmp/build s3://${{ inputs.s3-assets-bucket }}/
+
+    - name: Configure AWS credentials for eks deploy
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        role-to-assume: ${{ inputs.aws-eks-role-arn }}
+        aws-region: ${{ inputs.aws-region }}
+    - uses: azure/setup-kubectl@v4.0.0  # XXX change this to "@v4" once upstream publishes it
+    - uses: azure/setup-helm@v4.0.0  # XXX change this to "@v4" once upstream publishes it
+    - name: Configure kubectl
+      shell: bash
+      run: |
+        set -x
+        rm -f ${HOME}/.kube/config
+        aws --region us-west-2 eks update-kubeconfig --name ${{ inputs.eks-cluster-name }}
+        kubectl version
+    - name: K8s Diff
+      shell: bash
+      run: |
+        set -x
+        make helm-template
+        make k8s-diff
+      env:
+        DEPLOY_ENV: ${{ inputs.deploy-env }}
+        REGION: ${{ inputs.aws-region }}
+        NEW_CLUSTER: True
+        IMAGE_TAG: ${{ inputs.image-tag }}

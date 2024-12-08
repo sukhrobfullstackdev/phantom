@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Wrthi'n gwirio'ch dyfais"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Cofrestrwch y ddyfais hon i barhau"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Rydym wedi anfon dolen cofrestru dyfais i"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Bydd y gymeradwyaeth un-amser gyflym hon yn helpu i gadw'ch cyfrif yn ddiogel"
+    },
+    "verify_device.register_new_device": {
+        "translation": "Cymeradwyo mewngofnodi?"
+    },
+    "verify_device.new_device": {
+        "translation": "Porwr\/Dyfais Newydd"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "Nid yw'n cyfateb i'ch porwr\/dyfais bresennol"
+    },
+    "verify_device.website": {
+        "translation": "Gwefan"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Cyfeiriad IP Dyfais Newydd"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Rwy'n adnabod y porwr a'r ddyfais"
+    },
+    "verify_device.reject": {
+        "translation": "Gwrthod"
+    },
+    "verify_device.approve": {
+        "translation": "Cymeradwyo"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Cais mewngofnodi wedi'i wrthod"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Rydym wedi atal y ddyfais anhysbys rhag cael mynediad i'ch cyfrif"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "Wedi gwneud camgymeriad? Ewch yn ôl i **{appName}** i ailgychwyn y broses fewngofnodi."
+    },
+    "verify_device.device_approved": {
+        "translation": "Mewngofnodi wedi'i gymeradwyo"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Ewch yn ôl i **{appName}** i orffen mewngofnodi"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Gallwch nawr cau'r tab hwn"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Mae eich dolen cymeradwyo mewngofnodi wedi dod i ben. Gofynnwch am un newydd i barhau."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "Dolen wedi dod i ben"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Anfonwch ddolen hud arall i\n**{userEmail}**.\nCliciwch ar y ddolen i fewngofnodi neu gofrestru."
+    },
+    "verify_device.resend_email": {
+        "translation": "Ail-anfon Ebost"
+    },
+    "verify_device.close": {
+        "translation": "Cau"
+    }
+}

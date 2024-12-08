@@ -1,0 +1,49 @@
+@import (reference) '~/app/index.less';
+
+.loginPromptPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .appTitle {
+    color: #mg.getThemeColor(primary) [];
+  }
+
+  .pageHeader {
+    display: inline;
+  }
+
+  .altWalletsContainer {
+    button:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+  .customPrivacyAndTerms {
+    color: #171717;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    > a {
+      color: @magic50;
+      font-weight: 500;
+      font-size: 12px;
+      text-decoration: none;
+    }
+  }
+}
+
+.GoogleLoginForm {
+  .oneTapContainer {
+    iframe {
+      width: 100% !important;
+    }
+  }
+}
+
+.text {
+  #mg.themeProperty(color, var(--silk80), #FFFFFFB8) !important;
+  text-align: center;
+}

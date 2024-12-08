@@ -1,0 +1,10 @@
+@import (reference) '~/app/index.less';
+
+.background {
+  min-height: 1000px;
+  #mg.themeProperty(background-color, #EDEDF3, #0f0f0f);
+
+  #mg.query.maxWidth(480px, {
+    #mg.themeProperty(background-color, white, rgba(255, 255, 255, 0.0175));
+  });
+}

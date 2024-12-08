@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Budete potrebovať \noverovaciu aplikáciu"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Ak chcete zapnúť dvojstupňové overenie, budete potrebovať overovaciu aplikáciu (napríklad {authy} alebo {google})."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Naskenujte tento QR kód"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Otvorte overovaciu aplikáciu a naskenujte tento QR kód alebo zadajte kľúč nastavenia."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Zadajte 6-miestny kód \nz overovacej aplikácie"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Neplatný kód. Skúste to znova."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Uložte si kód obnovenia"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Tento kód môžete použiť na prihlásenie, ak stratíte prístup k overovacej aplikácii. Uložte si ho na bezpečné miesto."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Kód obnovenia aplikácie {appName}"
+    },
+    "mfa.copy_code": {
+        "translation": "Kopírovať kód"
+    },
+    "mfa.finish_setup": {
+        "translation": "Dokončiť nastavenie"
+    },
+    "mfa.key": {
+        "translation": "Kľúč"
+    },
+    "mfa.copy": {
+        "translation": "Kopírovať"
+    },
+    "mfa.copied": {
+        "translation": "Skopírované"
+    },
+    "mfa.next": {
+        "translation": "Ďalej"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Stratené zariadenie"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Na prihlásenie zadajte\nkód na obnovenie"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Dvojstupňové overenie bude vypnuté"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8-miestny kód"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Nemám kód na obnovenie"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Neplatný kód, skúste to znova"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Neplatný kód. Pred uzamknutím účtu vám zostáva ešte tento počet pokusov: ({attempts})."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Ak potrebujete pomoc s obnovením účtu, kontaktujte tím podpory aplikácie {appName}."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Kontaktujte podporu aplikácie {appName}"
+    }
+}

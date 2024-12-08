@@ -1,0 +1,20 @@
+{
+    "email_preview.click_button_below_to_app": {
+        "translation": "Кликнете върху бутона по-долу, за да влезете в {appName}."
+    },
+    "email_preview.button_will_expire_in": {
+        "translation": "Бутонът ще изтече след 10 минути."
+    },
+    "email_preview.login_to_app": {
+        "translation": "вход в {appName}"
+    },
+    "email_preview.confirming_this_request_will": {
+        "translation": "След потвърждение на тази заявка ще влезете безопасно, като използвате **hello@example.com**."
+    },
+    "email_preview.if_you_did_not_make_this_request": {
+        "translation": "Ако не сте подали тази заявка, не се тревожете – може спокойно да игнорирате този имейл."
+    },
+    "email_preview.app_team": {
+        "translation": "- Екипът на {appName}"
+    }
+}

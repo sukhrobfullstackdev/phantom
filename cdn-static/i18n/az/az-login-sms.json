@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Bu ünvana göndərilən kodu daxil edin:"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Yeni kod {seconds} saniyəyə əlçatan olacaq"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Yeni kod göndərin"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Kod yanlışdır, yenidən cəhd edin"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Görünür, telefon nömrəsi yanlışdır. Nömrəni yoxlayıb yenidən cəhd edin."
+    },
+    "login_sms.expired_code": {
+        "translation": "Kodun vaxtı bitib"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Yeni kod avtomatik olaraq sizə göndəriləcək."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Təhlükəsizlik Bloklaması"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Şübhəli sayda uğursuz giriş cəhdinə görə SMS girişi müvəqqəti olaraq deaktiv edilib."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Bu müddətdən sonra təkrar cəhd edin:"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Düzgün e-poçt ünvanı daxil edin."
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Həddindən çox giriş cəhdi. Bir az sonra yenidən cəhd edin."
+    }
+}

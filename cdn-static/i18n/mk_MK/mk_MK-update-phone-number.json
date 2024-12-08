@@ -1,0 +1,47 @@
+{
+    "update_phone_number.phone_number": {
+        "translation": "Телефонски број"
+    },
+    "update_phone_number.title": {
+        "translation": "Да се ажурира телефонскиот број?"
+    },
+    "update_phone_number.description": {
+        "translation": "Откако ќе се потврди, овој нов број ќе се користи за пристап"
+    },
+    "update_phone_number.enter_otc": {
+        "translation": "Ве молиме внесете го кодот испратен до"
+    },
+    "update_phone_number.confirm_change": {
+        "translation": "Потврдете ја промената"
+    },
+    "update_phone_number.verify_new_sms": {
+        "translation": "Потврдете го новиот смс"
+    },
+    "update_phone_number.your_phone_number_was_updated": {
+        "translation": "Вашиот телефонски број е ажуриран!"
+    },
+    "update_phone_number.otc_expired": {
+        "translation": "СМС-кодот за еднократна употреба истече"
+    },
+    "update_phone_number.failed_to_verify_sms_address": {
+        "translation": "Не успеа да се потврди вашиот телефонски број. Затворете го овој прозорец и рестартирајте го протокот повторно."
+    },
+    "update_phone_number.update": {
+        "translation": "Ажурирај"
+    },
+    "update_phone_number.resend_sms": {
+        "translation": "Повторно испрати СМС"
+    },
+    "update_phone_number.cancel": {
+        "translation": "Откажи"
+    },
+    "update_phone_number.hold_tight_fixing_issue": {
+        "translation": "Држете се цврсто! Поправаме проблем."
+    },
+    "update_phone_number.oops": {
+        "translation": "Упс"
+    },
+    "update_phone_number.currently_working_on_getting_back_to_normal": {
+        "translation": "Во моментов работиме на тоа сè да се врати во нормала. Ве молиме обидете се повторно наскоро."
+    }
+}

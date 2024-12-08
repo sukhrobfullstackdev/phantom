@@ -1,0 +1,71 @@
+{
+    "verify_device.device_verifying": {
+        "translation": "Verificando su dispositivo"
+    },
+    "verify_device.register_your_device": {
+        "translation": "Registre este dispositivo para continuar"
+    },
+    "verify_device.device_registeration_link_sent_to": {
+        "translation": "Hemos enviado un enlace de registro de dispositivo a"
+    },
+    "verify_device.device_one_time_approval": {
+        "translation": "Esta aprobación rápida y única le ayudará a mantener la seguridad de su cuenta"
+    },
+    "verify_device.register_new_device": {
+        "translation": "¿Aprobar el inicio de sesión?"
+    },
+    "verify_device.new_device": {
+        "translation": "Nuevo navegador\/dispositivo"
+    },
+    "verify_device.unmatched_device": {
+        "translation": "No coincide con su navegador\/dispositivo actual"
+    },
+    "verify_device.website": {
+        "translation": "Sitio web"
+    },
+    "verify_device.new_device_ip": {
+        "translation": "Nueva dirección IP del dispositivo"
+    },
+    "verify_device.recognize_this_device": {
+        "translation": "Reconozco este navegador y el dispositivo"
+    },
+    "verify_device.reject": {
+        "translation": "Rechazar"
+    },
+    "verify_device.approve": {
+        "translation": "Aprobar"
+    },
+    "verify_device.rejected_login_title": {
+        "translation": "Solicitud de inicio de sesión rechazada"
+    },
+    "verify_device.rejected_login_text": {
+        "translation": "Hemos impedido que el dispositivo no reconocido acceda a su cuenta"
+    },
+    "verify_device.rejected_login_mistake": {
+        "translation": "¿Ha cometido un error? Vuelva a **{appName}** para reiniciar el proceso de inicio de sesión."
+    },
+    "verify_device.device_approved": {
+        "translation": "Inicio de sesión aprobado"
+    },
+    "verify_device.go_back_to_finish_login": {
+        "translation": "Vuelva a **{appName}** para terminar de iniciar sesión"
+    },
+    "verify_device.close_this_tab": {
+        "translation": "Ya puede cerrar esta pestaña"
+    },
+    "verify_device.your_device_link_expired": {
+        "translation": "Su enlace de aprobación de inicio de sesión ha caducado. Solicite uno nuevo para continuar."
+    },
+    "verify_device.device_verification_link_expired": {
+        "translation": "El enlace ha caducado"
+    },
+    "verify_device.send_another_magic_link_to_email": {
+        "translation": "Envíe otro enlace mágico a \n**{userEmail}**.\nel enlace para iniciar sesión o registrarse."
+    },
+    "verify_device.resend_email": {
+        "translation": "Reenviar correo electrónico"
+    },
+    "verify_device.close": {
+        "translation": "Cerrar"
+    }
+}

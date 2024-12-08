@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Autentifikator tətbiqi lazımdır"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "İkimərhələli doğrulamanı aktiv etmək üçün {authy} və ya {google} kimi autentifikator tətbiqi lazımdır."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Bu QR kodu skan edin"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Autentifikator tətbiqini açıb bu QR kodu skan edin və ya quraşdırma açarını daxil edin."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Autentifikator tərbiqinizdən 6 rəqəmli kodu daxil edin"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Kod yanlışdır. Yenidən cəhd edin."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Bərpa kodunuzu yadda saxlayın"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Autentifikator tətbiqinizə girişi itirsəniz, daxil olmaq üçün bu koddan istifadə edə bilərsiniz. Təhlükəsiz yerdə saxlayın."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "{appName} üçün bərpa kodunuz"
+    },
+    "mfa.copy_code": {
+        "translation": "Kodu kopyalayın"
+    },
+    "mfa.finish_setup": {
+        "translation": "Quraşdırmanı tamamlayın"
+    },
+    "mfa.key": {
+        "translation": "Açar"
+    },
+    "mfa.copy": {
+        "translation": "Kopyalayın"
+    },
+    "mfa.copied": {
+        "translation": "Kopyalandı"
+    },
+    "mfa.next": {
+        "translation": "Növbəti"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Cihazımı itirmişəm"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Giriş etmək üçün bərpa kodunuzu daxil edin"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "2-mərhələli doğrulama deaktiv ediləcək"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8 simvollu kod"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Bərpa kodumu itirmişəm"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Yanlış kod, yenidən cəhd edin"
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Yanlış kod. ({ attempts}) cəhddən sonra hesabınız kilidlənəcək."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Hesabınızı bərpa etməyə yardım üçün {appName} dəstək komandası ilə əlaqə saxlayın."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "{appName} dəstək xidməti ilə əlaqə saxlayın"
+    }
+}

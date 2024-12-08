@@ -1,0 +1,17 @@
+{
+    "reveal_private_key.warning": {
+        "translation": "Προειδοποίηση"
+    },
+    "reveal_private_key.your_private_key": {
+        "translation": "Το ιδιωτικό σας κλειδί"
+    },
+    "reveal_private_key.safely_store_and_never_disclose_pk": {
+        "translation": "Αποθηκεύστε με ασφάλεια και μην αποκαλύπτετε ποτέ το ιδιωτικό σας κλειδί"
+    },
+    "reveal_private_key.log_out": {
+        "translation": "Αποσύνδεση"
+    },
+    "reveal_private_key.copy_to_clipboard": {
+        "translation": "Αντιγραφή στο πρόχειρο"
+    }
+}

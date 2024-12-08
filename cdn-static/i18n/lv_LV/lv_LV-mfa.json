@@ -1,0 +1,74 @@
+{
+    "mfa.prompt_authenticator_title": {
+        "translation": "Jums būs nepieciešama\n autentifikatora lietotne"
+    },
+    "mfa.prompt_authenticator_copy": {
+        "translation": "Lai iespējotu divpakāpju verifikāciju, Jums ir nepieciešama autentifikācijas lietotne, piemēram, {authy} vai {google}."
+    },
+    "mfa.scan_qr_code_title": {
+        "translation": "Skenēt šo QR kodu"
+    },
+    "mfa.scan_qr_code_body": {
+        "translation": "Atveriet savu autentifikācijas lietotni un noskenējiet šo QR kodu vai ievadiet iestatīšanas atslēgu."
+    },
+    "mfa.enter_totp_body": {
+        "translation": "Lūdzu, ievadiet 6 ciparu kodu\nno savas autentifikācijas lietotnes"
+    },
+    "mfa.enter_totp_invalid_code": {
+        "translation": "Nepareizs kods. Lūdzu mēģiniet vēlreiz."
+    },
+    "mfa.recovery_code_title": {
+        "translation": "Saglabāt savu atgūšanas kodu"
+    },
+    "mfa.recovery_code_body": {
+        "translation": "Šo kodu var izmantot, lai ielogotos, ja zaudējat piekļuvi savai autentifikācijas lietotnei. Glabājiet to drošā vietā."
+    },
+    "mfa.recovery_code_label": {
+        "translation": "Jūsu {appName} atgūšanas kods"
+    },
+    "mfa.copy_code": {
+        "translation": "Nokopēt kodu"
+    },
+    "mfa.finish_setup": {
+        "translation": "Pabeigt iestatīšanu"
+    },
+    "mfa.key": {
+        "translation": "Atslēga"
+    },
+    "mfa.copy": {
+        "translation": "Kopēt"
+    },
+    "mfa.copied": {
+        "translation": "Nokopēts"
+    },
+    "mfa.next": {
+        "translation": "Nākamais"
+    },
+    "mfa.lost_code_button": {
+        "translation": "Esmu pazaudējis savu ierīci"
+    },
+    "mfa.use_recovery_code_body": {
+        "translation": "Lai pieteiktos, ievadiet\natkopšanas kodu"
+    },
+    "mfa.use_recovery_code_warning": {
+        "translation": "Divpakāpju verifikācija tiks atspējota"
+    },
+    "mfa.recovery_code_input_placeholder": {
+        "translation": "8 rakstzīmju kods"
+    },
+    "mfa.lost_recovery_code": {
+        "translation": "Esmu pazaudējis savu atkopšanas kodu"
+    },
+    "mfa.invalid_recovery_code_msg": {
+        "translation": "Nederīgs kods. Mēģiniet vēlreiz."
+    },
+    "mfa.max_attempt_warning_msg": {
+        "translation": "Nederīgs kods. Atlikuši {attempts} mēģinājumi, pēc tam konts tiks bloķēts."
+    },
+    "mfa.lost_recovery_code_body": {
+        "translation": "Lai atkoptu savu kontu, sazinieties ar {appName} atbalsta komandu."
+    },
+    "mfa.lost_recovery_code_contact": {
+        "translation": "Sazināties ar {appName} atbalstu"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "login_sms.enter_verification_code": {
+        "translation": "Внесете го кодот што е испратен на"
+    },
+    "login_sms.new_code_available": {
+        "translation": "Новиот код ќе биде достапен за {seconds}и"
+    },
+    "login_sms.send_new_code": {
+        "translation": "Испрати нов код"
+    },
+    "login_sms.invalid_code_info_message": {
+        "translation": "Погрешен код, обидете се повторно"
+    },
+    "login_sms.malformed_phone_number": {
+        "translation": "Изгледа дека телефонскиот број е погрешен. \nПроверете го бројот и обидете се повторно."
+    },
+    "login_sms.expired_code": {
+        "translation": "Кодот истече"
+    },
+    "login_sms.expired_code_info_message": {
+        "translation": "Автоматски ќе ви биде испратен нов код."
+    },
+    "login_sms.security_lockout": {
+        "translation": "Безбедносно блокирање"
+    },
+    "login_sms.security_lockout_info_message": {
+        "translation": "Поради сомнителен број неуспешни обиди за најавување, најавувањето по СМС е привремено оневозможено."
+    },
+    "login_sms.security_lockout_info_timer": {
+        "translation": "Обидете се повторно"
+    },
+    "login_sms.enter_valid_email_address": {
+        "translation": "Внесете важечка адреса на е-пошта"
+    },
+    "login_sms.security_lockout_too_many_attempts": {
+        "translation": "Премногу обиди за најавување. Обидете се повторно подоцна."
+    }
+}

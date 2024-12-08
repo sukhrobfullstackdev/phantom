@@ -1,0 +1,94 @@
+{
+  "verify_device.device_verifying": {
+    "translation": "Verifying your device",
+    "notes": ""
+  },
+  "verify_device.register_your_device": {
+    "translation": "Please register this device to continue",
+    "notes": ""
+  },
+  "verify_device.device_registeration_link_sent_to": {
+    "translation": "We sent a device registration instructions to",
+    "notes": ""
+  },
+  "verify_device.device_one_time_approval": {
+    "translation": "This quick one-time approval will help keep your account secure",
+    "notes": ""
+  },
+  "verify_device.register_new_device": {
+    "translation": "Approve login?",
+    "notes": ""
+  },
+  "verify_device.new_device": {
+    "translation": "New Browser/Device",
+    "notes": ""
+  },
+  "verify_device.unmatched_device": {
+    "translation": "Does not match your current browser/device",
+    "notes": ""
+  },
+  "verify_device.website": {
+    "translation": "Website",
+    "notes": ""
+  },
+  "verify_device.new_device_ip": {
+    "translation": "IP Address",
+    "notes": ""
+  },
+  "verify_device.recognize_this_device": {
+    "translation": "I recognize this browser and device",
+    "notes": ""
+  },
+  "verify_device.reject": {
+    "translation": "Reject",
+    "notes": ""
+  },
+  "verify_device.approve": {
+    "translation": "Approve",
+    "notes": ""
+  },
+  "verify_device.rejected_login_title": {
+    "translation": "Login request rejected",
+    "notes": ""
+  },
+  "verify_device.rejected_login_text": {
+    "translation": "We've stopped the unrecognized device from accessing your account",
+    "notes": ""
+  },
+  "verify_device.rejected_login_mistake": {
+    "translation": "Made a mistake? Head back to **{appName}** to restart the login process.",
+    "notes": ""
+  },
+  "verify_device.device_approved": {
+    "translation": "Login approved",
+    "notes": ""
+  },
+  "verify_device.go_back_to_finish_login": {
+    "translation": "Go back to **{appName}** to finish logging in",
+    "notes": ""
+  },
+  "verify_device.close_this_tab": {
+      "translation": "You can now close this tab",
+      "notes": ""
+  },
+  "verify_device.your_device_link_expired": {
+    "translation": "Your login approval link has expired. Request a new one to continue.",
+    "notes": ""
+  },
+  "verify_device.device_verification_link_expired": {
+    "translation": "Link expired",
+    "notes": ""
+  },
+  "verify_device.send_another_magic_link_to_email": {
+    "translation": "Send another magic link to \n**{userEmail}**.\n the link to log in or sign up.",
+    "notes": ""
+  },
+  "verify_device.resend_email": {
+    "translation": "Resend Email",
+    "notes": ""
+  },
+  "verify_device.close": {
+    "translation": "Close",
+    "notes": ""
+  }
+}

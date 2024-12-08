@@ -1,0 +1,66 @@
+@import (reference) '~/app/index.less';
+
+.recoveryCodePage {
+  text-align: center;
+
+  button {
+    width: 100%;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    white-space: pre-wrap;
+    line-height: 32px;
+  }
+
+  .body {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    white-space: pre;
+  }
+
+  .lostRecoveryCodeBody {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .recoveryCodeLabel {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #77767a;
+  }
+
+  .recoveryCodesWarning {
+    #mg.themeProperty(background, var(--gold10), #A36B141F);
+    #mg.themeProperty(color, var(--gold90), var(--gold30));
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .recoveryCodes {
+    #mg.themeProperty(background, var(--silk10), var(--chalk6));
+    border-radius: 10px;
+    padding: 12px 16px;
+    letter-spacing: 0.18em;
+    font-family: monospace;
+  }
+
+  .mfaLinkButton {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: fit-content;
+    margin-left: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    color: #mg.getThemeColor(primary)[];
+  }
+}

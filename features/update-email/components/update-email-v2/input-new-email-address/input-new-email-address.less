@@ -1,0 +1,46 @@
+@import (reference) '~/app/index.less';
+
+.InputNewEmailAddress {
+  text-align: center;
+
+  .description {
+    margin-top: 8px;
+    line-height: 24px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    white-space: pre-wrap;
+  }
+
+  .signBtn {
+    flex: 1;
+  }
+
+  .cancelBtn {
+    flex: 1;
+    #mg.themeProperty(background-color, var(--silk20), var(--silk80)) !important;
+  }
+
+  .cancelBtn:hover {
+    #mg.themeProperty(background-color, var(--silk30), var(--silk65)) !important;
+  }
+}
+.statusMessage {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #77767a;
+}
+
+.statusMessageError {
+  color: #mg.getThemeColor(error) [];
+  #mg.darkTheme({
+    color: #FFB5A1;
+  });
+}

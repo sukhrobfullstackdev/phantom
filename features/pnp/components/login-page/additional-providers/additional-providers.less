@@ -1,0 +1,22 @@
+@import (reference) '~/app/index.less';
+
+.or {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+
+  #mg.lightTheme({
+    color: #mg.getThemeColor(mid)[darker];
+  });
+
+  #mg.darkTheme({
+    color: #mg.getThemeColor(mid)[lighter];
+  });
+}
+
+.horizontallyStackedButton {
+  margin: 0 8px;
+}
